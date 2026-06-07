@@ -1,0 +1,320 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/2qevfSqS/#/match-summary",
+    "match_id": "2qevfSqS",
+    "data_partida": "03.05.2026 18:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Austin FC",
+    "visitante": "St. Louis City",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 6
+      },
+      "passes": {
+        "m": "(409/472)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 14,
+        "v": 20
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 4
+      },
+      "passes": {
+        "m": "(202/236)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 5,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "estatisticas_2t": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 27,
+        "v": 25
+      },
+      "chutes_alvo": {
+        "m": 10,
+        "v": 9
+      },
+      "cantos": {
+        "m": 6,
+        "v": 10
+      },
+      "passes": {
+        "m": "(409/472)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 19,
+        "v": 27
+      },
+      "defesas_goleiro": {
+        "m": 9,
+        "v": 8
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.55",
+      "oddEmpate": "3.40",
+      "oddV": "2.65"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-05T00:44:33.049Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/fJiWelFF/#/match-summary",
+    "match_id": "fJiWelFF",
+    "data_partida": "03.05.2026 16:00",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "New York City",
+    "visitante": "DC United",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 73,
+        "v": 27
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 19
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 7
+      },
+      "cantos": {
+        "m": 6,
+        "v": 3
+      },
+      "passes": {
+        "m": "(533/625)",
+        "v": "61%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 0
+      },
+      "faltas": {
+        "m": 10,
+        "v": 17
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 66,
+        "v": 34
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(223/264)",
+        "v": "65%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_2t": {
+      "posse": {
+        "m": 70,
+        "v": 31
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 30
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 11
+      },
+      "cantos": {
+        "m": 8,
+        "v": 5
+      },
+      "passes": {
+        "m": "(533/625)",
+        "v": "61%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 6
+      },
+      "impedimentos": {
+        "m": 6,
+        "v": 0
+      },
+      "faltas": {
+        "m": 15,
+        "v": 24
+      },
+      "defesas_goleiro": {
+        "m": 8,
+        "v": 6
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-3-1-2"
+    },
+    "mercado": {
+      "oddM": "1.81",
+      "oddEmpate": "3.50",
+      "oddV": "4.33"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-05T00:45:14.371Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "estrategias_globais": [
+    {
+      "label": "A1 — Cisne ATUAL (threshold 2.0)",
+      "n": 101,
+      "win": 69,
+      "pl": 266.5,
+      "invest": 1010.0,
+      "win_rate": 68.31683168316832,
+      "roi": 26.386138613861387
+    },
+    {
+      "label": "A2 — Cisne ESTENDIDO (threshold 1.5)",
+      "n": 164,
+      "win": 106,
+      "pl": 321.0,
+      "invest": 1640.0,
+      "win_rate": 64.63414634146342,
+      "roi": 19.573170731707318
+    },
+    {
+      "label": "A3 — Cisne MUITO ESTENDIDO (1.0)",
+      "n": 278,
+      "win": 172,
+      "pl": 402.0,
+      "invest": 2780.0,
+      "win_rate": 61.87050359712231,
+      "roi": 14.46043165467626
+    },
+    {
+      "label": "A4 — Cisne CONSERVADOR (2.5)",
+      "n": 56,
+      "win": 44,
+      "pl": 254.0,
+      "invest": 560.0,
+      "win_rate": 78.57142857142857,
+      "roi": 45.357142857142854
+    },
+    {
+      "label": "A5 — Cisne ELITE (3.0+)",
+      "n": 26,
+      "win": 23,
+      "pl": 165.5,
+      "invest": 260.0,
+      "win_rate": 88.46153846153845,
+      "roi": 63.653846153846146
+    },
+    {
+      "label": "B1 — Threshold 2.0 c/ margem cheia",
+      "n": 101,
+      "win": 48,
+      "pl": -122.0,
+      "invest": 1010.0,
+      "win_rate": 47.524752475247524,
+      "roi": -12.07920792079208
+    },
+    {
+      "label": "B2 — Cisne 3.0 c/ margem cheia",
+      "n": 26,
+      "win": 17,
+      "pl": 54.5,
+      "invest": 260.0,
+      "win_rate": 65.38461538461539,
+      "roi": 20.961538461538463
+    }
+  ],
+  "fixo_vs_custom": {
+    "fixo_pl": 266.5,
+    "custom_pl": 314.0,
+    "fixo_roi": 26.386138613861387,
+    "custom_roi": 25.322580645161292
+  },
+  "equity_2.0_final": 266.5,
+  "equity_1.5_final": 321.0,
+  "thr_custom_por_liga": {
+    "BR": 2.0,
+    "ARG": 1.5,
+    "ARG_B": 1.5,
+    "MLS": 2.5,
+    "BUN": 2.0
+  }
+}

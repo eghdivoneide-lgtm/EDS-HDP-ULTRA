@@ -1,0 +1,764 @@
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head><meta charset="utf-8"><title>Análise Rodada 10/05/2026</title>
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View></w:WordDocument></xml><![endif]-->
+<style>
+body{font-family:Calibri,Arial,sans-serif;color:#1f2937;line-height:1.5}
+h1{color:#0f172a;font-size:22pt;border-bottom:3px solid #0ea5e9;padding-bottom:8px}
+h2{color:#0c4a6e;font-size:16pt;margin-top:28px;border-bottom:1px solid #cbd5e1;padding-bottom:4px}
+h3{color:#1e40af;font-size:13pt}
+table{font-size:10pt}
+.dna-tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:9pt;font-weight:bold}
+.tag-ofensiva{background:#dbeafe;color:#1e40af}
+.tag-equilibrada{background:#fef3c7;color:#92400e}
+.tag-trucada{background:#fee2e2;color:#991b1b}
+</style></head>
+<body>
+<h1>📊 Relatório de Entradas — Rodada 10/05/2026</h1>
+<p style="font-size:11pt;color:#475569">
+  <b>Gerado em:</b> 2026-05-10<br>
+  <b>Motor:</b> Especialista em Cantos v3.0 (DNA por liga)<br>
+  <b>Total de jogos analisados:</b> 42 em 7 ligas
+</p>
+
+<h2>🧬 Resumo executivo — DNA das ligas operadas</h2>
+<table style="width:100%;border-collapse:collapse;margin-top:12px">
+  <tr style="background:#1e40af;color:white">
+    <th style="padding:8px;text-align:left">Liga</th>
+    <th style="padding:8px;text-align:left">DNA</th>
+    <th style="padding:8px;text-align:left">Média FT cantos</th>
+    <th style="padding:8px;text-align:left">Mercado preferencial</th>
+    <th style="padding:8px;text-align:left">Cuidado com</th>
+  </tr>
+<tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇧🇷 Brasileirão Série A</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-ofensiva">OFENSIVA</span></td>
+    <td style="padding:8px">10.01</td>
+    <td style="padding:8px;color:#15803d">HDP NUCLEAR + Vencedor (60-71% WR histórico)</td>
+    <td style="padding:8px;color:#dc2626">Teacher Over/Under desligado</td>
+  </tr><tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇧🇷 Brasileirão Série B</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-ofensiva">OFENSIVA</span></td>
+    <td style="padding:8px">10.44</td>
+    <td style="padding:8px;color:#15803d">Teacher Over/Under (80% WR rodada anterior)</td>
+    <td style="padding:8px;color:#dc2626">Vencedor solo (29% WR)</td>
+  </tr><tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇦🇷 Liga Profesional</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-trucada">TRUCADA</span></td>
+    <td style="padding:8px">8.51</td>
+    <td style="padding:8px;color:#15803d">HDP -0.5 + Cisne (84% WR histórico)</td>
+    <td style="padding:8px;color:#dc2626">Under quando Vencedor forte (jogos explodem)</td>
+  </tr><tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇦🇷 Primera Nacional</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-trucada">TRUCADA</span></td>
+    <td style="padding:8px">8.60</td>
+    <td style="padding:8px;color:#15803d">HDP NUCLEAR + Under FT (80% e 75% WR)</td>
+    <td style="padding:8px;color:#dc2626">BP MODERADA (era armadilha — peso zerado v3)</td>
+  </tr><tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇺🇸 Major League Soccer</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-ofensiva">OFENSIVA</span></td>
+    <td style="padding:8px">10.05</td>
+    <td style="padding:8px;color:#15803d">BP NUCLEAR (86%) só com Cisne ativo (≥5 sinais)</td>
+    <td style="padding:8px;color:#dc2626">Operar sem Cisne ativo</td>
+  </tr><tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇺🇸 USL Championship</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-equilibrada">EQUILIBRADA</span></td>
+    <td style="padding:8px">9.19</td>
+    <td style="padding:8px;color:#15803d">Vencedor + Enigma alinhados</td>
+    <td style="padding:8px;color:#dc2626">Under (volátil — Sacramento +9 estouro)</td>
+  </tr><tr style="border-bottom:1px solid #e2e8f0">
+    <td style="padding:8px"><b>🇩🇪 Bundesliga</b></td>
+    <td style="padding:8px"><span class="dna-tag tag-equilibrada">EQUILIBRADA</span></td>
+    <td style="padding:8px">9.73</td>
+    <td style="padding:8px;color:#15803d">Cisne Δ ≥ 3.0 + confirmação Enigma</td>
+    <td style="padding:8px;color:#dc2626">BP solo (gerou 3 das 5 piores furadas)</td>
+  </tr></table><h2>🇦🇷 Liga Profesional <span class="dna-tag tag-trucada">TRUCADA</span></h2><p style="color:#475569"><b>5 jogos analisados</b> · Cisne threshold 1.5 · média histórica FT 8.51 cantos</p>
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. Argentinos Jrs × Lanus</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>57</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Argentinos Jrs <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.14 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ5.96 (favorito: Argentinos Jrs)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.14 · 🦢 Cisne ELITE Δ5.96</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Argentinos Jrs</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Argentinos Jrs</b> (Cisne ELITE Δ6.0 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">2. River Plate × San Lorenzo</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>57</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>River Plate <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.13 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ7.69 (favorito: River Plate)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.13 · 🦢 Cisne ELITE Δ7.69</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 River Plate</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 River Plate</b> (Cisne ELITE Δ7.7 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">3. Boca Juniors × Huracan</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>44</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Boca Juniors <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.35 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.74 (favorito: Boca Juniors)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.35 · 🦢 Cisne Δ2.74</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Boca Juniors</b> (entrada principal — BP NUCLEAR + 2 motores)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">4. Rosario Central × Independiente</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>22</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Independiente <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.60 (MODERADA)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.18 (favorito: Independiente)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.18</div>
+      <div style="margin-top:6px;font-size:9pt;color:#dc2626"><b>Alertas:</b> 🔴 BP MODERADA em liga trucada — armadilha histórica (40% WR)</div>
+      
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">5. Velez Sarsfield × Gimnasia L.P.</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>22</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Gimnasia L.P. <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.62 (MODERADA)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.00 (favorito: Gimnasia L.P.)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.00</div>
+      <div style="margin-top:6px;font-size:9pt;color:#dc2626"><b>Alertas:</b> 🔴 BP MODERADA em liga trucada — armadilha histórica (40% WR)</div>
+      
+    </div>
+  <h2>🇦🇷 Primera Nacional <span class="dna-tag tag-trucada">TRUCADA</span></h2><p style="color:#475569"><b>11 jogos analisados</b> · Cisne threshold 1.5 · média histórica FT 8.60 cantos</p>
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. Deportivo Moron × Los Andes</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>57</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Deportivo Moron <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.19 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ6.33 (favorito: Deportivo Moron)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.19 · 🦢 Cisne ELITE Δ6.33</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Deportivo Moron</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Deportivo Moron</b> (Cisne ELITE Δ6.3 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">2. Ferro × Def. de Belgrano</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>57</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Ferro <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.18 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ9.75 (favorito: Ferro)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.18 · 🦢 Cisne ELITE Δ9.75</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Ferro</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Ferro</b> (Cisne ELITE Δ9.8 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">3. Chaco For Ever × Ciudad Bolivar</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>50</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Chaco For Ever <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.32 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.50 (favorito: Chaco For Ever)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.32 · 🦢 Cisne ELITE Δ3.50</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Chaco For Ever</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Chaco For Ever</b> (Cisne ELITE Δ3.5 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">4. Atl. Rafaela × Gimnasia y Tiro</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>35</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Atl. Rafaela <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.49 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.14 (favorito: Atl. Rafaela)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne ELITE Δ3.14</div>
+      
+      
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">5. Acassuso × Almirante Brown</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>29</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Acassuso <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.42 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.66 (favorito: Acassuso)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.66</div>
+      
+      
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">6. Chacarita Juniors × Colegiales</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>29</b>
+         · Score Under: <b>15</b>
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Colegiales <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.42 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.29 (favorito: Colegiales)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.29</div>
+      
+      
+    </div>
+  <p style="font-style:italic;color:#94a3b8;margin-top:12px">+ 5 jogos com score Vencedor < 29 (sinais marginais — não recomendados pra entrada)</p><h2>🇺🇸 Major League Soccer <span class="dna-tag tag-ofensiva">OFENSIVA</span></h2><p style="color:#475569"><b>10 jogos analisados</b> · Cisne threshold 2.5 · média histórica FT 10.05 cantos</p>
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. New England Revolution × Philadelphia Union</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>55</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Philadelphia Union <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.05 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ5.13 (favorito: Philadelphia Union)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.05 · 🦢 Cisne ELITE Δ5.13</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Philadelphia Union</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Philadelphia Union</b> (Cisne ELITE Δ5.1 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #16a34a;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">2. Minnesota United × Austin FC</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟢 ENTRADA RECOMENDADA</b> · Score Vencedor: <b>55</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Minnesota United <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.21 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ4.09 (favorito: Minnesota United)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.21 · 🦢 Cisne ELITE Δ4.09</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Minnesota United</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Minnesota United</b> (Cisne ELITE Δ4.1 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">3. Toronto FC × Inter Miami</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>48</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Inter Miami <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.27 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.52 (favorito: Inter Miami)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.27 · 🦢 Cisne ELITE Δ3.52</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Inter Miami</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Inter Miami</b> (Cisne ELITE Δ3.5 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">4. Atlanta Utd × Los Angeles Galaxy</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>48</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Los Angeles Galaxy <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.21 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.14 (favorito: Los Angeles Galaxy)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.21 · 🦢 Cisne ELITE Δ3.14</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Los Angeles Galaxy</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Los Angeles Galaxy</b> (Cisne ELITE Δ3.1 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">5. Nashville SC × DC United</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>48</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Nashville SC <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.13 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.71 (favorito: Nashville SC)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.13 · 🦢 Cisne ELITE Δ3.71</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Nashville SC</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Nashville SC</b> (Cisne ELITE Δ3.7 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">6. Chicago Fire × New York Red Bulls</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>22</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Chicago Fire <span style="color:#94a3b8">(1 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.46 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>—</td></tr>
+        
+        
+        
+      </table>
+      
+      
+      
+    </div>
+  <p style="font-style:italic;color:#94a3b8;margin-top:12px">+ 4 jogos com score Vencedor < 22 (sinais marginais — não recomendados pra entrada)</p><h2>🇧🇷 Brasileirão Série B <span class="dna-tag tag-ofensiva">OFENSIVA</span></h2><p style="color:#475569"><b>1 jogos analisados</b> · Cisne threshold 2 · média histórica FT 10.44 cantos</p>
+    <div style="border-left:4px solid #6b7280;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. Juventude × Criciuma</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>⚪ SEM CONVICÇÃO</b> · Score Vencedor: <b>17</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Criciuma <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.52 (MODERADA)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.70 (favorito: Criciuma)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.70</div>
+      
+      
+    </div>
+  <h2>🇧🇷 Brasileirão Série A <span class="dna-tag tag-ofensiva">OFENSIVA</span></h2><p style="color:#475569"><b>7 jogos analisados</b> · Cisne threshold 2 · média histórica FT 10.01 cantos</p>
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. Coritiba × Internacional</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>40</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Internacional <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.07 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ6.86 (favorito: Internacional)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.07 · 🦢 Cisne ELITE Δ6.86</div>
+      <div style="margin-top:6px;font-size:9pt;color:#dc2626"><b>Alertas:</b> ⚠️ BR NUCLEAR @1.0x — risco "Mirassol" (1-5 cantos rodada anterior)</div>
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Internacional</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Internacional</b> (Cisne ELITE Δ6.9 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">2. Fluminense × Vitória</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>40</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Fluminense <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.14 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ4.27 (favorito: Fluminense)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.14 · 🦢 Cisne ELITE Δ4.27</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Fluminense</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Fluminense</b> (Cisne ELITE Δ4.3 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">3. Vasco × Athletico-PR</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>40</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Vasco <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.11 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ5.25 (favorito: Vasco)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.11 · 🦢 Cisne ELITE Δ5.25</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Vasco</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Vasco</b> (Cisne ELITE Δ5.3 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">4. Corinthians × São Paulo</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>33</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>São Paulo <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.17 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.98 (favorito: São Paulo)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.17 · 🦢 Cisne ELITE Δ3.98</div>
+      
+      
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">5. Mirassol × Chapecoense</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>33</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Mirassol <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.22 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.79 (favorito: Mirassol)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.22 · 🦢 Cisne ELITE Δ3.79</div>
+      
+      
+    </div>
+  
+    <div style="border-left:4px solid #6b7280;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">6. Bahia × Cruzeiro</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>⚪ SEM CONVICÇÃO</b> · Score Vencedor: <b>19</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Bahia <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.46 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.08 (favorito: Bahia)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.08</div>
+      
+      
+    </div>
+  <p style="font-style:italic;color:#94a3b8;margin-top:12px">+ 1 jogos com score Vencedor < 19 (sinais marginais — não recomendados pra entrada)</p><h2>🇩🇪 Bundesliga <span class="dna-tag tag-equilibrada">EQUILIBRADA</span></h2><p style="color:#475569"><b>4 jogos analisados</b> · Cisne threshold 2 · média histórica FT 9.73 cantos</p>
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. Hoffenheim × Werder Bremen</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>45</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Hoffenheim <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.35 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ6.12 (favorito: Hoffenheim)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.35 · 🦢 Cisne ELITE Δ6.12</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Hoffenheim</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Hoffenheim</b> (Cisne ELITE Δ6.1 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">2. RB Leipzig × St. Pauli</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>45</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>RB Leipzig <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.29 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ7.90 (favorito: RB Leipzig)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.29 · 🦢 Cisne ELITE Δ7.90</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 RB Leipzig</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 RB Leipzig</b> (Cisne ELITE Δ7.9 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">3. Wolfsburg × Bayern Munich</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>45</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Bayern Munich <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.30 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ7.46 (favorito: Bayern Munich)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.30 · 🦢 Cisne ELITE Δ7.46</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Bayern Munich</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Bayern Munich</b> (Cisne ELITE Δ7.5 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #6b7280;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">4. Augsburg × B. Monchengladbach</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>⚪ SEM CONVICÇÃO</b> · Score Vencedor: <b>12</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Augsburg <span style="color:#94a3b8">(1 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>—</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.34 (favorito: Augsburg)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.34</div>
+      
+      
+    </div>
+  <h2>🇺🇸 USL Championship <span class="dna-tag tag-equilibrada">EQUILIBRADA</span></h2><p style="color:#475569"><b>4 jogos analisados</b> · Cisne threshold 2 · média histórica FT 9.19 cantos</p>
+    <div style="border-left:4px solid #ca8a04;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">1. Louisville City × Pittsburgh</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟡 ENTRADA MODERADA</b> · Score Vencedor: <b>45</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Louisville City <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.19 (NUCLEAR)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ5.72 (favorito: Louisville City)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🐺 BP NUCLEAR @1.19 · 🦢 Cisne ELITE Δ5.72</div>
+      
+      <div style="margin-top:8px;padding:8px;background:#ecfdf5;border-radius:4px"><b style="color:#15803d">📋 Entradas sugeridas:</b><ul style="margin:6px 0 0 18px"><li><b>HDP -0.5 Louisville City</b> (entrada principal — BP NUCLEAR + 2 motores)</li><li><b>HDP -1.5 Louisville City</b> (Cisne ELITE Δ5.7 — favorito domina)</li></ul></div>
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">2. Hartford Athletic × Detroit</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>28</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Detroit <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.38 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.13 (favorito: Detroit)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne ELITE Δ3.13</div>
+      
+      
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">3. Rhode Island × Tampa Bay</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>28</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Tampa Bay <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.36 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ3.11 (favorito: Tampa Bay)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne ELITE Δ3.11</div>
+      
+      
+    </div>
+  
+    <div style="border-left:4px solid #ea580c;padding:10px 16px;margin:12px 0;background:#f8fafc;border-radius:4px">
+      <div style="font-size:14pt;font-weight:bold;margin-bottom:4px">4. Indy Eleven × Sporting Jax</div>
+      <div style="font-size:10pt;color:#475569;margin-bottom:8px">
+        <b>🟠 ATENÇÃO (sinal médio)</b> · Score Vencedor: <b>22</b>
+        
+      </div>
+      <table style="font-size:10pt;width:100%;border-collapse:collapse">
+        <tr><td style="padding:3px;width:140px;color:#64748b">Motores ativos</td><td><b>CISNE + BALA</b></td></tr>
+        <tr><td style="padding:3px;color:#64748b">Favorito (consenso)</td><td>Indy Eleven <span style="color:#94a3b8">(2 de 4 motores)</span></td></tr>
+        <tr><td style="padding:3px;color:#64748b">🐺 Bala de Prata</td><td>BP @1.43 (FORTE)</td></tr>
+        <tr><td style="padding:3px;color:#64748b">🦢 Cisne Negro</td><td>Δ2.95 (favorito: Indy Eleven)</td></tr>
+        
+        
+        
+      </table>
+      <div style="margin-top:8px;font-size:9pt"><b>Pontos fortes:</b> 🦢 Cisne Δ2.95</div>
+      
+      
+    </div>
+  <h2>🏆 Top 10 ENTRADAS RECOMENDADAS (score ≥ 50, todas as ligas)</h2><table style="width:100%;border-collapse:collapse;margin-top:12px"><tr style="background:#15803d;color:white"><th style="padding:8px">#</th><th style="padding:8px;text-align:left">Liga</th><th style="padding:8px;text-align:left">Jogo</th><th style="padding:8px">Score</th><th style="padding:8px;text-align:left">Mercado</th></tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>1</b></td>
+      <td style="padding:8px">🇦🇷 Liga Profesional</td>
+      <td style="padding:8px"><b>Argentinos Jrs × Lanus</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">57</td>
+      <td style="padding:8px">HDP -1.5 Argentinos Jrs (BP NUCLEAR + Cisne ELITE)</td>
+    </tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>2</b></td>
+      <td style="padding:8px">🇦🇷 Liga Profesional</td>
+      <td style="padding:8px"><b>River Plate × San Lorenzo</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">57</td>
+      <td style="padding:8px">HDP -1.5 River Plate (BP NUCLEAR + Cisne ELITE)</td>
+    </tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>3</b></td>
+      <td style="padding:8px">🇦🇷 Primera Nacional</td>
+      <td style="padding:8px"><b>Deportivo Moron × Los Andes</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">57</td>
+      <td style="padding:8px">HDP -1.5 Deportivo Moron (BP NUCLEAR + Cisne ELITE)</td>
+    </tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>4</b></td>
+      <td style="padding:8px">🇦🇷 Primera Nacional</td>
+      <td style="padding:8px"><b>Ferro × Def. de Belgrano</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">57</td>
+      <td style="padding:8px">HDP -1.5 Ferro (BP NUCLEAR + Cisne ELITE)</td>
+    </tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>5</b></td>
+      <td style="padding:8px">🇺🇸 Major League Soccer</td>
+      <td style="padding:8px"><b>New England Revolution × Philadelphia Union</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">55</td>
+      <td style="padding:8px">HDP -1.5 Philadelphia Union (BP NUCLEAR + Cisne ELITE)</td>
+    </tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>6</b></td>
+      <td style="padding:8px">🇺🇸 Major League Soccer</td>
+      <td style="padding:8px"><b>Minnesota United × Austin FC</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">55</td>
+      <td style="padding:8px">HDP -1.5 Minnesota United (BP NUCLEAR + Cisne ELITE)</td>
+    </tr><tr style="border-bottom:1px solid #e2e8f0">
+      <td style="padding:8px;text-align:center"><b>7</b></td>
+      <td style="padding:8px">🇦🇷 Primera Nacional</td>
+      <td style="padding:8px"><b>Chaco For Ever × Ciudad Bolivar</b></td>
+      <td style="padding:8px;text-align:center;font-weight:bold;color:#15803d">50</td>
+      <td style="padding:8px">HDP -1.5 Chaco For Ever (BP NUCLEAR + Cisne ELITE)</td>
+    </tr></table>
+<h2>⚠️ Disclaimer técnico</h2>
+<p style="font-size:10pt;color:#475569">
+Este relatório foi gerado pelo motor v3.0 do Especialista em Cantos com calibração por DNA de liga (arquétipos: ofensiva, equilibrada, trucada). Os scores refletem convergência de sinais (BP, Cisne, Vencedor, Enigma, Filtro OURO) ponderados pelo perfil cultural da liga, validado em auditoria sobre 132 jogos reais da rodada 01-04/05/2026.<br><br>
+<b>Princípios operacionais:</b> dobrar stake em entradas com 3+ motores convergindo + sinal NUCLEAR + Cisne ≥ 2.5; reduzir/abster em ligas trucadas (ARG/ARG_B) quando o sinal for apenas BP MODERADA solo; nunca operar BR Teacher Over/Under até recalibração; em MLS, exigir Cisne ativo na rodada (≥ 5 sinais) antes de qualquer entrada.<br><br>
+<b>Gerado automaticamente</b> por <code>_gerar_relatorio.js</code> em 2026-05-10.
+</p>
+</body></html>

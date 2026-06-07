@@ -1,0 +1,667 @@
+{
+  "totalInjetados": 92,
+  "porLiga": {
+    "BR": {
+      "injetados": 10,
+      "falhas": 0,
+      "cisneCandidatos": 9
+    },
+    "ARG": {
+      "injetados": 13,
+      "falhas": 1,
+      "cisneCandidatos": 9
+    },
+    "ARG_B": {
+      "injetados": 18,
+      "falhas": 0,
+      "cisneCandidatos": 15
+    },
+    "ALM": {
+      "injetados": 6,
+      "falhas": 0,
+      "cisneCandidatos": 5
+    },
+    "CHI": {
+      "injetados": 7,
+      "falhas": 0,
+      "cisneCandidatos": 5
+    },
+    "ECU": {
+      "injetados": 8,
+      "falhas": 0,
+      "cisneCandidatos": 7
+    },
+    "MLS": {
+      "injetados": 13,
+      "falhas": 2,
+      "cisneCandidatos": 10
+    },
+    "BUN": {
+      "injetados": 9,
+      "falhas": 0,
+      "cisneCandidatos": 7
+    },
+    "J1": {
+      "injetados": 8,
+      "falhas": 0,
+      "cisneCandidatos": 7
+    }
+  },
+  "jogosFalha": [
+    {
+      "liga": "ARG",
+      "m": "Huracan",
+      "v": "Argentinos Juniors",
+      "mTime": "Huracan",
+      "vTime": null
+    },
+    {
+      "liga": "MLS",
+      "m": "Minnesota United",
+      "v": "LAFC",
+      "mTime": "Minnesota United",
+      "vTime": null
+    },
+    {
+      "liga": "MLS",
+      "m": "LA Galaxy",
+      "v": "Real Salt Lake",
+      "mTime": null,
+      "vTime": "Real Salt Lake"
+    }
+  ],
+  "cisneAnalise": [
+    {
+      "liga": "BUN",
+      "m": "Stuttgart",
+      "v": "Werder Bremen",
+      "cantos": "14x2",
+      "diff": 12,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG",
+      "m": "Ind. Rivadavia",
+      "v": "Gimnasia Mendoza",
+      "cantos": "11x2",
+      "diff": 9,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Atl. Rafaela",
+      "v": "Gimnasia Jujuy",
+      "cantos": "11x2",
+      "diff": 9,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BR",
+      "m": "São Paulo",
+      "v": "Mirassol",
+      "cantos": "12x4",
+      "diff": 8,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Ferro",
+      "v": "Almirante Brown",
+      "cantos": "8x0",
+      "diff": 8,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BR",
+      "m": "Atlético-MG",
+      "v": "Flamengo",
+      "cantos": "8x1",
+      "diff": 7,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG",
+      "m": "River Plate",
+      "v": "Aldosivi",
+      "cantos": "8x1",
+      "diff": 7,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "San Miguel",
+      "v": "Los Andes",
+      "cantos": "11x4",
+      "diff": 7,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ALM",
+      "m": "Melbourne City",
+      "v": "Adelaide United",
+      "cantos": "3x10",
+      "diff": 7,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "MLS",
+      "m": "St. Louis City",
+      "v": "San Jose Earthquakes",
+      "cantos": "10x3",
+      "diff": 7,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "J1",
+      "m": "Urawa Reds",
+      "v": "Yokohama F. Marinos",
+      "cantos": "9x2",
+      "diff": 7,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BR",
+      "m": "Fluminense",
+      "v": "Chapecoense",
+      "cantos": "7x1",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "CHI",
+      "m": "La Serena",
+      "v": "Huachipato",
+      "cantos": "7x1",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ECU",
+      "m": "Guayaquil City",
+      "v": "Tecnico U.",
+      "cantos": "1x7",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "MLS",
+      "m": "Inter Miami",
+      "v": "New England Revolution",
+      "cantos": "7x1",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BUN",
+      "m": "RB Leipzig",
+      "v": "Union Berlin",
+      "cantos": "10x4",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "J1",
+      "m": "FC Tokyo",
+      "v": "Mito",
+      "cantos": "7x1",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "J1",
+      "m": "Kashiwa Reysol",
+      "v": "Kashima Antlers",
+      "cantos": "8x2",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "J1",
+      "m": "Sanfrecce Hiroshima",
+      "v": "Cerezo Osaka",
+      "cantos": "11x5",
+      "diff": 6,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BR",
+      "m": "Red Bull Bragantino",
+      "v": "Palmeiras",
+      "cantos": "9x4",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG",
+      "m": "Estudiantes L.P.",
+      "v": "Talleres Cordoba",
+      "cantos": "6x1",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Temperley",
+      "v": "Patronato",
+      "cantos": "6x1",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Deportivo Moron",
+      "v": "Racing Cordoba",
+      "cantos": "6x1",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Chaco For Ever",
+      "v": "CA Mitre",
+      "cantos": "8x3",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ECU",
+      "m": "Mushuc Runa",
+      "v": "Dep. Cuenca",
+      "cantos": "3x8",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ECU",
+      "m": "Emelec",
+      "v": "LDU Quito",
+      "cantos": "9x4",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ECU",
+      "m": "Manta",
+      "v": "U. Catolica",
+      "cantos": "7x2",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "MLS",
+      "m": "Vancouver Whitecaps",
+      "v": "Colorado Rapids",
+      "cantos": "8x3",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BUN",
+      "m": "Hamburger SV",
+      "v": "Hoffenheim",
+      "cantos": "4x9",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BUN",
+      "m": "Dortmund",
+      "v": "Freiburg",
+      "cantos": "5x0",
+      "diff": 5,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG",
+      "m": "Estudiantes Rio Cuarto",
+      "v": "Rosario Central",
+      "cantos": "0x4",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG",
+      "m": "Platense",
+      "v": "San Lorenzo",
+      "cantos": "8x4",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Acassuso",
+      "v": "CA Estudiantes",
+      "cantos": "3x7",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Deportivo Madryn",
+      "v": "Def. de Belgrano",
+      "cantos": "5x1",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Deportivo Maipu",
+      "v": "Almagro",
+      "cantos": "10x6",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ALM",
+      "m": "Perth Glory",
+      "v": "Brisbane Roar",
+      "cantos": "2x6",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "CHI",
+      "m": "U. De Chile",
+      "v": "U. Catolica",
+      "cantos": "7x3",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "ECU",
+      "m": "Aucas",
+      "v": "Delfin",
+      "cantos": "5x1",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "J1",
+      "m": "Okayama",
+      "v": "Avispa Fukuoka",
+      "cantos": "3x7",
+      "diff": 4,
+      "faixa": "EXTREMA"
+    },
+    {
+      "liga": "BR",
+      "m": "Remo",
+      "v": "Cruzeiro",
+      "cantos": "4x1",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "BR",
+      "m": "Grêmio",
+      "v": "Coritiba",
+      "cantos": "5x2",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG",
+      "m": "Sarmiento Junin",
+      "v": "Tigre",
+      "cantos": "3x6",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG",
+      "m": "Belgrano",
+      "v": "Gimnasia L.P.",
+      "cantos": "3x6",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "San Telmo",
+      "v": "All Boys",
+      "cantos": "2x5",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "San Martin S.J.",
+      "v": "Quilmes",
+      "cantos": "4x1",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Tristan Suarez",
+      "v": "Gimnasia y Tiro",
+      "cantos": "8x5",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Central Norte",
+      "v": "Ciudad Bolivar",
+      "cantos": "5x2",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Colon Santa Fe",
+      "v": "Godoy Cruz",
+      "cantos": "5x2",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "CHI",
+      "m": "A. Italiano",
+      "v": "Limache",
+      "cantos": "1x4",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "ECU",
+      "m": "Orense",
+      "v": "Barcelona SC",
+      "cantos": "7x4",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "MLS",
+      "m": "FC Cincinnati",
+      "v": "New York Red Bulls",
+      "cantos": "4x7",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "MLS",
+      "m": "Seattle Sounders",
+      "v": "FC Dallas",
+      "cantos": "4x7",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "BUN",
+      "m": "FC Koln",
+      "v": "Bayer Leverkusen",
+      "cantos": "2x5",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "BUN",
+      "m": "Wolfsburg",
+      "v": "B. Monchengladbach",
+      "cantos": "8x5",
+      "diff": 3,
+      "faixa": "FORTE"
+    },
+    {
+      "liga": "BR",
+      "m": "Bahia",
+      "v": "Santos",
+      "cantos": "5x3",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "BR",
+      "m": "Botafogo",
+      "v": "Internacional",
+      "cantos": "3x5",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "BR",
+      "m": "Corinthians",
+      "v": "Vasco",
+      "cantos": "5x7",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ARG",
+      "m": "Lanus",
+      "v": "Central Cordoba",
+      "cantos": "5x3",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ARG",
+      "m": "Velez Sarsfield",
+      "v": "Union de Santa Fe",
+      "cantos": "2x4",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ARG_B",
+      "m": "Club A. Guemes",
+      "v": "Atletico Atlanta",
+      "cantos": "4x2",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ALM",
+      "m": "Macarthur FC",
+      "v": "Wellington Phoenix",
+      "cantos": "8x6",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ALM",
+      "m": "Newcastle Jets",
+      "v": "Central Coast Mariners",
+      "cantos": "5x3",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ALM",
+      "m": "Sydney FC",
+      "v": "Auckland FC",
+      "cantos": "4x6",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "CHI",
+      "m": "Nublense",
+      "v": "O'Higgins",
+      "cantos": "4x6",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "CHI",
+      "m": "Everton",
+      "v": "Cobresal",
+      "cantos": "2x4",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "ECU",
+      "m": "Macara",
+      "v": "Libertad",
+      "cantos": "3x5",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "MLS",
+      "m": "CF Montreal",
+      "v": "New York City",
+      "cantos": "3x1",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "MLS",
+      "m": "Columbus Crew",
+      "v": "Philadelphia Union",
+      "cantos": "2x4",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "MLS",
+      "m": "Austin FC",
+      "v": "Houston Dynamo",
+      "cantos": "3x5",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "MLS",
+      "m": "Chicago Fire",
+      "v": "Sporting Kansas City",
+      "cantos": "4x2",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "MLS",
+      "m": "Nashville SC",
+      "v": "Charlotte",
+      "cantos": "6x4",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "BUN",
+      "m": "Augsburg",
+      "v": "Eintracht Frankfurt",
+      "cantos": "9x7",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "J1",
+      "m": "Shimizu S-Pulse",
+      "v": "Nagoya Grampus",
+      "cantos": "1x3",
+      "diff": 2,
+      "faixa": "BOA"
+    },
+    {
+      "liga": "J1",
+      "m": "Kawasaki Frontale",
+      "v": "Chiba",
+      "cantos": "5x3",
+      "diff": 2,
+      "faixa": "BOA"
+    }
+  ]
+}

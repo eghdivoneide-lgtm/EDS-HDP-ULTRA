@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<title>TESTE CHN_1</title>
+<style>
+  body { font-family: monospace; background:#111; color:#eee; padding:30px; font-size:18px; }
+  h1 { color:#fbbf24; }
+  .big { font-size: 24px; font-weight: bold; }
+  .ok { color: #4ade80; }
+  .err { color: #ef4444; }
+</style>
+</head>
+<body>
+<h1>🔬 TESTE ISOLADO — chinaone2026.js</h1>
+
+<script src="data/chinaone2026.js?nocache=12345abc"></script>
+
+<div id="r"></div>
+<script>
+const d = window.DADOS_CHN_1;
+let html = '';
+if (!d) {
+  html = '<p class="big err">❌ FALHA: DADOS_CHN_1 NÃO DEFINIDO</p>' +
+         '<p>O arquivo chinaone2026.js não carregou ou não definiu a variável.</p>';
+} else {
+  html = '<p class="big ok">✅ SUCESSO: DADOS_CHN_1 DEFINIDO</p>' +
+         '<p>Temporada: ' + d.temporada + '</p>' +
+         '<p>Última atualização: ' + d.ultimaAtualizacao + '</p>' +
+         '<p>Times: <strong>' + (d.times?.length || 0) + '</strong></p>' +
+         '<p>Jogos: <strong>' + (d.jogos?.length || 0) + '</strong></p>' +
+         '<p>Primeiro time: ' + (d.times?.[0] || '?') + '</p>' +
+         '<p>Primeiro jogo: ' + (d.jogos?.[0]?.mandante || '?') + ' x ' + (d.jogos?.[0]?.visitante || '?') + '</p>';
+}
+document.getElementById('r').innerHTML = html;
+</script>
+
+<hr style="margin-top:30px">
+<p><strong>Se aparecer ✅ aqui:</strong> os dados estão OK. O problema é cache do HTML do index.html.</p>
+<p><strong>Solução:</strong> Abra uma ABA ANÔNIMA (Ctrl+Shift+N) e cole a URL do index.html.</p>
+</body>
+</html>

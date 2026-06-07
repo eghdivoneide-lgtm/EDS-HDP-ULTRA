@@ -1,0 +1,1029 @@
+{
+  "threshold_curve": {
+    "BR": {
+      "0.5": {
+        "n": 18,
+        "acc_dir": 72.22222222222221,
+        "acc_full": 61.111111111111114
+      },
+      "1.0": {
+        "n": 11,
+        "acc_dir": 63.63636363636363,
+        "acc_full": 45.45454545454545
+      },
+      "1.5": {
+        "n": 9,
+        "acc_dir": 55.55555555555556,
+        "acc_full": 33.33333333333333
+      },
+      "2.0": {
+        "n": 6,
+        "acc_dir": 33.33333333333333,
+        "acc_full": 16.666666666666664
+      },
+      "2.5": {
+        "n": 2,
+        "acc_dir": 50.0,
+        "acc_full": 0.0
+      },
+      "3.0": {
+        "n": 2,
+        "acc_dir": 50.0,
+        "acc_full": 0.0
+      },
+      "3.5": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      },
+      "4.0": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      }
+    },
+    "ARG": {
+      "0.5": {
+        "n": 117,
+        "acc_dir": 55.55555555555556,
+        "acc_full": 42.73504273504273
+      },
+      "1.0": {
+        "n": 73,
+        "acc_dir": 60.273972602739725,
+        "acc_full": 39.726027397260275
+      },
+      "1.5": {
+        "n": 37,
+        "acc_dir": 72.97297297297297,
+        "acc_full": 45.94594594594595
+      },
+      "2.0": {
+        "n": 19,
+        "acc_dir": 84.21052631578947,
+        "acc_full": 52.63157894736842
+      },
+      "2.5": {
+        "n": 12,
+        "acc_dir": 91.66666666666666,
+        "acc_full": 58.333333333333336
+      },
+      "3.0": {
+        "n": 4,
+        "acc_dir": 100.0,
+        "acc_full": 75.0
+      },
+      "3.5": {
+        "n": 2,
+        "acc_dir": 100.0,
+        "acc_full": 100.0
+      },
+      "4.0": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      }
+    },
+    "ARG_B": {
+      "0.5": {
+        "n": 79,
+        "acc_dir": 62.0253164556962,
+        "acc_full": 55.69620253164557
+      },
+      "1.0": {
+        "n": 41,
+        "acc_dir": 70.73170731707317,
+        "acc_full": 58.536585365853654
+      },
+      "1.5": {
+        "n": 19,
+        "acc_dir": 73.68421052631578,
+        "acc_full": 52.63157894736842
+      },
+      "2.0": {
+        "n": 10,
+        "acc_dir": 80.0,
+        "acc_full": 50.0
+      },
+      "2.5": {
+        "n": 5,
+        "acc_dir": 100.0,
+        "acc_full": 40.0
+      },
+      "3.0": {
+        "n": 2,
+        "acc_dir": 100.0,
+        "acc_full": 50.0
+      },
+      "3.5": {
+        "n": 1,
+        "acc_dir": 100.0,
+        "acc_full": 100.0
+      },
+      "4.0": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      }
+    },
+    "MLS": {
+      "0.5": {
+        "n": 49,
+        "acc_dir": 55.10204081632652,
+        "acc_full": 53.06122448979592
+      },
+      "1.0": {
+        "n": 23,
+        "acc_dir": 52.17391304347826,
+        "acc_full": 47.82608695652174
+      },
+      "1.5": {
+        "n": 11,
+        "acc_dir": 45.45454545454545,
+        "acc_full": 45.45454545454545
+      },
+      "2.0": {
+        "n": 6,
+        "acc_dir": 50.0,
+        "acc_full": 50.0
+      },
+      "2.5": {
+        "n": 2,
+        "acc_dir": 50.0,
+        "acc_full": 50.0
+      },
+      "3.0": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      },
+      "3.5": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      },
+      "4.0": {
+        "n": 0,
+        "acc_dir": null,
+        "acc_full": null
+      }
+    },
+    "BUN": {
+      "0.5": {
+        "n": 179,
+        "acc_dir": 56.98324022346368,
+        "acc_full": 45.81005586592179
+      },
+      "1.0": {
+        "n": 130,
+        "acc_dir": 61.53846153846154,
+        "acc_full": 46.15384615384615
+      },
+      "1.5": {
+        "n": 88,
+        "acc_dir": 62.5,
+        "acc_full": 48.86363636363637
+      },
+      "2.0": {
+        "n": 60,
+        "acc_dir": 66.66666666666666,
+        "acc_full": 48.333333333333336
+      },
+      "2.5": {
+        "n": 35,
+        "acc_dir": 74.28571428571429,
+        "acc_full": 57.14285714285714
+      },
+      "3.0": {
+        "n": 18,
+        "acc_dir": 88.88888888888889,
+        "acc_full": 72.22222222222221
+      },
+      "3.5": {
+        "n": 13,
+        "acc_dir": 84.61538461538461,
+        "acc_full": 76.92307692307693
+      },
+      "4.0": {
+        "n": 8,
+        "acc_dir": 75.0,
+        "acc_full": 62.5
+      }
+    }
+  },
+  "threshold_otimo": {
+    "BR": 0.5,
+    "ARG": 0.5,
+    "ARG_B": 0.5,
+    "MLS": 0.5,
+    "BUN": 0.5
+  },
+  "vies_liga": {
+    "BR": {
+      "signed_mean": -0.14132325288880349,
+      "mae": 2.046164931827915,
+      "median_abs": 1.4784962433688413,
+      "pct_high": 21.73913043478261,
+      "n": 23
+    },
+    "ARG": {
+      "signed_mean": 0.16050682332918195,
+      "mae": 2.6805435530914075,
+      "median_abs": 2.3158522687841376,
+      "pct_high": 35.8974358974359,
+      "n": 195
+    },
+    "ARG_B": {
+      "signed_mean": -0.17117265745188445,
+      "mae": 2.6315274269962625,
+      "median_abs": 2.2777777777777786,
+      "pct_high": 31.03448275862069,
+      "n": 145
+    },
+    "MLS": {
+      "signed_mean": -0.02019575126779608,
+      "mae": 3.043315003883558,
+      "median_abs": 2.851474411182463,
+      "pct_high": 46.590909090909086,
+      "n": 88
+    },
+    "BUN": {
+      "signed_mean": 0.059994733589329496,
+      "mae": 2.9723935323874104,
+      "median_abs": 2.593445921503728,
+      "pct_high": 42.578125,
+      "n": 256
+    }
+  },
+  "calib_curve": [
+    {
+      "lo": 0,
+      "hi": 0.5,
+      "n": 265,
+      "acc_dir": 45.28301886792453,
+      "acc_full": 46.0377358490566
+    },
+    {
+      "lo": 0.5,
+      "hi": 1.0,
+      "n": 164,
+      "acc_dir": 51.21951219512195,
+      "acc_full": 51.21951219512195
+    },
+    {
+      "lo": 1.0,
+      "hi": 1.5,
+      "n": 114,
+      "acc_dir": 57.89473684210527,
+      "acc_full": 44.73684210526316
+    },
+    {
+      "lo": 1.5,
+      "hi": 2.0,
+      "n": 63,
+      "acc_dir": 58.730158730158735,
+      "acc_full": 47.61904761904761
+    },
+    {
+      "lo": 2.0,
+      "hi": 2.5,
+      "n": 45,
+      "acc_dir": 55.55555555555556,
+      "acc_full": 40.0
+    },
+    {
+      "lo": 2.5,
+      "hi": 3.0,
+      "n": 30,
+      "acc_dir": 70.0,
+      "acc_full": 43.333333333333336
+    },
+    {
+      "lo": 3.0,
+      "hi": 4.0,
+      "n": 18,
+      "acc_dir": 94.44444444444444,
+      "acc_full": 66.66666666666666
+    },
+    {
+      "lo": 4.0,
+      "hi": 100,
+      "n": 8,
+      "acc_dir": 75.0,
+      "acc_full": 62.5
+    }
+  ],
+  "missed_liga": {
+    "BR": {
+      "sem_cisne": 17,
+      "margem_alta": 14,
+      "pct_missed": 82.35294117647058
+    },
+    "ARG": {
+      "sem_cisne": 176,
+      "margem_alta": 91,
+      "pct_missed": 51.70454545454546
+    },
+    "ARG_B": {
+      "sem_cisne": 135,
+      "margem_alta": 74,
+      "pct_missed": 54.81481481481482
+    },
+    "MLS": {
+      "sem_cisne": 82,
+      "margem_alta": 49,
+      "pct_missed": 59.756097560975604
+    },
+    "BUN": {
+      "sem_cisne": 196,
+      "margem_alta": 97,
+      "pct_missed": 49.48979591836735
+    }
+  },
+  "team_dna": {
+    "Platense": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 2.8406478975646916,
+      "acerto_dir": 53.84615384615385
+    },
+    "Instituto": {
+      "n": 13,
+      "acertos": 3,
+      "erros_total": 2.441876935719041,
+      "acerto_dir": 23.076923076923077
+    },
+    "Velez Sarsfield": {
+      "n": 13,
+      "acertos": 5,
+      "erros_total": 2.838920384754117,
+      "acerto_dir": 38.46153846153847
+    },
+    "Talleres Cordoba": {
+      "n": 13,
+      "acertos": 8,
+      "erros_total": 3.7096271909051657,
+      "acerto_dir": 61.53846153846154
+    },
+    "Newells Old Boys": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 3.095172699837576,
+      "acerto_dir": 53.84615384615385
+    },
+    "Independiente": {
+      "n": 13,
+      "acertos": 5,
+      "erros_total": 1.9152746823256013,
+      "acerto_dir": 38.46153846153847
+    },
+    "Gimnasia Mendoza": {
+      "n": 13,
+      "acertos": 8,
+      "erros_total": 2.4658183699924305,
+      "acerto_dir": 61.53846153846154
+    },
+    "San Lorenzo": {
+      "n": 13,
+      "acertos": 4,
+      "erros_total": 3.3504812505456814,
+      "acerto_dir": 30.76923076923077
+    },
+    "Atl. Tucuman": {
+      "n": 13,
+      "acertos": 9,
+      "erros_total": 2.692758566486835,
+      "acerto_dir": 69.23076923076923
+    },
+    "Central Cordoba": {
+      "n": 13,
+      "acertos": 5,
+      "erros_total": 2.5452488780657916,
+      "acerto_dir": 38.46153846153847
+    },
+    "Huracan": {
+      "n": 13,
+      "acertos": 6,
+      "erros_total": 3.26597646300663,
+      "acerto_dir": 46.15384615384615
+    },
+    "Ind. Rivadavia": {
+      "n": 13,
+      "acertos": 6,
+      "erros_total": 2.385870490680496,
+      "acerto_dir": 46.15384615384615
+    },
+    "Estudiantes L.P.": {
+      "n": 13,
+      "acertos": 4,
+      "erros_total": 2.287225373387781,
+      "acerto_dir": 30.76923076923077
+    },
+    "Boca Juniors": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 3.217582222180919,
+      "acerto_dir": 53.84615384615385
+    },
+    "River Plate": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 2.274819211016126,
+      "acerto_dir": 53.84615384615385
+    },
+    "Gimnasia L.P.": {
+      "n": 13,
+      "acertos": 6,
+      "erros_total": 2.1491692853363498,
+      "acerto_dir": 46.15384615384615
+    },
+    "Racing Club": {
+      "n": 13,
+      "acertos": 8,
+      "erros_total": 3.131004241966828,
+      "acerto_dir": 61.53846153846154
+    },
+    "Rosario Central": {
+      "n": 13,
+      "acertos": 4,
+      "erros_total": 3.3800500356395524,
+      "acerto_dir": 30.76923076923077
+    },
+    "Aldosivi": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 3.627967566534738,
+      "acerto_dir": 53.84615384615385
+    },
+    "Barracas Central": {
+      "n": 13,
+      "acertos": 10,
+      "erros_total": 2.991198966729036,
+      "acerto_dir": 76.92307692307693
+    },
+    "Lanus": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 2.2679530183621757,
+      "acerto_dir": 53.84615384615385
+    },
+    "Union de Santa Fe": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 2.805882770232404,
+      "acerto_dir": 53.84615384615385
+    },
+    "Dep. Riestra": {
+      "n": 13,
+      "acertos": 3,
+      "erros_total": 2.3923201182005087,
+      "acerto_dir": 23.076923076923077
+    },
+    "Defensa y Justicia": {
+      "n": 13,
+      "acertos": 6,
+      "erros_total": 1.7753373654608275,
+      "acerto_dir": 46.15384615384615
+    },
+    "Estudiantes Rio Cuarto": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 2.9553529696685756,
+      "acerto_dir": 53.84615384615385
+    },
+    "Argentinos Jrs": {
+      "n": 13,
+      "acertos": 10,
+      "erros_total": 2.458704341261857,
+      "acerto_dir": 76.92307692307693
+    },
+    "Belgrano": {
+      "n": 13,
+      "acertos": 7,
+      "erros_total": 2.3537757641083337,
+      "acerto_dir": 53.84615384615385
+    },
+    "Tigre": {
+      "n": 13,
+      "acertos": 6,
+      "erros_total": 2.729532058690206,
+      "acerto_dir": 46.15384615384615
+    },
+    "Sarmiento Junin": {
+      "n": 13,
+      "acertos": 6,
+      "erros_total": 2.0406407821470256,
+      "acerto_dir": 46.15384615384615
+    },
+    "Banfield": {
+      "n": 13,
+      "acertos": 9,
+      "erros_total": 2.0301166919349236,
+      "acerto_dir": 69.23076923076923
+    },
+    "Deportivo Madryn": {
+      "n": 8,
+      "acertos": 6,
+      "erros_total": 2.8289510515904572,
+      "acerto_dir": 75.0
+    },
+    "Deportivo Moron": {
+      "n": 8,
+      "acertos": 1,
+      "erros_total": 1.671485610007692,
+      "acerto_dir": 12.5
+    },
+    "Ferro": {
+      "n": 8,
+      "acertos": 4,
+      "erros_total": 2.6954807771641334,
+      "acerto_dir": 50.0
+    },
+    "San Miguel": {
+      "n": 8,
+      "acertos": 3,
+      "erros_total": 2.217658152221082,
+      "acerto_dir": 37.5
+    },
+    "Acassuso": {
+      "n": 8,
+      "acertos": 6,
+      "erros_total": 2.575453952012225,
+      "acerto_dir": 75.0
+    },
+    "Racing Cordoba": {
+      "n": 8,
+      "acertos": 8,
+      "erros_total": 2.3458961870482993,
+      "acerto_dir": 100.0
+    },
+    "Chaco For Ever": {
+      "n": 8,
+      "acertos": 5,
+      "erros_total": 1.9169974652024502,
+      "acerto_dir": 62.5
+    },
+    "San Telmo": {
+      "n": 8,
+      "acertos": 2,
+      "erros_total": 2.956186607431773,
+      "acerto_dir": 25.0
+    },
+    "Nueva Chicago": {
+      "n": 8,
+      "acertos": 7,
+      "erros_total": 1.859862281345933,
+      "acerto_dir": 87.5
+    },
+    "Tristan Suarez": {
+      "n": 9,
+      "acertos": 3,
+      "erros_total": 2.7083238325042682,
+      "acerto_dir": 33.33333333333333
+    },
+    "Almagro": {
+      "n": 8,
+      "acertos": 2,
+      "erros_total": 2.6141522847868757,
+      "acerto_dir": 25.0
+    },
+    "San Martin T.": {
+      "n": 8,
+      "acertos": 2,
+      "erros_total": 3.3331894370927553,
+      "acerto_dir": 25.0
+    },
+    "Quilmes": {
+      "n": 8,
+      "acertos": 6,
+      "erros_total": 2.325640173313963,
+      "acerto_dir": 75.0
+    },
+    "Midland": {
+      "n": 8,
+      "acertos": 7,
+      "erros_total": 3.0535085624849323,
+      "acerto_dir": 87.5
+    },
+    "Deportivo Maipu": {
+      "n": 8,
+      "acertos": 1,
+      "erros_total": 1.6481241952587398,
+      "acerto_dir": 12.5
+    },
+    "Atl. Rafaela": {
+      "n": 9,
+      "acertos": 3,
+      "erros_total": 2.444097998161312,
+      "acerto_dir": 33.33333333333333
+    },
+    "Patronato": {
+      "n": 8,
+      "acertos": 2,
+      "erros_total": 3.14059499268248,
+      "acerto_dir": 25.0
+    },
+    "Gimnasia y Tiro": {
+      "n": 8,
+      "acertos": 3,
+      "erros_total": 2.868548745294788,
+      "acerto_dir": 37.5
+    },
+    "San Martin S.J.": {
+      "n": 9,
+      "acertos": 5,
+      "erros_total": 4.066499049763679,
+      "acerto_dir": 55.55555555555556
+    },
+    "Club A. Guemes": {
+      "n": 8,
+      "acertos": 3,
+      "erros_total": 4.374526496685689,
+      "acerto_dir": 37.5
+    },
+    "Central Norte": {
+      "n": 8,
+      "acertos": 2,
+      "erros_total": 2.3379129992243395,
+      "acerto_dir": 25.0
+    },
+    "Colon Santa Fe": {
+      "n": 8,
+      "acertos": 4,
+      "erros_total": 2.912826030933034,
+      "acerto_dir": 50.0
+    },
+    "Def. de Belgrano": {
+      "n": 8,
+      "acertos": 5,
+      "erros_total": 1.9980693971341665,
+      "acerto_dir": 62.5
+    },
+    "Godoy Cruz": {
+      "n": 8,
+      "acertos": 4,
+      "erros_total": 2.2900760542588428,
+      "acerto_dir": 50.0
+    },
+    "Ciudad Bolivar": {
+      "n": 8,
+      "acertos": 5,
+      "erros_total": 3.0841783228643616,
+      "acerto_dir": 62.5
+    },
+    "Los Andes": {
+      "n": 8,
+      "acertos": 6,
+      "erros_total": 2.682633054874759,
+      "acerto_dir": 75.0
+    },
+    "Almirante Brown": {
+      "n": 8,
+      "acertos": 3,
+      "erros_total": 1.0994342586382753,
+      "acerto_dir": 37.5
+    },
+    "All Boys": {
+      "n": 8,
+      "acertos": 7,
+      "erros_total": 1.751798014061071,
+      "acerto_dir": 87.5
+    },
+    "Chacarita Juniors": {
+      "n": 8,
+      "acertos": 2,
+      "erros_total": 3.2154568783338853,
+      "acerto_dir": 25.0
+    },
+    "Gimnasia Jujuy": {
+      "n": 8,
+      "acertos": 3,
+      "erros_total": 3.2136296178859975,
+      "acerto_dir": 37.5
+    },
+    "Temperley": {
+      "n": 8,
+      "acertos": 6,
+      "erros_total": 3.0116571246806663,
+      "acerto_dir": 75.0
+    },
+    "Agropecuario": {
+      "n": 8,
+      "acertos": 3,
+      "erros_total": 2.4652151771129582,
+      "acerto_dir": 37.5
+    },
+    "Colegiales": {
+      "n": 8,
+      "acertos": 4,
+      "erros_total": 3.5487922505713616,
+      "acerto_dir": 50.0
+    },
+    "Atletico Atlanta": {
+      "n": 9,
+      "acertos": 6,
+      "erros_total": 2.892176269697602,
+      "acerto_dir": 66.66666666666666
+    },
+    "CA Mitre": {
+      "n": 7,
+      "acertos": 3,
+      "erros_total": 1.9535021808620403,
+      "acerto_dir": 42.857142857142854
+    },
+    "CA Estudiantes": {
+      "n": 7,
+      "acertos": 4,
+      "erros_total": 2.3092964277366015,
+      "acerto_dir": 57.14285714285714
+    },
+    "Vancouver Whitecaps": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 3.1649954899642285,
+      "acerto_dir": 50.0
+    },
+    "Toronto FC": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 3.8678782538187826,
+      "acerto_dir": 50.0
+    },
+    "FC Dallas": {
+      "n": 6,
+      "acertos": 2,
+      "erros_total": 4.002233416031563,
+      "acerto_dir": 33.33333333333333
+    },
+    "Nashville SC": {
+      "n": 6,
+      "acertos": 4,
+      "erros_total": 2.5620875128004155,
+      "acerto_dir": 66.66666666666666
+    },
+    "Houston Dynamo": {
+      "n": 5,
+      "acertos": 3,
+      "erros_total": 4.426520256075529,
+      "acerto_dir": 60.0
+    },
+    "Los Angeles FC": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 2.5586609660192865,
+      "acerto_dir": 50.0
+    },
+    "Sporting Kansas City": {
+      "n": 6,
+      "acertos": 4,
+      "erros_total": 2.498642600681202,
+      "acerto_dir": 66.66666666666666
+    },
+    "Columbus Crew": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 1.7605888941212209,
+      "acerto_dir": 50.0
+    },
+    "Real Salt Lake": {
+      "n": 5,
+      "acertos": 3,
+      "erros_total": 3.421489697939226,
+      "acerto_dir": 60.0
+    },
+    "Seattle Sounders": {
+      "n": 5,
+      "acertos": 3,
+      "erros_total": 2.8415871806522697,
+      "acerto_dir": 60.0
+    },
+    "San Jose Earthquakes": {
+      "n": 6,
+      "acertos": 5,
+      "erros_total": 2.634699843211629,
+      "acerto_dir": 83.33333333333334
+    },
+    "Atlanta Utd": {
+      "n": 6,
+      "acertos": 5,
+      "erros_total": 3.232109316283236,
+      "acerto_dir": 83.33333333333334
+    },
+    "Colorado Rapids": {
+      "n": 6,
+      "acertos": 1,
+      "erros_total": 4.1447358655874496,
+      "acerto_dir": 16.666666666666664
+    },
+    "Portland Timbers": {
+      "n": 6,
+      "acertos": 4,
+      "erros_total": 3.8408216450018173,
+      "acerto_dir": 66.66666666666666
+    },
+    "Minnesota United": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 3.1339379752623264,
+      "acerto_dir": 50.0
+    },
+    "FC Cincinnati": {
+      "n": 6,
+      "acertos": 4,
+      "erros_total": 4.868269016897917,
+      "acerto_dir": 66.66666666666666
+    },
+    "Chicago Fire": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 2.4503133112246274,
+      "acerto_dir": 50.0
+    },
+    "CF Montreal": {
+      "n": 6,
+      "acertos": 5,
+      "erros_total": 4.049980136796187,
+      "acerto_dir": 83.33333333333334
+    },
+    "New York Red Bulls": {
+      "n": 6,
+      "acertos": 4,
+      "erros_total": 3.467914431537573,
+      "acerto_dir": 66.66666666666666
+    },
+    "New England Revolution": {
+      "n": 5,
+      "acertos": 4,
+      "erros_total": 3.0255698661736417,
+      "acerto_dir": 80.0
+    },
+    "San Diego FC": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 3.0748255789857324,
+      "acerto_dir": 50.0
+    },
+    "St. Louis City": {
+      "n": 6,
+      "acertos": 5,
+      "erros_total": 2.1977553525688855,
+      "acerto_dir": 83.33333333333334
+    },
+    "Orlando City": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 2.235318566941832,
+      "acerto_dir": 50.0
+    },
+    "Inter Miami": {
+      "n": 6,
+      "acertos": 1,
+      "erros_total": 2.8223400637730194,
+      "acerto_dir": 16.666666666666664
+    },
+    "Philadelphia Union": {
+      "n": 6,
+      "acertos": 5,
+      "erros_total": 2.2237267998902612,
+      "acerto_dir": 83.33333333333334
+    },
+    "New York City": {
+      "n": 6,
+      "acertos": 1,
+      "erros_total": 3.6205352386169176,
+      "acerto_dir": 16.666666666666664
+    },
+    "Austin FC": {
+      "n": 6,
+      "acertos": 1,
+      "erros_total": 2.0277602923763953,
+      "acerto_dir": 16.666666666666664
+    },
+    "DC United": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 2.8547245562248222,
+      "acerto_dir": 50.0
+    },
+    "Los Angeles Galaxy": {
+      "n": 6,
+      "acertos": 2,
+      "erros_total": 1.9975449299492387,
+      "acerto_dir": 33.33333333333333
+    },
+    "Charlotte": {
+      "n": 6,
+      "acertos": 3,
+      "erros_total": 2.5488675586505876,
+      "acerto_dir": 50.0
+    },
+    "Dortmund": {
+      "n": 29,
+      "acertos": 18,
+      "erros_total": 2.662981208459354,
+      "acerto_dir": 62.06896551724138
+    },
+    "Union Berlin": {
+      "n": 29,
+      "acertos": 17,
+      "erros_total": 2.0083281115118634,
+      "acerto_dir": 58.620689655172406
+    },
+    "FC Koln": {
+      "n": 29,
+      "acertos": 14,
+      "erros_total": 3.1195098647020814,
+      "acerto_dir": 48.275862068965516
+    },
+    "Freiburg": {
+      "n": 29,
+      "acertos": 12,
+      "erros_total": 2.9339484709222505,
+      "acerto_dir": 41.37931034482759
+    },
+    "Wolfsburg": {
+      "n": 29,
+      "acertos": 18,
+      "erros_total": 3.4448026573348045,
+      "acerto_dir": 62.06896551724138
+    },
+    "Mainz": {
+      "n": 29,
+      "acertos": 22,
+      "erros_total": 3.0859076520246735,
+      "acerto_dir": 75.86206896551724
+    },
+    "Bayer Leverkusen": {
+      "n": 28,
+      "acertos": 15,
+      "erros_total": 2.370476021777661,
+      "acerto_dir": 53.57142857142857
+    },
+    "Eintracht Frankfurt": {
+      "n": 28,
+      "acertos": 12,
+      "erros_total": 2.5287508178272495,
+      "acerto_dir": 42.857142857142854
+    },
+    "Bayern Munich": {
+      "n": 29,
+      "acertos": 24,
+      "erros_total": 2.780293452056068,
+      "acerto_dir": 82.75862068965517
+    },
+    "Hamburger SV": {
+      "n": 28,
+      "acertos": 17,
+      "erros_total": 2.5619306910864066,
+      "acerto_dir": 60.71428571428571
+    },
+    "Heidenheim": {
+      "n": 28,
+      "acertos": 13,
+      "erros_total": 3.4559551371932717,
+      "acerto_dir": 46.42857142857143
+    },
+    "RB Leipzig": {
+      "n": 29,
+      "acertos": 15,
+      "erros_total": 3.5687144530154473,
+      "acerto_dir": 51.724137931034484
+    },
+    "Stuttgart": {
+      "n": 28,
+      "acertos": 15,
+      "erros_total": 2.740798923581314,
+      "acerto_dir": 53.57142857142857
+    },
+    "Hoffenheim": {
+      "n": 28,
+      "acertos": 13,
+      "erros_total": 3.2183162110539354,
+      "acerto_dir": 46.42857142857143
+    },
+    "St. Pauli": {
+      "n": 28,
+      "acertos": 18,
+      "erros_total": 2.8488446356732187,
+      "acerto_dir": 64.28571428571429
+    },
+    "Augsburg": {
+      "n": 28,
+      "acertos": 13,
+      "erros_total": 3.2650690855066355,
+      "acerto_dir": 46.42857142857143
+    },
+    "B. Monchengladbach": {
+      "n": 28,
+      "acertos": 15,
+      "erros_total": 2.485121877224593,
+      "acerto_dir": 53.57142857142857
+    },
+    "Werder Bremen": {
+      "n": 28,
+      "acertos": 15,
+      "erros_total": 4.429572254489443,
+      "acerto_dir": 53.57142857142857
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "liga": "Brasileirão Série A 2026",
+  "gerado_em": "2026-04-09",
+  "jogos_analisados": 97,
+  "baseline": {
+    "FT": 10.26,
+    "HT": 4.57,
+    "FT_mandante": 5.55,
+    "FT_visitante": 4.71,
+    "HT_mandante": 2.42,
+    "HT_visitante": 2.14
+  },
+  "perfis_times": {
+    "Vitória": {
+      "jogos_mandante": 4,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.19,
+      "xFT_visitante": 4.26,
+      "xHT_mandante": 1.9,
+      "xHT_visitante": 1.77,
+      "xContra_mandante": 4.62,
+      "xContra_visitante": 5.87,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Remo": {
+      "jogos_mandante": 4,
+      "jogos_visitante": 6,
+      "xFT_mandante": 5.53,
+      "xFT_visitante": 4.05,
+      "xHT_mandante": 2.23,
+      "xHT_visitante": 2.07,
+      "xContra_mandante": 5.84,
+      "xContra_visitante": 5.79,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Internacional": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 6.97,
+      "xFT_visitante": 6.46,
+      "xHT_mandante": 3.21,
+      "xHT_visitante": 2.97,
+      "xContra_mandante": 4.46,
+      "xContra_visitante": 5.07,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Athletico-PR": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.57,
+      "xFT_visitante": 4.16,
+      "xHT_mandante": 2.91,
+      "xHT_visitante": 1.67,
+      "xContra_mandante": 4.36,
+      "xContra_visitante": 5.47,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Coritiba": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 4.17,
+      "xFT_visitante": 4.26,
+      "xHT_mandante": 1.61,
+      "xHT_visitante": 1.77,
+      "xContra_mandante": 5.56,
+      "xContra_visitante": 6.77,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "alertas": []
+    },
+    "Red Bull Bragantino": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.97,
+      "xFT_visitante": 5.06,
+      "xHT_mandante": 2.61,
+      "xHT_visitante": 2.27,
+      "xContra_mandante": 5.76,
+      "xContra_visitante": 5.47,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Atlético-MG": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 4.67,
+      "xFT_visitante": 5.36,
+      "xHT_mandante": 2.31,
+      "xHT_visitante": 1.77,
+      "xContra_mandante": 5.86,
+      "xContra_visitante": 5.37,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Palmeiras": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.47,
+      "xFT_visitante": 4.56,
+      "xHT_mandante": 2.51,
+      "xHT_visitante": 2.07,
+      "xContra_mandante": 4.56,
+      "xContra_visitante": 7.47,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "alertas": []
+    },
+    "Fluminense": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.27,
+      "xFT_visitante": 5.76,
+      "xHT_mandante": 2.41,
+      "xHT_visitante": 3.37,
+      "xContra_mandante": 4.26,
+      "xContra_visitante": 5.27,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Grêmio": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.37,
+      "xFT_visitante": 4.16,
+      "xHT_mandante": 2.71,
+      "xHT_visitante": 1.77,
+      "xContra_mandante": 4.26,
+      "xContra_visitante": 4.57,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Corinthians": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.57,
+      "xFT_visitante": 4.66,
+      "xHT_mandante": 2.21,
+      "xHT_visitante": 1.77,
+      "xContra_mandante": 4.46,
+      "xContra_visitante": 5.87,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Bahia": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 4,
+      "xFT_mandante": 5.77,
+      "xFT_visitante": 4.84,
+      "xHT_mandante": 2.91,
+      "xHT_visitante": 2.75,
+      "xContra_mandante": 4.36,
+      "xContra_visitante": 5.75,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Chapecoense": {
+      "jogos_mandante": 6,
+      "jogos_visitante": 3,
+      "xFT_mandante": 5.52,
+      "xFT_visitante": 4.19,
+      "xHT_mandante": 1.74,
+      "xHT_visitante": 1.84,
+      "xContra_mandante": 5.05,
+      "xContra_visitante": 7.09,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "alertas": []
+    },
+    "Santos": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.37,
+      "xFT_visitante": 5.36,
+      "xHT_mandante": 2.51,
+      "xHT_visitante": 3.07,
+      "xContra_mandante": 4.76,
+      "xContra_visitante": 5.07,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "São Paulo": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 5.97,
+      "xFT_visitante": 5.06,
+      "xHT_mandante": 2.41,
+      "xHT_visitante": 2.37,
+      "xContra_mandante": 4.36,
+      "xContra_visitante": 4.97,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Flamengo": {
+      "jogos_mandante": 4,
+      "jogos_visitante": 5,
+      "xFT_mandante": 4.97,
+      "xFT_visitante": 4.26,
+      "xHT_mandante": 2.35,
+      "xHT_visitante": 1.97,
+      "xContra_mandante": 4.73,
+      "xContra_visitante": 5.17,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Mirassol": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 4,
+      "xFT_mandante": 6.67,
+      "xFT_visitante": 4.95,
+      "xHT_mandante": 2.41,
+      "xHT_visitante": 1.86,
+      "xContra_mandante": 4.36,
+      "xContra_visitante": 4.41,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "COMPACTO",
+      "alertas": []
+    },
+    "Vasco": {
+      "jogos_mandante": 6,
+      "jogos_visitante": 4,
+      "xFT_mandante": 6.07,
+      "xFT_visitante": 4.28,
+      "xHT_mandante": 3.1,
+      "xHT_visitante": 2.08,
+      "xContra_mandante": 3.78,
+      "xContra_visitante": 5.08,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Botafogo": {
+      "jogos_mandante": 3,
+      "jogos_visitante": 6,
+      "xFT_mandante": 4.34,
+      "xFT_visitante": 3.87,
+      "xHT_mandante": 1.89,
+      "xHT_visitante": 1.43,
+      "xContra_mandante": 5.32,
+      "xContra_visitante": 5.16,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    },
+    "Cruzeiro": {
+      "jogos_mandante": 5,
+      "jogos_visitante": 5,
+      "xFT_mandante": 6.07,
+      "xFT_visitante": 4.76,
+      "xHT_mandante": 2.31,
+      "xHT_visitante": 2.27,
+      "xContra_mandante": 3.86,
+      "xContra_visitante": 5.37,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "alertas": []
+    }
+  },
+  "analise_over": {
+    "times_explosivos": []
+  },
+  "analise_under": {
+    "mandantes_compactos": [
+      {
+        "time": "Coritiba",
+        "xFT_M": 4.17
+      },
+      {
+        "time": "Botafogo",
+        "xFT_M": 4.34
+      }
+    ],
+    "visitantes_fortaleza": []
+  }
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>EDS — Comparador de Navegação</title>
+<style>
+  :root {
+    --bg:#0a0f0d; --bg2:#111a14; --bg3:#162019;
+    --green:#34d367; --green2:#22c55e; --gold:#f59e0b; --gold2:#fbbf24;
+    --red:#ef4444; --text:#e6f4ea; --muted:#6b8f79;
+    --border:rgba(52,211,103,0.15); --card:#0f1814;
+  }
+  * { box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:'Inter','Segoe UI',system-ui,sans-serif; margin:0; padding:2rem; line-height:1.4; }
+  .wrap { max-width:1400px; margin:0 auto; }
+
+  h1 { color:var(--green); text-align:center; font-size:2rem; margin:0 0 .3rem; letter-spacing:1px; }
+  .sub { text-align:center; color:var(--muted); font-size:.95rem; margin-bottom:.5rem; }
+  .pitch { text-align:center; color:var(--gold); font-size:.85rem; margin-bottom:2rem; font-weight:600; }
+
+  .legenda { background:var(--bg3); border:1px solid var(--border); border-radius:10px; padding:1rem 1.4rem; margin-bottom:2rem; font-size:.85rem; color:var(--muted); }
+  .legenda strong { color:var(--green); }
+
+  .forma { background:var(--bg2); border:1px solid var(--border); border-radius:14px; margin-bottom:2.5rem; overflow:hidden; }
+  .forma.recom { border:2px solid var(--green); box-shadow:0 0 30px rgba(52,211,103,0.15); }
+
+  .forma-titulo { padding:1.2rem 1.5rem; background:var(--bg3); border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:.5rem; }
+  .forma-titulo h2 { margin:0; color:var(--text); font-size:1.15rem; font-weight:800; }
+  .forma-titulo h2 .badge { background:var(--green); color:#000; padding:.15rem .6rem; border-radius:5px; font-size:.65rem; font-weight:900; margin-left:.5rem; vertical-align:middle; }
+  .forma-titulo h2 .badge-bad { background:var(--red); color:#fff; }
+  .forma-titulo .desc { color:var(--muted); font-size:.8rem; }
+
+  /* ── Mockup do app real ──────────────────────────────────────── */
+  .app-mockup { background:var(--bg); padding:0; }
+  .header-fake { background:linear-gradient(135deg,var(--bg3),var(--bg2)); padding:.8rem 1.2rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:.8rem; }
+  .logo-fake { font-size:1.4rem; }
+  .titulo-fake { font-weight:800; color:var(--text); font-size:.95rem; }
+  .liga-fake { background:var(--bg3); color:var(--gold); border:1px solid var(--border); padding:.25rem .7rem; border-radius:6px; font-size:.75rem; font-weight:700; margin-left:auto; }
+
+  /* Botões de nav (estilo real do app) */
+  .nav-fake { background:var(--bg2); border-bottom:1px solid var(--border); padding:.5rem 1rem; display:flex; flex-wrap:wrap; gap:.4rem; }
+  .nav-fake button {
+    background:transparent; border:1px solid var(--border); color:var(--muted);
+    padding:.45rem .85rem; border-radius:6px; font-size:.78rem; font-weight:700;
+    cursor:pointer; transition:all .15s; font-family:inherit;
+  }
+  .nav-fake button:hover { border-color:var(--green); color:var(--green); }
+  .nav-fake button.active { background:var(--green); color:#000; border-color:var(--green); }
+  .nav-fake button.special { background:linear-gradient(135deg,rgba(139,92,246,0.15),rgba(88,28,235,0.15)); border-color:rgba(139,92,246,0.4); color:#a78bfa; }
+  .nav-fake button.audit { background:linear-gradient(135deg,rgba(52,211,103,0.15),rgba(34,197,94,0.15)); border-color:rgba(52,211,103,0.4); color:var(--green); }
+
+  .conteudo-fake {
+    background:var(--bg); padding:2rem; min-height:160px;
+    display:flex; align-items:center; justify-content:center;
+    color:var(--muted); font-size:.95rem; text-align:center;
+  }
+  .conteudo-fake .selecionado { color:var(--green); font-weight:800; font-size:1.4rem; }
+  .conteudo-fake .grupo { color:var(--gold); font-size:.75rem; margin-top:.4rem; }
+
+  /* ── Forma 1: Dropdown ─────────────────────────────────────── */
+  .nav-dropdown { padding:.6rem 1rem; }
+  .nav-dropdown .dd-btn {
+    background:var(--bg3); color:var(--text); border:1px solid var(--border);
+    padding:.6rem 1.1rem; border-radius:6px; font-size:.85rem; font-weight:700;
+    cursor:pointer; margin-right:.5rem; transition:all .15s; font-family:inherit;
+  }
+  .nav-dropdown .dd-btn:hover { border-color:var(--green); }
+  .nav-dropdown .dd-btn.open { background:var(--green); color:#000; border-color:var(--green); }
+  .nav-dropdown .dd-menu {
+    display:none; position:relative; background:var(--bg3); border:1px solid var(--green);
+    border-radius:8px; padding:.5rem; margin-top:.5rem; gap:.3rem; flex-wrap:wrap;
+    box-shadow:0 8px 25px rgba(0,0,0,0.5);
+  }
+  .nav-dropdown .dd-menu.open { display:flex; }
+
+  /* ── Forma 2: Tabs + sub-nav ─────────────────────────────────── */
+  .nav-tabs-grupo { background:var(--bg3); padding:0 1rem; display:flex; gap:.2rem; border-bottom:1px solid var(--border); flex-wrap:wrap; }
+  .nav-tabs-grupo .tab-grupo {
+    background:transparent; color:var(--muted); border:none; border-bottom:3px solid transparent;
+    padding:.85rem 1.2rem; font-size:.85rem; font-weight:800; cursor:pointer;
+    transition:all .15s; font-family:inherit;
+  }
+  .nav-tabs-grupo .tab-grupo:hover { color:var(--text); }
+  .nav-tabs-grupo .tab-grupo.active { color:var(--green); border-bottom-color:var(--green); background:rgba(52,211,103,0.05); }
+  .nav-subnav { background:var(--bg2); padding:.55rem 1rem; display:flex; gap:.4rem; flex-wrap:wrap; border-bottom:1px solid var(--border); }
+  .nav-subnav button {
+    background:transparent; border:1px solid var(--border); color:var(--muted);
+    padding:.4rem .8rem; border-radius:5px; font-size:.75rem; font-weight:700;
+    cursor:pointer; transition:all .15s; font-family:inherit;
+  }
+  .nav-subnav button:hover { border-color:var(--green); color:var(--green); }
+  .nav-subnav button.active { background:var(--green); color:#000; border-color:var(--green); }
+
+  /* ── Forma 3: Pin + Mais ─────────────────────────────────────── */
+  .nav-mais-btn {
+    background:var(--bg3); border:1px dashed var(--border); color:var(--gold);
+    padding:.45rem .85rem; border-radius:6px; font-size:.78rem; font-weight:700;
+    cursor:pointer; transition:all .15s; font-family:inherit;
+  }
+  .nav-mais-btn:hover { border-color:var(--gold); border-style:solid; }
+  .nav-mais-popup {
+    display:none; position:relative; background:var(--bg3); border:1px solid var(--gold);
+    border-radius:8px; padding:.6rem; margin:0 1rem .5rem; flex-wrap:wrap; gap:.4rem;
+    box-shadow:0 8px 25px rgba(245,158,11,0.2);
+  }
+  .nav-mais-popup.open { display:flex; }
+  .nav-mais-popup .titulo { width:100%; color:var(--gold); font-size:.7rem; font-weight:800; text-transform:uppercase; letter-spacing:.5px; margin-bottom:.3rem; }
+
+  /* ── Forma 4: Sidebar ────────────────────────────────────────── */
+  .layout-sidebar { display:flex; min-height:340px; }
+  .sidebar-fake {
+    width:240px; background:var(--bg2); border-right:1px solid var(--border);
+    padding:1rem 0; flex-shrink:0;
+  }
+  .sidebar-fake .sb-section-title {
+    padding:.4rem 1rem .2rem; font-size:.65rem; color:var(--gold);
+    font-weight:900; text-transform:uppercase; letter-spacing:1px;
+  }
+  .sidebar-fake .sb-item {
+    display:flex; align-items:center; gap:.5rem; padding:.5rem 1rem;
+    color:var(--muted); cursor:pointer; transition:all .15s; font-size:.83rem;
+    border-left:3px solid transparent;
+  }
+  .sidebar-fake .sb-item:hover { background:rgba(52,211,103,0.05); color:var(--text); }
+  .sidebar-fake .sb-item.active { background:rgba(52,211,103,0.15); color:var(--green); border-left-color:var(--green); font-weight:800; }
+  .sidebar-fake .divider { height:1px; background:var(--border); margin:.6rem 0; }
+  .conteudo-side { flex:1; padding:2rem; display:flex; align-items:center; justify-content:center; color:var(--muted); }
+
+  /* ── Análise embaixo de cada forma ──────────────────────────── */
+  .analise { padding:1.2rem 1.5rem; background:var(--bg3); display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; border-top:1px solid var(--border); }
+  .analise .col h4 { margin:0 0 .5rem; font-size:.78rem; font-weight:900; text-transform:uppercase; letter-spacing:.5px; }
+  .analise .col.pros h4 { color:var(--green); }
+  .analise .col.cons h4 { color:var(--red); }
+  .analise ul { margin:0; padding-left:1.2rem; font-size:.82rem; color:var(--text); }
+  .analise li { margin-bottom:.3rem; }
+
+  @media (max-width:800px) {
+    body { padding:1rem; }
+    .analise { grid-template-columns:1fr; }
+    .layout-sidebar { flex-direction:column; }
+    .sidebar-fake { width:100%; }
+  }
+
+  /* ── Caixa de decisão final ─────────────────────────────────── */
+  .decisao {
+    background:linear-gradient(135deg,rgba(52,211,103,0.10),rgba(245,158,11,0.05));
+    border:2px solid var(--green); border-radius:14px; padding:1.5rem; text-align:center;
+    margin-top:2rem;
+  }
+  .decisao h3 { margin:0 0 .8rem; color:var(--green); font-size:1.1rem; }
+  .decisao p { color:var(--text); font-size:.9rem; margin-bottom:1rem; }
+  .decisao .formas-decisao { display:flex; gap:.6rem; justify-content:center; flex-wrap:wrap; }
+  .decisao button {
+    background:transparent; border:1px solid var(--green); color:var(--green);
+    padding:.7rem 1.3rem; border-radius:8px; font-weight:800; font-size:.85rem;
+    cursor:pointer; transition:all .15s; font-family:inherit;
+  }
+  .decisao button:hover { background:var(--green); color:#000; }
+  .decisao button.recom { background:var(--green); color:#000; }
+  .decisao button.recom:hover { background:var(--green2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎨 EDS — Comparador de Navegação</h1>
+  <div class="sub">4 formas de reorganizar os 13 botões da nav atual</div>
+  <div class="pitch">💡 Cliques abaixo são interativos — teste o feeling de cada uma</div>
+
+  <div class="legenda">
+    📋 <strong>Estado atual</strong>: 13 botões em fila no topo
+    (Dashboard · Ranking · Bala de Prata · Cisne Negro · Por Time · Projeção · Adicionar · Próximos · Teacher · Tracker · Apostas · Enigma · Auditoria).
+    <br><br>
+    Cada forma abaixo é um <strong>protótipo funcional</strong> — clique nos botões pra ver o comportamento real.
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FORMA 1 — DROPDOWN CLÁSSICO
+  ════════════════════════════════════════════════════════════ -->
+  <div class="forma">
+    <div class="forma-titulo">
+      <h2>🅰️ Forma 1 — Dropdown clássico <span class="badge badge-bad">NÃO RECOMENDO</span></h2>
+      <div class="desc">4 grupos como dropdowns — esconde tudo</div>
+    </div>
+    <div class="app-mockup">
+      <div class="header-fake">
+        <span class="logo-fake">🎯</span>
+        <span class="titulo-fake">Especialista em Cantos</span>
+        <span class="liga-fake">🇧🇷 BR</span>
+      </div>
+      <div class="nav-dropdown">
+        <button class="dd-btn" onclick="toggleDD('dd1', this)">📊 Visão Geral ▼</button>
+        <button class="dd-btn" onclick="toggleDD('dd2', this)">🎯 Análise Pré-Jogo ▼</button>
+        <button class="dd-btn" onclick="toggleDD('dd3', this)">📈 Operação ▼</button>
+        <button class="dd-btn" onclick="toggleDD('dd4', this)">🔍 Auditoria ▼</button>
+        <div id="dd1" class="dd-menu"><button onclick="setView1('Dashboard','Visão Geral')">📊 Dashboard</button><button onclick="setView1('Ranking','Visão Geral')">🏆 Ranking</button><button onclick="setView1('Por Time','Visão Geral')">👕 Por Time</button></div>
+        <div id="dd2" class="dd-menu"><button onclick="setView1('Adicionar','Análise')">📥 Adicionar</button><button onclick="setView1('Próximos','Análise')">📅 Próximos</button><button onclick="setView1('Teacher','Análise')">🏗️ Teacher</button><button onclick="setView1('Bala de Prata','Análise')">🐺 Bala</button><button onclick="setView1('Cisne Negro','Análise')">🦢 Cisne</button><button onclick="setView1('Enigma','Análise')">🔮 Enigma</button><button onclick="setView1('Projeção','Análise')">🔮 Projeção</button></div>
+        <div id="dd3" class="dd-menu"><button onclick="setView1('Tracker','Operação')">📈 Tracker</button><button onclick="setView1('Apostas','Operação')">🎰 Apostas</button></div>
+        <div id="dd4" class="dd-menu"><button onclick="setView1('Auditoria','Auditoria')">🔍 Auditoria</button></div>
+      </div>
+      <div class="conteudo-fake">
+        <div>
+          <div>Você está vendo:</div>
+          <div class="selecionado" id="view1-text">Dashboard</div>
+          <div class="grupo">grupo: <span id="view1-grupo">Visão Geral</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="analise">
+      <div class="col pros"><h4>✅ Pros</h4><ul>
+        <li>Visualmente limpo (só 4 botões na nav)</li>
+        <li>Profissional pra investidor</li>
+      </ul></div>
+      <div class="col cons"><h4>❌ Contras</h4><ul>
+        <li>Esconde 13 itens atrás de cliques extras</li>
+        <li>Operador novo não descobre features</li>
+        <li>2 cliques pra cada navegação</li>
+        <li>Você falou: "não vai deixar o usuário sem saber onde procurar?"</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FORMA 2 — TABS + SUB-NAV (RECOMENDADA)
+  ════════════════════════════════════════════════════════════ -->
+  <div class="forma recom">
+    <div class="forma-titulo">
+      <h2>🅱️ Forma 2 — Tabs + sub-nav contextual <span class="badge">RECOMENDADA</span></h2>
+      <div class="desc">Tabs de grupo no topo, sub-nav com TUDO sempre visível</div>
+    </div>
+    <div class="app-mockup">
+      <div class="header-fake">
+        <span class="logo-fake">🎯</span>
+        <span class="titulo-fake">Especialista em Cantos</span>
+        <span class="liga-fake">🇧🇷 BR</span>
+      </div>
+      <div class="nav-tabs-grupo">
+        <button class="tab-grupo active" onclick="setGrupo2('visao')" id="g2-visao">📊 Visão Geral</button>
+        <button class="tab-grupo" onclick="setGrupo2('analise')" id="g2-analise">🎯 Análise Pré-Jogo</button>
+        <button class="tab-grupo" onclick="setGrupo2('operacao')" id="g2-operacao">📈 Operação</button>
+        <button class="tab-grupo" onclick="setGrupo2('auditoria')" id="g2-auditoria">🔍 Auditoria</button>
+      </div>
+      <div class="nav-subnav" id="g2-subnav">
+        <button class="active" onclick="setView2('Dashboard')">📊 Dashboard</button>
+        <button onclick="setView2('Ranking Times')">🏆 Ranking</button>
+        <button onclick="setView2('Por Time')">👕 Por Time</button>
+      </div>
+      <div class="conteudo-fake">
+        <div>
+          <div>Você está vendo:</div>
+          <div class="selecionado" id="view2-text">Dashboard</div>
+          <div class="grupo">visível na sub-nav · 1 clique pra qualquer view do mesmo grupo</div>
+        </div>
+      </div>
+    </div>
+    <div class="analise">
+      <div class="col pros"><h4>✅ Pros</h4><ul>
+        <li>Sub-nav <strong>sempre visível</strong> — zero esconderijo dentro do grupo</li>
+        <li>1 clique pra qualquer view do mesmo grupo (igual hoje)</li>
+        <li>Hierarquia clara → ajuda quem é novo</li>
+        <li>Visual moderno e profissional</li>
+      </ul></div>
+      <div class="col cons"><h4>⚠️ Contras</h4><ul>
+        <li>Pra ir entre grupos diferentes: 2 cliques (ex: Teacher → Tracker)</li>
+        <li>Em mobile: sub-nav vira lista rolável horizontal</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FORMA 3 — PIN ESSENCIAIS + "MAIS"
+  ════════════════════════════════════════════════════════════ -->
+  <div class="forma">
+    <div class="forma-titulo">
+      <h2>🅲 Forma 3 — Pin essenciais + "Mais"</h2>
+      <div class="desc">5 botões mais usados sempre visíveis · resto atrás de "⋯ Mais"</div>
+    </div>
+    <div class="app-mockup">
+      <div class="header-fake">
+        <span class="logo-fake">🎯</span>
+        <span class="titulo-fake">Especialista em Cantos</span>
+        <span class="liga-fake">🇧🇷 BR</span>
+      </div>
+      <div class="nav-fake">
+        <button class="active" onclick="setView3('Adicionar Jogos','principal')">📥 Adicionar</button>
+        <button onclick="setView3('Próximos Jogos','principal')">📅 Próximos</button>
+        <button onclick="setView3('Projeção Teacher','principal')">🏗️ Teacher</button>
+        <button class="special" onclick="setView3('ENIGMA','principal')">🔮 Enigma</button>
+        <button class="audit" onclick="setView3('Auditoria','principal')">🔍 Auditoria</button>
+        <button class="nav-mais-btn" onclick="toggleMais()">⋯ Mais</button>
+      </div>
+      <div class="nav-mais-popup" id="mais-popup">
+        <div class="titulo">📦 Outras views (uso esporádico)</div>
+        <button onclick="setView3('Dashboard','secundário')">📊 Dashboard</button>
+        <button onclick="setView3('Ranking Times','secundário')">🏆 Ranking</button>
+        <button onclick="setView3('Por Time','secundário')">👕 Por Time</button>
+        <button onclick="setView3('Projeção Jogo','secundário')">🔮 Projeção</button>
+        <button onclick="setView3('Bala de Prata','secundário')">🐺 Bala</button>
+        <button onclick="setView3('Cisne Negro','secundário')">🦢 Cisne</button>
+        <button onclick="setView3('Bet Tracker','secundário')">📈 Tracker</button>
+        <button onclick="setView3('Apostas Reais','secundário')">🎰 Apostas</button>
+      </div>
+      <div class="conteudo-fake">
+        <div>
+          <div>Você está vendo:</div>
+          <div class="selecionado" id="view3-text">Adicionar Jogos</div>
+          <div class="grupo">acesso: <span id="view3-tipo">principal (1 clique)</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="analise">
+      <div class="col pros"><h4>✅ Pros</h4><ul>
+        <li>1 clique pros 5 que você usa 90% do tempo</li>
+        <li>Nav limpa visualmente</li>
+        <li>Funciona bem em mobile</li>
+      </ul></div>
+      <div class="col cons"><h4>⚠️ Contras</h4><ul>
+        <li>Cisne Negro + Bala de Prata ficam "secundários" → você usa elas direto</li>
+        <li>Operador novo não vê as 8 features escondidas</li>
+        <li>Decisão sobre o que é "principal" pode envelhecer mal</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FORMA 4 — SIDEBAR LATERAL
+  ════════════════════════════════════════════════════════════ -->
+  <div class="forma">
+    <div class="forma-titulo">
+      <h2>🅳 Forma 4 — Sidebar lateral fixa</h2>
+      <div class="desc">Estilo Notion/Linear · TODOS os 13 itens visíveis sempre</div>
+    </div>
+    <div class="app-mockup">
+      <div class="header-fake">
+        <span class="logo-fake">🎯</span>
+        <span class="titulo-fake">Especialista em Cantos</span>
+        <span class="liga-fake">🇧🇷 BR</span>
+      </div>
+      <div class="layout-sidebar">
+        <div class="sidebar-fake">
+          <div class="sb-section-title">📊 Visão Geral</div>
+          <div class="sb-item active" onclick="setView4(this,'Dashboard')">📊 Dashboard</div>
+          <div class="sb-item" onclick="setView4(this,'Ranking Times')">🏆 Ranking Times</div>
+          <div class="sb-item" onclick="setView4(this,'Por Time')">👕 Por Time</div>
+
+          <div class="divider"></div>
+          <div class="sb-section-title">🎯 Análise Pré-Jogo</div>
+          <div class="sb-item" onclick="setView4(this,'Adicionar Jogos')">📥 Adicionar Jogos</div>
+          <div class="sb-item" onclick="setView4(this,'Próximos Jogos')">📅 Próximos Jogos</div>
+          <div class="sb-item" onclick="setView4(this,'Projeção Teacher')">🏗️ Teacher</div>
+          <div class="sb-item" onclick="setView4(this,'Bala de Prata')">🐺 Bala de Prata</div>
+          <div class="sb-item" onclick="setView4(this,'Cisne Negro')">🦢 Cisne Negro</div>
+          <div class="sb-item" onclick="setView4(this,'ENIGMA')">🔮 Enigma</div>
+          <div class="sb-item" onclick="setView4(this,'Projeção de Jogo')">🔍 Projeção</div>
+
+          <div class="divider"></div>
+          <div class="sb-section-title">📈 Operação</div>
+          <div class="sb-item" onclick="setView4(this,'Bet Tracker')">📈 Bet Tracker</div>
+          <div class="sb-item" onclick="setView4(this,'Apostas Reais')">🎰 Apostas Reais</div>
+
+          <div class="divider"></div>
+          <div class="sb-section-title">🔍 Auditoria</div>
+          <div class="sb-item" onclick="setView4(this,'Auditoria')">🔍 Auditoria</div>
+        </div>
+        <div class="conteudo-side">
+          <div style="text-align:center;">
+            <div style="color:var(--muted);">Você está vendo:</div>
+            <div class="selecionado" id="view4-text">Dashboard</div>
+            <div class="grupo" style="color:var(--gold);font-size:.75rem;margin-top:.5rem;">todas as 13 views visíveis sempre · zero esconderijo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="analise">
+      <div class="col pros"><h4>✅ Pros</h4><ul>
+        <li><strong>TODAS as 13 views visíveis o tempo todo</strong> — zero confusão</li>
+        <li>Hierarquia visual clara (títulos de seção)</li>
+        <li>Estilo "produto sério 2026" (Linear, Notion, Cursor)</li>
+        <li>Onboarding perfeito pra novo usuário</li>
+      </ul></div>
+      <div class="col cons"><h4>⚠️ Contras</h4><ul>
+        <li>Ocupa ~240px da largura do PC (área útil ↓)</li>
+        <li>Em celular: vira menu hambúrguer (volta a esconder)</li>
+        <li>Mudança grande de layout — você pode estranhar no início</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       DECISÃO FINAL
+  ════════════════════════════════════════════════════════════ -->
+  <div class="decisao">
+    <h3>🎯 Já decidiu, Comandante?</h3>
+    <p>Brincou com as 4 formas? Cada botão acima é interativo — clique pra sentir. Quando quiser, me diga no chat.</p>
+    <div class="formas-decisao">
+      <button onclick="alert('No chat: \\'vamos com a Forma 1 (dropdown)\\'')">🅰️ Forma 1</button>
+      <button class="recom" onclick="alert('No chat: \\'vamos com a Forma 2 (tabs+subnav)\\' — minha recomendação')">🅱️ Forma 2 ⭐</button>
+      <button onclick="alert('No chat: \\'vamos com a Forma 3 (pin+mais)\\'')">🅲 Forma 3</button>
+      <button onclick="alert('No chat: \\'vamos com a Forma 4 (sidebar)\\'')">🅳 Forma 4</button>
+      <button onclick="alert('No chat: \\'deixa pra depois, fica como tá\\'')" style="border-color:var(--gold);color:var(--gold);">⏸️ Adiar</button>
+    </div>
+    <p style="margin-top:1rem;font-size:.78rem;color:var(--muted);">
+      💡 Dica: independente da escolha, o <strong>Cmd+K (Q3)</strong> resolve qualquer ansiedade de navegação — digite 3 letras e pula.
+    </p>
+  </div>
+</div>
+
+<script>
+// ═══ FORMA 1 — DROPDOWN ═══
+function toggleDD(id, btn) {
+  // Fecha todos os outros
+  document.querySelectorAll('.dd-menu').forEach(m => { if (m.id !== id) m.classList.remove('open'); });
+  document.querySelectorAll('.dd-btn').forEach(b => { if (b !== btn) b.classList.remove('open'); });
+  document.getElementById(id).classList.toggle('open');
+  btn.classList.toggle('open');
+}
+function setView1(view, grupo) {
+  document.getElementById('view1-text').textContent = view;
+  document.getElementById('view1-grupo').textContent = grupo;
+  document.querySelectorAll('.dd-menu').forEach(m => m.classList.remove('open'));
+  document.querySelectorAll('.dd-btn').forEach(b => b.classList.remove('open'));
+}
+
+// ═══ FORMA 2 — TABS + SUB-NAV ═══
+const GRUPOS_2 = {
+  visao:     [['Dashboard','📊'],['Ranking Times','🏆'],['Por Time','👕']],
+  analise:   [['Adicionar Jogos','📥'],['Próximos Jogos','📅'],['Teacher','🏗️'],['Bala de Prata','🐺'],['Cisne Negro','🦢'],['Enigma','🔮'],['Projeção Jogo','🔍']],
+  operacao:  [['Bet Tracker','📈'],['Apostas Reais','🎰']],
+  auditoria: [['Auditoria Cross-Liga','🔍']]
+};
+function setGrupo2(grupo) {
+  document.querySelectorAll('.tab-grupo').forEach(b => b.classList.remove('active'));
+  document.getElementById('g2-' + grupo).classList.add('active');
+  const sub = document.getElementById('g2-subnav');
+  sub.innerHTML = GRUPOS_2[grupo].map((it, i) =>
+    `<button class="${i===0?'active':''}" onclick="setView2FromGrupo(this, '${it[0].replace(/'/g,"\\'")}')">${it[1]} ${it[0]}</button>`
+  ).join('');
+  // Auto-seleciona primeiro
+  setView2(GRUPOS_2[grupo][0][0]);
+}
+function setView2FromGrupo(btn, view) {
+  document.querySelectorAll('#g2-subnav button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  setView2(view);
+}
+function setView2(view) {
+  document.getElementById('view2-text').textContent = view;
+}
+
+// ═══ FORMA 3 — PIN + MAIS ═══
+function toggleMais() {
+  document.getElementById('mais-popup').classList.toggle('open');
+}
+function setView3(view, tipo) {
+  document.getElementById('view3-text').textContent = view;
+  document.getElementById('view3-tipo').textContent = tipo === 'principal' ? 'principal (1 clique)' : 'secundário (2 cliques via "Mais")';
+  document.getElementById('mais-popup').classList.remove('open');
+  document.querySelectorAll('.nav-fake button').forEach(b => b.classList.remove('active'));
+  // Marca o botão clicado se for principal
+  if (tipo === 'principal') {
+    document.querySelectorAll('.nav-fake button').forEach(b => {
+      if (b.textContent.includes(view.split(' ')[0])) b.classList.add('active');
+    });
+  }
+}
+
+// ═══ FORMA 4 — SIDEBAR ═══
+function setView4(el, view) {
+  el.parentElement.querySelectorAll('.sb-item').forEach(i => i.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('view4-text').textContent = view;
+}
+</script>
+</body>
+</html>

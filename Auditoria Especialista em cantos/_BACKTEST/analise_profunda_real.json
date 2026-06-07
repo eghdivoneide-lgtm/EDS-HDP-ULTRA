@@ -1,0 +1,7878 @@
+{
+  "BR": [
+    {
+      "jogo": "Atlético-MG × Mirassol",
+      "liga": "BR",
+      "ps": {
+        "M": 32.5,
+        "V": 7.5,
+        "catM": "MEDIO_FRACO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 5,
+      "xFT": 10.08,
+      "xHT": 3.46,
+      "over95Real": 3,
+      "under95Real": 2,
+      "over95Pct": 60,
+      "h2h": null,
+      "assM": [],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-27",
+          "adv": "Remo",
+          "ps": 12.5,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-22",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-25",
+          "adv": "Remo",
+          "ps": 12.5,
+          "pro": 4,
+          "sof": 4,
+          "total": 8,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Internacional",
+          "ps": 62.5,
+          "pro": 2,
+          "sof": 11,
+          "total": 13,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Internacional × Vasco",
+      "liga": "BR",
+      "ps": {
+        "M": 62.5,
+        "V": 47.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 10,
+      "xFT": 9.67,
+      "xHT": 4.41,
+      "over95Real": 5,
+      "under95Real": 5,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-02",
+          "adv": "Bahia",
+          "ps": 72.5,
+          "pro": 7,
+          "sof": 1,
+          "total": 8,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "São Paulo",
+          "ps": 77.5,
+          "pro": 2,
+          "sof": 11,
+          "total": 13,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Grêmio",
+          "ps": 37.5,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-30",
+          "adv": "Santos",
+          "ps": 42.5,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Flamengo",
+          "ps": 92.5,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Fluminense × São Paulo",
+      "liga": "BR",
+      "ps": {
+        "M": 87.5,
+        "V": 77.5,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 9,
+      "xFT": 8.47,
+      "xHT": 3.95,
+      "over95Real": 4,
+      "under95Real": 5,
+      "over95Pct": 44,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "ELITE_KILLER",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-27",
+          "adv": "Botafogo",
+          "ps": 67.5,
+          "pro": 4,
+          "sof": 0,
+          "total": 4,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Athletico-PR",
+          "ps": 82.5,
+          "pro": 7,
+          "sof": 1,
+          "total": 8,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Flamengo",
+          "ps": 92.5,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-02",
+          "adv": "Red Bull Bragantino",
+          "ps": 57.5,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "Internacional",
+          "ps": 62.5,
+          "pro": 11,
+          "sof": 2,
+          "total": 13,
+          "ht": 6,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Palmeiras × Cruzeiro",
+      "liga": "BR",
+      "ps": {
+        "M": 97.5,
+        "V": 22.5,
+        "catM": "ELITE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 9,
+      "xFT": 10.36,
+      "xHT": 5.21,
+      "over95Real": 8,
+      "under95Real": 1,
+      "over95Pct": 89,
+      "h2h": null,
+      "assM": [
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-04",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Mirassol",
+          "ps": 7.5,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Grêmio",
+          "ps": 37.5,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Santos",
+          "ps": 42.5,
+          "pro": 9,
+          "sof": 4,
+          "total": 13,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-25",
+          "adv": "Botafogo",
+          "ps": 67.5,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-31",
+          "adv": "Flamengo",
+          "ps": 92.5,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-03",
+          "adv": "Athletico-PR",
+          "ps": 82.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-08",
+          "adv": "São Paulo",
+          "ps": 77.5,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Bahia",
+          "ps": 72.5,
+          "pro": 8,
+          "sof": 6,
+          "total": 14,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Santos × Coritiba",
+      "liga": "BR",
+      "ps": {
+        "M": 42.5,
+        "V": 27.5,
+        "catM": "MEDIO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 14,
+      "xFT": 9.96,
+      "xHT": 6.42,
+      "over95Real": 10,
+      "under95Real": 4,
+      "over95Pct": 71,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-30",
+          "adv": "Vasco",
+          "ps": 47.5,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Corinthians",
+          "ps": 17.5,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Remo",
+          "ps": 12.5,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Atlético-MG",
+          "ps": 32.5,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 5,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "Red Bull Bragantino",
+          "ps": 57.5,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-26",
+          "adv": "Cruzeiro",
+          "ps": 22.5,
+          "pro": 2,
+          "sof": 12,
+          "total": 14,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-31",
+          "adv": "Corinthians",
+          "ps": 17.5,
+          "pro": 6,
+          "sof": 8,
+          "total": 14,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Botafogo",
+          "ps": 67.5,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Grêmio",
+          "ps": 37.5,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Bahia × Grêmio",
+      "liga": "BR",
+      "ps": {
+        "M": 72.5,
+        "V": 37.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 10,
+      "xFT": 9.41,
+      "xHT": 3.82,
+      "over95Real": 6,
+      "under95Real": 4,
+      "over95Pct": 60,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-11",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-03",
+          "adv": "Red Bull Bragantino",
+          "ps": 57.5,
+          "pro": 7,
+          "sof": 7,
+          "total": 14,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Santos",
+          "ps": 42.5,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Cruzeiro",
+          "ps": 22.5,
+          "pro": 6,
+          "sof": 8,
+          "total": 14,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-23",
+          "adv": "Fluminense",
+          "ps": 87.5,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-27",
+          "adv": "São Paulo",
+          "ps": 77.5,
+          "pro": 3,
+          "sof": 3,
+          "total": 6,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Vasco",
+          "ps": 47.5,
+          "pro": 2,
+          "sof": 0,
+          "total": 2,
+          "ht": 0,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Palmeiras",
+          "ps": 97.5,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Internacional",
+          "ps": 62.5,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Athletico-PR",
+          "ps": 82.5,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Botafogo × Corinthians",
+      "liga": "BR",
+      "ps": {
+        "M": 67.5,
+        "V": 17.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 8,
+      "xFT": 11.11,
+      "xHT": 5.89,
+      "over95Real": 6,
+      "under95Real": 2,
+      "over95Pct": 75,
+      "h2h": null,
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-25",
+          "adv": "Cruzeiro",
+          "ps": 22.5,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Mirassol",
+          "ps": 7.5,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Coritiba",
+          "ps": 27.5,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Remo",
+          "ps": 12.5,
+          "pro": 9,
+          "sof": 6,
+          "total": 15,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-29",
+          "adv": "Athletico-PR",
+          "ps": 82.5,
+          "pro": 0,
+          "sof": 8,
+          "total": 8,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Santos",
+          "ps": 42.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Fluminense",
+          "ps": 87.5,
+          "pro": 10,
+          "sof": 8,
+          "total": 18,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Red Bull Bragantino × Vitória",
+      "liga": "BR",
+      "ps": {
+        "M": 57.5,
+        "V": 52.5,
+        "catM": "MEDIO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 12,
+      "xFT": 11.13,
+      "xHT": 4.47,
+      "over95Real": 7,
+      "under95Real": 5,
+      "over95Pct": 58,
+      "h2h": null,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "ESTAVEL",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-25",
+          "adv": "Atlético-MG",
+          "ps": 32.5,
+          "pro": 6,
+          "sof": 12,
+          "total": 18,
+          "ht": 3,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-30",
+          "adv": "Athletico-PR",
+          "ps": 82.5,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "São Paulo",
+          "ps": 77.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Botafogo",
+          "ps": 67.5,
+          "pro": 11,
+          "sof": 6,
+          "total": 17,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-11",
+          "adv": "Bahia",
+          "ps": 72.5,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-19",
+          "adv": "Grêmio",
+          "ps": 37.5,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Athletico-PR",
+          "ps": 82.5,
+          "pro": 4,
+          "sof": 4,
+          "total": 8,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Fluminense",
+          "ps": 87.5,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Chapecoense × Remo",
+      "liga": "BR",
+      "ps": {
+        "M": 2.5,
+        "V": 12.5,
+        "catM": "AZARAO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 10,
+      "xFT": 10.71,
+      "xHT": 2.68,
+      "over95Real": 9,
+      "under95Real": 1,
+      "over95Pct": 90,
+      "h2h": null,
+      "assM": [
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-23",
+          "adv": "Santos",
+          "ps": 42.5,
+          "pro": 1,
+          "sof": 14,
+          "total": 15,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-27",
+          "adv": "Coritiba",
+          "ps": 27.5,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Grêmio",
+          "ps": 37.5,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-03",
+          "adv": "Corinthians",
+          "ps": 17.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 0,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Atlético-MG",
+          "ps": 32.5,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-27",
+          "adv": "Atlético-MG",
+          "ps": 32.5,
+          "pro": 5,
+          "sof": 6,
+          "total": 11,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Coritiba",
+          "ps": 27.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Athletico-PR × Flamengo",
+      "liga": "BR",
+      "ps": {
+        "M": 82.5,
+        "V": 92.5,
+        "catM": "ELITE",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 7,
+      "xFT": 8.77,
+      "xHT": 4.95,
+      "over95Real": 2,
+      "under95Real": 5,
+      "over95Pct": 29,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-06",
+          "adv": "Botafogo",
+          "ps": 67.5,
+          "pro": 1,
+          "sof": 8,
+          "total": 9,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-10",
+          "adv": "Vitória",
+          "ps": 52.5,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-23",
+          "adv": "São Paulo",
+          "ps": 77.5,
+          "pro": 6,
+          "sof": 2,
+          "total": 8,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-02",
+          "adv": "Botafogo",
+          "ps": 67.5,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-07",
+          "adv": "Red Bull Bragantino",
+          "ps": 57.5,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Fluminense",
+          "ps": 87.5,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        }
+      ]
+    }
+  ],
+  "BR_B": [
+    {
+      "jogo": "Operario-PR × Nautico",
+      "liga": "BR_B",
+      "ps": {
+        "M": 77.5,
+        "V": 27.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 7,
+      "xFT": 9.41,
+      "xHT": 2.96,
+      "over95Real": 3,
+      "under95Real": 4,
+      "over95Pct": 43,
+      "h2h": null,
+      "assM": [],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Atletico GO",
+          "ps": 37.5,
+          "pro": 7,
+          "sof": 7,
+          "total": 14,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Cuiaba",
+          "ps": 32.5,
+          "pro": 2,
+          "sof": 1,
+          "total": 3,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Londrina",
+          "ps": 7.5,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-11",
+          "adv": "Ceara",
+          "ps": 62.5,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Botafogo SP",
+          "ps": 67.5,
+          "pro": 2,
+          "sof": 11,
+          "total": 13,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Sao Bernardo × America MG",
+      "liga": "BR_B",
+      "ps": {
+        "M": 97.5,
+        "V": 2.5,
+        "catM": "ELITE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 1,
+      "xFT": 8,
+      "xHT": 8,
+      "over95Real": 0,
+      "under95Real": 1,
+      "over95Pct": 0,
+      "h2h": null,
+      "assM": [
+        "RETRANCA_AVANCADA",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-05-03",
+          "adv": "Ponte Preta",
+          "ps": 17.5,
+          "pro": 2,
+          "sof": 6,
+          "total": 8,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": []
+    },
+    {
+      "jogo": "Goias × Botafogo SP",
+      "liga": "BR_B",
+      "ps": {
+        "M": 22.5,
+        "V": 67.5,
+        "catM": "AZARAO",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 6,
+      "xFT": 11.46,
+      "xHT": 5.08,
+      "over95Real": 3,
+      "under95Real": 3,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "volM": "ESTAVEL",
+      "volV": "VOLATIL_ALTO",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-06",
+          "adv": "Criciuma",
+          "ps": 72.5,
+          "pro": 6,
+          "sof": 7,
+          "total": 13,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Vila Nova FC",
+          "ps": 92.5,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-01",
+          "adv": "America MG",
+          "ps": 2.5,
+          "pro": 7,
+          "sof": 11,
+          "total": 18,
+          "ht": 4,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-22",
+          "adv": "Cuiaba",
+          "ps": 32.5,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "Novorizontino",
+          "ps": 50,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Cuiaba × Novorizontino",
+      "liga": "BR_B",
+      "ps": {
+        "M": 32.5,
+        "V": 50,
+        "catM": "MEDIO_FRACO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 6,
+      "xFT": 6.98,
+      "xHT": 4.61,
+      "over95Real": 2,
+      "under95Real": 4,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "MURO_DEFENSIVO"
+      ],
+      "assV": [
+        "MURO_DEFENSIVO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": null,
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-04",
+          "adv": "Ceara",
+          "ps": 62.5,
+          "pro": 1,
+          "sof": 2,
+          "total": 3,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-22",
+          "adv": "Botafogo SP",
+          "ps": 67.5,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Criciuma",
+          "ps": 72.5,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-31",
+          "adv": "Juventude",
+          "ps": 57.5,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "America MG",
+          "ps": 2.5,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Athletic Club × Juventude",
+      "liga": "BR_B",
+      "ps": {
+        "M": 42.5,
+        "V": 57.5,
+        "catM": "MEDIO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 6,
+      "xFT": 7.71,
+      "xHT": 3.83,
+      "over95Real": 2,
+      "under95Real": 4,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-27",
+          "adv": "Nautico",
+          "ps": 27.5,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Cuiaba",
+          "ps": 32.5,
+          "pro": 6,
+          "sof": 6,
+          "total": 12,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-22",
+          "adv": "Avai",
+          "ps": 50,
+          "pro": 3,
+          "sof": 3,
+          "total": 6,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "CRB",
+          "ps": 12.5,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Atletico GO",
+          "ps": 37.5,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Vila Nova FC × Avai",
+      "liga": "BR_B",
+      "ps": {
+        "M": 92.5,
+        "V": 50,
+        "catM": "ELITE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 5,
+      "xFT": 11.31,
+      "xHT": 5.37,
+      "over95Real": 3,
+      "under95Real": 2,
+      "over95Pct": 60,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": null,
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-04",
+          "adv": "Atletico GO",
+          "ps": 37.5,
+          "pro": 8,
+          "sof": 3,
+          "total": 11,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Operario-PR",
+          "ps": 77.5,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-04",
+          "adv": "Athletic Club",
+          "ps": 42.5,
+          "pro": 9,
+          "sof": 1,
+          "total": 10,
+          "ht": 6,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-11",
+          "adv": "Sport Recife",
+          "ps": 82.5,
+          "pro": 8,
+          "sof": 7,
+          "total": 15,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Ceara × Fortaleza",
+      "liga": "BR_B",
+      "ps": {
+        "M": 62.5,
+        "V": 87.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 6,
+      "xFT": 10.89,
+      "xHT": 4.56,
+      "over95Real": 4,
+      "under95Real": 2,
+      "over95Pct": 67,
+      "h2h": null,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Sao Bernardo",
+          "ps": 97.5,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Vila Nova FC",
+          "ps": 92.5,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Botafogo SP",
+          "ps": 67.5,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Operario-PR",
+          "ps": 77.5,
+          "pro": 7,
+          "sof": 11,
+          "total": 18,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "Avai",
+          "ps": 50,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Criciuma × Atletico GO",
+      "liga": "BR_B",
+      "ps": {
+        "M": 72.5,
+        "V": 37.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 7,
+      "xFT": 12.48,
+      "xHT": 7.32,
+      "over95Real": 7,
+      "under95Real": 0,
+      "over95Pct": 100,
+      "h2h": null,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-01",
+          "adv": "Athletic Club",
+          "ps": 42.5,
+          "pro": 9,
+          "sof": 2,
+          "total": 11,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-10",
+          "adv": "Botafogo SP",
+          "ps": 67.5,
+          "pro": 9,
+          "sof": 6,
+          "total": 15,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "CRB",
+          "ps": 12.5,
+          "pro": 9,
+          "sof": 5,
+          "total": 14,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Operario-PR",
+          "ps": 77.5,
+          "pro": 7,
+          "sof": 7,
+          "total": 14,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Vila Nova FC",
+          "ps": 92.5,
+          "pro": 3,
+          "sof": 8,
+          "total": 11,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Botafogo SP",
+          "ps": 67.5,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 4,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Ceara",
+          "ps": 62.5,
+          "pro": 1,
+          "sof": 11,
+          "total": 12,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Sport Recife × CRB",
+      "liga": "BR_B",
+      "ps": {
+        "M": 82.5,
+        "V": 12.5,
+        "catM": "ELITE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 5,
+      "xFT": 10.59,
+      "xHT": 5.41,
+      "over95Real": 2,
+      "under95Real": 3,
+      "over95Pct": 40,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Vila Nova FC",
+          "ps": 92.5,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Criciuma",
+          "ps": 72.5,
+          "pro": 5,
+          "sof": 9,
+          "total": 14,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Ponte Preta × Londrina",
+      "liga": "BR_B",
+      "ps": {
+        "M": 17.5,
+        "V": 7.5,
+        "catM": "AZARAO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 4,
+      "xFT": 11.74,
+      "xHT": 5.43,
+      "over95Real": 4,
+      "under95Real": 0,
+      "over95Pct": 100,
+      "h2h": null,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": null,
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-24",
+          "adv": "America MG",
+          "ps": 2.5,
+          "pro": 2,
+          "sof": 10,
+          "total": 12,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-12",
+          "adv": "Atletico GO",
+          "ps": 37.5,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        }
+      ]
+    }
+  ],
+  "ARG": [
+    {
+      "jogo": "River Plate × Rosario Central",
+      "liga": "ARG",
+      "ps": {
+        "M": 95,
+        "V": 65,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 11,
+      "xFT": 8.92,
+      "xHT": 4.8,
+      "over95Real": 4,
+      "under95Real": 7,
+      "over95Pct": 36,
+      "h2h": {
+        "data": "2026-02-01",
+        "ctx": "fora",
+        "cantos": "3-6",
+        "total": 9
+      },
+      "assM": [
+        "RETRANCA_AVANCADA",
+        "RUPTURA_HOME",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "RETRANCA_AVANCADA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-01-28",
+          "adv": "Gimnasia L.P.",
+          "ps": 55,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-07",
+          "adv": "Tigre",
+          "ps": 48.3,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-15",
+          "adv": "Sarmiento Junin",
+          "ps": 35,
+          "pro": 10,
+          "sof": 2,
+          "total": 12,
+          "ht": 7,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Belgrano",
+          "ps": 85,
+          "pro": 8,
+          "sof": 1,
+          "total": 9,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Boca Juniors",
+          "ps": 78.3,
+          "pro": 6,
+          "sof": 1,
+          "total": 7,
+          "ht": 1,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "San Lorenzo",
+          "ps": 41.7,
+          "pro": 6,
+          "sof": 2,
+          "total": 8,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-11",
+          "adv": "Argentinos Jrs",
+          "ps": 75,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-22",
+          "adv": "Ind. Rivadavia",
+          "ps": 98.3,
+          "pro": 3,
+          "sof": 3,
+          "total": 6,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Argentinos Jrs × Belgrano",
+      "liga": "ARG",
+      "ps": {
+        "M": 75,
+        "V": 85,
+        "catM": "MEDIO_FORTE",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 15,
+      "xFT": 7.33,
+      "xHT": 2.71,
+      "over95Real": 4,
+      "under95Real": 11,
+      "over95Pct": 27,
+      "h2h": {
+        "data": "2026-02-02",
+        "ctx": "casa",
+        "cantos": "5-1",
+        "total": 6
+      },
+      "assM": [
+        "MURO_DEFENSIVO",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-02",
+          "adv": "Belgrano",
+          "ps": 85,
+          "pro": 5,
+          "sof": 1,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-12",
+          "adv": "River Plate",
+          "ps": 95,
+          "pro": 1,
+          "sof": 1,
+          "total": 2,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-11",
+          "adv": "Rosario Central",
+          "ps": 65,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-26",
+          "adv": "Lanus",
+          "ps": 68.3,
+          "pro": 7,
+          "sof": 1,
+          "total": 8,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Lanus",
+          "ps": 68.3,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-12",
+          "adv": "Huracan",
+          "ps": 58.3,
+          "pro": 9,
+          "sof": 2,
+          "total": 11,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-01-24",
+          "adv": "Rosario Central",
+          "ps": 65,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-02",
+          "adv": "Argentinos Jrs",
+          "ps": 75,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-14",
+          "adv": "Ind. Rivadavia",
+          "ps": 98.3,
+          "pro": 5,
+          "sof": 8,
+          "total": 13,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-02-20",
+          "adv": "Defensa y Justicia",
+          "ps": 45,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-03",
+          "adv": "Huracan",
+          "ps": 58.3,
+          "pro": 3,
+          "sof": 3,
+          "total": 6,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "River Plate",
+          "ps": 95,
+          "pro": 1,
+          "sof": 8,
+          "total": 9,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-20",
+          "adv": "Barracas Central",
+          "ps": 51.7,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Talleres Cordoba",
+          "ps": 61.7,
+          "pro": 3,
+          "sof": 8,
+          "total": 11,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        }
+      ]
+    }
+  ],
+  "ARG_B": [
+    {
+      "jogo": "Atletico Atlanta × Atl. Rafaela",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 98.6,
+        "V": 62.5,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 8,
+      "xFT": 8.72,
+      "xHT": 3.95,
+      "over95Real": 4,
+      "under95Real": 4,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "EM_EVOLUCAO_FORTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-02",
+          "adv": "Patronato",
+          "ps": 56.9,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-16",
+          "adv": "Deportivo Maipu",
+          "ps": 68.1,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-28",
+          "adv": "Ferro",
+          "ps": 87.5,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 0,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-20",
+          "adv": "Chacarita Juniors",
+          "ps": 51.4,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Tristan Suarez",
+          "ps": 45.8,
+          "pro": 1,
+          "sof": 3,
+          "total": 4,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": []
+    },
+    {
+      "jogo": "Los Andes × Godoy Cruz",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 81.9,
+        "V": 41.7,
+        "catM": "ELITE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 8,
+      "xFT": 7.12,
+      "xHT": 3.44,
+      "over95Real": 2,
+      "under95Real": 6,
+      "over95Pct": 25,
+      "h2h": null,
+      "assM": [],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-14",
+          "adv": "Central Norte",
+          "ps": 15.3,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Temperley",
+          "ps": 41.7,
+          "pro": 4,
+          "sof": 1,
+          "total": 5,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Chaco For Ever",
+          "ps": 30.6,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "San Telmo",
+          "ps": 68.1,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Colon Santa Fe",
+          "ps": 20.8,
+          "pro": 1,
+          "sof": 0,
+          "total": 1,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-29",
+          "adv": "Deportivo Maipu",
+          "ps": 68.1,
+          "pro": 10,
+          "sof": 1,
+          "total": 11,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "San Telmo",
+          "ps": 68.1,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Almirante Brown × San Telmo",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 95.8,
+        "V": 68.1,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 5,
+      "xFT": 7.44,
+      "xHT": 2.91,
+      "over95Real": 1,
+      "under95Real": 4,
+      "over95Pct": 20,
+      "h2h": null,
+      "assM": [
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-28",
+          "adv": "Tristan Suarez",
+          "ps": 45.8,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-05",
+          "adv": "Deportivo Moron",
+          "ps": 90.3,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Los Andes",
+          "ps": 81.9,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "CA Estudiantes",
+          "ps": 68.1,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "CA Estudiantes × Colon Santa Fe",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 68.1,
+        "V": 20.8,
+        "catM": "MEDIO_FORTE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 7,
+      "xFT": 6.22,
+      "xHT": 2.61,
+      "over95Real": 1,
+      "under95Real": 6,
+      "over95Pct": 14,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-14",
+          "adv": "Def. de Belgrano",
+          "ps": 6.9,
+          "pro": 4,
+          "sof": 1,
+          "total": 5,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Central Norte",
+          "ps": 15.3,
+          "pro": 2,
+          "sof": 3,
+          "total": 5,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Chaco For Ever",
+          "ps": 30.6,
+          "pro": 3,
+          "sof": 3,
+          "total": 6,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-22",
+          "adv": "San Telmo",
+          "ps": 68.1,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Patronato",
+          "ps": 56.9,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Deportivo Moron",
+          "ps": 90.3,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Los Andes",
+          "ps": 81.9,
+          "pro": 0,
+          "sof": 1,
+          "total": 1,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Ciudad Bolivar × Acassuso",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 76.4,
+        "V": 4.2,
+        "catM": "MEDIO_FORTE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 3,
+      "xFT": 5.72,
+      "xHT": 2.6,
+      "over95Real": 1,
+      "under95Real": 2,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "San Telmo",
+          "ps": 68.1,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "CA Mitre",
+          "ps": 54.2,
+          "pro": 0,
+          "sof": 2,
+          "total": 2,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Colegiales × Club A. Guemes",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 73.6,
+        "V": 12.5,
+        "catM": "MEDIO_FORTE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 8,
+      "xFT": 10.75,
+      "xHT": 4.99,
+      "over95Real": 4,
+      "under95Real": 4,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-28",
+          "adv": "San Miguel",
+          "ps": 9.7,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Almagro",
+          "ps": 1.4,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Temperley",
+          "ps": 41.7,
+          "pro": 8,
+          "sof": 7,
+          "total": 15,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "San Martin S.J.",
+          "ps": 48.6,
+          "pro": 6,
+          "sof": 14,
+          "total": 20,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Tristan Suarez",
+          "ps": 45.8,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Atl. Rafaela",
+          "ps": 62.5,
+          "pro": 3,
+          "sof": 8,
+          "total": 11,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Deportivo Madryn × Ferro",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 59.7,
+        "V": 87.5,
+        "catM": "MEDIO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 9,
+      "xFT": 8.52,
+      "xHT": 4.12,
+      "over95Real": 4,
+      "under95Real": 5,
+      "over95Pct": 44,
+      "h2h": null,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Deportivo Moron",
+          "ps": 90.3,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "CA Estudiantes",
+          "ps": 68.1,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Almirante Brown",
+          "ps": 95.8,
+          "pro": 7,
+          "sof": 1,
+          "total": 8,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-14",
+          "adv": "San Telmo",
+          "ps": 68.1,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Godoy Cruz",
+          "ps": 41.7,
+          "pro": 9,
+          "sof": 3,
+          "total": 12,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "CA Mitre",
+          "ps": 54.2,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Ciudad Bolivar",
+          "ps": 76.4,
+          "pro": 4,
+          "sof": 1,
+          "total": 5,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Almagro × San Martin S.J.",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 1.4,
+        "V": 48.6,
+        "catM": "AZARAO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.4,
+      "xHT": 4.16,
+      "over95Real": 3,
+      "under95Real": 3,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "San Martin T.",
+          "ps": 37.5,
+          "pro": 8,
+          "sof": 3,
+          "total": 11,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Quilmes",
+          "ps": 23.6,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Patronato",
+          "ps": 56.9,
+          "pro": 5,
+          "sof": 6,
+          "total": 11,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Temperley",
+          "ps": 41.7,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-03",
+          "adv": "Gimnasia y Tiro",
+          "ps": 26.4,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Gimnasia Jujuy × Temperley",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 93.1,
+        "V": 41.7,
+        "catM": "ELITE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 8,
+      "xFT": 10.76,
+      "xHT": 5.71,
+      "over95Real": 5,
+      "under95Real": 3,
+      "over95Pct": 63,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-16",
+          "adv": "Midland",
+          "ps": 34.7,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-01",
+          "adv": "Quilmes",
+          "ps": 23.6,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Patronato",
+          "ps": 56.9,
+          "pro": 9,
+          "sof": 6,
+          "total": 15,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Deportivo Maipu",
+          "ps": 68.1,
+          "pro": 10,
+          "sof": 1,
+          "total": 11,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-29",
+          "adv": "Los Andes",
+          "ps": 81.9,
+          "pro": 1,
+          "sof": 4,
+          "total": 5,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Colegiales",
+          "ps": 73.6,
+          "pro": 7,
+          "sof": 8,
+          "total": 15,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "CA Mitre × San Miguel",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 54.2,
+        "V": 9.7,
+        "catM": "MEDIO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 5,
+      "xFT": 5.68,
+      "xHT": 3.46,
+      "over95Real": 1,
+      "under95Real": 4,
+      "over95Pct": 20,
+      "h2h": null,
+      "assM": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-05-03",
+          "adv": "Acassuso",
+          "ps": 4.2,
+          "pro": 2,
+          "sof": 0,
+          "total": 2,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-28",
+          "adv": "Colegiales",
+          "ps": 73.6,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Godoy Cruz",
+          "ps": 41.7,
+          "pro": 1,
+          "sof": 4,
+          "total": 5,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Patronato × Chacarita Juniors",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 56.9,
+        "V": 51.4,
+        "catM": "MEDIO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 8,
+      "xFT": 8.67,
+      "xHT": 3.96,
+      "over95Real": 5,
+      "under95Real": 3,
+      "over95Pct": 63,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Gimnasia y Tiro",
+          "ps": 26.4,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-22",
+          "adv": "Colegiales",
+          "ps": 73.6,
+          "pro": 3,
+          "sof": 8,
+          "total": 11,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Deportivo Maipu",
+          "ps": 68.1,
+          "pro": 6,
+          "sof": 6,
+          "total": 12,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Nueva Chicago",
+          "ps": 30.6,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-15",
+          "adv": "Agropecuario",
+          "ps": 84.7,
+          "pro": 7,
+          "sof": 0,
+          "total": 7,
+          "ht": 1,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "San Martin T.",
+          "ps": 37.5,
+          "pro": 2,
+          "sof": 1,
+          "total": 3,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Midland × Agropecuario",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 34.7,
+        "V": 84.7,
+        "catM": "MEDIO_FRACO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 6,
+      "xFT": 7.6,
+      "xHT": 3.29,
+      "over95Real": 2,
+      "under95Real": 4,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "Colegiales",
+          "ps": 73.6,
+          "pro": 2,
+          "sof": 0,
+          "total": 2,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Temperley",
+          "ps": 41.7,
+          "pro": 9,
+          "sof": 3,
+          "total": 12,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-22",
+          "adv": "Club A. Guemes",
+          "ps": 12.5,
+          "pro": 3,
+          "sof": 1,
+          "total": 4,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-20",
+          "adv": "Atl. Rafaela",
+          "ps": 62.5,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-04",
+          "adv": "Gimnasia y Tiro",
+          "ps": 26.4,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Deportivo Maipu × Nueva Chicago",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 68.1,
+        "V": 30.6,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 8,
+      "xFT": 10.16,
+      "xHT": 4.34,
+      "over95Real": 5,
+      "under95Real": 3,
+      "over95Pct": 63,
+      "h2h": null,
+      "assM": [
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-22",
+          "adv": "Midland",
+          "ps": 34.7,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Godoy Cruz",
+          "ps": 41.7,
+          "pro": 1,
+          "sof": 10,
+          "total": 11,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Almagro",
+          "ps": 1.4,
+          "pro": 10,
+          "sof": 6,
+          "total": 16,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-28",
+          "adv": "Agropecuario",
+          "ps": 84.7,
+          "pro": 1,
+          "sof": 9,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Patronato",
+          "ps": 56.9,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Gimnasia y Tiro × San Martin T.",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 26.4,
+        "V": 37.5,
+        "catM": "MEDIO_FRACO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 10,
+      "xFT": 8.03,
+      "xHT": 4.11,
+      "over95Real": 4,
+      "under95Real": 6,
+      "over95Pct": 40,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-15",
+          "adv": "Temperley",
+          "ps": 41.7,
+          "pro": 5,
+          "sof": 1,
+          "total": 6,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Central Norte",
+          "ps": 15.3,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-03",
+          "adv": "San Martin S.J.",
+          "ps": 48.6,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Club A. Guemes",
+          "ps": 12.5,
+          "pro": 10,
+          "sof": 6,
+          "total": 16,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Almagro",
+          "ps": 1.4,
+          "pro": 3,
+          "sof": 8,
+          "total": 11,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-20",
+          "adv": "San Martin S.J.",
+          "ps": 48.6,
+          "pro": 4,
+          "sof": 0,
+          "total": 4,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Club A. Guemes",
+          "ps": 12.5,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Quilmes × Tristan Suarez",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 23.6,
+        "V": 45.8,
+        "catM": "AZARAO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 7,
+      "xFT": 8.45,
+      "xHT": 4.54,
+      "over95Real": 4,
+      "under95Real": 3,
+      "over95Pct": 57,
+      "h2h": null,
+      "assM": [
+        "RUPTURA_HOME",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Midland",
+          "ps": 34.7,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 4,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Patronato",
+          "ps": 56.9,
+          "pro": 0,
+          "sof": 3,
+          "total": 3,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Deportivo Maipu",
+          "ps": 68.1,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Nueva Chicago",
+          "ps": 30.6,
+          "pro": 8,
+          "sof": 1,
+          "total": 9,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-04",
+          "adv": "Chacarita Juniors",
+          "ps": 51.4,
+          "pro": 9,
+          "sof": 1,
+          "total": 10,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Nueva Chicago",
+          "ps": 30.6,
+          "pro": 5,
+          "sof": 1,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "San Martin T.",
+          "ps": 37.5,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Def. de Belgrano × Chaco For Ever",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 6.9,
+        "V": 30.6,
+        "catM": "AZARAO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 6,
+      "xFT": 10.45,
+      "xHT": 5.4,
+      "over95Real": 2,
+      "under95Real": 4,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Godoy Cruz",
+          "ps": 41.7,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "CA Mitre",
+          "ps": 54.2,
+          "pro": 4,
+          "sof": 4,
+          "total": 8,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Central Norte",
+          "ps": 15.3,
+          "pro": 12,
+          "sof": 4,
+          "total": 16,
+          "ht": 6,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-14",
+          "adv": "Acassuso",
+          "ps": 4.2,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-28",
+          "adv": "San Miguel",
+          "ps": 9.7,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "All Boys × Deportivo Moron",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 18.1,
+        "V": 90.3,
+        "catM": "AZARAO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 8,
+      "xFT": 7.93,
+      "xHT": 4.84,
+      "over95Real": 2,
+      "under95Real": 6,
+      "over95Pct": 25,
+      "h2h": null,
+      "assM": [
+        "ATAQUE_ESTERIL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "volM": "ESTAVEL",
+      "volV": "ESTAVEL",
+      "tendM": "ESTAGNADO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "Ciudad Bolivar",
+          "ps": 76.4,
+          "pro": 7,
+          "sof": 1,
+          "total": 8,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Ferro",
+          "ps": 87.5,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Acassuso",
+          "ps": 4.2,
+          "pro": 3,
+          "sof": 3,
+          "total": 6,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-28",
+          "adv": "Almagro",
+          "ps": 1.4,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "San Miguel",
+          "ps": 9.7,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Godoy Cruz",
+          "ps": 41.7,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    }
+  ],
+  "MLS": [
+    {
+      "jogo": "CF Montreal × Chicago Fire",
+      "liga": "MLS",
+      "ps": {
+        "M": 18.3,
+        "V": 81.7,
+        "catM": "AZARAO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.28,
+      "xHT": 4.17,
+      "over95Real": 3,
+      "under95Real": 3,
+      "over95Pct": 50,
+      "h2h": {
+        "data": "2026-02-28",
+        "ctx": "fora",
+        "cantos": "3-9",
+        "total": 12
+      },
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-26",
+          "adv": "New York City",
+          "ps": 51.7,
+          "pro": 3,
+          "sof": 1,
+          "total": 4,
+          "ht": 0,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Houston Dynamo",
+          "ps": 28.3,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-07",
+          "adv": "Columbus Crew",
+          "ps": 31.7,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Philadelphia Union",
+          "ps": 8.3,
+          "pro": 2,
+          "sof": 6,
+          "total": 8,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "FC Cincinnati",
+          "ps": 48.3,
+          "pro": 1,
+          "sof": 9,
+          "total": 10,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "DC United",
+          "ps": 35,
+          "pro": 8,
+          "sof": 7,
+          "total": 15,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Charlotte × Toronto FC",
+      "liga": "MLS",
+      "ps": {
+        "M": 58.3,
+        "V": 45,
+        "catM": "MEDIO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 9,
+      "xFT": 11.39,
+      "xHT": 5.1,
+      "over95Real": 7,
+      "under95Real": 2,
+      "over95Pct": 78,
+      "h2h": null,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "RUPTURA_HOME"
+      ],
+      "assV": [],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-07",
+          "adv": "Austin FC",
+          "ps": 41.7,
+          "pro": 12,
+          "sof": 3,
+          "total": 15,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Inter Miami",
+          "ps": 61.7,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "New York Red Bulls",
+          "ps": 15,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "FC Cincinnati",
+          "ps": 48.3,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "New York City",
+          "ps": 51.7,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "FC Dallas",
+          "ps": 78.3,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-08",
+          "adv": "FC Cincinnati",
+          "ps": 48.3,
+          "pro": 7,
+          "sof": 8,
+          "total": 15,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "DC United × St. Louis City",
+      "liga": "MLS",
+      "ps": {
+        "M": 35,
+        "V": 11.7,
+        "catM": "MEDIO_FRACO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.61,
+      "xHT": 5.66,
+      "over95Real": 3,
+      "under95Real": 3,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "DEFESA_DEGRADANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Philadelphia Union",
+          "ps": 8.3,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Orlando City",
+          "ps": 5,
+          "pro": 7,
+          "sof": 8,
+          "total": 15,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-06",
+          "adv": "New York City",
+          "ps": 51.7,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Austin FC",
+          "ps": 41.7,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "New England Revolution × Minnesota United",
+      "liga": "MLS",
+      "ps": {
+        "M": 65,
+        "V": 38.3,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 12,
+      "xFT": 8.2,
+      "xHT": 3.67,
+      "over95Real": 5,
+      "under95Real": 7,
+      "over95Pct": 42,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-15",
+          "adv": "FC Cincinnati",
+          "ps": 48.3,
+          "pro": 1,
+          "sof": 3,
+          "total": 4,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "CF Montreal",
+          "ps": 18.3,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "DC United",
+          "ps": 35,
+          "pro": 2,
+          "sof": 3,
+          "total": 5,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Columbus Crew",
+          "ps": 31.7,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Charlotte",
+          "ps": 58.3,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Philadelphia Union",
+          "ps": 8.3,
+          "pro": 9,
+          "sof": 3,
+          "total": 12,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Austin FC",
+          "ps": 41.7,
+          "pro": 8,
+          "sof": 7,
+          "total": 15,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-07",
+          "adv": "Nashville SC",
+          "ps": 95,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "Los Angeles Galaxy",
+          "ps": 55,
+          "pro": 0,
+          "sof": 9,
+          "total": 9,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "San Diego FC",
+          "ps": 75,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "New York Red Bulls × New York City",
+      "liga": "MLS",
+      "ps": {
+        "M": 15,
+        "V": 51.7,
+        "catM": "AZARAO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 8,
+      "xFT": 8.21,
+      "xHT": 4.14,
+      "over95Real": 3,
+      "under95Real": 5,
+      "over95Pct": 38,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-28",
+          "adv": "New England Revolution",
+          "ps": 65,
+          "pro": 6,
+          "sof": 6,
+          "total": 12,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "FC Cincinnati",
+          "ps": 48.3,
+          "pro": 2,
+          "sof": 6,
+          "total": 8,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "FC Dallas",
+          "ps": 78.3,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "Columbus Crew",
+          "ps": 31.7,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "Philadelphia Union",
+          "ps": 8.3,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "CF Montreal",
+          "ps": 18.3,
+          "pro": 1,
+          "sof": 3,
+          "total": 4,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Orlando City × Atlanta Utd",
+      "liga": "MLS",
+      "ps": {
+        "M": 5,
+        "V": 25,
+        "catM": "AZARAO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 6,
+      "xFT": 11.84,
+      "xHT": 4.47,
+      "over95Real": 5,
+      "under95Real": 1,
+      "over95Pct": 83,
+      "h2h": null,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "DEFESA_PRECARIA",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "New York Red Bulls",
+          "ps": 15,
+          "pro": 5,
+          "sof": 9,
+          "total": 14,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "CF Montreal",
+          "ps": 18.3,
+          "pro": 4,
+          "sof": 10,
+          "total": 14,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Houston Dynamo",
+          "ps": 28.3,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "Philadelphia Union",
+          "ps": 8.3,
+          "pro": 2,
+          "sof": 10,
+          "total": 12,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": []
+    },
+    {
+      "jogo": "Philadelphia Union × Columbus Crew",
+      "liga": "MLS",
+      "ps": {
+        "M": 8.3,
+        "V": 31.7,
+        "catM": "AZARAO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 7,
+      "xFT": 10.58,
+      "xHT": 4.85,
+      "over95Real": 4,
+      "under95Real": 3,
+      "over95Pct": 57,
+      "h2h": {
+        "data": "2026-04-26",
+        "ctx": "fora",
+        "cantos": "4-2",
+        "total": 6
+      },
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "New York City",
+          "ps": 51.7,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "DC United",
+          "ps": 35,
+          "pro": 13,
+          "sof": 1,
+          "total": 14,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Portland Timbers",
+          "ps": 21.7,
+          "pro": 8,
+          "sof": 6,
+          "total": 14,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-02-28",
+          "adv": "Sporting Kansas City",
+          "ps": 1.7,
+          "pro": 4,
+          "sof": 4,
+          "total": 8,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "Atlanta Utd",
+          "ps": 25,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "New York Red Bulls",
+          "ps": 15,
+          "pro": 2,
+          "sof": 3,
+          "total": 5,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Austin FC × Sporting Kansas City",
+      "liga": "MLS",
+      "ps": {
+        "M": 41.7,
+        "V": 1.7,
+        "catM": "MEDIO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 8,
+      "xFT": 10.18,
+      "xHT": 4.37,
+      "over95Real": 4,
+      "under95Real": 4,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "DEFESA_PRECARIA",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "MODERADA",
+      "volV": "ESTAVEL",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-26",
+          "adv": "Houston Dynamo",
+          "ps": 28.3,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "St. Louis City",
+          "ps": 11.7,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-14",
+          "adv": "Los Angeles Galaxy",
+          "ps": 55,
+          "pro": 3,
+          "sof": 10,
+          "total": 13,
+          "ht": 3,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "Real Salt Lake",
+          "ps": 68.3,
+          "pro": 1,
+          "sof": 7,
+          "total": 8,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Portland Timbers",
+          "ps": 21.7,
+          "pro": 4,
+          "sof": 4,
+          "total": 8,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Houston Dynamo × Vancouver Whitecaps",
+      "liga": "MLS",
+      "ps": {
+        "M": 28.3,
+        "V": 98.3,
+        "catM": "MEDIO_FRACO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.78,
+      "xHT": 4.18,
+      "over95Real": 4,
+      "under95Real": 2,
+      "over95Pct": 67,
+      "h2h": null,
+      "assM": [
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Chicago Fire",
+          "ps": 81.7,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-02-28",
+          "adv": "Los Angeles FC",
+          "ps": 88.3,
+          "pro": 4,
+          "sof": 8,
+          "total": 12,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "Seattle Sounders",
+          "ps": 85,
+          "pro": 9,
+          "sof": 3,
+          "total": 12,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Colorado Rapids",
+          "ps": 71.7,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Portland Timbers",
+          "ps": 21.7,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Los Angeles Galaxy",
+          "ps": 55,
+          "pro": 2,
+          "sof": 1,
+          "total": 3,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Seattle Sounders × Los Angeles Galaxy",
+      "liga": "MLS",
+      "ps": {
+        "M": 85,
+        "V": 55,
+        "catM": "ELITE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.57,
+      "xHT": 3.1,
+      "over95Real": 4,
+      "under95Real": 2,
+      "over95Pct": 67,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "CARRINHO_FACIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Colorado Rapids",
+          "ps": 71.7,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "FC Dallas",
+          "ps": 78.3,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "San Diego FC",
+          "ps": 75,
+          "pro": 8,
+          "sof": 2,
+          "total": 10,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-07",
+          "adv": "Colorado Rapids",
+          "ps": 71.7,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "FC Dallas",
+          "ps": 78.3,
+          "pro": 3,
+          "sof": 4,
+          "total": 7,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Real Salt Lake × Colorado Rapids",
+      "liga": "MLS",
+      "ps": {
+        "M": 68.3,
+        "V": 71.7,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 9,
+      "xFT": 10.82,
+      "xHT": 4.53,
+      "over95Real": 7,
+      "under95Real": 2,
+      "over95Pct": 78,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-28",
+          "adv": "Seattle Sounders",
+          "ps": 85,
+          "pro": 5,
+          "sof": 10,
+          "total": 15,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Austin FC",
+          "ps": 41.7,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "San Diego FC",
+          "ps": 75,
+          "pro": 1,
+          "sof": 8,
+          "total": 9,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Seattle Sounders",
+          "ps": 85,
+          "pro": 4,
+          "sof": 8,
+          "total": 12,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "New York City",
+          "ps": 51.7,
+          "pro": 4,
+          "sof": 4,
+          "total": 8,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "Toronto FC",
+          "ps": 45,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Vancouver Whitecaps",
+          "ps": 98.3,
+          "pro": 3,
+          "sof": 8,
+          "total": 11,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "Minnesota United",
+          "ps": 38.3,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "San Diego FC × FC Cincinnati",
+      "liga": "MLS",
+      "ps": {
+        "M": 75,
+        "V": 48.3,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 12,
+      "xFT": 9.85,
+      "xHT": 4.43,
+      "over95Real": 7,
+      "under95Real": 5,
+      "over95Pct": 58,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "CF Montreal",
+          "ps": 18.3,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-22",
+          "adv": "Real Salt Lake",
+          "ps": 68.3,
+          "pro": 7,
+          "sof": 8,
+          "total": 15,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Minnesota United",
+          "ps": 38.3,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Portland Timbers",
+          "ps": 21.7,
+          "pro": 6,
+          "sof": 6,
+          "total": 12,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-13",
+          "adv": "Austin FC",
+          "ps": 41.7,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-15",
+          "adv": "New England Revolution",
+          "ps": 65,
+          "pro": 3,
+          "sof": 1,
+          "total": 4,
+          "ht": 0,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Toronto FC",
+          "ps": 45,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Chicago Fire",
+          "ps": 81.7,
+          "pro": 1,
+          "sof": 10,
+          "total": 11,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Charlotte",
+          "ps": 58.3,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "San Jose Earthquakes × FC Dallas",
+      "liga": "MLS",
+      "ps": {
+        "M": 91.7,
+        "V": 78.3,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 5,
+      "xFT": 11.68,
+      "xHT": 4.29,
+      "over95Real": 4,
+      "under95Real": 1,
+      "over95Pct": 80,
+      "h2h": null,
+      "assM": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_DEGRADANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-15",
+          "adv": "Seattle Sounders",
+          "ps": 85,
+          "pro": 17,
+          "sof": 0,
+          "total": 17,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-06",
+          "adv": "San Diego FC",
+          "ps": 75,
+          "pro": 7,
+          "sof": 5,
+          "total": 12,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Vancouver Whitecaps",
+          "ps": 98.3,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Los Angeles FC",
+          "ps": 88.3,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Seattle Sounders",
+          "ps": 85,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Inter Miami × Portland Timbers",
+      "liga": "MLS",
+      "ps": {
+        "M": 61.7,
+        "V": 21.7,
+        "catM": "MEDIO_FORTE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 9,
+      "xFT": 12.3,
+      "xHT": 7.47,
+      "over95Real": 6,
+      "under95Real": 3,
+      "over95Pct": 67,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-06",
+          "adv": "Austin FC",
+          "ps": 41.7,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "New York Red Bulls",
+          "ps": 15,
+          "pro": 12,
+          "sof": 3,
+          "total": 15,
+          "ht": 8,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Orlando City",
+          "ps": 5,
+          "pro": 10,
+          "sof": 2,
+          "total": 12,
+          "ht": 8,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-28",
+          "adv": "Colorado Rapids",
+          "ps": 71.7,
+          "pro": 6,
+          "sof": 12,
+          "total": 18,
+          "ht": 4,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Minnesota United",
+          "ps": 38.3,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "San Diego FC",
+          "ps": 75,
+          "pro": 6,
+          "sof": 6,
+          "total": 12,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Real Salt Lake",
+          "ps": 68.3,
+          "pro": 2,
+          "sof": 6,
+          "total": 8,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Nashville SC × Los Angeles FC",
+      "liga": "MLS",
+      "ps": {
+        "M": 95,
+        "V": 88.3,
+        "catM": "ELITE",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 3,
+      "xFT": 6.43,
+      "xHT": 2.86,
+      "over95Real": 1,
+      "under95Real": 2,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "New England Revolution",
+          "ps": 65,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Charlotte",
+          "ps": 58.3,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-05-02",
+          "adv": "San Diego FC",
+          "ps": 75,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    }
+  ],
+  "USL": [
+    {
+      "jogo": "Detroit × Miami FC",
+      "liga": "USL",
+      "ps": {
+        "M": 86,
+        "V": 42,
+        "catM": "ELITE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.79,
+      "xHT": 5.39,
+      "over95Real": 2,
+      "under95Real": 4,
+      "over95Pct": 33,
+      "h2h": null,
+      "assM": [],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "EM_EVOLUCAO_FORTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-28",
+          "adv": "Charleston",
+          "ps": 58,
+          "pro": 8,
+          "sof": 6,
+          "total": 14,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-14",
+          "adv": "Louisville City",
+          "ps": 90,
+          "pro": 0,
+          "sof": 12,
+          "total": 12,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "San Antonio",
+          "ps": 66,
+          "pro": 5,
+          "sof": 1,
+          "total": 6,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "New Mexico × Tampa Bay",
+      "liga": "USL",
+      "ps": {
+        "M": 22,
+        "V": 94,
+        "catM": "AZARAO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 6,
+      "xFT": 9.03,
+      "xHT": 5.59,
+      "over95Real": 3,
+      "under95Real": 3,
+      "over95Pct": 50,
+      "h2h": null,
+      "assM": [],
+      "assV": [
+        "MURO_DEFENSIVO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": null,
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-28",
+          "adv": "Colorado Springs",
+          "ps": 70,
+          "pro": 7,
+          "sof": 5,
+          "total": 12,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "El Paso",
+          "ps": 98,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-07",
+          "adv": "Birmingham",
+          "ps": 46,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Sporting Jax",
+          "ps": 2,
+          "pro": 7,
+          "sof": 0,
+          "total": 7,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Rhode Island",
+          "ps": 50,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 6,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "FC Tulsa × Hartford Athletic",
+      "liga": "USL",
+      "ps": {
+        "M": 26,
+        "V": 38,
+        "catM": "MEDIO_FRACO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 7,
+      "xFT": 11.42,
+      "xHT": 4.5,
+      "over95Real": 6,
+      "under95Real": 1,
+      "over95Pct": 86,
+      "h2h": null,
+      "assM": [
+        "RETRANCA_AVANCADA",
+        "RUPTURA_HOME"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-14",
+          "adv": "San Antonio",
+          "ps": 66,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Las Vegas Lights",
+          "ps": 34,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-07",
+          "adv": "Sporting Jax",
+          "ps": 2,
+          "pro": 2,
+          "sof": 9,
+          "total": 11,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-11",
+          "adv": "Birmingham",
+          "ps": 46,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Brooklyn",
+          "ps": 10,
+          "pro": 4,
+          "sof": 11,
+          "total": 15,
+          "ht": 3,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Miami FC",
+          "ps": 42,
+          "pro": 9,
+          "sof": 3,
+          "total": 12,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ]
+    }
+  ],
+  "J2_J3": [
+    {
+      "jogo": "Albirex Niigata × Nara Club",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 51.2,
+        "V": 23.8,
+        "catM": "MEDIO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 9,
+      "xFT": 10.81,
+      "xHT": 4.16,
+      "over95Real": 5,
+      "under95Real": 4,
+      "over95Pct": 56,
+      "h2h": {
+        "data": "2026-03-14",
+        "ctx": "fora",
+        "cantos": "8-1",
+        "total": 9
+      },
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-04",
+          "adv": "Kanazawa",
+          "ps": 33.8,
+          "pro": 2,
+          "sof": 10,
+          "total": 12,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Imabari",
+          "ps": 21.3,
+          "pro": 4,
+          "sof": 9,
+          "total": 13,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-25",
+          "adv": "Osaka",
+          "ps": 28.7,
+          "pro": 6,
+          "sof": 8,
+          "total": 14,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Kamatamare",
+          "ps": 1.3,
+          "pro": 6,
+          "sof": 2,
+          "total": 8,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "Kochi United",
+          "ps": 66.3,
+          "pro": 2,
+          "sof": 6,
+          "total": 8,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-06",
+          "adv": "Osaka",
+          "ps": 28.7,
+          "pro": 1,
+          "sof": 6,
+          "total": 7,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Ehime",
+          "ps": 61.3,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-25",
+          "adv": "Kanazawa",
+          "ps": 33.8,
+          "pro": 7,
+          "sof": 5,
+          "total": 12,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Imabari",
+          "ps": 21.3,
+          "pro": 0,
+          "sof": 5,
+          "total": 5,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Fukushima Utd × Hokkaido Consadole Sapporo",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 8.8,
+        "V": 53.8,
+        "catM": "AZARAO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 9,
+      "xFT": 8.79,
+      "xHT": 4.51,
+      "over95Real": 3,
+      "under95Real": 6,
+      "over95Pct": 33,
+      "h2h": {
+        "data": "2026-04-04",
+        "ctx": "fora",
+        "cantos": "2-5",
+        "total": 7
+      },
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "CARRINHO_FACIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-21",
+          "adv": "Fujieda MYFC",
+          "ps": 56.3,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Yamaga",
+          "ps": 73.8,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Gifu",
+          "ps": 71.3,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-25",
+          "adv": "Kofu",
+          "ps": 83.8,
+          "pro": 5,
+          "sof": 8,
+          "total": 13,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Omiya Ardija",
+          "ps": 81.3,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "Iwata",
+          "ps": 43.8,
+          "pro": 1,
+          "sof": 7,
+          "total": 8,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Nagano",
+          "ps": 3.8,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Sagamihara × Vanraure",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 46.3,
+        "V": 26.3,
+        "catM": "MEDIO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 11,
+      "xFT": 10.55,
+      "xHT": 6.08,
+      "over95Real": 7,
+      "under95Real": 4,
+      "over95Pct": 64,
+      "h2h": {
+        "data": "2026-03-29",
+        "ctx": "fora",
+        "cantos": "6-10",
+        "total": 16
+      },
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-01",
+          "adv": "Montedio Yamagata",
+          "ps": 38.8,
+          "pro": 9,
+          "sof": 2,
+          "total": 11,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-04",
+          "adv": "Kusatsu",
+          "ps": 18.8,
+          "pro": 10,
+          "sof": 5,
+          "total": 15,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-08",
+          "adv": "Tochigi SC",
+          "ps": 31.3,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Tochigi City",
+          "ps": 6.3,
+          "pro": 5,
+          "sof": 9,
+          "total": 14,
+          "ht": 4,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-14",
+          "adv": "Kusatsu",
+          "ps": 18.8,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Blaublitz",
+          "ps": 76.3,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 7,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-08",
+          "adv": "Tochigi SC",
+          "ps": 31.3,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Montedio Yamagata",
+          "ps": 38.8,
+          "pro": 1,
+          "sof": 9,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Yokohama FC",
+          "ps": 63.7,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Sagan Tosu × Renofa Yamaguchi",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 58.8,
+        "V": 68.8,
+        "catM": "MEDIO",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 10,
+      "xFT": 8.53,
+      "xHT": 1.87,
+      "over95Real": 4,
+      "under95Real": 6,
+      "over95Pct": 40,
+      "h2h": {
+        "data": "2026-03-07",
+        "ctx": "fora",
+        "cantos": "4-4",
+        "total": 8
+      },
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "MURO_DEFENSIVO",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "DEFESA_DEGRADANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-15",
+          "adv": "Kumamoto",
+          "ps": 48.8,
+          "pro": 2,
+          "sof": 0,
+          "total": 2,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-02-28",
+          "adv": "Kagoshima Utd",
+          "ps": 78.8,
+          "pro": 0,
+          "sof": 5,
+          "total": 5,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Tegevajaro Miyazaki",
+          "ps": 93.8,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-08",
+          "adv": "Kumamoto",
+          "ps": 48.8,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-22",
+          "adv": "Kagoshima Utd",
+          "ps": 78.8,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 8,
+          "sof": 6,
+          "total": 14,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Gainare Tottori",
+          "ps": 36.3,
+          "pro": 1,
+          "sof": 9,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Shonan Bellmare × Vegalta Sendai",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 88.8,
+        "V": 98.8,
+        "catM": "ELITE",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 4,
+      "xFT": 7.2,
+      "xHT": 2.61,
+      "over95Real": 0,
+      "under95Real": 4,
+      "over95Pct": 0,
+      "h2h": {
+        "data": "2026-03-07",
+        "ctx": "fora",
+        "cantos": "1-7",
+        "total": 8
+      },
+      "assM": [],
+      "assV": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-07",
+          "adv": "Blaublitz",
+          "ps": 76.3,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-14",
+          "adv": "Yokohama FC",
+          "ps": 63.7,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Blaublitz",
+          "ps": 76.3,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Tochigi City × Montedio Yamagata",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 6.3,
+        "V": 38.8,
+        "catM": "AZARAO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 10,
+      "xFT": 9.82,
+      "xHT": 4.37,
+      "over95Real": 6,
+      "under95Real": 4,
+      "over95Pct": 60,
+      "h2h": {
+        "data": "2026-03-29",
+        "ctx": "fora",
+        "cantos": "4-6",
+        "total": 10
+      },
+      "assM": [],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "DEFESA_PRECARIA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Kusatsu",
+          "ps": 18.8,
+          "pro": 9,
+          "sof": 2,
+          "total": 11,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Sagamihara",
+          "ps": 46.3,
+          "pro": 4,
+          "sof": 7,
+          "total": 11,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Vanraure",
+          "ps": 26.3,
+          "pro": 5,
+          "sof": 7,
+          "total": 12,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-25",
+          "adv": "Tochigi SC",
+          "ps": 31.3,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "Yokohama FC",
+          "ps": 63.7,
+          "pro": 4,
+          "sof": 2,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-15",
+          "adv": "Tochigi SC",
+          "ps": 31.3,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-02-21",
+          "adv": "Kusatsu",
+          "ps": 18.8,
+          "pro": 4,
+          "sof": 12,
+          "total": 16,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-05",
+          "adv": "Vanraure",
+          "ps": 26.3,
+          "pro": 1,
+          "sof": 4,
+          "total": 5,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Iwata × Fujieda MYFC",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 43.8,
+        "V": 56.3,
+        "catM": "MEDIO",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 13,
+      "xFT": 7.13,
+      "xHT": 3.23,
+      "over95Real": 4,
+      "under95Real": 9,
+      "over95Pct": 31,
+      "h2h": {
+        "data": "2026-03-07",
+        "ctx": "fora",
+        "cantos": "7-3",
+        "total": 10
+      },
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Yamaga",
+          "ps": 73.8,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Hokkaido Consadole Sapporo",
+          "ps": 53.8,
+          "pro": 1,
+          "sof": 3,
+          "total": 4,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Omiya Ardija",
+          "ps": 81.3,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Kofu",
+          "ps": 83.8,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-25",
+          "adv": "Gifu",
+          "ps": 71.3,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Iwaki",
+          "ps": 86.3,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-11",
+          "adv": "Gifu",
+          "ps": 71.3,
+          "pro": 3,
+          "sof": 2,
+          "total": 5,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Hokkaido Consadole Sapporo",
+          "ps": 53.8,
+          "pro": 3,
+          "sof": 0,
+          "total": 3,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "Yamaga",
+          "ps": 73.8,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Kofu × Gifu",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 83.8,
+        "V": 71.3,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 12,
+      "xFT": 9.28,
+      "xHT": 3.89,
+      "over95Real": 5,
+      "under95Real": 7,
+      "over95Pct": 42,
+      "h2h": {
+        "data": "2026-03-08",
+        "ctx": "fora",
+        "cantos": "4-8",
+        "total": 12
+      },
+      "assM": [
+        "BLITZ_INICIAL",
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-28",
+          "adv": "Yamaga",
+          "ps": 73.8,
+          "pro": 3,
+          "sof": 5,
+          "total": 8,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-14",
+          "adv": "Iwaki",
+          "ps": 86.3,
+          "pro": 4,
+          "sof": 11,
+          "total": 15,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-28",
+          "adv": "Omiya Ardija",
+          "ps": 81.3,
+          "pro": 6,
+          "sof": 7,
+          "total": 13,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Hokkaido Consadole Sapporo",
+          "ps": 53.8,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Fujieda MYFC",
+          "ps": 56.3,
+          "pro": 2,
+          "sof": 5,
+          "total": 7,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "Iwata",
+          "ps": 43.8,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-08",
+          "adv": "Fujieda MYFC",
+          "ps": 56.3,
+          "pro": 4,
+          "sof": 6,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-02-28",
+          "adv": "Hokkaido Consadole Sapporo",
+          "ps": 53.8,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Yamaga",
+          "ps": 73.8,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Omiya Ardija",
+          "ps": 81.3,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 1,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Iwaki",
+          "ps": 86.3,
+          "pro": 4,
+          "sof": 0,
+          "total": 4,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "jogo": "Blaublitz × Kusatsu",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 76.3,
+        "V": 18.8,
+        "catM": "MEDIO_FORTE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 9,
+      "xFT": 10.8,
+      "xHT": 5.93,
+      "over95Real": 5,
+      "under95Real": 4,
+      "over95Pct": 56,
+      "h2h": {
+        "data": "2026-02-28",
+        "ctx": "fora",
+        "cantos": "10-4",
+        "total": 14
+      },
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-15",
+          "adv": "Tochigi SC",
+          "ps": 31.3,
+          "pro": 7,
+          "sof": 6,
+          "total": 13,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Vanraure",
+          "ps": 26.3,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Montedio Yamagata",
+          "ps": 38.8,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "Sagamihara",
+          "ps": 46.3,
+          "pro": 6,
+          "sof": 10,
+          "total": 16,
+          "ht": 6,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-04",
+          "adv": "Sagamihara",
+          "ps": 46.3,
+          "pro": 5,
+          "sof": 10,
+          "total": 15,
+          "ht": 3,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-15",
+          "adv": "Yokohama FC",
+          "ps": 63.7,
+          "pro": 1,
+          "sof": 12,
+          "total": 13,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Vegalta Sendai",
+          "ps": 98.8,
+          "pro": 2,
+          "sof": 3,
+          "total": 5,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Shonan Bellmare",
+          "ps": 88.8,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Imabari × Kamatamare",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 21.3,
+        "V": 1.3,
+        "catM": "AZARAO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 8,
+      "xFT": 10.29,
+      "xHT": 4.22,
+      "over95Real": 5,
+      "under95Real": 3,
+      "over95Pct": 63,
+      "h2h": {
+        "data": "2026-03-08",
+        "ctx": "fora",
+        "cantos": "2-5",
+        "total": 7
+      },
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Osaka",
+          "ps": 28.7,
+          "pro": 1,
+          "sof": 8,
+          "total": 9,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Nara Club",
+          "ps": 23.8,
+          "pro": 5,
+          "sof": 0,
+          "total": 5,
+          "ht": 1,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-08",
+          "adv": "Osaka",
+          "ps": 28.7,
+          "pro": 7,
+          "sof": 6,
+          "total": 13,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-01",
+          "adv": "Kanazawa",
+          "ps": 33.8,
+          "pro": 6,
+          "sof": 6,
+          "total": 12,
+          "ht": 5,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Nara Club",
+          "ps": 23.8,
+          "pro": 3,
+          "sof": 7,
+          "total": 10,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Albirex Niigata",
+          "ps": 51.2,
+          "pro": 2,
+          "sof": 6,
+          "total": 8,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Iwaki × Yamaga",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 86.3,
+        "V": 73.8,
+        "catM": "ELITE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 11,
+      "xFT": 9.51,
+      "xHT": 3.19,
+      "over95Real": 7,
+      "under95Real": 4,
+      "over95Pct": 64,
+      "h2h": {
+        "data": "2026-04-05",
+        "ctx": "fora",
+        "cantos": "4-4",
+        "total": 8
+      },
+      "assM": [
+        "RUPTURA_HOME",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "EM_EVOLUCAO_FORTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-08",
+          "adv": "Hokkaido Consadole Sapporo",
+          "ps": 53.8,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-01",
+          "adv": "Fujieda MYFC",
+          "ps": 56.3,
+          "pro": 5,
+          "sof": 6,
+          "total": 11,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-07",
+          "adv": "Omiya Ardija",
+          "ps": 81.3,
+          "pro": 3,
+          "sof": 11,
+          "total": 14,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Iwata",
+          "ps": 43.8,
+          "pro": 7,
+          "sof": 5,
+          "total": 12,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Gifu",
+          "ps": 71.3,
+          "pro": 0,
+          "sof": 4,
+          "total": 4,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Kofu",
+          "ps": 83.8,
+          "pro": 4,
+          "sof": 3,
+          "total": 7,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-07",
+          "adv": "Omiya Ardija",
+          "ps": 81.3,
+          "pro": 2,
+          "sof": 8,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-14",
+          "adv": "Fujieda MYFC",
+          "ps": 56.3,
+          "pro": 5,
+          "sof": 6,
+          "total": 11,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-02-28",
+          "adv": "Kofu",
+          "ps": 83.8,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "Gifu",
+          "ps": 71.3,
+          "pro": 8,
+          "sof": 4,
+          "total": 12,
+          "ht": 5,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Kagoshima Utd × Kumamoto",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 78.8,
+        "V": 48.8,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO"
+      },
+      "n_relevantes": 10,
+      "xFT": 8.82,
+      "xHT": 3.8,
+      "over95Real": 5,
+      "under95Real": 5,
+      "over95Pct": 50,
+      "h2h": {
+        "data": "2026-03-29",
+        "ctx": "fora",
+        "cantos": "3-3",
+        "total": 6
+      },
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Renofa Yamaguchi",
+          "ps": 68.8,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Gainare Tottori",
+          "ps": 36.3,
+          "pro": 7,
+          "sof": 0,
+          "total": 7,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Sagan Tosu",
+          "ps": 58.8,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-15",
+          "adv": "Sagan Tosu",
+          "ps": 58.8,
+          "pro": 0,
+          "sof": 2,
+          "total": 2,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-21",
+          "adv": "Tegevajaro Miyazaki",
+          "ps": 93.8,
+          "pro": 7,
+          "sof": 1,
+          "total": 8,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ]
+    },
+    {
+      "jogo": "Kochi United × Ehime",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 66.3,
+        "V": 61.3,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FORTE"
+      },
+      "n_relevantes": 11,
+      "xFT": 10.82,
+      "xHT": 5.48,
+      "over95Real": 6,
+      "under95Real": 5,
+      "over95Pct": 55,
+      "h2h": {
+        "data": "2026-03-22",
+        "ctx": "fora",
+        "cantos": "2-7",
+        "total": 9
+      },
+      "assM": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-22",
+          "adv": "Kanazawa",
+          "ps": 33.8,
+          "pro": 5,
+          "sof": 9,
+          "total": 14,
+          "ht": 3,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Albirex Niigata",
+          "ps": 51.2,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Tokushima",
+          "ps": 91.3,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Toyama",
+          "ps": 96.3,
+          "pro": 1,
+          "sof": 12,
+          "total": 13,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Tokushima",
+          "ps": 91.3,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 2,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Oita Trinita × Tegevajaro Miyazaki",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 41.3,
+        "V": 93.8,
+        "catM": "MEDIO",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 11,
+      "xFT": 8.88,
+      "xHT": 2.81,
+      "over95Real": 4,
+      "under95Real": 7,
+      "over95Pct": 36,
+      "h2h": {
+        "data": "2026-03-14",
+        "ctx": "fora",
+        "cantos": "8-5",
+        "total": 13
+      },
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Kagoshima Utd",
+          "ps": 78.8,
+          "pro": 6,
+          "sof": 5,
+          "total": 11,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-11",
+          "adv": "Renofa Yamaguchi",
+          "ps": 68.8,
+          "pro": 6,
+          "sof": 8,
+          "total": 14,
+          "ht": 5,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-28",
+          "adv": "Ryukyu",
+          "ps": 11.3,
+          "pro": 5,
+          "sof": 3,
+          "total": 8,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-07",
+          "adv": "Giravanz Kitakyushu",
+          "ps": 16.3,
+          "pro": 9,
+          "sof": 6,
+          "total": 15,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Reilac Shiga",
+          "ps": 13.8,
+          "pro": 6,
+          "sof": 4,
+          "total": 10,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-12",
+          "adv": "Kumamoto",
+          "ps": 48.8,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Gainare Tottori",
+          "ps": 36.3,
+          "pro": 5,
+          "sof": 1,
+          "total": 6,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Sagan Tosu",
+          "ps": 58.8,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Renofa Yamaguchi",
+          "ps": 68.8,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 1,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Omiya Ardija × Nagano",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 81.3,
+        "V": 3.8,
+        "catM": "ELITE",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 9,
+      "xFT": 9.17,
+      "xHT": 5.78,
+      "over95Real": 4,
+      "under95Real": 5,
+      "over95Pct": 44,
+      "h2h": {
+        "data": "2026-02-28",
+        "ctx": "fora",
+        "cantos": "6-6",
+        "total": 12
+      },
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-21",
+          "adv": "Fukushima Utd",
+          "ps": 8.8,
+          "pro": 6,
+          "sof": 3,
+          "total": 9,
+          "ht": 4,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-14",
+          "adv": "Kofu",
+          "ps": 83.8,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 2,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-28",
+          "adv": "Gifu",
+          "ps": 71.3,
+          "pro": 1,
+          "sof": 11,
+          "total": 12,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Fujieda MYFC",
+          "ps": 56.3,
+          "pro": 1,
+          "sof": 4,
+          "total": 5,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Iwaki",
+          "ps": 86.3,
+          "pro": 2,
+          "sof": 4,
+          "total": 6,
+          "ht": 1,
+          "veredito": "SOFREU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-26",
+          "adv": "Yamaga",
+          "ps": 73.8,
+          "pro": 5,
+          "sof": 6,
+          "total": 11,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-06",
+          "adv": "Hokkaido Consadole Sapporo",
+          "ps": 53.8,
+          "pro": 1,
+          "sof": 9,
+          "total": 10,
+          "ht": 0,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Osaka × Kanazawa",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 28.7,
+        "V": 33.8,
+        "catM": "MEDIO_FRACO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 12,
+      "xFT": 10.57,
+      "xHT": 4.77,
+      "over95Real": 7,
+      "under95Real": 5,
+      "over95Pct": 58,
+      "h2h": {
+        "data": "2026-03-22",
+        "ctx": "fora",
+        "cantos": "1-2",
+        "total": 3
+      },
+      "assM": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER",
+        "TERMOMETRO_FORMA"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-06",
+          "adv": "Nara Club",
+          "ps": 23.8,
+          "pro": 6,
+          "sof": 1,
+          "total": 7,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-29",
+          "adv": "Albirex Niigata",
+          "ps": 51.2,
+          "pro": 12,
+          "sof": 3,
+          "total": 15,
+          "ht": 8,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-17",
+          "adv": "Ehime",
+          "ps": 61.3,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-09",
+          "adv": "Imabari",
+          "ps": 21.3,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 3,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-08",
+          "adv": "Imabari",
+          "ps": 21.3,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-03-28",
+          "adv": "Nara Club",
+          "ps": 23.8,
+          "pro": 12,
+          "sof": 1,
+          "total": 13,
+          "ht": 6,
+          "veredito": "DOMINOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Albirex Niigata",
+          "ps": 51.2,
+          "pro": 10,
+          "sof": 2,
+          "total": 12,
+          "ht": 5,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Kamatamare",
+          "ps": 1.3,
+          "pro": 4,
+          "sof": 0,
+          "total": 4,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Toyama × Tokushima",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 96.3,
+        "V": 91.3,
+        "catM": "ELITE",
+        "catV": "ELITE"
+      },
+      "n_relevantes": 4,
+      "xFT": 12.83,
+      "xHT": 2.51,
+      "over95Real": 4,
+      "under95Real": 0,
+      "over95Pct": 100,
+      "h2h": {
+        "data": "2026-02-22",
+        "ctx": "fora",
+        "cantos": "4-8",
+        "total": 12
+      },
+      "assM": [],
+      "assV": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Ehime",
+          "ps": 61.3,
+          "pro": 12,
+          "sof": 1,
+          "total": 13,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Kochi United",
+          "ps": 66.3,
+          "pro": 6,
+          "sof": 7,
+          "total": 13,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-04-26",
+          "adv": "Kochi United",
+          "ps": 66.3,
+          "pro": 5,
+          "sof": 5,
+          "total": 10,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Yokohama FC × Tochigi SC",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 63.7,
+        "V": 31.3,
+        "catM": "MEDIO_FORTE",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 10,
+      "xFT": 9.99,
+      "xHT": 4.48,
+      "over95Real": 6,
+      "under95Real": 4,
+      "over95Pct": 60,
+      "h2h": {
+        "data": "2026-03-01",
+        "ctx": "fora",
+        "cantos": "5-6",
+        "total": 11
+      },
+      "assM": [],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-07",
+          "adv": "Montedio Yamagata",
+          "ps": 38.8,
+          "pro": 7,
+          "sof": 4,
+          "total": 11,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-22",
+          "adv": "Tochigi City",
+          "ps": 6.3,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-03-15",
+          "adv": "Kusatsu",
+          "ps": 18.8,
+          "pro": 12,
+          "sof": 1,
+          "total": 13,
+          "ht": 8,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Vanraure",
+          "ps": 26.3,
+          "pro": 5,
+          "sof": 2,
+          "total": 7,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-02",
+          "adv": "Sagamihara",
+          "ps": 46.3,
+          "pro": 10,
+          "sof": 0,
+          "total": 10,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-03-08",
+          "adv": "Sagamihara",
+          "ps": 46.3,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 1,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-03-15",
+          "adv": "Blaublitz",
+          "ps": 76.3,
+          "pro": 6,
+          "sof": 7,
+          "total": 13,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Shonan Bellmare",
+          "ps": 88.8,
+          "pro": 9,
+          "sof": 1,
+          "total": 10,
+          "ht": 6,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-05-03",
+          "adv": "Montedio Yamagata",
+          "ps": 38.8,
+          "pro": 8,
+          "sof": 3,
+          "total": 11,
+          "ht": 2,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Reilac Shiga × Giravanz Kitakyushu",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 13.8,
+        "V": 16.3,
+        "catM": "AZARAO",
+        "catV": "AZARAO"
+      },
+      "n_relevantes": 8,
+      "xFT": 9.03,
+      "xHT": 2.66,
+      "over95Real": 3,
+      "under95Real": 5,
+      "over95Pct": 38,
+      "h2h": {
+        "data": "2026-02-28",
+        "ctx": "fora",
+        "cantos": "5-1",
+        "total": 6
+      },
+      "assM": [
+        "BLITZ_INICIAL",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER",
+        "SUCUMBE_AZARAO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-04-12",
+          "adv": "Ryukyu",
+          "ps": 11.3,
+          "pro": 5,
+          "sof": 6,
+          "total": 11,
+          "ht": 3,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-04-19",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 7,
+          "sof": 3,
+          "total": 10,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Gainare Tottori",
+          "ps": 36.3,
+          "pro": 1,
+          "sof": 5,
+          "total": 6,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.75
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-15",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 7,
+          "sof": 2,
+          "total": 9,
+          "ht": 0,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Ryukyu",
+          "ps": 11.3,
+          "pro": 5,
+          "sof": 4,
+          "total": 9,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-05-10",
+          "adv": "Gainare Tottori",
+          "ps": 36.3,
+          "pro": 6,
+          "sof": 1,
+          "total": 7,
+          "ht": 4,
+          "veredito": "DOMINOU",
+          "peso": 0.5
+        }
+      ]
+    },
+    {
+      "jogo": "Ryukyu × Gainare Tottori",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 11.3,
+        "V": 36.3,
+        "catM": "AZARAO",
+        "catV": "MEDIO_FRACO"
+      },
+      "n_relevantes": 10,
+      "xFT": 8.69,
+      "xHT": 4.67,
+      "over95Real": 3,
+      "under95Real": 7,
+      "over95Pct": 30,
+      "h2h": {
+        "data": "2026-03-08",
+        "ctx": "fora",
+        "cantos": "1-9",
+        "total": 10
+      },
+      "assM": [
+        "BLITZ_INICIAL",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "DEFESA_MELHORANDO",
+      "jogosM_relevantes": [
+        {
+          "data": "2026-02-08",
+          "adv": "Sagan Tosu",
+          "ps": 58.8,
+          "pro": 4,
+          "sof": 8,
+          "total": 12,
+          "ht": 4,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-02-21",
+          "adv": "Reilac Shiga",
+          "ps": 13.8,
+          "pro": 3,
+          "sof": 6,
+          "total": 9,
+          "ht": 0,
+          "veredito": "SOFREU",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-04",
+          "adv": "Kumamoto",
+          "ps": 48.8,
+          "pro": 7,
+          "sof": 5,
+          "total": 12,
+          "ht": 2,
+          "veredito": "CONTROLOU",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-18",
+          "adv": "Giravanz Kitakyushu",
+          "ps": 16.3,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 4,
+          "veredito": "EQUILIBRADO",
+          "peso": 0.75
+        },
+        {
+          "data": "2026-04-25",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 2,
+          "sof": 3,
+          "total": 5,
+          "ht": 0,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        }
+      ],
+      "jogosV_relevantes": [
+        {
+          "data": "2026-02-07",
+          "adv": "Giravanz Kitakyushu",
+          "ps": 16.3,
+          "pro": 4,
+          "sof": 5,
+          "total": 9,
+          "ht": 2,
+          "veredito": "EQUILIBRADO",
+          "peso": 1
+        },
+        {
+          "data": "2026-02-22",
+          "adv": "Oita Trinita",
+          "ps": 41.3,
+          "pro": 2,
+          "sof": 7,
+          "total": 9,
+          "ht": 1,
+          "veredito": "ENGOLIDO",
+          "peso": 0.5
+        },
+        {
+          "data": "2026-04-29",
+          "adv": "Reilac Shiga",
+          "ps": 13.8,
+          "pro": 5,
+          "sof": 1,
+          "total": 6,
+          "ht": 3,
+          "veredito": "CONTROLOU",
+          "peso": 1
+        }
+      ]
+    }
+  ]
+}

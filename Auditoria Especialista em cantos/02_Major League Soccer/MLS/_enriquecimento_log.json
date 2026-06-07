@@ -1,0 +1,26 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "r1DNXnig",
+      "mandante": "San Diego FC",
+      "visitante": "Real Salt Lake",
+      "campos": 23,
+      "ts": "2026-05-19T23:38:55.450Z"
+    },
+    {
+      "match_id": "l2KEZ8Mt",
+      "mandante": "Portland Timbers",
+      "visitante": "Los Angeles Galaxy",
+      "campos": 23,
+      "ts": "2026-05-19T23:39:24.557Z"
+    },
+    {
+      "match_id": "bwu5F5yP",
+      "mandante": "Minnesota United",
+      "visitante": "Seattle Sounders",
+      "campos": 22,
+      "ts": "2026-05-19T23:39:54.255Z"
+    }
+  ],
+  "falhados": []
+}

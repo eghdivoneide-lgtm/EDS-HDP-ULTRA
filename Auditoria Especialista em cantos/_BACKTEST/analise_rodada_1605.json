@@ -1,0 +1,3457 @@
+{
+  "BR": [
+    {
+      "jogo": "Atlético-MG × Mirassol",
+      "liga": "BR",
+      "ps": {
+        "M": 32.5,
+        "V": 7.5,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 9.5,
+      "xHT": 3.23,
+      "xFT_detail": "M_casa_vs_azarao=11.0(n=1) | V_fora_vs_azarao=8.0(n=1)",
+      "xFTvariancia": 1.5,
+      "bucketM": {
+        "total": 11,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 100,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Internacional × Vasco",
+      "liga": "BR",
+      "ps": {
+        "M": 62.5,
+        "V": 47.5,
+        "catM": "medio_forte",
+        "catV": "medio"
+      },
+      "xFT": 10,
+      "xHT": 4.95,
+      "xFT_detail": "M_casa_vs_medio=10.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 10,
+        "n": 1,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "flags": [
+        "V_BLITZ",
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Fluminense × São Paulo",
+      "liga": "BR",
+      "ps": {
+        "M": 87.5,
+        "V": 77.5,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 4,
+      "xHT": 1.98,
+      "xFT_detail": "M_casa_vs_medio_forte=4.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "ELITE_KILLER",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RETRANCA",
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 0,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Palmeiras × Cruzeiro",
+      "liga": "BR",
+      "ps": {
+        "M": 97.5,
+        "V": 22.5,
+        "catM": "elite",
+        "catV": "azarao"
+      },
+      "xFT": 9,
+      "xHT": 4.23,
+      "xFT_detail": "M_casa_vs_azarao=6.0(n=1) | V_fora_vs_elite=10.5(n=2)",
+      "xFTvariancia": 2.25,
+      "bucketM": {
+        "total": 6,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 10.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "V_ELITE_KILLER",
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 0,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Santos × Coritiba",
+      "liga": "BR",
+      "ps": {
+        "M": 42.5,
+        "V": 27.5,
+        "catM": "medio",
+        "catV": "azarao"
+      },
+      "xFT": 9.6,
+      "xHT": 4.99,
+      "xFT_detail": "M_casa_vs_azarao=10.5(n=2) | V_fora_vs_medio=9.0(n=3)",
+      "xFTvariancia": 0.75,
+      "bucketM": {
+        "total": 10.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 5,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 33.33
+      }
+    },
+    {
+      "jogo": "Bahia × Grêmio",
+      "liga": "BR",
+      "ps": {
+        "M": 72.5,
+        "V": 37.5,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 8,
+      "xHT": 4.16,
+      "xFT_detail": "V_fora_vs_medio_forte=8.0(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 8,
+        "n": 2,
+        "over95": 50,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 2,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": null,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Botafogo × Corinthians",
+      "liga": "BR",
+      "ps": {
+        "M": 67.5,
+        "V": 17.5,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 12.5,
+      "xHT": 5.25,
+      "xFT_detail": "M_casa_vs_azarao=12.5(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 12.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "nTotal": 2,
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [],
+      "flags": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Red Bull Bragantino × Vitória",
+      "liga": "BR",
+      "ps": {
+        "M": 57.5,
+        "V": 52.5,
+        "catM": "medio",
+        "catV": "medio"
+      },
+      "xFT": 12.67,
+      "xHT": 4.69,
+      "xFT_detail": "M_casa_vs_medio=18.0(n=1) | V_fora_vs_medio=10.0(n=2)",
+      "xFTvariancia": 4,
+      "bucketM": {
+        "total": 18,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 10,
+        "n": 2,
+        "over95": 50,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "ESTAVEL",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 100,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Chapecoense × Remo",
+      "liga": "BR",
+      "ps": {
+        "M": 2.5,
+        "V": 12.5,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 10,
+      "xHT": 3.55,
+      "xFT_detail": "M_casa_vs_azarao=10.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 10,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Athletico-PR × Flamengo",
+      "liga": "BR",
+      "ps": {
+        "M": 82.5,
+        "V": 92.5,
+        "catM": "elite",
+        "catV": "elite"
+      },
+      "xFT": 10,
+      "xHT": 5.3,
+      "xFT_detail": "V_fora_vs_elite=10.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 10,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": null,
+        "V": 100
+      }
+    }
+  ],
+  "BR_B": [
+    {
+      "jogo": "Operario-PR × Nautico",
+      "liga": "BR_B",
+      "ps": {
+        "M": 77.5,
+        "V": 27.5,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 9.67,
+      "xHT": 4.54,
+      "xFT_detail": "M_casa_vs_azarao=9.0(n=1) | V_fora_vs_medio_forte=10.0(n=2)",
+      "xFTvariancia": 0.5,
+      "bucketM": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 10,
+        "n": 2,
+        "over95": 50,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 0,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Sao Bernardo × America MG",
+      "liga": "BR_B",
+      "ps": {
+        "M": 97.5,
+        "V": 2.5,
+        "catM": "elite",
+        "catV": "azarao"
+      },
+      "xFT": 8,
+      "xHT": 2.96,
+      "xFT_detail": "M_casa_vs_azarao=8.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "RETRANCA_AVANCADA",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL"
+      ],
+      "flags": [
+        "M_RETRANCA",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 0,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Goias × Botafogo SP",
+      "liga": "BR_B",
+      "ps": {
+        "M": 22.5,
+        "V": 67.5,
+        "catM": "azarao",
+        "catV": "medio_forte"
+      },
+      "xFT": 15.5,
+      "xHT": 7.83,
+      "xFT_detail": "M_casa_vs_medio_forte=13.0(n=1) | V_fora_vs_azarao=18.0(n=1)",
+      "xFTvariancia": 2.5,
+      "bucketM": {
+        "total": 13,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 18,
+        "n": 1,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_VOLATIL"
+      ],
+      "volM": "ESTAVEL",
+      "volV": "VOLATIL_ALTO",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Cuiaba × Novorizontino",
+      "liga": "BR_B",
+      "ps": {
+        "M": 32.5,
+        "V": 50,
+        "catM": "azarao",
+        "catV": "medio"
+      },
+      "xFT": 9,
+      "xHT": 4.99,
+      "xFT_detail": "V_fora_vs_azarao=9.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "MURO_DEFENSIVO"
+      ],
+      "assV": [
+        "MURO_DEFENSIVO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RETRANCA",
+        "M_MURO",
+        "V_MURO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": null,
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Athletic Club × Juventude",
+      "liga": "BR_B",
+      "ps": {
+        "M": 42.5,
+        "V": 57.5,
+        "catM": "medio",
+        "catV": "medio"
+      },
+      "xFT": 9,
+      "xHT": 4.37,
+      "xFT_detail": "M_casa_vs_medio=12.0(n=2) | V_fora_vs_medio=6.0(n=2)",
+      "xFTvariancia": 3,
+      "bucketM": {
+        "total": 12,
+        "n": 2,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 6,
+        "n": 2,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO",
+      "over95": {
+        "M": 100,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Vila Nova FC × Avai",
+      "liga": "BR_B",
+      "ps": {
+        "M": 92.5,
+        "V": 50,
+        "catM": "elite",
+        "catV": "medio"
+      },
+      "xFT": 12,
+      "xHT": 5.22,
+      "xFT_detail": "M_casa_vs_medio=10.5(n=2) | V_fora_vs_elite=15.0(n=1)",
+      "xFTvariancia": 2.25,
+      "bucketM": {
+        "total": 10.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 15,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 3,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": null,
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Ceara × Fortaleza",
+      "liga": "BR_B",
+      "ps": {
+        "M": 62.5,
+        "V": 87.5,
+        "catM": "medio_forte",
+        "catV": "elite"
+      },
+      "xFT": 11.75,
+      "xHT": 5.4,
+      "xFT_detail": "M_casa_vs_elite=8.5(n=2) | V_fora_vs_medio_forte=15.0(n=2)",
+      "xFTvariancia": 3.25,
+      "bucketM": {
+        "total": 8.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 15,
+        "n": 2,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO",
+      "over95": {
+        "M": 50,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Criciuma × Atletico GO",
+      "liga": "BR_B",
+      "ps": {
+        "M": 72.5,
+        "V": 37.5,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 13,
+      "xHT": 6.57,
+      "xFT_detail": "M_casa_vs_azarao=14.0(n=1) | V_fora_vs_medio_forte=12.7(n=3)",
+      "xFTvariancia": 0.67,
+      "bucketM": {
+        "total": 14,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 12.67,
+        "n": 3,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Sport Recife × CRB",
+      "liga": "BR_B",
+      "ps": {
+        "M": 82.5,
+        "V": 12.5,
+        "catM": "elite",
+        "catV": "azarao"
+      },
+      "xFT": 8,
+      "xHT": 4.4,
+      "xFT_detail": "V_fora_vs_elite=8.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Ponte Preta × Londrina",
+      "liga": "BR_B",
+      "ps": {
+        "M": 17.5,
+        "V": 7.5,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 12,
+      "xHT": 5.58,
+      "xFT_detail": "M_casa_vs_azarao=12.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 12,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": null,
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    }
+  ],
+  "ARG": [
+    {
+      "jogo": "River Plate × Rosario Central",
+      "liga": "ARG",
+      "ps": {
+        "M": 95,
+        "V": 65,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 6.5,
+      "xHT": 3.05,
+      "xFT_detail": "M_casa_vs_medio_forte=7.0(n=1) | V_fora_vs_elite=6.0(n=1)",
+      "xFTvariancia": 0.5,
+      "bucketM": {
+        "total": 7,
+        "n": 1,
+        "over95": 0,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 6,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [
+        "RETRANCA_AVANCADA",
+        "RUPTURA_HOME",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "RETRANCA_AVANCADA"
+      ],
+      "flags": [
+        "M_RETRANCA",
+        "M_RUPTURA_HOME",
+        "V_RETRANCA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Argentinos Jrs × Belgrano",
+      "liga": "ARG",
+      "ps": {
+        "M": 75,
+        "V": 85,
+        "catM": "medio_forte",
+        "catV": "elite"
+      },
+      "xFT": 6.4,
+      "xHT": 2.94,
+      "xFT_detail": "M_casa_vs_elite=4.0(n=2) | V_fora_vs_medio_forte=8.0(n=3)",
+      "xFTvariancia": 2,
+      "bucketM": {
+        "total": 4,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 8,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 5,
+      "assM": [
+        "MURO_DEFENSIVO",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_MURO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 0,
+        "V": 33.33
+      }
+    }
+  ],
+  "ARG_B": [
+    {
+      "jogo": "Atletico Atlanta × Atl. Rafaela",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 98.6,
+        "V": 62.5,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 10,
+      "xHT": 5,
+      "xFT_detail": "M_casa_vs_medio_forte=10.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 10,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_BLITZ",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "EM_EVOLUCAO_FORTE",
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Los Andes × Godoy Cruz",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 81.9,
+        "V": 41.7,
+        "catM": "elite",
+        "catV": "medio"
+      },
+      "xFT": 4.67,
+      "xHT": 2.17,
+      "xFT_detail": "M_casa_vs_medio=4.7(n=3)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 4.67,
+        "n": 3,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "nTotal": 3,
+      "assM": [],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 0,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Almirante Brown × San Telmo",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 95.8,
+        "V": 68.1,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 6,
+      "xHT": 2.7,
+      "xFT_detail": "V_fora_vs_elite=6.0(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 6,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "nTotal": 2,
+      "assM": [
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "CA Estudiantes × Colon Santa Fe",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 68.1,
+        "V": 20.8,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 6.33,
+      "xHT": 3.26,
+      "xFT_detail": "M_casa_vs_azarao=5.0(n=2) | V_fora_vs_medio_forte=9.0(n=1)",
+      "xFTvariancia": 2,
+      "bucketM": {
+        "total": 5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 3,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_BLITZ",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Ciudad Bolivar × Acassuso",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 76.4,
+        "V": 4.2,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 6,
+      "xHT": 2.94,
+      "xFT_detail": "V_fora_vs_medio_forte=6.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 6,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Colegiales × Club A. Guemes",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 73.6,
+        "V": 12.5,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 10,
+      "xHT": 4.8,
+      "xFT_detail": "M_casa_vs_azarao=9.5(n=2) | V_fora_vs_medio_forte=11.0(n=1)",
+      "xFTvariancia": 0.75,
+      "bucketM": {
+        "total": 9.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 11,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 3,
+      "assM": [
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 50,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Deportivo Madryn × Ferro",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 59.7,
+        "V": 87.5,
+        "catM": "medio",
+        "catV": "elite"
+      },
+      "xFT": 9.6,
+      "xHT": 4.42,
+      "xFT_detail": "M_casa_vs_elite=7.5(n=2) | V_fora_vs_medio=11.0(n=3)",
+      "xFTvariancia": 1.75,
+      "bucketM": {
+        "total": 7.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 11,
+        "n": 3,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 5,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 0,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Almagro × San Martin S.J.",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 1.4,
+        "V": 48.6,
+        "catM": "azarao",
+        "catV": "medio"
+      },
+      "xFT": 9.75,
+      "xHT": 4.1,
+      "xFT_detail": "M_casa_vs_medio=9.8(n=4)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 9.75,
+        "n": 4,
+        "over95": 75,
+        "veredito": "EQUILIBRADO",
+        "conf": "consolidado"
+      },
+      "bucketV": null,
+      "nTotal": 4,
+      "assM": [
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "flags": [
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 75,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Gimnasia Jujuy × Temperley",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 93.1,
+        "V": 41.7,
+        "catM": "elite",
+        "catV": "medio"
+      },
+      "xFT": 9.5,
+      "xHT": 4.46,
+      "xFT_detail": "M_casa_vs_medio=11.0(n=3) | V_fora_vs_elite=5.0(n=1)",
+      "xFTvariancia": 3,
+      "bucketM": {
+        "total": 11,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 5,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 4,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "V_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 66.67,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "CA Mitre × San Miguel",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 54.2,
+        "V": 9.7,
+        "catM": "medio",
+        "catV": "azarao"
+      },
+      "xFT": 4.33,
+      "xHT": 2.23,
+      "xFT_detail": "M_casa_vs_azarao=2.0(n=1) | V_fora_vs_medio=5.5(n=2)",
+      "xFTvariancia": 1.75,
+      "bucketM": {
+        "total": 2,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 5.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_ELITE_KILLER",
+        "V_BLITZ",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Patronato × Chacarita Juniors",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 56.9,
+        "V": 51.4,
+        "catM": "medio",
+        "catV": "medio"
+      },
+      "xFT": 8.4,
+      "xHT": 4.03,
+      "xFT_detail": "M_casa_vs_medio=9.7(n=3) | V_fora_vs_medio=6.5(n=2)",
+      "xFTvariancia": 1.59,
+      "bucketM": {
+        "total": 9.67,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 5,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 66.67,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Midland × Agropecuario",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 34.7,
+        "V": 84.7,
+        "catM": "azarao",
+        "catV": "elite"
+      },
+      "xFT": 4,
+      "xHT": 1.86,
+      "xFT_detail": "V_fora_vs_azarao=4.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Deportivo Maipu × Nueva Chicago",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 68.1,
+        "V": 30.6,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 16,
+      "xHT": 7.44,
+      "xFT_detail": "M_casa_vs_azarao=16.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 16,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Gimnasia y Tiro × San Martin T.",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 26.4,
+        "V": 37.5,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 10.4,
+      "xHT": 4.94,
+      "xFT_detail": "M_casa_vs_azarao=11.7(n=3) | V_fora_vs_azarao=8.5(n=2)",
+      "xFTvariancia": 1.59,
+      "bucketM": {
+        "total": 11.67,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 8.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 5,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "RUPTURA_HOME"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 66.67,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Quilmes × Tristan Suarez",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 23.6,
+        "V": 45.8,
+        "catM": "azarao",
+        "catV": "medio"
+      },
+      "xFT": 8.5,
+      "xHT": 3.87,
+      "xFT_detail": "M_casa_vs_medio=8.5(n=4)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 8.5,
+        "n": 4,
+        "over95": 50,
+        "veredito": "SOFREU",
+        "conf": "consolidado"
+      },
+      "bucketV": null,
+      "nTotal": 4,
+      "assM": [
+        "RUPTURA_HOME",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [],
+      "flags": [
+        "M_RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 50,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Def. de Belgrano × Chaco For Ever",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 6.9,
+        "V": 30.6,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 11.33,
+      "xHT": 6.23,
+      "xFT_detail": "M_casa_vs_azarao=16.0(n=1) | V_fora_vs_azarao=9.0(n=2)",
+      "xFTvariancia": 3.5,
+      "bucketM": {
+        "total": 16,
+        "n": 1,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 2,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "V_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 100,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "All Boys × Deportivo Moron",
+      "liga": "ARG_B",
+      "ps": {
+        "M": 18.1,
+        "V": 90.3,
+        "catM": "azarao",
+        "catV": "elite"
+      },
+      "xFT": 8,
+      "xHT": 4.12,
+      "xFT_detail": "M_casa_vs_elite=7.0(n=1) | V_fora_vs_azarao=8.3(n=3)",
+      "xFTvariancia": 0.67,
+      "bucketM": {
+        "total": 7,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 8.33,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "ATAQUE_ESTERIL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "flags": [
+        "V_BLITZ"
+      ],
+      "volM": "ESTAVEL",
+      "volV": "ESTAVEL",
+      "tendM": "ESTAGNADO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 0,
+        "V": 33.33
+      }
+    }
+  ],
+  "MLS": [
+    {
+      "jogo": "CF Montreal × Chicago Fire",
+      "liga": "MLS",
+      "ps": {
+        "M": 18.3,
+        "V": 81.7,
+        "catM": "azarao",
+        "catV": "elite"
+      },
+      "xFT": 8,
+      "xHT": 3.24,
+      "xFT_detail": "V_fora_vs_azarao=8.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [],
+      "flags": [
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Charlotte × Toronto FC",
+      "liga": "MLS",
+      "ps": {
+        "M": 58.3,
+        "V": 45,
+        "catM": "medio",
+        "catV": "medio"
+      },
+      "xFT": 12.75,
+      "xHT": 5.16,
+      "xFT_detail": "M_casa_vs_medio=12.0(n=3) | V_fora_vs_medio=15.0(n=1)",
+      "xFTvariancia": 1.5,
+      "bucketM": {
+        "total": 12,
+        "n": 3,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 15,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 4,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "RUPTURA_HOME"
+      ],
+      "assV": [],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "DC United × St. Louis City",
+      "liga": "MLS",
+      "ps": {
+        "M": 35,
+        "V": 11.7,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 10.5,
+      "xHT": 4.67,
+      "xFT_detail": "M_casa_vs_azarao=10.5(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 10.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "nTotal": 2,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL"
+      ],
+      "flags": [
+        "M_ELITE_KILLER",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "DEFESA_DEGRADANDO",
+      "over95": {
+        "M": 50,
+        "V": null
+      }
+    },
+    {
+      "jogo": "New England Revolution × Minnesota United",
+      "liga": "MLS",
+      "ps": {
+        "M": 65,
+        "V": 38.3,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 9,
+      "xHT": 4.14,
+      "xFT_detail": "M_casa_vs_azarao=9.0(n=2) | V_fora_vs_medio_forte=9.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 9,
+        "n": 2,
+        "over95": 50,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 3,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 50,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "New York Red Bulls × New York City",
+      "liga": "MLS",
+      "ps": {
+        "M": 15,
+        "V": 51.7,
+        "catM": "azarao",
+        "catV": "medio"
+      },
+      "xFT": 6.5,
+      "xHT": 2.67,
+      "xFT_detail": "M_casa_vs_medio=6.5(n=2) | V_fora_vs_azarao=6.5(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "BLITZ_INICIAL",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Orlando City × Atlanta Utd",
+      "liga": "MLS",
+      "ps": {
+        "M": 5,
+        "V": 25,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 13.33,
+      "xHT": 5.8,
+      "xFT_detail": "M_casa_vs_azarao=13.3(n=3)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 13.33,
+        "n": 3,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "nTotal": 3,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "DEFESA_PRECARIA",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_DEF_PRECARIA",
+        "V_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 100,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Philadelphia Union × Columbus Crew",
+      "liga": "MLS",
+      "ps": {
+        "M": 8.3,
+        "V": 31.7,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 6.5,
+      "xHT": 3.31,
+      "xFT_detail": "V_fora_vs_azarao=6.5(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 2,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_ELITE_KILLER",
+        "V_BLITZ",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Austin FC × Sporting Kansas City",
+      "liga": "MLS",
+      "ps": {
+        "M": 41.7,
+        "V": 1.7,
+        "catM": "medio",
+        "catV": "azarao"
+      },
+      "xFT": 10.33,
+      "xHT": 4.75,
+      "xFT_detail": "M_casa_vs_azarao=10.0(n=1) | V_fora_vs_medio=10.5(n=2)",
+      "xFTvariancia": 0.25,
+      "bucketM": {
+        "total": 10,
+        "n": 1,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 10.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "DEFESA_PRECARIA",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "V_DEF_PRECARIA"
+      ],
+      "volM": "MODERADA",
+      "volV": "ESTAVEL",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Houston Dynamo × Vancouver Whitecaps",
+      "liga": "MLS",
+      "ps": {
+        "M": 28.3,
+        "V": 98.3,
+        "catM": "azarao",
+        "catV": "elite"
+      },
+      "xFT": 10.67,
+      "xHT": 5.28,
+      "xFT_detail": "M_casa_vs_elite=10.7(n=3)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 10.67,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "nTotal": 3,
+      "assM": [
+        "RUPTURA_HOME"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "V_RETRANCA",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 66.67,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Seattle Sounders × Los Angeles Galaxy",
+      "liga": "MLS",
+      "ps": {
+        "M": 85,
+        "V": 55,
+        "catM": "elite",
+        "catV": "medio"
+      },
+      "xFT": 11.02,
+      "xHT": 5.18,
+      "xFT_detail": "fallback_baseline",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": null,
+      "nTotal": 0,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "CARRINHO_FACIL"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RETRANCA",
+        "M_ELITE_KILLER",
+        "M_VOLATIL",
+        "V_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "EM_EVOLUCAO_FORTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": null,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Real Salt Lake × Colorado Rapids",
+      "liga": "MLS",
+      "ps": {
+        "M": 68.3,
+        "V": 71.7,
+        "catM": "medio_forte",
+        "catV": "medio_forte"
+      },
+      "xFT": 9,
+      "xHT": 4.9,
+      "xFT_detail": "M_casa_vs_medio_forte=9.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "nTotal": 1,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_ELITE_KILLER",
+        "V_BLITZ",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 0,
+        "V": null
+      }
+    },
+    {
+      "jogo": "San Diego FC × FC Cincinnati",
+      "liga": "MLS",
+      "ps": {
+        "M": 75,
+        "V": 48.3,
+        "catM": "medio_forte",
+        "catV": "medio"
+      },
+      "xFT": 8.75,
+      "xHT": 4.11,
+      "xFT_detail": "M_casa_vs_medio=10.3(n=3) | V_fora_vs_medio_forte=4.0(n=1)",
+      "xFTvariancia": 3.17,
+      "bucketM": {
+        "total": 10.33,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 4,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ",
+        "M_RETRANCA",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 66.67,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "San Jose Earthquakes × FC Dallas",
+      "liga": "MLS",
+      "ps": {
+        "M": 91.7,
+        "V": 78.3,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 11.33,
+      "xHT": 4.59,
+      "xFT_detail": "M_casa_vs_medio_forte=12.0(n=1) | V_fora_vs_elite=11.0(n=2)",
+      "xFTvariancia": 0.5,
+      "bucketM": {
+        "total": 12,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 11,
+        "n": 2,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_DEGRADANDO",
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Inter Miami × Portland Timbers",
+      "liga": "MLS",
+      "ps": {
+        "M": 61.7,
+        "V": 21.7,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 13,
+      "xHT": 6.89,
+      "xFT_detail": "M_casa_vs_azarao=13.5(n=2) | V_fora_vs_medio_forte=12.7(n=3)",
+      "xFTvariancia": 0.42,
+      "bucketM": {
+        "total": 13.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 12.67,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 5,
+      "assM": [
+        "BLITZ_INICIAL",
+        "RUPTURA_HOME",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 66.67
+      }
+    },
+    {
+      "jogo": "Nashville SC × Los Angeles FC",
+      "liga": "MLS",
+      "ps": {
+        "M": 95,
+        "V": 88.3,
+        "catM": "elite",
+        "catV": "elite"
+      },
+      "xFT": 9.45,
+      "xHT": 4.54,
+      "xFT_detail": "fallback_baseline",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": null,
+      "nTotal": 0,
+      "assM": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "flags": [
+        "M_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": null,
+        "V": null
+      }
+    }
+  ],
+  "USL": [
+    {
+      "jogo": "Detroit × Miami FC",
+      "liga": "USL",
+      "ps": {
+        "M": 86,
+        "V": 42,
+        "catM": "elite",
+        "catV": "medio"
+      },
+      "xFT": 13,
+      "xHT": 5.52,
+      "xFT_detail": "M_casa_vs_medio=14.0(n=1) | V_fora_vs_elite=12.0(n=1)",
+      "xFTvariancia": 1,
+      "bucketM": {
+        "total": 14,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 12,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [],
+      "assV": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "EM_EVOLUCAO_FORTE",
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "New Mexico × Tampa Bay",
+      "liga": "USL",
+      "ps": {
+        "M": 22,
+        "V": 94,
+        "catM": "azarao",
+        "catV": "elite"
+      },
+      "xFT": 8.5,
+      "xHT": 3.78,
+      "xFT_detail": "M_casa_vs_elite=10.0(n=1) | V_fora_vs_azarao=7.0(n=1)",
+      "xFTvariancia": 1.5,
+      "bucketM": {
+        "total": 10,
+        "n": 1,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 7,
+        "n": 1,
+        "over95": 0,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [],
+      "assV": [
+        "MURO_DEFENSIVO"
+      ],
+      "flags": [
+        "V_MURO"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": null,
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 100,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "FC Tulsa × Hartford Athletic",
+      "liga": "USL",
+      "ps": {
+        "M": 26,
+        "V": 38,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 13,
+      "xHT": 5,
+      "xFT_detail": "V_fora_vs_azarao=13.0(n=2)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 13,
+        "n": 2,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 2,
+      "assM": [
+        "RETRANCA_AVANCADA",
+        "RUPTURA_HOME"
+      ],
+      "assV": [],
+      "flags": [
+        "M_RETRANCA",
+        "M_RUPTURA_HOME"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": null,
+        "V": 100
+      }
+    }
+  ],
+  "J2_J3": [
+    {
+      "jogo": "Albirex Niigata × Nara Club",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 51.2,
+        "V": 23.8,
+        "catM": "medio",
+        "catV": "azarao"
+      },
+      "xFT": 8,
+      "xHT": 3.52,
+      "xFT_detail": "M_casa_vs_azarao=8.0(n=1) | V_fora_vs_medio=8.0(n=3)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 8,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 0,
+        "V": 33.33
+      }
+    },
+    {
+      "jogo": "Fukushima Utd × Hokkaido Consadole Sapporo",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 8.8,
+        "V": 53.8,
+        "catM": "azarao",
+        "catV": "medio"
+      },
+      "xFT": 8.67,
+      "xHT": 4.29,
+      "xFT_detail": "M_casa_vs_medio=8.5(n=2) | V_fora_vs_azarao=9.0(n=1)",
+      "xFTvariancia": 0.25,
+      "bucketM": {
+        "total": 8.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 3,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA",
+        "CARRINHO_FACIL"
+      ],
+      "flags": [
+        "V_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Sagamihara × Vanraure",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 46.3,
+        "V": 26.3,
+        "catM": "medio",
+        "catV": "azarao"
+      },
+      "xFT": 11.75,
+      "xHT": 6.58,
+      "xFT_detail": "M_casa_vs_azarao=14.5(n=2) | V_fora_vs_medio=9.0(n=2)",
+      "xFTvariancia": 2.75,
+      "bucketM": {
+        "total": 14.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 2,
+        "over95": 50,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "BLITZ_INICIAL"
+      ],
+      "assV": [
+        "BLITZ_INICIAL"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_BLITZ",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 100,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Sagan Tosu × Renofa Yamaguchi",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 58.8,
+        "V": 68.8,
+        "catM": "medio",
+        "catV": "medio_forte"
+      },
+      "xFT": 9.5,
+      "xHT": 3.56,
+      "xFT_detail": "M_casa_vs_medio_forte=5.0(n=1) | V_fora_vs_medio=11.0(n=3)",
+      "xFTvariancia": 3,
+      "bucketM": {
+        "total": 5,
+        "n": 1,
+        "over95": 0,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 11,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "EFETIVIDADE_CLINICA",
+        "MURO_DEFENSIVO",
+        "CARRINHO_FACIL"
+      ],
+      "assV": [],
+      "flags": [
+        "M_MURO",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "DEFESA_DEGRADANDO",
+      "over95": {
+        "M": 0,
+        "V": 66.67
+      }
+    },
+    {
+      "jogo": "Shonan Bellmare × Vegalta Sendai",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 88.8,
+        "V": 98.8,
+        "catM": "elite",
+        "catV": "elite"
+      },
+      "xFT": 9.06,
+      "xHT": 4.58,
+      "xFT_detail": "fallback_baseline",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": null,
+      "nTotal": 0,
+      "assM": [],
+      "assV": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "V_BLITZ",
+        "V_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": null,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Tochigi City × Montedio Yamagata",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 6.3,
+        "V": 38.8,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 13.5,
+      "xHT": 5.81,
+      "xFT_detail": "M_casa_vs_azarao=11.0(n=1) | V_fora_vs_azarao=16.0(n=1)",
+      "xFTvariancia": 2.5,
+      "bucketM": {
+        "total": 11,
+        "n": 1,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 16,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "DEFESA_PRECARIA"
+      ],
+      "flags": [
+        "V_DEF_PRECARIA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Iwata × Fujieda MYFC",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 43.8,
+        "V": 56.3,
+        "catM": "medio",
+        "catV": "medio"
+      },
+      "xFT": 3.5,
+      "xHT": 1.59,
+      "xFT_detail": "M_casa_vs_medio=4.0(n=1) | V_fora_vs_medio=3.0(n=1)",
+      "xFTvariancia": 0.5,
+      "bucketM": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 3,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [
+        "EFETIVIDADE_CLINICA"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL"
+      ],
+      "flags": [],
+      "volM": "MODERADA",
+      "volV": "ESTAVEL",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Kofu × Gifu",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 83.8,
+        "V": 71.3,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 7,
+      "xHT": 3.01,
+      "xFT_detail": "M_casa_vs_medio_forte=8.0(n=1) | V_fora_vs_elite=6.5(n=2)",
+      "xFTvariancia": 0.75,
+      "bucketM": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "BLITZ_INICIAL",
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Blaublitz × Kusatsu",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 76.3,
+        "V": 18.8,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 13,
+      "xHT": 5.07,
+      "xFT_detail": "V_fora_vs_medio_forte=13.0(n=1)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 13,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 1,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "RUPTURA_HOME",
+        "ELITE_KILLER",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": null,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Imabari × Kamatamare",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 21.3,
+        "V": 1.3,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 10.25,
+      "xHT": 4.36,
+      "xFT_detail": "fallback_baseline",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": null,
+      "nTotal": 0,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [],
+      "flags": [
+        "M_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": null,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Iwaki × Yamaga",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 86.3,
+        "V": 73.8,
+        "catM": "elite",
+        "catV": "medio_forte"
+      },
+      "xFT": 7.33,
+      "xHT": 3.26,
+      "xFT_detail": "M_casa_vs_medio_forte=4.0(n=1) | V_fora_vs_elite=9.0(n=2)",
+      "xFTvariancia": 2.5,
+      "bucketM": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 2,
+        "over95": 50,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "RUPTURA_HOME",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_RUPTURA_HOME",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "EM_EVOLUCAO_FORTE",
+      "over95": {
+        "M": 0,
+        "V": 50
+      }
+    },
+    {
+      "jogo": "Kagoshima Utd × Kumamoto",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 78.8,
+        "V": 48.8,
+        "catM": "medio_forte",
+        "catV": "medio"
+      },
+      "xFT": 8.67,
+      "xHT": 4.07,
+      "xFT_detail": "M_casa_vs_medio=8.7(n=3)",
+      "xFTvariancia": 0,
+      "bucketM": {
+        "total": 8.67,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "nTotal": 3,
+      "assM": [
+        "ATAQUE_ESTERIL",
+        "CARRINHO_FACIL",
+        "DESEQUILIBRA_FAVORITO"
+      ],
+      "assV": [],
+      "flags": [
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO",
+      "over95": {
+        "M": 33.33,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Kochi United × Ehime",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 66.3,
+        "V": 61.3,
+        "catM": "medio_forte",
+        "catV": "medio_forte"
+      },
+      "xFT": 11.16,
+      "xHT": 5.52,
+      "xFT_detail": "fallback_baseline",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": null,
+      "nTotal": 0,
+      "assM": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER"
+      ],
+      "assV": [],
+      "flags": [
+        "M_BLITZ",
+        "M_ELITE_KILLER",
+        "V_VOLATIL"
+      ],
+      "volM": "MODERADA",
+      "volV": "VOLATIL_ALTO",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": null,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Oita Trinita × Tegevajaro Miyazaki",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 41.3,
+        "V": 93.8,
+        "catM": "medio",
+        "catV": "elite"
+      },
+      "xFT": 7,
+      "xHT": 3.18,
+      "xFT_detail": "V_fora_vs_medio=7.0(n=3)",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": {
+        "total": 7,
+        "n": 3,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [],
+      "flags": [
+        "M_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": null,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Omiya Ardija × Nagano",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 81.3,
+        "V": 3.8,
+        "catM": "elite",
+        "catV": "azarao"
+      },
+      "xFT": 8,
+      "xHT": 3.88,
+      "xFT_detail": "M_casa_vs_azarao=9.0(n=1) | V_fora_vs_elite=7.5(n=2)",
+      "xFTvariancia": 0.75,
+      "bucketM": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 7.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "nTotal": 3,
+      "assM": [
+        "ELITE_KILLER"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "RETRANCA_AVANCADA",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_ELITE_KILLER",
+        "V_BLITZ",
+        "V_RETRANCA"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Osaka × Kanazawa",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 28.7,
+        "V": 33.8,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 8.5,
+      "xHT": 4.12,
+      "xFT_detail": "M_casa_vs_azarao=13.0(n=1) | V_fora_vs_azarao=4.0(n=1)",
+      "xFTvariancia": 4.5,
+      "bucketM": {
+        "total": 13,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [
+        "BLITZ_INICIAL",
+        "ELITE_KILLER",
+        "TERMOMETRO_FORMA"
+      ],
+      "assV": [
+        "ATAQUE_ESTERIL",
+        "RUPTURA_HOME",
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO",
+      "over95": {
+        "M": 100,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Toyama × Tokushima",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 96.3,
+        "V": 91.3,
+        "catM": "elite",
+        "catV": "elite"
+      },
+      "xFT": 11.25,
+      "xHT": 4.22,
+      "xFT_detail": "fallback_baseline",
+      "xFTvariancia": 0,
+      "bucketM": null,
+      "bucketV": null,
+      "nTotal": 0,
+      "assM": [],
+      "assV": [],
+      "flags": [],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": null,
+        "V": null
+      }
+    },
+    {
+      "jogo": "Yokohama FC × Tochigi SC",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 63.7,
+        "V": 31.3,
+        "catM": "medio_forte",
+        "catV": "azarao"
+      },
+      "xFT": 10.67,
+      "xHT": 4.96,
+      "xFT_detail": "M_casa_vs_azarao=9.5(n=2) | V_fora_vs_medio_forte=13.0(n=1)",
+      "xFTvariancia": 1.75,
+      "bucketM": {
+        "total": 9.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 13,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 3,
+      "assM": [],
+      "assV": [
+        "ELITE_KILLER"
+      ],
+      "flags": [
+        "V_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "volM": "VOLATIL_ALTO",
+      "volV": "MODERADA",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE",
+      "over95": {
+        "M": 50,
+        "V": 100
+      }
+    },
+    {
+      "jogo": "Reilac Shiga × Giravanz Kitakyushu",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 13.8,
+        "V": 16.3,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 10,
+      "xHT": 4.6,
+      "xFT_detail": "M_casa_vs_azarao=11.0(n=1) | V_fora_vs_azarao=9.0(n=1)",
+      "xFTvariancia": 1,
+      "bucketM": {
+        "total": 11,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "nTotal": 2,
+      "assM": [
+        "BLITZ_INICIAL",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "EFETIVIDADE_CLINICA",
+        "ELITE_KILLER",
+        "SUCUMBE_AZARAO"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_ELITE_KILLER"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 100,
+        "V": 0
+      }
+    },
+    {
+      "jogo": "Ryukyu × Gainare Tottori",
+      "liga": "J2_J3",
+      "ps": {
+        "M": 11.3,
+        "V": 36.3,
+        "catM": "azarao",
+        "catV": "azarao"
+      },
+      "xFT": 8.25,
+      "xHT": 4.54,
+      "xFT_detail": "M_casa_vs_azarao=9.0(n=2) | V_fora_vs_azarao=7.5(n=2)",
+      "xFTvariancia": 0.75,
+      "bucketM": {
+        "total": 9,
+        "n": 2,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 7.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "nTotal": 4,
+      "assM": [
+        "BLITZ_INICIAL",
+        "SUCUMBE_AZARAO"
+      ],
+      "assV": [
+        "BLITZ_INICIAL",
+        "EFETIVIDADE_CLINICA"
+      ],
+      "flags": [
+        "M_BLITZ",
+        "V_BLITZ"
+      ],
+      "volM": "MODERADA",
+      "volV": "MODERADA",
+      "tendM": "ESTAGNADO",
+      "tendV": "DEFESA_MELHORANDO",
+      "over95": {
+        "M": 0,
+        "V": 0
+      }
+    }
+  ]
+}

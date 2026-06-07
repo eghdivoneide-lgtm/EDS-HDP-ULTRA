@@ -1,0 +1,5831 @@
+{
+  "liga": "BR_B",
+  "ligaNome": "Brasileirão Série B",
+  "data_analise": "2026-05-16",
+  "n_jogos_analisados": 77,
+  "n_times": 20,
+  "baseline_liga": {
+    "n_jogos": 77,
+    "n_com_placar": 18,
+    "media_cantos_jogo_ft": 10.39,
+    "media_cantos_jogo_ht": 4.83,
+    "media_gols_jogo_ft": 2,
+    "media_cantos_pro_time": 5.19,
+    "media_cantos_sof_time": 5.19,
+    "media_gols_pro_time": 1,
+    "desvio_cantos_jogo_ft": 4.04
+  },
+  "contagens_assinaturas": {
+    "BLITZ_INICIAL": 8,
+    "RETRANCA_AVANCADA": 2,
+    "EFETIVIDADE_CLINICA": 4,
+    "ATAQUE_ESTERIL": 7,
+    "MURO_DEFENSIVO": 2,
+    "DEFESA_PRECARIA": 0,
+    "RUPTURA_HOME": 9,
+    "ELITE_KILLER": 1,
+    "CARRINHO_FACIL": 0,
+    "DESEQUILIBRA_FAVORITO": 0,
+    "SUCUMBE_AZARAO": 0,
+    "TERMOMETRO_FORMA": 0
+  },
+  "ranking_powerscore": [
+    {
+      "time": "Sao Bernardo",
+      "powerScore": 97.5,
+      "categoria": "ELITE",
+      "perfil_dna": "OFENSIVO",
+      "forma": "DVVDE",
+      "n_jogos": 6
+    },
+    {
+      "time": "Vila Nova FC",
+      "powerScore": 92.5,
+      "categoria": "ELITE",
+      "perfil_dna": "OFENSIVO",
+      "forma": "EVVEV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Fortaleza",
+      "powerScore": 87.5,
+      "categoria": "ELITE",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "VEVVE",
+      "n_jogos": 8
+    },
+    {
+      "time": "Sport Recife",
+      "powerScore": 82.5,
+      "categoria": "ELITE",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "VEVEE",
+      "n_jogos": 8
+    },
+    {
+      "time": "Operario-PR",
+      "powerScore": 77.5,
+      "categoria": "ELITE",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "DEEEV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Criciuma",
+      "powerScore": 72.5,
+      "categoria": "ELITE",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "EDDVV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Botafogo SP",
+      "powerScore": 67.5,
+      "categoria": "MÉDIO",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "VDDEV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Ceara",
+      "powerScore": 62.5,
+      "categoria": "MÉDIO",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "EEEVV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Juventude",
+      "powerScore": 57.5,
+      "categoria": "MÉDIO",
+      "perfil_dna": "MURO_DUPLO",
+      "forma": "VDVVE",
+      "n_jogos": 8
+    },
+    {
+      "time": "Avai",
+      "powerScore": 50,
+      "categoria": "MÉDIO",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "VEEVD",
+      "n_jogos": 7
+    },
+    {
+      "time": "Novorizontino",
+      "powerScore": 50,
+      "categoria": "MÉDIO",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "EDEVV",
+      "n_jogos": 7
+    },
+    {
+      "time": "Athletic Club",
+      "powerScore": 42.5,
+      "categoria": "MÉDIO",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "EDDVE",
+      "n_jogos": 8
+    },
+    {
+      "time": "Atletico GO",
+      "powerScore": 37.5,
+      "categoria": "MÉDIO",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "DDDEV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Cuiaba",
+      "powerScore": 32.5,
+      "categoria": "MÉDIO",
+      "perfil_dna": "MURO_DUPLO",
+      "forma": "EDEEE",
+      "n_jogos": 8
+    },
+    {
+      "time": "Nautico",
+      "powerScore": 27.5,
+      "categoria": "AZARÃO",
+      "perfil_dna": "DEFENSIVO",
+      "forma": "DDDEV",
+      "n_jogos": 8
+    },
+    {
+      "time": "Goias",
+      "powerScore": 22.5,
+      "categoria": "AZARÃO",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "DVDED",
+      "n_jogos": 7
+    },
+    {
+      "time": "Ponte Preta",
+      "powerScore": 17.5,
+      "categoria": "AZARÃO",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "DDEVD",
+      "n_jogos": 8
+    },
+    {
+      "time": "CRB",
+      "powerScore": 12.5,
+      "categoria": "AZARÃO",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "EDDDE",
+      "n_jogos": 8
+    },
+    {
+      "time": "Londrina",
+      "powerScore": 7.5,
+      "categoria": "AZARÃO",
+      "perfil_dna": "EQUILIBRADO",
+      "forma": "DEDDE",
+      "n_jogos": 7
+    },
+    {
+      "time": "America MG",
+      "powerScore": 2.5,
+      "categoria": "AZARÃO",
+      "perfil_dna": "VULNERAVEL",
+      "forma": "EDEDD",
+      "n_jogos": 8
+    }
+  ],
+  "times": {
+    "America MG": {
+      "identidade": {
+        "powerScore": 2.5,
+        "powerPercentil": 2.5,
+        "powerRaw": 27.9,
+        "categoria": "AZARÃO",
+        "perfil_dna": "VULNERAVEL",
+        "forma": "EDEDD",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 6.75,
+        "cantos_sofridos_geral": 3.88,
+        "cantos_pro_casa": 6.5,
+        "cantos_sofridos_casa": 4.75,
+        "cantos_pro_fora": 7,
+        "cantos_sofridos_fora": 3,
+        "cantos_pro_ht_geral": 2,
+        "cantos_sof_ht_geral": 2.25,
+        "consistencia_pro": 2.9,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 3,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 8,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 5,
+          "variacao_vs_baseline_pct": 18.5,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 7.5,
+          "cantos_pro_desvio": 3.5,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 3.5,
+          "diferencial": 1.5,
+          "variacao_vs_baseline_pct": 11.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": -55.6,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 2,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 3,
+          "variacao_vs_baseline_pct": 3.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 3,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 2.94,
+          "cantos_sofridos_media": 2.67,
+          "cantos_sofridos_desvio": 0.47,
+          "cantos_pro_ht_media": 2.33,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 4.33,
+          "variacao_vs_baseline_pct": 3.7,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 4,
+          "win_rate_cantos_pct": 66.7,
+          "qualifier": "sugestivo",
+          "padrao_detectado": true
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2,
+            "cantos_pro_ft": 6.75,
+            "ratio": 0.3,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.25,
+            "cantos_sof_ft": 3.88,
+            "ratio": 0.58,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 6.75,
+            "ratio_gol_canto": 0.07,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 6.75,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 13.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.88,
+            "gols_sof": 3,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.88,
+            "gols_sof": 3,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 6.5,
+            "cantos_pro_fora": 7,
+            "diferenca": 0.5,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 8,
+            "cantos_pro_vs_azarao": 6,
+            "n_elite": 1,
+            "n_azarao": 4
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 6,
+            "baseline": 6.75,
+            "win_rate_vs_azarao": 50,
+            "n_azarao": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "AZARÃO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "evidencia": {
+            "jogos_sofrendo_mais": 2,
+            "total": 8,
+            "pct": 25,
+            "categoria": "AZARÃO",
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.65,
+            "desvio_geral": 2.9,
+            "ratio": 0.91,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**America MG** — Time AZARÃO (PowerScore 2.5). Perfil VULNERAVEL, forma recente EDEDD. 🏠 Em casa: baseline 6.5 cantos pró, 4.75 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora vs azarão: 7 cantos pró, 2.67 sofridos (+3.7% vs baseline, n=3, sugestivo). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado). Variância nos cantos pró: σ=2.9 (moderada)."
+    },
+    "Athletic Club": {
+      "identidade": {
+        "powerScore": 42.5,
+        "powerPercentil": 42.5,
+        "powerRaw": 70.15,
+        "categoria": "MÉDIO",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "EDDVE",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 3.88,
+        "cantos_sofridos_geral": 6.38,
+        "cantos_pro_casa": 5.25,
+        "cantos_sofridos_casa": 5,
+        "cantos_pro_fora": 2.5,
+        "cantos_sofridos_fora": 7.75,
+        "cantos_pro_ht_geral": 2.25,
+        "cantos_sof_ht_geral": 2.5,
+        "consistencia_pro": 2.42,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 1,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 5,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": 54.6,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 3,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 2.16,
+          "cantos_sofridos_media": 4.67,
+          "cantos_sofridos_desvio": 1.7,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 0.67,
+          "diferencial": 0.33,
+          "variacao_vs_baseline_pct": 28.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 33.3,
+          "qualifier": "sugestivo",
+          "padrao_detectado": true
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 1.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0.5,
+          "cantos_sof_ht_media": 4.5,
+          "diferencial": -7.5,
+          "variacao_vs_baseline_pct": -61.3,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 1,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 11,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -10,
+          "variacao_vs_baseline_pct": -74.2,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 2,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 5,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 4,
+          "variacao_vs_baseline_pct": 54.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.25,
+            "cantos_pro_ft": 3.88,
+            "ratio": 0.58,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.5,
+            "cantos_sof_ft": 6.38,
+            "ratio": 0.39,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 3.88,
+            "ratio_gol_canto": 0.13,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 3.88,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 7.76,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.38,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.38,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 5.25,
+            "cantos_pro_fora": 2.5,
+            "diferenca": 2.75,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 1.5,
+            "cantos_pro_vs_azarao": 5.25,
+            "n_elite": 2,
+            "n_azarao": 4
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 5.25,
+            "baseline": 3.88,
+            "win_rate_vs_azarao": 50,
+            "n_azarao": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.48,
+            "desvio_geral": 2.42,
+            "ratio": 1.03,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Athletic Club** — Time MÉDIO (PowerScore 42.5). Perfil EQUILIBRADO, forma recente EDDVE. 🏠 Em casa vs azarão: 5 cantos pró, 4.67 sofridos (+28.9% vs baseline, n=3, sugestivo). ✈️ Fora: baseline 2.5 cantos pró, 7.75 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `RUPTURA_HOME` (consolidado), `BLITZ_INICIAL` (consolidado). Variância nos cantos pró: σ=2.42 (baixa (previsível))."
+    },
+    "Atletico GO": {
+      "identidade": {
+        "powerScore": 37.5,
+        "powerPercentil": 37.5,
+        "powerRaw": 60.95,
+        "categoria": "MÉDIO",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "DDDEV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 5.25,
+        "cantos_sofridos_geral": 4.75,
+        "cantos_pro_casa": 6.5,
+        "cantos_sofridos_casa": 1.25,
+        "cantos_pro_fora": 4,
+        "cantos_sofridos_fora": 8.25,
+        "cantos_pro_ht_geral": 3.13,
+        "cantos_sof_ht_geral": 1.75,
+        "consistencia_pro": 2.17,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 0,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 1,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 5.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 1,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 4.5,
+          "variacao_vs_baseline_pct": 4.8,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 7.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 1.5,
+          "cantos_sofridos_desvio": 0.5,
+          "cantos_pro_ht_media": 3.5,
+          "cantos_sof_ht_media": 0.5,
+          "diferencial": 6,
+          "variacao_vs_baseline_pct": 42.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 2,
+          "cantos_sofridos_media": 7.5,
+          "cantos_sofridos_desvio": 0.5,
+          "cantos_pro_ht_media": 3.5,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -2.5,
+          "variacao_vs_baseline_pct": -4.8,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 2,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 2,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": -6,
+          "variacao_vs_baseline_pct": -42.9,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 3.13,
+            "cantos_pro_ft": 5.25,
+            "ratio": 0.6,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.75,
+            "cantos_sof_ft": 4.75,
+            "ratio": 0.37,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 5.25,
+            "ratio_gol_canto": 0.1,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 5.25,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 10.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.75,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.75,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 6.5,
+            "cantos_pro_fora": 4,
+            "diferenca": 2.5,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 5,
+            "cantos_pro_vs_azarao": 7.5,
+            "n_elite": 2,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 7.5,
+            "baseline": 5.25,
+            "win_rate_vs_azarao": 100,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.42,
+            "desvio_geral": 2.17,
+            "ratio": 1.12,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Atletico GO** — Time MÉDIO (PowerScore 37.5). Perfil DEFENSIVO, forma recente DDDEV. 🏠 Em casa: baseline 6.5 cantos pró, 1.25 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 4 cantos pró, 8.25 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `RUPTURA_HOME` (consolidado), `BLITZ_INICIAL` (consolidado). Variância nos cantos pró: σ=2.17 (baixa (previsível))."
+    },
+    "Avai": {
+      "identidade": {
+        "powerScore": 50,
+        "powerPercentil": 50,
+        "powerRaw": 78.35,
+        "categoria": "MÉDIO",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "VEEVD",
+        "dna_indisponivel": false,
+        "n_jogos": 7
+      },
+      "baseline": {
+        "n_jogos": 7,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 3,
+        "n_com_placar": 1,
+        "cantos_pro_geral": 5.14,
+        "cantos_sofridos_geral": 4.71,
+        "cantos_pro_casa": 5.5,
+        "cantos_sofridos_casa": 3.75,
+        "cantos_pro_fora": 4.67,
+        "cantos_sofridos_fora": 6,
+        "cantos_pro_ht_geral": 1.43,
+        "cantos_sof_ht_geral": 3,
+        "consistencia_pro": 2.53,
+        "gols_pro_geral": 0,
+        "gols_sofridos_geral": 0,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": null,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 2,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1.5,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 3,
+          "variacao_vs_baseline_pct": 36.2,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": -41.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -2.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 8,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 7,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 5,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": 55.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 1,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -5,
+          "variacao_vs_baseline_pct": -80.5,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": -2.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.43,
+            "cantos_pro_ft": 5.14,
+            "ratio": 0.28,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 3,
+            "cantos_sof_ft": 4.71,
+            "ratio": 0.64,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0,
+            "cantos_pro": 5.14,
+            "ratio_gol_canto": 0,
+            "media_liga_cantos": 5.19,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5.14,
+            "gols_pro": 0,
+            "ratio_canto_gol": 51.4,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.71,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.71,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.5,
+            "cantos_pro_fora": 4.67,
+            "diferenca": 0.83,
+            "n_casa": 4,
+            "n_fora": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 7.33,
+            "cantos_pro_vs_azarao": 5,
+            "n_elite": 3,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 5,
+            "baseline": 5.14,
+            "win_rate_vs_azarao": 50,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.33,
+            "desvio_geral": 2.53,
+            "ratio": 0.92,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Avai** — Time MÉDIO (PowerScore 50). Perfil DEFENSIVO, forma recente VEEVD. 🏠 Em casa: baseline 5.5 cantos pró, 3.75 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 4.67 cantos pró, 6 sofridos (n=3, sem padrão situacional detectado). Variância nos cantos pró: σ=2.53 (moderada)."
+    },
+    "Botafogo SP": {
+      "identidade": {
+        "powerScore": 67.5,
+        "powerPercentil": 67.5,
+        "powerRaw": 82.65,
+        "categoria": "MÉDIO",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "VDDEV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 6.5,
+        "cantos_sofridos_geral": 6.38,
+        "cantos_pro_casa": 8.5,
+        "cantos_sofridos_casa": 5,
+        "cantos_pro_fora": 4.5,
+        "cantos_sofridos_fora": 7.75,
+        "cantos_pro_ht_geral": 2.5,
+        "cantos_sof_ht_geral": 3,
+        "consistencia_pro": 2.83,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 1,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 8,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 6.5,
+          "cantos_sofridos_desvio": 1.5,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 1.5,
+          "variacao_vs_baseline_pct": 23.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 4,
+          "diferencial": 2,
+          "variacao_vs_baseline_pct": 7.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 11,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 2,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 7,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 9,
+          "variacao_vs_baseline_pct": 69.2,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -3,
+          "variacao_vs_baseline_pct": -7.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 2.5,
+          "cantos_pro_desvio": 1.5,
+          "cantos_sofridos_media": 5.5,
+          "cantos_sofridos_desvio": 0.5,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -3,
+          "variacao_vs_baseline_pct": -61.5,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 11,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 4,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -4,
+          "variacao_vs_baseline_pct": 7.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.5,
+            "cantos_pro_ft": 6.5,
+            "ratio": 0.38,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 3,
+            "cantos_sof_ft": 6.38,
+            "ratio": 0.47,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 6.5,
+            "ratio_gol_canto": 0.08,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 6.5,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 13,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.38,
+            "gols_sof": 1,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.38,
+            "gols_sof": 1,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 8.5,
+            "cantos_pro_fora": 4.5,
+            "diferenca": 4,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 7.33,
+            "cantos_pro_vs_azarao": 9,
+            "n_elite": 3,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 9,
+            "baseline": 6.5,
+            "win_rate_vs_azarao": 50,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.28,
+            "desvio_geral": 2.83,
+            "ratio": 0.81,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Botafogo SP** — Time MÉDIO (PowerScore 67.5). Perfil EQUILIBRADO, forma recente VDDEV. 🏠 Em casa: baseline 8.5 cantos pró, 5 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 4.5 cantos pró, 7.75 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.83 (moderada)."
+    },
+    "CRB": {
+      "identidade": {
+        "powerScore": 12.5,
+        "powerPercentil": 12.5,
+        "powerRaw": 48.13,
+        "categoria": "AZARÃO",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "EDDDE",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 4.13,
+        "cantos_sofridos_geral": 4.25,
+        "cantos_pro_casa": 4.5,
+        "cantos_sofridos_casa": 3.5,
+        "cantos_pro_fora": 3.75,
+        "cantos_sofridos_fora": 5,
+        "cantos_pro_ht_geral": 2.25,
+        "cantos_sof_ht_geral": 2,
+        "consistencia_pro": 1.62,
+        "gols_pro_geral": 2.5,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": 3,
+        "gols_pro_fora": 2,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 1,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 5,
+          "cantos_sof_ht_media": 0,
+          "diferencial": 5,
+          "variacao_vs_baseline_pct": 45.3,
+          "gols_pro_media": 3,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 3,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 1.41,
+          "cantos_sofridos_media": 4.33,
+          "cantos_sofridos_desvio": 1.7,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 2.33,
+          "diferencial": -0.33,
+          "variacao_vs_baseline_pct": -3.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 33.3,
+          "qualifier": "sugestivo",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 3,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 3.5,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": 21.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 1,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 1,
+          "diferencial": -4,
+          "variacao_vs_baseline_pct": -75.8,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -3.1,
+          "gols_pro_media": 2,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.25,
+            "cantos_pro_ft": 4.13,
+            "ratio": 0.54,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2,
+            "cantos_sof_ft": 4.25,
+            "ratio": 0.47,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": true,
+          "evidencia": {
+            "gols_pro": 2.5,
+            "cantos_pro": 4.13,
+            "ratio_gol_canto": 0.61,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.13,
+            "gols_pro": 2.5,
+            "ratio_canto_gol": 1.65,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.25,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.25,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4.5,
+            "cantos_pro_fora": 3.75,
+            "diferenca": 0.75,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 5.33,
+            "cantos_pro_vs_azarao": 4,
+            "n_elite": 3,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 4,
+            "baseline": 4.13,
+            "win_rate_vs_azarao": 100,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "AZARÃO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "evidencia": {
+            "jogos_sofrendo_mais": 3,
+            "total": 8,
+            "pct": 37.5,
+            "categoria": "AZARÃO",
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.36,
+            "desvio_geral": 1.62,
+            "ratio": 0.84,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**CRB** — Time AZARÃO (PowerScore 12.5). Perfil EQUILIBRADO, forma recente EDDDE. 🏠 Em casa: baseline 4.5 cantos pró, 3.5 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 3.75 cantos pró, 5 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `BLITZ_INICIAL` (consolidado), `EFETIVIDADE_CLINICA` (consolidado). Variância nos cantos pró: σ=1.62 (baixa (previsível))."
+    },
+    "Ceara": {
+      "identidade": {
+        "powerScore": 62.5,
+        "powerPercentil": 62.5,
+        "powerRaw": 78.95,
+        "categoria": "MÉDIO",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "EEEVV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 5.88,
+        "cantos_sofridos_geral": 5,
+        "cantos_pro_casa": 6,
+        "cantos_sofridos_casa": 3,
+        "cantos_pro_fora": 5.75,
+        "cantos_sofridos_fora": 7,
+        "cantos_pro_ht_geral": 2.75,
+        "cantos_sof_ht_geral": 2.5,
+        "consistencia_pro": 3.33,
+        "gols_pro_geral": 0,
+        "gols_sofridos_geral": 1.5,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 2,
+          "cantos_sofridos_media": 3.5,
+          "cantos_sofridos_desvio": 0.5,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 1.5,
+          "diferencial": 1.5,
+          "variacao_vs_baseline_pct": -15,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 11,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 1,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 10,
+          "variacao_vs_baseline_pct": 87.1,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": -49,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 11,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 7,
+          "cantos_sof_ht_media": 5,
+          "diferencial": 2,
+          "variacao_vs_baseline_pct": 87.1,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 2,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 1,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -66,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 5,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 4.5,
+          "diferencial": -4,
+          "variacao_vs_baseline_pct": -15,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.75,
+            "cantos_pro_ft": 5.88,
+            "ratio": 0.47,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.5,
+            "cantos_sof_ft": 5,
+            "ratio": 0.5,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0,
+            "cantos_pro": 5.88,
+            "ratio_gol_canto": 0,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 5.88,
+            "gols_pro": 0,
+            "ratio_canto_gol": 58.8,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5,
+            "gols_sof": 1.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5,
+            "gols_sof": 1.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 6,
+            "cantos_pro_fora": 5.75,
+            "diferenca": 0.25,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_vs_elite": 7,
+            "cantos_pro_vs_azarao": 4.33,
+            "n_elite": 3,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 4.33,
+            "baseline": 5.88,
+            "win_rate_vs_azarao": 33.3,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 3.07,
+            "desvio_geral": 3.33,
+            "ratio": 0.92,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Ceara** — Time MÉDIO (PowerScore 62.5). Perfil DEFENSIVO, forma recente EEEVV. 🏠 Em casa: baseline 6 cantos pró, 3 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 5.75 cantos pró, 7 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `ELITE_KILLER` (consolidado). Variância nos cantos pró: σ=3.33 (moderada)."
+    },
+    "Criciuma": {
+      "identidade": {
+        "powerScore": 72.5,
+        "powerPercentil": 72.5,
+        "powerRaw": 82.7,
+        "categoria": "ELITE",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "EDDVV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 3,
+        "n_jogos_fora": 5,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 7,
+        "cantos_sofridos_geral": 5.63,
+        "cantos_pro_casa": 9,
+        "cantos_sofridos_casa": 4.33,
+        "cantos_pro_fora": 5.8,
+        "cantos_sofridos_fora": 6.4,
+        "cantos_pro_ht_geral": 2.88,
+        "cantos_sof_ht_geral": 2.88,
+        "consistencia_pro": 2.69,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": null,
+        "gols_pro_fora": 0.5,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 9,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 2,
+          "cantos_pro_ht_media": 3.5,
+          "cantos_sof_ht_media": 1.5,
+          "diferencial": 5,
+          "variacao_vs_baseline_pct": 28.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 9,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 6,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 4,
+          "variacao_vs_baseline_pct": 28.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": -57.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 5.5,
+          "cantos_pro_desvio": 3.5,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 2,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 0.5,
+          "variacao_vs_baseline_pct": -21.4,
+          "gols_pro_media": 0.5,
+          "gols_sofridos_media": 0.5,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 7.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 3,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 5,
+          "diferencial": -1.5,
+          "variacao_vs_baseline_pct": 7.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.88,
+            "cantos_pro_ft": 7,
+            "ratio": 0.41,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.88,
+            "cantos_sof_ft": 5.63,
+            "ratio": 0.51,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 7,
+            "ratio_gol_canto": 0.07,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 7,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 14,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.63,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.63,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 9,
+            "cantos_pro_fora": 5.8,
+            "diferenca": 3.2,
+            "n_casa": 3,
+            "n_fora": 5
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 3,
+            "cantos_pro_vs_azarao": 8,
+            "n_elite": 1,
+            "n_azarao": 3
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 8,
+            "baseline": 7,
+            "win_rate_vs_azarao": 66.7,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "evidencia": {
+            "diferencial_vs_azarao": 0.33,
+            "n_azarao": 3,
+            "categoria": "ELITE"
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.33,
+            "desvio_geral": 2.69,
+            "ratio": 0.87,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Criciuma** — Time ELITE (PowerScore 72.5). Perfil EQUILIBRADO, forma recente EDDVV. 🏠 Em casa: baseline 9 cantos pró, 4.33 sofridos (n=3, sem padrão situacional detectado). ✈️ Fora: baseline 5.8 cantos pró, 6.4 sofridos (n=5, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.69 (moderada)."
+    },
+    "Cuiaba": {
+      "identidade": {
+        "powerScore": 32.5,
+        "powerPercentil": 32.5,
+        "powerRaw": 59.83,
+        "categoria": "MÉDIO",
+        "perfil_dna": "MURO_DUPLO",
+        "forma": "EDEEE",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 2.63,
+        "cantos_sofridos_geral": 3.13,
+        "cantos_pro_casa": 2.5,
+        "cantos_sofridos_casa": 2.25,
+        "cantos_pro_fora": 2.75,
+        "cantos_sofridos_fora": 4,
+        "cantos_pro_ht_geral": 2,
+        "cantos_sof_ht_geral": 0.88,
+        "consistencia_pro": 2.34,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 1.5,
+          "cantos_pro_desvio": 1.5,
+          "cantos_sofridos_media": 1.5,
+          "cantos_sofridos_desvio": 0.5,
+          "cantos_pro_ht_media": 1.5,
+          "cantos_sof_ht_media": 0,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": -43,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 3.5,
+          "cantos_pro_desvio": 2.5,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 0.5,
+          "diferencial": 0.5,
+          "variacao_vs_baseline_pct": 33.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 0.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 0.5,
+          "diferencial": -2.5,
+          "variacao_vs_baseline_pct": -81,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 5,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": 128.1,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": 52.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2,
+            "cantos_pro_ft": 2.63,
+            "ratio": 0.76,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof_ht": 0.88,
+            "cantos_sof_ft": 3.13,
+            "ratio": 0.28,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 2.63,
+            "ratio_gol_canto": 0.19,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 2.63,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 5.26,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof": 3.13,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.13,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 2.5,
+            "cantos_pro_fora": 2.75,
+            "diferenca": 0.25,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 1,
+            "cantos_pro_vs_azarao": 4,
+            "n_elite": 4,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 4,
+            "baseline": 2.63,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.4,
+            "desvio_geral": 2.34,
+            "ratio": 1.02,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Cuiaba** — Time MÉDIO (PowerScore 32.5). Perfil MURO_DUPLO, forma recente EDEEE. 🏠 Em casa: baseline 2.5 cantos pró, 2.25 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 2.75 cantos pró, 4 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `MURO_DEFENSIVO` (consolidado), `BLITZ_INICIAL` (consolidado), `RETRANCA_AVANCADA` (consolidado). Variância nos cantos pró: σ=2.34 (baixa (previsível))."
+    },
+    "Fortaleza": {
+      "identidade": {
+        "powerScore": 87.5,
+        "powerPercentil": 87.5,
+        "powerRaw": 93.6,
+        "categoria": "ELITE",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "VEVVE",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 4.75,
+        "cantos_sofridos_geral": 4.38,
+        "cantos_pro_casa": 4,
+        "cantos_sofridos_casa": 2,
+        "cantos_pro_fora": 5.5,
+        "cantos_sofridos_fora": 6.75,
+        "cantos_pro_ht_geral": 2.13,
+        "cantos_sof_ht_geral": 1.88,
+        "consistencia_pro": 1.2,
+        "gols_pro_geral": 2,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": 4,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -15.8,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 4.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 1,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 0,
+          "diferencial": 3.5,
+          "variacao_vs_baseline_pct": -5.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": -36.8,
+          "gols_pro_media": 4,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 6.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 7.5,
+          "cantos_sofridos_desvio": 3.5,
+          "cantos_pro_ht_media": 1.5,
+          "cantos_sof_ht_media": 1.5,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": 36.8,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 4.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -1.5,
+          "variacao_vs_baseline_pct": -5.3,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.13,
+            "cantos_pro_ft": 4.75,
+            "ratio": 0.45,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.88,
+            "cantos_sof_ft": 4.38,
+            "ratio": 0.43,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": true,
+          "evidencia": {
+            "gols_pro": 2,
+            "cantos_pro": 4.75,
+            "ratio_gol_canto": 0.42,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.75,
+            "gols_pro": 2,
+            "ratio_canto_gol": 2.38,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.38,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.38,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4,
+            "cantos_pro_fora": 5.5,
+            "diferenca": 1.5,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 5.67,
+            "cantos_pro_vs_azarao": 3,
+            "n_elite": 3,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 3,
+            "baseline": 4.75,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "evidencia": {
+            "diferencial_vs_azarao": 0,
+            "n_azarao": 1,
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.17,
+            "desvio_geral": 1.2,
+            "ratio": 0.97,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Fortaleza** — Time ELITE (PowerScore 87.5). Perfil EQUILIBRADO, forma recente VEVVE. 🏠 Em casa: baseline 4 cantos pró, 2 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 5.5 cantos pró, 6.75 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `EFETIVIDADE_CLINICA` (consolidado). Variância nos cantos pró: σ=1.2 (baixa (previsível))."
+    },
+    "Goias": {
+      "identidade": {
+        "powerScore": 22.5,
+        "powerPercentil": 22.5,
+        "powerRaw": 54.37,
+        "categoria": "AZARÃO",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "DVDED",
+        "dna_indisponivel": false,
+        "n_jogos": 7
+      },
+      "baseline": {
+        "n_jogos": 7,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 3,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 3.86,
+        "cantos_sofridos_geral": 5.57,
+        "cantos_pro_casa": 4.25,
+        "cantos_sofridos_casa": 6,
+        "cantos_pro_fora": 3.33,
+        "cantos_sofridos_fora": 5,
+        "cantos_pro_ht_geral": 2.43,
+        "cantos_sof_ht_geral": 2.86,
+        "consistencia_pro": 1.64,
+        "gols_pro_geral": 1,
+        "gols_sofridos_geral": 2,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 1,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": 29.5,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": 3.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 8,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -5,
+          "variacao_vs_baseline_pct": -22.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": -22.3,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 4,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 1,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -5,
+          "variacao_vs_baseline_pct": -74.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": 55.4,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.43,
+            "cantos_pro_ft": 3.86,
+            "ratio": 0.63,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.86,
+            "cantos_sof_ft": 5.57,
+            "ratio": 0.51,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 1,
+            "cantos_pro": 3.86,
+            "ratio_gol_canto": 0.26,
+            "media_liga_cantos": 5.19,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 3.86,
+            "gols_pro": 1,
+            "ratio_canto_gol": 3.86,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.57,
+            "gols_sof": 2,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.57,
+            "gols_sof": 2,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4.25,
+            "cantos_pro_fora": 3.33,
+            "diferenca": 0.92,
+            "n_casa": 4,
+            "n_fora": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 4.33,
+            "cantos_pro_vs_azarao": 4.5,
+            "n_elite": 3,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 4.5,
+            "baseline": 3.86,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "AZARÃO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "evidencia": {
+            "jogos_sofrendo_mais": 4,
+            "total": 7,
+            "pct": 57.1,
+            "categoria": "AZARÃO",
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.62,
+            "desvio_geral": 1.64,
+            "ratio": 0.99,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Goias** — Time AZARÃO (PowerScore 22.5). Perfil EQUILIBRADO, forma recente DVDED. 🏠 Em casa: baseline 4.25 cantos pró, 6 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 3.33 cantos pró, 5 sofridos (n=3, sem padrão situacional detectado). Assinaturas detectadas: `BLITZ_INICIAL` (consolidado). Variância nos cantos pró: σ=1.64 (baixa (previsível))."
+    },
+    "Juventude": {
+      "identidade": {
+        "powerScore": 57.5,
+        "powerPercentil": 57.5,
+        "powerRaw": 78.9,
+        "categoria": "MÉDIO",
+        "perfil_dna": "MURO_DUPLO",
+        "forma": "VDVVE",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 3.5,
+        "cantos_sofridos_geral": 5.5,
+        "cantos_pro_casa": 5,
+        "cantos_sofridos_casa": 6.5,
+        "cantos_pro_fora": 2,
+        "cantos_sofridos_fora": 4.5,
+        "cantos_pro_ht_geral": 1.38,
+        "cantos_sof_ht_geral": 2.75,
+        "consistencia_pro": 1.94,
+        "gols_pro_geral": 0,
+        "gols_sofridos_geral": 0,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": 100,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 8,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -4,
+          "variacao_vs_baseline_pct": 14.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 4.5,
+          "cantos_pro_desvio": 1.5,
+          "cantos_sofridos_media": 4.5,
+          "cantos_sofridos_desvio": 3.5,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": 28.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 5,
+          "diferencial": -3,
+          "variacao_vs_baseline_pct": -42.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": -42.9,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -3,
+          "variacao_vs_baseline_pct": -42.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.38,
+            "cantos_pro_ft": 3.5,
+            "ratio": 0.39,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.75,
+            "cantos_sof_ft": 5.5,
+            "ratio": 0.5,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0,
+            "cantos_pro": 3.5,
+            "ratio_gol_canto": 0,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 3.5,
+            "gols_pro": 0,
+            "ratio_canto_gol": 35,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.5,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.5,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 5,
+            "cantos_pro_fora": 2,
+            "diferenca": 3,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 4.5,
+            "cantos_pro_vs_azarao": 3.67,
+            "n_elite": 2,
+            "n_azarao": 3
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 3.67,
+            "baseline": 3.5,
+            "win_rate_vs_azarao": 33.3,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.36,
+            "desvio_geral": 1.94,
+            "ratio": 0.7,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Juventude** — Time MÉDIO (PowerScore 57.5). Perfil MURO_DUPLO, forma recente VDVVE. 🏠 Em casa: baseline 5 cantos pró, 6.5 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 2 cantos pró, 4.5 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=1.94 (baixa (previsível))."
+    },
+    "Londrina": {
+      "identidade": {
+        "powerScore": 7.5,
+        "powerPercentil": 7.5,
+        "powerRaw": 46.72,
+        "categoria": "AZARÃO",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "DEDDE",
+        "dna_indisponivel": false,
+        "n_jogos": 7
+      },
+      "baseline": {
+        "n_jogos": 7,
+        "n_jogos_casa": 3,
+        "n_jogos_fora": 4,
+        "n_com_placar": 1,
+        "cantos_pro_geral": 6.57,
+        "cantos_sofridos_geral": 6,
+        "cantos_pro_casa": 8.33,
+        "cantos_sofridos_casa": 5.67,
+        "cantos_pro_fora": 5.25,
+        "cantos_sofridos_fora": 6.25,
+        "cantos_pro_ht_geral": 3.29,
+        "cantos_sof_ht_geral": 2.86,
+        "consistencia_pro": 3.54,
+        "gols_pro_geral": 0,
+        "gols_sofridos_geral": 3,
+        "gols_pro_casa": null,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 7,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 5,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": -23.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 14,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 7,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 10,
+          "variacao_vs_baseline_pct": 113.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 0,
+          "variacao_vs_baseline_pct": -8.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": -39.1,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 3,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 3,
+          "cantos_pro_media": 5.67,
+          "cantos_pro_desvio": 2.62,
+          "cantos_sofridos_media": 6.67,
+          "cantos_sofridos_desvio": 2.62,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 2.67,
+          "diferencial": -1,
+          "variacao_vs_baseline_pct": -13.7,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 33.3,
+          "qualifier": "sugestivo",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 3.29,
+            "cantos_pro_ft": 6.57,
+            "ratio": 0.5,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.86,
+            "cantos_sof_ft": 6,
+            "ratio": 0.48,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0,
+            "cantos_pro": 6.57,
+            "ratio_gol_canto": 0,
+            "media_liga_cantos": 5.19,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 6.57,
+            "gols_pro": 0,
+            "ratio_canto_gol": 65.7,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6,
+            "gols_sof": 3,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6,
+            "gols_sof": 3,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 8.33,
+            "cantos_pro_fora": 5.25,
+            "diferenca": 3.08,
+            "n_casa": 3,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 4.5,
+            "cantos_pro_vs_azarao": 6,
+            "n_elite": 2,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 6,
+            "baseline": 6.57,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 1
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "AZARÃO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "evidencia": {
+            "jogos_sofrendo_mais": 4,
+            "total": 7,
+            "pct": 57.1,
+            "categoria": "AZARÃO",
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 3.97,
+            "desvio_geral": 3.54,
+            "ratio": 1.12,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Londrina** — Time AZARÃO (PowerScore 7.5). Perfil EQUILIBRADO, forma recente DEDDE. 🏠 Em casa: baseline 8.33 cantos pró, 5.67 sofridos (n=3, sem padrão situacional detectado). ✈️ Fora: baseline 5.25 cantos pró, 6.25 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `RUPTURA_HOME` (consolidado), `BLITZ_INICIAL` (consolidado). Variância nos cantos pró: σ=3.54 (moderada)."
+    },
+    "Nautico": {
+      "identidade": {
+        "powerScore": 27.5,
+        "powerPercentil": 27.5,
+        "powerRaw": 59.18,
+        "categoria": "AZARÃO",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "DDDEV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 6.63,
+        "cantos_sofridos_geral": 5.63,
+        "cantos_pro_casa": 10.5,
+        "cantos_sofridos_casa": 4,
+        "cantos_pro_fora": 2.75,
+        "cantos_sofridos_fora": 7.25,
+        "cantos_pro_ht_geral": 3.25,
+        "cantos_sof_ht_geral": 2.88,
+        "consistencia_pro": 5.34,
+        "gols_pro_geral": 2.5,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": 4,
+        "gols_pro_fora": 1,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 11,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 3,
+          "cantos_pro_ht_media": 5.5,
+          "cantos_sof_ht_media": 1.5,
+          "diferencial": 6,
+          "variacao_vs_baseline_pct": 65.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 10,
+          "cantos_pro_desvio": 7,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 6,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 7,
+          "variacao_vs_baseline_pct": 50.8,
+          "gols_pro_media": 4,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 4,
+          "cantos_pro_media": 2.75,
+          "cantos_pro_desvio": 1.3,
+          "cantos_sofridos_media": 7.25,
+          "cantos_sofridos_desvio": 2.86,
+          "cantos_pro_ht_media": 0.75,
+          "cantos_sof_ht_media": 4.5,
+          "diferencial": -4.5,
+          "variacao_vs_baseline_pct": -58.5,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 25,
+          "qualifier": "sugestivo",
+          "padrao_detectado": true
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 3.25,
+            "cantos_pro_ft": 6.63,
+            "ratio": 0.49,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.88,
+            "cantos_sof_ft": 5.63,
+            "ratio": 0.51,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 2.5,
+            "cantos_pro": 6.63,
+            "ratio_gol_canto": 0.38,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 6.63,
+            "gols_pro": 2.5,
+            "ratio_canto_gol": 2.65,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.63,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.63,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 10.5,
+            "cantos_pro_fora": 2.75,
+            "diferenca": 7.75,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 11,
+            "cantos_pro_vs_azarao": 10,
+            "n_elite": 2,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 10,
+            "baseline": 6.63,
+            "win_rate_vs_azarao": 50,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "AZARÃO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "evidencia": {
+            "jogos_sofrendo_mais": 3,
+            "total": 8,
+            "pct": 37.5,
+            "categoria": "AZARÃO",
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 3.67,
+            "desvio_geral": 5.34,
+            "ratio": 0.69,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Nautico** — Time AZARÃO (PowerScore 27.5). Perfil DEFENSIVO, forma recente DDDEV. 🏠 Em casa: baseline 10.5 cantos pró, 4 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora vs médio: 2.75 cantos pró, 7.25 sofridos (-58.5% vs baseline, n=4, sugestivo). Assinaturas detectadas: `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=5.34 (alta (errático))."
+    },
+    "Novorizontino": {
+      "identidade": {
+        "powerScore": 50,
+        "powerPercentil": 50,
+        "powerRaw": 78.35,
+        "categoria": "MÉDIO",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "EDEVV",
+        "dna_indisponivel": false,
+        "n_jogos": 7
+      },
+      "baseline": {
+        "n_jogos": 7,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 3,
+        "n_com_placar": 1,
+        "cantos_pro_geral": 6.86,
+        "cantos_sofridos_geral": 3,
+        "cantos_pro_casa": 7.5,
+        "cantos_sofridos_casa": 2.5,
+        "cantos_pro_fora": 6,
+        "cantos_sofridos_fora": 3.67,
+        "cantos_pro_ht_geral": 2.43,
+        "cantos_sof_ht_geral": 1.29,
+        "consistencia_pro": 2.29,
+        "gols_pro_geral": 1,
+        "gols_sofridos_geral": 0,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": null,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 8,
+          "cantos_pro_desvio": 3,
+          "cantos_sofridos_media": 1,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 0.5,
+          "diferencial": 7,
+          "variacao_vs_baseline_pct": 16.6,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 2,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 3,
+          "cantos_pro_ht_media": 2.5,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": 3,
+          "variacao_vs_baseline_pct": 2,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 2,
+          "variacao_vs_baseline_pct": -27.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 8,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 4,
+          "cantos_sof_ht_media": 0,
+          "diferencial": 4,
+          "variacao_vs_baseline_pct": 16.6,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -27.1,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.43,
+            "cantos_pro_ft": 6.86,
+            "ratio": 0.35,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.29,
+            "cantos_sof_ft": 3,
+            "ratio": 0.43,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 1,
+            "cantos_pro": 6.86,
+            "ratio_gol_canto": 0.15,
+            "media_liga_cantos": 5.19,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 6.86,
+            "gols_pro": 1,
+            "ratio_canto_gol": 6.86,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof": 3,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 7.5,
+            "cantos_pro_fora": 6,
+            "diferenca": 1.5,
+            "n_casa": 4,
+            "n_fora": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 5,
+            "cantos_pro_vs_azarao": 6.33,
+            "n_elite": 1,
+            "n_azarao": 3
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 6.33,
+            "baseline": 6.86,
+            "win_rate_vs_azarao": 100,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "MÉDIO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.33,
+            "desvio_geral": 2.29,
+            "ratio": 1.02,
+            "n": 7
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Novorizontino** — Time MÉDIO (PowerScore 50). Perfil DEFENSIVO, forma recente EDEVV. 🏠 Em casa: baseline 7.5 cantos pró, 2.5 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 6 cantos pró, 3.67 sofridos (n=3, sem padrão situacional detectado). Assinaturas detectadas: `MURO_DEFENSIVO` (consolidado). Variância nos cantos pró: σ=2.29 (baixa (previsível))."
+    },
+    "Operario-PR": {
+      "identidade": {
+        "powerScore": 77.5,
+        "powerPercentil": 77.5,
+        "powerRaw": 84.28,
+        "categoria": "ELITE",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "DEEEV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 5.5,
+        "cantos_sofridos_geral": 5.38,
+        "cantos_pro_casa": 6.25,
+        "cantos_sofridos_casa": 4.75,
+        "cantos_pro_fora": 4.75,
+        "cantos_sofridos_fora": 6,
+        "cantos_pro_ht_geral": 2.5,
+        "cantos_sof_ht_geral": 2.38,
+        "consistencia_pro": 3.04,
+        "gols_pro_geral": 1.5,
+        "gols_sofridos_geral": 1.5,
+        "gols_pro_casa": 3,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 11,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 7,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 4,
+          "variacao_vs_baseline_pct": 100,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 4.5,
+          "cantos_pro_desvio": 2.5,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 3,
+          "cantos_pro_ht_media": 0.5,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": 0.5,
+          "variacao_vs_baseline_pct": -18.2,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 4,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -9.1,
+          "gols_pro_media": 3,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 7,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 4.5,
+          "cantos_sofridos_desvio": 1.5,
+          "cantos_pro_ht_media": 5.5,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 2.5,
+          "variacao_vs_baseline_pct": 27.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 9,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1,
+          "diferencial": -5,
+          "variacao_vs_baseline_pct": -27.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 1,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 5,
+          "diferencial": -5,
+          "variacao_vs_baseline_pct": -81.8,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 3,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.5,
+            "cantos_pro_ft": 5.5,
+            "ratio": 0.45,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.38,
+            "cantos_sof_ft": 5.38,
+            "ratio": 0.44,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 1.5,
+            "cantos_pro": 5.5,
+            "ratio_gol_canto": 0.27,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5.5,
+            "gols_pro": 1.5,
+            "ratio_canto_gol": 3.67,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.38,
+            "gols_sof": 1.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.38,
+            "gols_sof": 1.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 6.25,
+            "cantos_pro_fora": 4.75,
+            "diferenca": 1.5,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 8.33,
+            "cantos_pro_vs_azarao": 3,
+            "n_elite": 3,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 3,
+            "baseline": 5.5,
+            "win_rate_vs_azarao": 50,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "evidencia": {
+            "diferencial_vs_azarao": -2,
+            "n_azarao": 2,
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 3.61,
+            "desvio_geral": 3.04,
+            "ratio": 1.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Operario-PR** — Time ELITE (PowerScore 77.5). Perfil DEFENSIVO, forma recente DEEEV. 🏠 Em casa: baseline 6.25 cantos pró, 4.75 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 4.75 cantos pró, 6 sofridos (n=4, sem padrão situacional detectado). Variância nos cantos pró: σ=3.04 (moderada)."
+    },
+    "Ponte Preta": {
+      "identidade": {
+        "powerScore": 17.5,
+        "powerPercentil": 17.5,
+        "powerRaw": 50.25,
+        "categoria": "AZARÃO",
+        "perfil_dna": "EQUILIBRADO",
+        "forma": "DDEVD",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 5.25,
+        "cantos_sofridos_geral": 6.13,
+        "cantos_pro_casa": 6.5,
+        "cantos_sofridos_casa": 5.5,
+        "cantos_pro_fora": 4,
+        "cantos_sofridos_fora": 6.75,
+        "cantos_pro_ht_geral": 2.25,
+        "cantos_sof_ht_geral": 3,
+        "consistencia_pro": 2.99,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 3,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 10,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 1.5,
+          "diferencial": 7,
+          "variacao_vs_baseline_pct": 90.5,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 3,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": -23.8,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 10,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 2,
+          "diferencial": -8,
+          "variacao_vs_baseline_pct": -61.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 2,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 5,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 4,
+          "variacao_vs_baseline_pct": 14.3,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 3,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 3.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 4,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 1.5,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": -0.5,
+          "variacao_vs_baseline_pct": -33.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 17,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 10,
+          "diferencial": -14,
+          "variacao_vs_baseline_pct": -42.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.25,
+            "cantos_pro_ft": 5.25,
+            "ratio": 0.43,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 3,
+            "cantos_sof_ft": 6.13,
+            "ratio": 0.49,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 5.25,
+            "ratio_gol_canto": 0.1,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 5.25,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 10.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.13,
+            "gols_sof": 3,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.13,
+            "gols_sof": 3,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 6.5,
+            "cantos_pro_fora": 4,
+            "diferenca": 2.5,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 8.67,
+            "cantos_pro_vs_azarao": 2.5,
+            "n_elite": 3,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 2.5,
+            "baseline": 5.25,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "AZARÃO"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "evidencia": {
+            "jogos_sofrendo_mais": 4,
+            "total": 8,
+            "pct": 50,
+            "categoria": "AZARÃO",
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 3.54,
+            "desvio_geral": 2.99,
+            "ratio": 1.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Ponte Preta** — Time AZARÃO (PowerScore 17.5). Perfil EQUILIBRADO, forma recente DDEVD. 🏠 Em casa: baseline 6.5 cantos pró, 5.5 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 4 cantos pró, 6.75 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.99 (moderada)."
+    },
+    "Sao Bernardo": {
+      "identidade": {
+        "powerScore": 97.5,
+        "powerPercentil": 97.5,
+        "powerRaw": 98.5,
+        "categoria": "ELITE",
+        "perfil_dna": "OFENSIVO",
+        "forma": "DVVDE",
+        "dna_indisponivel": false,
+        "n_jogos": 6
+      },
+      "baseline": {
+        "n_jogos": 6,
+        "n_jogos_casa": 3,
+        "n_jogos_fora": 3,
+        "n_com_placar": 1,
+        "cantos_pro_geral": 4.17,
+        "cantos_sofridos_geral": 7.67,
+        "cantos_pro_casa": 4,
+        "cantos_sofridos_casa": 6.67,
+        "cantos_pro_fora": 4.33,
+        "cantos_sofridos_fora": 8.67,
+        "cantos_pro_ht_geral": 1.83,
+        "cantos_sof_ht_geral": 2.67,
+        "consistencia_pro": 2.19,
+        "gols_pro_geral": 3,
+        "gols_sofridos_geral": 0,
+        "gols_pro_casa": 3,
+        "gols_pro_fora": null,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 2,
+          "cantos_pro_media": 5,
+          "cantos_pro_desvio": 1,
+          "cantos_sofridos_media": 7,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": 19.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 5,
+          "diferencial": -4,
+          "variacao_vs_baseline_pct": -52,
+          "gols_pro_media": 3,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 5.5,
+          "cantos_pro_desvio": 2.5,
+          "cantos_sofridos_media": 8,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 1,
+          "diferencial": -2.5,
+          "variacao_vs_baseline_pct": 31.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 2,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 10,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 4,
+          "diferencial": -8,
+          "variacao_vs_baseline_pct": -52,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.83,
+            "cantos_pro_ft": 4.17,
+            "ratio": 0.44,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof_ht": 2.67,
+            "cantos_sof_ft": 7.67,
+            "ratio": 0.35,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": true,
+          "evidencia": {
+            "gols_pro": 3,
+            "cantos_pro": 4.17,
+            "ratio_gol_canto": 0.72,
+            "media_liga_cantos": 5.19,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.17,
+            "gols_pro": 3,
+            "ratio_canto_gol": 1.39,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 7.67,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 7.67,
+            "gols_sof": 0,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4,
+            "cantos_pro_fora": 4.33,
+            "diferenca": 0.33,
+            "n_casa": 3,
+            "n_fora": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 5,
+            "cantos_pro_vs_azarao": 2,
+            "n_elite": 2,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 2,
+            "baseline": 4.17,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 2
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "evidencia": {
+            "diferencial_vs_azarao": -6,
+            "n_azarao": 2,
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.23,
+            "desvio_geral": 2.19,
+            "ratio": 1.02,
+            "n": 6
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Sao Bernardo** — Time ELITE (PowerScore 97.5). Perfil OFENSIVO, forma recente DVVDE. 🏠 Em casa: baseline 4 cantos pró, 6.67 sofridos (n=3, sem padrão situacional detectado). ✈️ Fora: baseline 4.33 cantos pró, 8.67 sofridos (n=3, sem padrão situacional detectado). Assinaturas detectadas: `EFETIVIDADE_CLINICA` (consolidado), `RETRANCA_AVANCADA` (consolidado). Variância nos cantos pró: σ=2.19 (baixa (previsível))."
+    },
+    "Sport Recife": {
+      "identidade": {
+        "powerScore": 82.5,
+        "powerPercentil": 82.5,
+        "powerRaw": 90.68,
+        "categoria": "ELITE",
+        "perfil_dna": "DEFENSIVO",
+        "forma": "VEVEE",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 4.75,
+        "cantos_sofridos_geral": 6.38,
+        "cantos_pro_casa": 6.25,
+        "cantos_sofridos_casa": 6.75,
+        "cantos_pro_fora": 3.25,
+        "cantos_sofridos_fora": 6,
+        "cantos_pro_ht_geral": 2.63,
+        "cantos_sof_ht_geral": 2.38,
+        "consistencia_pro": 2.68,
+        "gols_pro_geral": 2.5,
+        "gols_sofridos_geral": 0.5,
+        "gols_pro_casa": 2,
+        "gols_pro_fora": 3,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 6,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 2,
+          "diferencial": 3,
+          "variacao_vs_baseline_pct": 26.3,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 3,
+          "cantos_pro_media": 6.33,
+          "cantos_pro_desvio": 2.49,
+          "cantos_sofridos_media": 8,
+          "cantos_sofridos_desvio": 2.45,
+          "cantos_pro_ht_media": 3.67,
+          "cantos_sof_ht_media": 2.67,
+          "diferencial": -1.67,
+          "variacao_vs_baseline_pct": 33.3,
+          "gols_pro_media": 2,
+          "gols_sofridos_media": 0,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "sugestivo",
+          "padrao_detectado": true
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 1,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 0,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 0,
+          "cantos_sof_ht_media": 0,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -78.9,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 3,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 2.16,
+          "cantos_sofridos_media": 8,
+          "cantos_sofridos_desvio": 2.45,
+          "cantos_pro_ht_media": 2.33,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -4,
+          "variacao_vs_baseline_pct": -15.8,
+          "gols_pro_media": 3,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 33.3,
+          "qualifier": "sugestivo",
+          "padrao_detectado": true
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.63,
+            "cantos_pro_ft": 4.75,
+            "ratio": 0.55,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.38,
+            "cantos_sof_ft": 6.38,
+            "ratio": 0.37,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": true,
+          "evidencia": {
+            "gols_pro": 2.5,
+            "cantos_pro": 4.75,
+            "ratio_gol_canto": 0.53,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.75,
+            "gols_pro": 2.5,
+            "ratio_canto_gol": 1.9,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.38,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.38,
+            "gols_sof": 0.5,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 6.25,
+            "cantos_pro_fora": 3.25,
+            "diferenca": 3,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 6,
+            "cantos_pro_vs_azarao": 4,
+            "n_elite": 1,
+            "n_azarao": 3
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 4,
+            "baseline": 4.75,
+            "win_rate_vs_azarao": 33.3,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "evidencia": {
+            "diferencial_vs_azarao": -4,
+            "n_azarao": 3,
+            "categoria": "ELITE"
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.04,
+            "desvio_geral": 2.68,
+            "ratio": 0.76,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Sport Recife** — Time ELITE (PowerScore 82.5). Perfil DEFENSIVO, forma recente VEVEE. 🏠 Em casa vs médio: 6.33 cantos pró, 8 sofridos (+33.3% vs baseline, n=3, sugestivo). ✈️ Fora vs azarão: 4 cantos pró, 8 sofridos (-15.8% vs baseline, n=3, sugestivo). Assinaturas detectadas: `RUPTURA_HOME` (consolidado), `BLITZ_INICIAL` (consolidado), `EFETIVIDADE_CLINICA` (consolidado). Variância nos cantos pró: σ=2.68 (moderada)."
+    },
+    "Vila Nova FC": {
+      "identidade": {
+        "powerScore": 92.5,
+        "powerPercentil": 92.5,
+        "powerRaw": 95.88,
+        "categoria": "ELITE",
+        "perfil_dna": "OFENSIVO",
+        "forma": "EVVEV",
+        "dna_indisponivel": false,
+        "n_jogos": 8
+      },
+      "baseline": {
+        "n_jogos": 8,
+        "n_jogos_casa": 4,
+        "n_jogos_fora": 4,
+        "n_com_placar": 2,
+        "cantos_pro_geral": 4.88,
+        "cantos_sofridos_geral": 4.63,
+        "cantos_pro_casa": 5.75,
+        "cantos_sofridos_casa": 3.75,
+        "cantos_pro_fora": 4,
+        "cantos_sofridos_fora": 5.5,
+        "cantos_pro_ht_geral": 2.88,
+        "cantos_sof_ht_geral": 2.75,
+        "consistencia_pro": 2.2,
+        "gols_pro_geral": 0.5,
+        "gols_sofridos_geral": 1,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 0,
+        "confiabilidade": "MÉDIA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 6,
+          "diferencial": -3,
+          "variacao_vs_baseline_pct": -38.5,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 2,
+          "cantos_pro_media": 8.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 2,
+          "cantos_sofridos_desvio": 1,
+          "cantos_pro_ht_media": 5.5,
+          "cantos_sof_ht_media": 1,
+          "diferencial": 6.5,
+          "variacao_vs_baseline_pct": 74.2,
+          "gols_pro_media": 1,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 5,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 1,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": -38.5,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 1,
+          "cantos_pro_media": 3,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 6,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 3,
+          "diferencial": -3,
+          "variacao_vs_baseline_pct": -38.5,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 1,
+          "cantos_pro_media": 4,
+          "cantos_pro_desvio": 0,
+          "cantos_sofridos_media": 3,
+          "cantos_sofridos_desvio": 0,
+          "cantos_pro_ht_media": 3,
+          "cantos_sof_ht_media": 3,
+          "diferencial": 1,
+          "variacao_vs_baseline_pct": -18,
+          "gols_pro_media": null,
+          "gols_sofridos_media": null,
+          "win_rate_cantos_pct": 100,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 2,
+          "cantos_pro_media": 4.5,
+          "cantos_pro_desvio": 0.5,
+          "cantos_sofridos_media": 6.5,
+          "cantos_sofridos_desvio": 2.5,
+          "cantos_pro_ht_media": 2,
+          "cantos_sof_ht_media": 2.5,
+          "diferencial": -2,
+          "variacao_vs_baseline_pct": -7.8,
+          "gols_pro_media": 0,
+          "gols_sofridos_media": 1,
+          "win_rate_cantos_pct": 50,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.88,
+            "cantos_pro_ft": 4.88,
+            "ratio": 0.59,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.75,
+            "cantos_sof_ft": 4.63,
+            "ratio": 0.59,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.5,
+            "cantos_pro": 4.88,
+            "ratio_gol_canto": 0.1,
+            "media_liga_cantos": 5.19,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.88,
+            "gols_pro": 0.5,
+            "ratio_canto_gol": 9.76,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.63,
+            "gols_sof": 1,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.63,
+            "gols_sof": 1,
+            "media_liga_cantos": 5.19,
+            "media_liga_gols": 1,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.75,
+            "cantos_pro_fora": 4,
+            "diferenca": 1.75,
+            "n_casa": 4,
+            "n_fora": 4
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 3,
+            "cantos_pro_vs_azarao": 4,
+            "n_elite": 2,
+            "n_azarao": 3
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 4,
+            "baseline": 4.88,
+            "win_rate_vs_azarao": 33.3,
+            "n_azarao": 3
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "evidencia": {
+            "diferencial_vs_azarao": -2,
+            "n_azarao": 3,
+            "categoria": "ELITE"
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "ELITE"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 0.75,
+            "desvio_geral": 2.2,
+            "ratio": 0.34,
+            "n": 8
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Vila Nova FC** — Time ELITE (PowerScore 92.5). Perfil OFENSIVO, forma recente EVVEV. 🏠 Em casa: baseline 5.75 cantos pró, 3.75 sofridos (n=4, sem padrão situacional detectado). ✈️ Fora: baseline 4 cantos pró, 5.5 sofridos (n=4, sem padrão situacional detectado). Assinaturas detectadas: `BLITZ_INICIAL` (consolidado). Variância nos cantos pró: σ=2.2 (baixa (previsível))."
+    }
+  },
+  "matriz_dna_cruzamentos": {
+    "DEFENSIVO__vs__OFENSIVO": {
+      "perfil_mandante": "DEFENSIVO",
+      "perfil_visitante": "OFENSIVO",
+      "n_jogos": 4,
+      "cantos_media_total": 9.5,
+      "cantos_media_mandante": 6.5,
+      "cantos_media_visitante": 3,
+      "mandante_dominou_cantos_pct": 75,
+      "diferencial_medio_cantos": 3.5,
+      "qualifier": "sugestivo"
+    },
+    "OFENSIVO__vs__DEFENSIVO": {
+      "perfil_mandante": "OFENSIVO",
+      "perfil_visitante": "DEFENSIVO",
+      "n_jogos": 3,
+      "cantos_media_total": 11.33,
+      "cantos_media_mandante": 5.67,
+      "cantos_media_visitante": 5.67,
+      "mandante_dominou_cantos_pct": 33.3,
+      "diferencial_medio_cantos": 0,
+      "qualifier": "sugestivo"
+    },
+    "EQUILIBRADO__vs__EQUILIBRADO": {
+      "perfil_mandante": "EQUILIBRADO",
+      "perfil_visitante": "EQUILIBRADO",
+      "n_jogos": 10,
+      "cantos_media_total": 10.4,
+      "cantos_media_mandante": 5.8,
+      "cantos_media_visitante": 4.6,
+      "mandante_dominou_cantos_pct": 50,
+      "diferencial_medio_cantos": 1.2,
+      "qualifier": "consolidado"
+    },
+    "EQUILIBRADO__vs__MURO_DUPLO": {
+      "perfil_mandante": "EQUILIBRADO",
+      "perfil_visitante": "MURO_DUPLO",
+      "n_jogos": 5,
+      "cantos_media_total": 7.6,
+      "cantos_media_mandante": 4.8,
+      "cantos_media_visitante": 2.8,
+      "mandante_dominou_cantos_pct": 60,
+      "diferencial_medio_cantos": 2,
+      "qualifier": "consolidado"
+    },
+    "EQUILIBRADO__vs__OFENSIVO": {
+      "perfil_mandante": "EQUILIBRADO",
+      "perfil_visitante": "OFENSIVO",
+      "n_jogos": 3,
+      "cantos_media_total": 13,
+      "cantos_media_mandante": 7.33,
+      "cantos_media_visitante": 5.67,
+      "mandante_dominou_cantos_pct": 66.7,
+      "diferencial_medio_cantos": 1.67,
+      "qualifier": "sugestivo"
+    },
+    "OFENSIVO__vs__EQUILIBRADO": {
+      "perfil_mandante": "OFENSIVO",
+      "perfil_visitante": "EQUILIBRADO",
+      "n_jogos": 4,
+      "cantos_media_total": 9,
+      "cantos_media_mandante": 4.5,
+      "cantos_media_visitante": 4.5,
+      "mandante_dominou_cantos_pct": 25,
+      "diferencial_medio_cantos": 0,
+      "qualifier": "sugestivo"
+    },
+    "DEFENSIVO__vs__EQUILIBRADO": {
+      "perfil_mandante": "DEFENSIVO",
+      "perfil_visitante": "EQUILIBRADO",
+      "n_jogos": 11,
+      "cantos_media_total": 12.27,
+      "cantos_media_mandante": 8.45,
+      "cantos_media_visitante": 3.82,
+      "mandante_dominou_cantos_pct": 100,
+      "diferencial_medio_cantos": 4.64,
+      "qualifier": "consolidado"
+    },
+    "MURO_DUPLO__vs__EQUILIBRADO": {
+      "perfil_mandante": "MURO_DUPLO",
+      "perfil_visitante": "EQUILIBRADO",
+      "n_jogos": 5,
+      "cantos_media_total": 9.8,
+      "cantos_media_mandante": 5,
+      "cantos_media_visitante": 4.8,
+      "mandante_dominou_cantos_pct": 60,
+      "diferencial_medio_cantos": 0.2,
+      "qualifier": "consolidado"
+    },
+    "MURO_DUPLO__vs__DEFENSIVO": {
+      "perfil_mandante": "MURO_DUPLO",
+      "perfil_visitante": "DEFENSIVO",
+      "n_jogos": 3,
+      "cantos_media_total": 5.33,
+      "cantos_media_mandante": 1.67,
+      "cantos_media_visitante": 3.67,
+      "mandante_dominou_cantos_pct": 0,
+      "diferencial_medio_cantos": -2,
+      "qualifier": "sugestivo"
+    },
+    "DEFENSIVO__vs__MURO_DUPLO": {
+      "perfil_mandante": "DEFENSIVO",
+      "perfil_visitante": "MURO_DUPLO",
+      "n_jogos": 3,
+      "cantos_media_total": 5,
+      "cantos_media_mandante": 3.33,
+      "cantos_media_visitante": 1.67,
+      "mandante_dominou_cantos_pct": 66.7,
+      "diferencial_medio_cantos": 1.67,
+      "qualifier": "sugestivo"
+    },
+    "EQUILIBRADO__vs__DEFENSIVO": {
+      "perfil_mandante": "EQUILIBRADO",
+      "perfil_visitante": "DEFENSIVO",
+      "n_jogos": 9,
+      "cantos_media_total": 11.89,
+      "cantos_media_mandante": 7.89,
+      "cantos_media_visitante": 4,
+      "mandante_dominou_cantos_pct": 66.7,
+      "diferencial_medio_cantos": 3.89,
+      "qualifier": "consolidado"
+    },
+    "DEFENSIVO__vs__DEFENSIVO": {
+      "perfil_mandante": "DEFENSIVO",
+      "perfil_visitante": "DEFENSIVO",
+      "n_jogos": 9,
+      "cantos_media_total": 11.56,
+      "cantos_media_mandante": 6.89,
+      "cantos_media_visitante": 4.67,
+      "mandante_dominou_cantos_pct": 44.4,
+      "diferencial_medio_cantos": 2.22,
+      "qualifier": "consolidado"
+    },
+    "VULNERAVEL__vs__DEFENSIVO": {
+      "perfil_mandante": "VULNERAVEL",
+      "perfil_visitante": "DEFENSIVO",
+      "n_jogos": 2,
+      "cantos_media_total": 10,
+      "cantos_media_mandante": 6,
+      "cantos_media_visitante": 4,
+      "mandante_dominou_cantos_pct": 50,
+      "diferencial_medio_cantos": 2,
+      "qualifier": "amostra_insuficiente"
+    },
+    "VULNERAVEL__vs__EQUILIBRADO": {
+      "perfil_mandante": "VULNERAVEL",
+      "perfil_visitante": "EQUILIBRADO",
+      "n_jogos": 2,
+      "cantos_media_total": 12.5,
+      "cantos_media_mandante": 7,
+      "cantos_media_visitante": 5.5,
+      "mandante_dominou_cantos_pct": 50,
+      "diferencial_medio_cantos": 1.5,
+      "qualifier": "amostra_insuficiente"
+    },
+    "EQUILIBRADO__vs__VULNERAVEL": {
+      "perfil_mandante": "EQUILIBRADO",
+      "perfil_visitante": "VULNERAVEL",
+      "n_jogos": 3,
+      "cantos_media_total": 11.33,
+      "cantos_media_mandante": 3,
+      "cantos_media_visitante": 8.33,
+      "mandante_dominou_cantos_pct": 0,
+      "diferencial_medio_cantos": -5.33,
+      "qualifier": "sugestivo"
+    },
+    "DEFENSIVO__vs__VULNERAVEL": {
+      "perfil_mandante": "DEFENSIVO",
+      "perfil_visitante": "VULNERAVEL",
+      "n_jogos": 1,
+      "cantos_media_total": 6,
+      "cantos_media_mandante": 3,
+      "cantos_media_visitante": 3,
+      "mandante_dominou_cantos_pct": 0,
+      "diferencial_medio_cantos": 0,
+      "qualifier": "amostra_insuficiente"
+    }
+  },
+  "insights_liga": [
+    "Cruzamento de maior produção de cantos: **EQUILIBRADO** (casa) × **OFENSIVO** (fora) — 13 cantos/jogo em 3 confrontos (sugestivo).",
+    "Maior dominância de mandante em cantos: **DEFENSIVO** vs **EQUILIBRADO** — 100% dos jogos o mandante fez mais cantos (n=11).",
+    "Assinatura mais frequente na liga: **RUPTURA_HOME** (presente em 9 times).",
+    "Distribuição de categorias: 6 ELITE, 8 MÉDIO, 6 AZARÃO.",
+    "Baseline da liga: 10.39 cantos/jogo (σ=4.04)."
+  ],
+  "divergencias_dna_performance": [
+    {
+      "time": "Sao Bernardo",
+      "categoria": "ELITE",
+      "perfil_dna": "OFENSIVO",
+      "tipo_divergencia": "Ofensivo subentregando",
+      "evidencia": {
+        "cantos_pro": 4.17,
+        "media_liga_cantos_pro": 5.19,
+        "gap_vs_media_pct": 19.7,
+        "gols_pro": 3,
+        "power_score": 97.5,
+        "n_jogos": 6
+      },
+      "severidade": "media"
+    },
+    {
+      "time": "Nautico",
+      "categoria": "AZARÃO",
+      "perfil_dna": "DEFENSIVO",
+      "tipo_divergencia": "Defensivo medíocre",
+      "evidencia": {
+        "cantos_sofridos": 5.63,
+        "media_liga_cantos_sof": 5.19,
+        "cantos_sof_vs_media_pct": 8.5,
+        "acima_da_media": true,
+        "gols_sofridos": 0.5,
+        "power_score": 27.5,
+        "n_jogos": 8
+      },
+      "severidade": "baixa"
+    }
+  ]
+}

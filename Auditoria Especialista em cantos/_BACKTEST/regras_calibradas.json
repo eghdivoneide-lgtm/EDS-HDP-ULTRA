@@ -1,0 +1,143 @@
+{
+  "geradoEm": "2026-05-17",
+  "nJogos": 1717,
+  "regraOuroUniversal": {
+    "nome": "Mandante BLITZ_INICIAL consolidada → Over 3.5 HT",
+    "wrMedia": 70,
+    "n": 574,
+    "aplicaA": "Todas as 9 ligas"
+  },
+  "porLiga": {
+    "BR": {
+      "nivel_geral": "Liga ofensiva — baseline 10.09, Over 9.5 = 55.8% (moderado sem filtro)",
+      "PRIMARY": "Mandante BLITZ_INICIAL → Over 3.5 HT (68.9%, N=45)",
+      "SECONDARY": "Over 8.5 FT baseline (68.7%, N=147)",
+      "EVITAR": "Over 10.5+ (zona extrema 36% WR)",
+      "ESTRATEGIA": "Operar Over 8.5 FT como mercado padrão; combinar com Over 3.5 HT quando mandante BLITZ_INICIAL"
+    },
+    "BR_B": {
+      "nivel_geral": "Liga ofensiva mas OVERDISPERSA — baseline 10.39 mas variância alta",
+      "PRIMARY": "⭐ Over 3.5 HT baseline (75.3%, N=77) — REGRA OURO",
+      "SECONDARY": "⭐ Mandante ATAQUE_ESTERIL → Over 9.5 (73.1%, N=26)",
+      "TERCIARY": "Mandante BLITZ_INICIAL → Over 3.5 HT (74.2%, N=31)",
+      "EVITAR": "🔴 Under 9.5 FT geral (44.2% WR — TÓXICO sem filtro). Over 10.5+ também problemático.",
+      "ESTRATEGIA": "Foco em Over HT 3.5 + Over 9.5 quando mandante ATAQUE_ESTERIL. NÃO operar Under aqui."
+    },
+    "ARG": {
+      "nivel_geral": "Liga TRUCADA — baseline 8.57, Under 9.5 = 63.1% (forte sem filtro)",
+      "PRIMARY": "⭐ Under 9.5 FT baseline (63.1%, N=249)",
+      "SECONDARY": "Under 4.5 HT (61.8%, N=249)",
+      "TERCIARY": "Mandante MURO_DEFENSIVO → Under 9.5 (63.6%, N=11)",
+      "EVITAR": "Over 10.5+ (reversão à média alta)",
+      "ESTRATEGIA": "Under 9.5 FT como mercado padrão. Linha mais agressiva: Under 10.5 (70.3% WR)"
+    },
+    "ARG_B": {
+      "nivel_geral": "Liga TRUCADA — baseline 8.60, Under 9.5 = 58.8% (moderado)",
+      "PRIMARY": "Mandante BLITZ_INICIAL → Over 3.5 HT (67.5%, N=80)",
+      "SECONDARY": "Under 10.5 FT (72.7%, N=216)",
+      "TERCIARY": "ELITE×ELITE → Under 9.5 (62.5%, N=16)",
+      "ESPECIAL": "Dois MURO_DUPLO → Under 9.5 (60%, N=20)",
+      "EVITAR": "Over 10.5+ (linha agressiva ruim)",
+      "ESTRATEGIA": "Mix: Over HT 3.5 quando BLITZ + Under 10.5 FT como linha segura"
+    },
+    "MLS": {
+      "nivel_geral": "Liga ofensiva — baseline 10.16, Over 9.5 = 55.4%",
+      "PRIMARY": "⭐ Mandante BLITZ_INICIAL → Over 3.5 HT (71.4%, N=70)",
+      "SECONDARY": "⭐ ELITE casa vs AZARÃO fora → Over 9.5 (69.2%, N=13)",
+      "TERCIARY": "Over 3.5 HT baseline (67.8%, N=177)",
+      "ESPECIAL": "Mandante DEFESA_PRECARIA → Over 9.5 (63.6%, N=11)",
+      "EVITAR": "⚠️ Operação anterior MLS no app teve ROI -17% em HDP HT sem cruzamento — manter cuidado em HDP",
+      "ESTRATEGIA": "Foco em Over HT 3.5 + Over 9.5 em ELITE × AZARÃO. Evitar HDP sem cruzamento."
+    },
+    "USL": {
+      "nivel_geral": "Liga equilibrada — baseline 9.15",
+      "PRIMARY": "🏆 Dois EFETIVIDADE_CLINICA → Under 9.5 (85.7%, N=14) — REGRA TOP DA LIGA",
+      "SECONDARY": "⭐ Mandante BLITZ_INICIAL → Over 3.5 HT (70.0%, N=50)",
+      "TERCIARY": "Over 3.5 HT baseline (61.3%, N=106)",
+      "ESPECIAL": "Under 11.5 (76.4%, N=106) — linha super conservadora",
+      "EVITAR": "Over 9.5 sem filtro (44% WR)",
+      "ESTRATEGIA": "Caçar combinação dupla EFETIVIDADE_CLINICA (Under brilha). Default: Over HT 3.5 quando BLITZ."
+    },
+    "BUN": {
+      "nivel_geral": "Liga equilibrada — baseline 9.71, FAV_DOMINANCE 0.79 (azarão rouba cantos)",
+      "PRIMARY": "⭐ ELITE (PS≥80) casa vs AZARÃO (PS≤30) → Over 9.5 (70.0%, N=20)",
+      "SECONDARY": "Mandante BLITZ_INICIAL → Over 3.5 HT (66.3%, N=83)",
+      "TERCIARY": "Over 3.5 HT baseline (62.0%, N=297)",
+      "ESPECIAL": "HDP de cantos validado em rodada anterior (Leverkusen acertou)",
+      "EVITAR": "Over 10.5 sem filtro (~43% WR)",
+      "ESTRATEGIA": "Caçar ELITE × AZARÃO claro pra Over 9.5 OU HDP de cantos. Over HT 3.5 como complemento."
+    },
+    "J1": {
+      "nivel_geral": "⚠️ Liga em MATURAÇÃO — DNA parcial, N=129",
+      "PRIMARY": "🏆 Mandante BLITZ_INICIAL → Over 3.5 HT (100%, N=12) — amostra pequena",
+      "SECONDARY": "Mandante BLITZ_INICIAL → Over 4.5 HT (83.3%, N=12)",
+      "TERCIARY": "Mandante MURO_DEFENSIVO → Under 9.5 (69.2%, N=13)",
+      "EVITAR": "LIGA EM MATURAÇÃO — operar APENAS com stake reduzido",
+      "ESTRATEGIA": "Apenas regras com confluência DNA forte + stake reduzido. Não operar baseline puro."
+    },
+    "J2_J3": {
+      "nivel_geral": "Liga ofensiva overdispersa — baseline 9.88",
+      "PRIMARY": "🏆 Dois EFETIVIDADE_CLINICA → Under 9.5 (81.8%, N=11) — TOP DA LIGA",
+      "SECONDARY": "⭐ Mandante BLITZ_INICIAL → Over 3.5 HT (72.7%, N=88) — N grande",
+      "TERCIARY": "Over 8.5 FT baseline (67.1%, N=319)",
+      "EVITAR": "Zona extrema (xFT > 12 ou < 6) — reversão à média",
+      "ESTRATEGIA": "Linha 9.5 FT operável com filtro DNA. Over HT 3.5 + Under quando dupla EFETIVIDADE."
+    }
+  },
+  "linhasEquilibrio": {
+    "BR": {
+      "base": 10.09,
+      "eq": 9.5,
+      "forte": "Over 8.5 (68.7%)",
+      "segura": "Over 7.5 (77.6%)"
+    },
+    "BR_B": {
+      "base": 10.39,
+      "eq": 10.5,
+      "forte": "Over 8.5 (64.9%)",
+      "segura": "Over 7.5 (72.7%)"
+    },
+    "ARG": {
+      "base": 8.57,
+      "eq": 8.5,
+      "forte": "Under 9.5 (63.1%)",
+      "segura": "Under 10.5 (70.3%)"
+    },
+    "ARG_B": {
+      "base": 8.6,
+      "eq": 8.5,
+      "forte": "Under 9.5 (58.8%)",
+      "segura": "Under 10.5 (72.7%)"
+    },
+    "MLS": {
+      "base": 10.16,
+      "eq": 9.5,
+      "forte": "Over 8.5 (66.7%)",
+      "segura": "Over 7.5 (76.3%)"
+    },
+    "USL": {
+      "base": 9.15,
+      "eq": 8.5,
+      "forte": "Over 7.5 (65.1%)",
+      "segura": "Under 11.5 (76.4%)"
+    },
+    "BUN": {
+      "base": 9.71,
+      "eq": 9.5,
+      "forte": "Over 8.5 (60.3%)",
+      "segura": "Over 7.5 (72.4%)"
+    },
+    "J1": {
+      "base": 9.7,
+      "eq": 9.5,
+      "forte": "(ver regras DNA)",
+      "segura": "Over 7.5 (75.2%)"
+    },
+    "J2_J3": {
+      "base": 9.88,
+      "eq": 9.5,
+      "forte": "Over 8.5 (67.1%)",
+      "segura": "Over 7.5 (79.9%)"
+    }
+  }
+}

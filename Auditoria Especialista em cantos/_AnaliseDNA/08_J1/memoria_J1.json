@@ -1,0 +1,4463 @@
+{
+  "liga": "J1",
+  "ligaNome": "J1 League",
+  "data_analise": "2026-05-16",
+  "n_jogos_analisados": 129,
+  "n_times": 20,
+  "baseline_liga": {
+    "n_jogos": 129,
+    "n_com_placar": 128,
+    "media_cantos_jogo_ft": 9.7,
+    "media_cantos_jogo_ht": 4.26,
+    "media_gols_jogo_ft": 0.63,
+    "media_cantos_pro_time": 4.85,
+    "media_cantos_sof_time": 4.85,
+    "media_gols_pro_time": 0.31,
+    "desvio_cantos_jogo_ft": 3.27
+  },
+  "contagens_assinaturas": {
+    "BLITZ_INICIAL": 2,
+    "RETRANCA_AVANCADA": 1,
+    "EFETIVIDADE_CLINICA": 0,
+    "ATAQUE_ESTERIL": 4,
+    "MURO_DEFENSIVO": 2,
+    "DEFESA_PRECARIA": 1,
+    "RUPTURA_HOME": 5,
+    "ELITE_KILLER": 0,
+    "CARRINHO_FACIL": 0,
+    "DESEQUILIBRA_FAVORITO": 0,
+    "SUCUMBE_AZARAO": 0,
+    "TERMOMETRO_FORMA": 0
+  },
+  "ranking_powerscore": [
+    {
+      "time": "Avispa Fukuoka",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 14
+    },
+    {
+      "time": "Cerezo Osaka",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Chiba",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "FC Tokyo",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Gamba Osaka",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 14
+    },
+    {
+      "time": "Kashima Antlers",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Kashiwa Reysol",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Kawasaki Frontale",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Kyoto",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 12
+    },
+    {
+      "time": "Machida",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 12
+    },
+    {
+      "time": "Mito",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Nagoya Grampus",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Okayama",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Sanfrecce Hiroshima",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Shimizu S-Pulse",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Urawa Reds",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "V-Varen Nagasaki",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    },
+    {
+      "time": "Verdy",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 12
+    },
+    {
+      "time": "Vissel Kobe",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 12
+    },
+    {
+      "time": "Yokohama F. Marinos",
+      "powerScore": null,
+      "categoria": "SEM_DNA",
+      "perfil_dna": "SEM_DNA",
+      "forma": null,
+      "n_jogos": 13
+    }
+  ],
+  "times": {
+    "Avispa Fukuoka": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 14
+      },
+      "baseline": {
+        "n_jogos": 14,
+        "n_jogos_casa": 6,
+        "n_jogos_fora": 8,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.5,
+        "cantos_sofridos_geral": 4.36,
+        "cantos_pro_casa": 5,
+        "cantos_sofridos_casa": 2.5,
+        "cantos_pro_fora": 4.13,
+        "cantos_sofridos_fora": 5.75,
+        "cantos_pro_ht_geral": 2.14,
+        "cantos_sof_ht_geral": 1.86,
+        "consistencia_pro": 1.5,
+        "gols_pro_geral": 0.23,
+        "gols_sofridos_geral": 0.54,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0.43,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.14,
+            "cantos_pro_ft": 4.5,
+            "ratio": 0.48,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.86,
+            "cantos_sof_ft": 4.36,
+            "ratio": 0.43,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.23,
+            "cantos_pro": 4.5,
+            "ratio_gol_canto": 0.05,
+            "media_liga_cantos": 4.85,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.5,
+            "gols_pro": 0.23,
+            "ratio_canto_gol": 19.57,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.36,
+            "gols_sof": 0.54,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.36,
+            "gols_sof": 0.54,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5,
+            "cantos_pro_fora": 4.13,
+            "diferenca": 0.87,
+            "n_casa": 6,
+            "n_fora": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.5,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.62,
+            "desvio_geral": 1.5,
+            "ratio": 1.08,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Avispa Fukuoka** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5 cantos pró, 2.5 sofridos (n=6, sem padrão situacional detectado). ✈️ Fora: baseline 4.13 cantos pró, 5.75 sofridos (n=8, sem padrão situacional detectado). Variância nos cantos pró: σ=1.5 (baixa (previsível))."
+    },
+    "Cerezo Osaka": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.77,
+        "cantos_sofridos_geral": 5.77,
+        "cantos_pro_casa": 4.57,
+        "cantos_sofridos_casa": 5,
+        "cantos_pro_fora": 5,
+        "cantos_sofridos_fora": 6.67,
+        "cantos_pro_ht_geral": 1.92,
+        "cantos_sof_ht_geral": 2.38,
+        "consistencia_pro": 2.49,
+        "gols_pro_geral": 0.54,
+        "gols_sofridos_geral": 0.23,
+        "gols_pro_casa": 0.71,
+        "gols_pro_fora": 0.33,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.92,
+            "cantos_pro_ft": 4.77,
+            "ratio": 0.4,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.38,
+            "cantos_sof_ft": 5.77,
+            "ratio": 0.41,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.54,
+            "cantos_pro": 4.77,
+            "ratio_gol_canto": 0.11,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.77,
+            "gols_pro": 0.54,
+            "ratio_canto_gol": 8.83,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.77,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.77,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4.57,
+            "cantos_pro_fora": 5,
+            "diferenca": 0.43,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.77,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.06,
+            "desvio_geral": 2.49,
+            "ratio": 0.83,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Cerezo Osaka** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 4.57 cantos pró, 5 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 5 cantos pró, 6.67 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=2.49 (moderada)."
+    },
+    "Chiba": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 6,
+        "n_jogos_fora": 7,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.69,
+        "cantos_sofridos_geral": 5.85,
+        "cantos_pro_casa": 5.67,
+        "cantos_sofridos_casa": 6.17,
+        "cantos_pro_fora": 3.86,
+        "cantos_sofridos_fora": 5.57,
+        "cantos_pro_ht_geral": 1.85,
+        "cantos_sof_ht_geral": 2.92,
+        "consistencia_pro": 2.84,
+        "gols_pro_geral": 0.08,
+        "gols_sofridos_geral": 0.38,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0.14,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.85,
+            "cantos_pro_ft": 4.69,
+            "ratio": 0.39,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.92,
+            "cantos_sof_ft": 5.85,
+            "ratio": 0.5,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.08,
+            "cantos_pro": 4.69,
+            "ratio_gol_canto": 0.02,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.69,
+            "gols_pro": 0.08,
+            "ratio_canto_gol": 46.9,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.85,
+            "gols_sof": 0.38,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.85,
+            "gols_sof": 0.38,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.67,
+            "cantos_pro_fora": 3.86,
+            "diferenca": 1.81,
+            "n_casa": 6,
+            "n_fora": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.69,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.02,
+            "desvio_geral": 2.84,
+            "ratio": 0.36,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Chiba** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.67 cantos pró, 6.17 sofridos (n=6, sem padrão situacional detectado). ✈️ Fora: baseline 3.86 cantos pró, 5.57 sofridos (n=7, sem padrão situacional detectado). Variância nos cantos pró: σ=2.84 (moderada)."
+    },
+    "FC Tokyo": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 5,
+        "cantos_sofridos_geral": 4.08,
+        "cantos_pro_casa": 5.71,
+        "cantos_sofridos_casa": 4,
+        "cantos_pro_fora": 4.17,
+        "cantos_sofridos_fora": 4.17,
+        "cantos_pro_ht_geral": 2.15,
+        "cantos_sof_ht_geral": 1.46,
+        "consistencia_pro": 2.72,
+        "gols_pro_geral": 0.54,
+        "gols_sofridos_geral": 0.15,
+        "gols_pro_casa": 1,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.15,
+            "cantos_pro_ft": 5,
+            "ratio": 0.43,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.46,
+            "cantos_sof_ft": 4.08,
+            "ratio": 0.36,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.54,
+            "cantos_pro": 5,
+            "ratio_gol_canto": 0.11,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5,
+            "gols_pro": 0.54,
+            "ratio_canto_gol": 9.26,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.08,
+            "gols_sof": 0.15,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.08,
+            "gols_sof": 0.15,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.71,
+            "cantos_pro_fora": 4.17,
+            "diferenca": 1.54,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.32,
+            "desvio_geral": 2.72,
+            "ratio": 0.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**FC Tokyo** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.71 cantos pró, 4 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 4.17 cantos pró, 4.17 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=2.72 (moderada)."
+    },
+    "Gamba Osaka": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 14
+      },
+      "baseline": {
+        "n_jogos": 14,
+        "n_jogos_casa": 8,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.64,
+        "cantos_sofridos_geral": 4.71,
+        "cantos_pro_casa": 5.38,
+        "cantos_sofridos_casa": 3.13,
+        "cantos_pro_fora": 3.67,
+        "cantos_sofridos_fora": 6.83,
+        "cantos_pro_ht_geral": 2.14,
+        "cantos_sof_ht_geral": 2.71,
+        "consistencia_pro": 2.32,
+        "gols_pro_geral": 0.77,
+        "gols_sofridos_geral": 0.31,
+        "gols_pro_casa": 1.14,
+        "gols_pro_fora": 0.33,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.14,
+            "cantos_pro_ft": 4.64,
+            "ratio": 0.46,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.71,
+            "cantos_sof_ft": 4.71,
+            "ratio": 0.58,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.77,
+            "cantos_pro": 4.64,
+            "ratio_gol_canto": 0.17,
+            "media_liga_cantos": 4.85,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.64,
+            "gols_pro": 0.77,
+            "ratio_canto_gol": 6.03,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.71,
+            "gols_sof": 0.31,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.71,
+            "gols_sof": 0.31,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.38,
+            "cantos_pro_fora": 3.67,
+            "diferenca": 1.71,
+            "n_casa": 8,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.64,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.45,
+            "desvio_geral": 2.32,
+            "ratio": 1.06,
+            "n": 14
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Gamba Osaka** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.38 cantos pró, 3.13 sofridos (n=8, sem padrão situacional detectado). ✈️ Fora: baseline 3.67 cantos pró, 6.83 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=2.32 (moderada)."
+    },
+    "Kashima Antlers": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 5.77,
+        "cantos_sofridos_geral": 5.62,
+        "cantos_pro_casa": 6.43,
+        "cantos_sofridos_casa": 4.14,
+        "cantos_pro_fora": 5,
+        "cantos_sofridos_fora": 7.33,
+        "cantos_pro_ht_geral": 2,
+        "cantos_sof_ht_geral": 2.46,
+        "consistencia_pro": 2.15,
+        "gols_pro_geral": 0.46,
+        "gols_sofridos_geral": 0.08,
+        "gols_pro_casa": 0.43,
+        "gols_pro_fora": 0.5,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2,
+            "cantos_pro_ft": 5.77,
+            "ratio": 0.35,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.46,
+            "cantos_sof_ft": 5.62,
+            "ratio": 0.44,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.46,
+            "cantos_pro": 5.77,
+            "ratio_gol_canto": 0.08,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5.77,
+            "gols_pro": 0.46,
+            "ratio_canto_gol": 12.54,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.62,
+            "gols_sof": 0.08,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.62,
+            "gols_sof": 0.08,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 6.43,
+            "cantos_pro_fora": 5,
+            "diferenca": 1.43,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.77,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.93,
+            "desvio_geral": 2.15,
+            "ratio": 1.36,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Kashima Antlers** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 6.43 cantos pró, 4.14 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 5 cantos pró, 7.33 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=2.15 (moderada)."
+    },
+    "Kashiwa Reysol": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 5,
+        "n_jogos_fora": 8,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 5.46,
+        "cantos_sofridos_geral": 3.31,
+        "cantos_pro_casa": 4.8,
+        "cantos_sofridos_casa": 2.6,
+        "cantos_pro_fora": 5.88,
+        "cantos_sofridos_fora": 3.75,
+        "cantos_pro_ht_geral": 2,
+        "cantos_sof_ht_geral": 1.15,
+        "consistencia_pro": 2.53,
+        "gols_pro_geral": 0,
+        "gols_sofridos_geral": 0.31,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2,
+            "cantos_pro_ft": 5.46,
+            "ratio": 0.37,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof_ht": 1.15,
+            "cantos_sof_ft": 3.31,
+            "ratio": 0.35,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0,
+            "cantos_pro": 5.46,
+            "ratio_gol_canto": 0,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 5.46,
+            "gols_pro": 0,
+            "ratio_canto_gol": 54.6,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.31,
+            "gols_sof": 0.31,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.31,
+            "gols_sof": 0.31,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4.8,
+            "cantos_pro_fora": 5.88,
+            "diferenca": 1.08,
+            "n_casa": 5,
+            "n_fora": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.46,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.5,
+            "desvio_geral": 2.53,
+            "ratio": 0.59,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Kashiwa Reysol** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 4.8 cantos pró, 2.6 sofridos (n=5, sem padrão situacional detectado). ✈️ Fora: baseline 5.88 cantos pró, 3.75 sofridos (n=8, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `RETRANCA_AVANCADA` (consolidado). Variância nos cantos pró: σ=2.53 (moderada)."
+    },
+    "Kawasaki Frontale": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.69,
+        "cantos_sofridos_geral": 4.62,
+        "cantos_pro_casa": 5.71,
+        "cantos_sofridos_casa": 4.43,
+        "cantos_pro_fora": 3.5,
+        "cantos_sofridos_fora": 4.83,
+        "cantos_pro_ht_geral": 2.31,
+        "cantos_sof_ht_geral": 1.69,
+        "consistencia_pro": 2.37,
+        "gols_pro_geral": 0.31,
+        "gols_sofridos_geral": 0.46,
+        "gols_pro_casa": 0.29,
+        "gols_pro_fora": 0.33,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.31,
+            "cantos_pro_ft": 4.69,
+            "ratio": 0.49,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.69,
+            "cantos_sof_ft": 4.62,
+            "ratio": 0.37,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.31,
+            "cantos_pro": 4.69,
+            "ratio_gol_canto": 0.07,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.69,
+            "gols_pro": 0.31,
+            "ratio_canto_gol": 15.13,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.62,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.62,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 5.71,
+            "cantos_pro_fora": 3.5,
+            "diferenca": 2.21,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.69,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.79,
+            "desvio_geral": 2.37,
+            "ratio": 0.76,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Kawasaki Frontale** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.71 cantos pró, 4.43 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 3.5 cantos pró, 4.83 sofridos (n=6, sem padrão situacional detectado). Assinaturas detectadas: `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.37 (moderada)."
+    },
+    "Kyoto": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 12
+      },
+      "baseline": {
+        "n_jogos": 12,
+        "n_jogos_casa": 6,
+        "n_jogos_fora": 6,
+        "n_com_placar": 12,
+        "cantos_pro_geral": 5.17,
+        "cantos_sofridos_geral": 6.5,
+        "cantos_pro_casa": 6.83,
+        "cantos_sofridos_casa": 8,
+        "cantos_pro_fora": 3.5,
+        "cantos_sofridos_fora": 5,
+        "cantos_pro_ht_geral": 2.67,
+        "cantos_sof_ht_geral": 2.92,
+        "consistencia_pro": 2.23,
+        "gols_pro_geral": 0.08,
+        "gols_sofridos_geral": 0.42,
+        "gols_pro_casa": 0.17,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.67,
+            "cantos_pro_ft": 5.17,
+            "ratio": 0.52,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.92,
+            "cantos_sof_ft": 6.5,
+            "ratio": 0.45,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.08,
+            "cantos_pro": 5.17,
+            "ratio_gol_canto": 0.02,
+            "media_liga_cantos": 4.85,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 5.17,
+            "gols_pro": 0.08,
+            "ratio_canto_gol": 51.7,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.5,
+            "gols_sof": 0.42,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof": 6.5,
+            "gols_sof": 0.42,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 6.83,
+            "cantos_pro_fora": 3.5,
+            "diferenca": 3.33,
+            "n_casa": 6,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.17,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.04,
+            "desvio_geral": 2.23,
+            "ratio": 0.91,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Kyoto** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 6.83 cantos pró, 8 sofridos (n=6, sem padrão situacional detectado). ✈️ Fora: baseline 3.5 cantos pró, 5 sofridos (n=6, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado), `DEFESA_PRECARIA` (consolidado), `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.23 (moderada). ⚠️ Alerta: defesa precária — favorece OVER em qualquer cenário."
+    },
+    "Machida": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 12
+      },
+      "baseline": {
+        "n_jogos": 12,
+        "n_jogos_casa": 6,
+        "n_jogos_fora": 6,
+        "n_com_placar": 12,
+        "cantos_pro_geral": 3.83,
+        "cantos_sofridos_geral": 3.17,
+        "cantos_pro_casa": 4.17,
+        "cantos_sofridos_casa": 2.83,
+        "cantos_pro_fora": 3.5,
+        "cantos_sofridos_fora": 3.5,
+        "cantos_pro_ht_geral": 1.42,
+        "cantos_sof_ht_geral": 1.5,
+        "consistencia_pro": 1.82,
+        "gols_pro_geral": 0.08,
+        "gols_sofridos_geral": 0.17,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0.17,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.42,
+            "cantos_pro_ft": 3.83,
+            "ratio": 0.37,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.5,
+            "cantos_sof_ft": 3.17,
+            "ratio": 0.47,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.08,
+            "cantos_pro": 3.83,
+            "ratio_gol_canto": 0.02,
+            "media_liga_cantos": 4.85,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 3.83,
+            "gols_pro": 0.08,
+            "ratio_canto_gol": 38.3,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof": 3.17,
+            "gols_sof": 0.17,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.17,
+            "gols_sof": 0.17,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4.17,
+            "cantos_pro_fora": 3.5,
+            "diferenca": 0.67,
+            "n_casa": 6,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 3.83,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.67,
+            "desvio_geral": 1.82,
+            "ratio": 0.92,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Machida** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 4.17 cantos pró, 2.83 sofridos (n=6, sem padrão situacional detectado). ✈️ Fora: baseline 3.5 cantos pró, 3.5 sofridos (n=6, sem padrão situacional detectado). Assinaturas detectadas: `MURO_DEFENSIVO` (consolidado). Variância nos cantos pró: σ=1.82 (baixa (previsível))."
+    },
+    "Mito": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 5,
+        "n_jogos_fora": 8,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 3.85,
+        "cantos_sofridos_geral": 4.31,
+        "cantos_pro_casa": 4,
+        "cantos_sofridos_casa": 5.2,
+        "cantos_pro_fora": 3.75,
+        "cantos_sofridos_fora": 3.75,
+        "cantos_pro_ht_geral": 1.77,
+        "cantos_sof_ht_geral": 2,
+        "consistencia_pro": 1.87,
+        "gols_pro_geral": 0.46,
+        "gols_sofridos_geral": 0.46,
+        "gols_pro_casa": 0.4,
+        "gols_pro_fora": 0.5,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.77,
+            "cantos_pro_ft": 3.85,
+            "ratio": 0.46,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2,
+            "cantos_sof_ft": 4.31,
+            "ratio": 0.46,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.46,
+            "cantos_pro": 3.85,
+            "ratio_gol_canto": 0.12,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 3.85,
+            "gols_pro": 0.46,
+            "ratio_canto_gol": 8.37,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.31,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.31,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4,
+            "cantos_pro_fora": 3.75,
+            "diferenca": 0.25,
+            "n_casa": 5,
+            "n_fora": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 3.85,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.96,
+            "desvio_geral": 1.87,
+            "ratio": 1.05,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Mito** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 4 cantos pró, 5.2 sofridos (n=5, sem padrão situacional detectado). ✈️ Fora: baseline 3.75 cantos pró, 3.75 sofridos (n=8, sem padrão situacional detectado). Variância nos cantos pró: σ=1.87 (baixa (previsível))."
+    },
+    "Nagoya Grampus": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 6,
+        "n_jogos_fora": 7,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 5.23,
+        "cantos_sofridos_geral": 5.46,
+        "cantos_pro_casa": 6.5,
+        "cantos_sofridos_casa": 4.5,
+        "cantos_pro_fora": 4.14,
+        "cantos_sofridos_fora": 6.29,
+        "cantos_pro_ht_geral": 2.62,
+        "cantos_sof_ht_geral": 2.31,
+        "consistencia_pro": 2.33,
+        "gols_pro_geral": 0.54,
+        "gols_sofridos_geral": 0.23,
+        "gols_pro_casa": 0.5,
+        "gols_pro_fora": 0.57,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_ht": 2.62,
+            "cantos_pro_ft": 5.23,
+            "ratio": 0.5,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.31,
+            "cantos_sof_ft": 5.46,
+            "ratio": 0.42,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.54,
+            "cantos_pro": 5.23,
+            "ratio_gol_canto": 0.1,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5.23,
+            "gols_pro": 0.54,
+            "ratio_canto_gol": 9.69,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.46,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.46,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 6.5,
+            "cantos_pro_fora": 4.14,
+            "diferenca": 2.36,
+            "n_casa": 6,
+            "n_fora": 7
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.23,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.79,
+            "desvio_geral": 2.33,
+            "ratio": 0.77,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Nagoya Grampus** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 6.5 cantos pró, 4.5 sofridos (n=6, sem padrão situacional detectado). ✈️ Fora: baseline 4.14 cantos pró, 6.29 sofridos (n=7, sem padrão situacional detectado). Assinaturas detectadas: `RUPTURA_HOME` (consolidado), `BLITZ_INICIAL` (consolidado). Variância nos cantos pró: σ=2.33 (moderada)."
+    },
+    "Okayama": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 5.54,
+        "cantos_sofridos_geral": 4.92,
+        "cantos_pro_casa": 6.14,
+        "cantos_sofridos_casa": 4,
+        "cantos_pro_fora": 4.83,
+        "cantos_sofridos_fora": 6,
+        "cantos_pro_ht_geral": 2.54,
+        "cantos_sof_ht_geral": 2.54,
+        "consistencia_pro": 2.9,
+        "gols_pro_geral": 0.38,
+        "gols_sofridos_geral": 0.23,
+        "gols_pro_casa": 0.43,
+        "gols_pro_fora": 0.33,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.54,
+            "cantos_pro_ft": 5.54,
+            "ratio": 0.46,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.54,
+            "cantos_sof_ft": 4.92,
+            "ratio": 0.52,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.38,
+            "cantos_pro": 5.54,
+            "ratio_gol_canto": 0.07,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5.54,
+            "gols_pro": 0.38,
+            "ratio_canto_gol": 14.58,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.92,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.92,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 6.14,
+            "cantos_pro_fora": 4.83,
+            "diferenca": 1.31,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.54,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.79,
+            "desvio_geral": 2.9,
+            "ratio": 0.96,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Okayama** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 6.14 cantos pró, 4 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 4.83 cantos pró, 6 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=2.9 (moderada)."
+    },
+    "Sanfrecce Hiroshima": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 6.31,
+        "cantos_sofridos_geral": 3.08,
+        "cantos_pro_casa": 7.43,
+        "cantos_sofridos_casa": 2.71,
+        "cantos_pro_fora": 5,
+        "cantos_sofridos_fora": 3.5,
+        "cantos_pro_ht_geral": 2.69,
+        "cantos_sof_ht_geral": 1.77,
+        "consistencia_pro": 2.3,
+        "gols_pro_geral": 0.31,
+        "gols_sofridos_geral": 0.15,
+        "gols_pro_casa": 0.57,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.69,
+            "cantos_pro_ft": 6.31,
+            "ratio": 0.43,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.77,
+            "cantos_sof_ft": 3.08,
+            "ratio": 0.57,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.31,
+            "cantos_pro": 6.31,
+            "ratio_gol_canto": 0.05,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 6.31,
+            "gols_pro": 0.31,
+            "ratio_canto_gol": 20.35,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": true,
+          "evidencia": {
+            "cantos_sof": 3.08,
+            "gols_sof": 0.15,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 3.08,
+            "gols_sof": 0.15,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 7.43,
+            "cantos_pro_fora": 5,
+            "diferenca": 2.43,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 6.31,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.58,
+            "desvio_geral": 2.3,
+            "ratio": 1.12,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Sanfrecce Hiroshima** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 7.43 cantos pró, 2.71 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 5 cantos pró, 3.5 sofridos (n=6, sem padrão situacional detectado). Assinaturas detectadas: `MURO_DEFENSIVO` (consolidado), `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.3 (moderada)."
+    },
+    "Shimizu S-Pulse": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 5,
+        "n_jogos_fora": 8,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.92,
+        "cantos_sofridos_geral": 4.69,
+        "cantos_pro_casa": 5.4,
+        "cantos_sofridos_casa": 5,
+        "cantos_pro_fora": 4.63,
+        "cantos_sofridos_fora": 4.5,
+        "cantos_pro_ht_geral": 2.15,
+        "cantos_sof_ht_geral": 1.92,
+        "consistencia_pro": 2.64,
+        "gols_pro_geral": 0.15,
+        "gols_sofridos_geral": 0.23,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0.25,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.15,
+            "cantos_pro_ft": 4.92,
+            "ratio": 0.44,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.92,
+            "cantos_sof_ft": 4.69,
+            "ratio": 0.41,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.15,
+            "cantos_pro": 4.92,
+            "ratio_gol_canto": 0.03,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 4.92,
+            "gols_pro": 0.15,
+            "ratio_canto_gol": 32.8,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.69,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.69,
+            "gols_sof": 0.23,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.4,
+            "cantos_pro_fora": 4.63,
+            "diferenca": 0.77,
+            "n_casa": 5,
+            "n_fora": 8
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.92,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.76,
+            "desvio_geral": 2.64,
+            "ratio": 1.04,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Shimizu S-Pulse** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.4 cantos pró, 5 sofridos (n=5, sem padrão situacional detectado). ✈️ Fora: baseline 4.63 cantos pró, 4.5 sofridos (n=8, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado). Variância nos cantos pró: σ=2.64 (moderada)."
+    },
+    "Urawa Reds": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 5.15,
+        "cantos_sofridos_geral": 5.69,
+        "cantos_pro_casa": 5.57,
+        "cantos_sofridos_casa": 4.57,
+        "cantos_pro_fora": 4.67,
+        "cantos_sofridos_fora": 7,
+        "cantos_pro_ht_geral": 2.38,
+        "cantos_sof_ht_geral": 2.23,
+        "consistencia_pro": 1.7,
+        "gols_pro_geral": 0.38,
+        "gols_sofridos_geral": 0.46,
+        "gols_pro_casa": 0.71,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.38,
+            "cantos_pro_ft": 5.15,
+            "ratio": 0.46,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.23,
+            "cantos_sof_ft": 5.69,
+            "ratio": 0.39,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.38,
+            "cantos_pro": 5.15,
+            "ratio_gol_canto": 0.07,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 5.15,
+            "gols_pro": 0.38,
+            "ratio_canto_gol": 13.55,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.69,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.69,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.57,
+            "cantos_pro_fora": 4.67,
+            "diferenca": 0.9,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.15,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.83,
+            "desvio_geral": 1.7,
+            "ratio": 1.08,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Urawa Reds** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.57 cantos pró, 4.57 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 4.67 cantos pró, 7 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=1.7 (baixa (previsível))."
+    },
+    "V-Varen Nagasaki": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 3.92,
+        "cantos_sofridos_geral": 6.08,
+        "cantos_pro_casa": 5.29,
+        "cantos_sofridos_casa": 5.14,
+        "cantos_pro_fora": 2.33,
+        "cantos_sofridos_fora": 7.17,
+        "cantos_pro_ht_geral": 1.77,
+        "cantos_sof_ht_geral": 2.77,
+        "consistencia_pro": 2.84,
+        "gols_pro_geral": 0.15,
+        "gols_sofridos_geral": 0.46,
+        "gols_pro_casa": 0.29,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.77,
+            "cantos_pro_ft": 3.92,
+            "ratio": 0.45,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.77,
+            "cantos_sof_ft": 6.08,
+            "ratio": 0.46,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.15,
+            "cantos_pro": 3.92,
+            "ratio_gol_canto": 0.04,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 3.92,
+            "gols_pro": 0.15,
+            "ratio_canto_gol": 26.13,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.08,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 6.08,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro_casa": 5.29,
+            "cantos_pro_fora": 2.33,
+            "diferenca": 2.96,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 3.92,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.56,
+            "desvio_geral": 2.84,
+            "ratio": 0.9,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**V-Varen Nagasaki** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.29 cantos pró, 5.14 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 2.33 cantos pró, 7.17 sofridos (n=6, sem padrão situacional detectado). Assinaturas detectadas: `RUPTURA_HOME` (consolidado). Variância nos cantos pró: σ=2.84 (moderada)."
+    },
+    "Verdy": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 12
+      },
+      "baseline": {
+        "n_jogos": 12,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 5,
+        "n_com_placar": 12,
+        "cantos_pro_geral": 4,
+        "cantos_sofridos_geral": 5.58,
+        "cantos_pro_casa": 3.57,
+        "cantos_sofridos_casa": 5.29,
+        "cantos_pro_fora": 4.6,
+        "cantos_sofridos_fora": 6,
+        "cantos_pro_ht_geral": 1.58,
+        "cantos_sof_ht_geral": 2.17,
+        "consistencia_pro": 2.42,
+        "gols_pro_geral": 0.33,
+        "gols_sofridos_geral": 0.08,
+        "gols_pro_casa": 0.29,
+        "gols_pro_fora": 0.4,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.58,
+            "cantos_pro_ft": 4,
+            "ratio": 0.4,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2.17,
+            "cantos_sof_ft": 5.58,
+            "ratio": 0.39,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.33,
+            "cantos_pro": 4,
+            "ratio_gol_canto": 0.08,
+            "media_liga_cantos": 4.85,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4,
+            "gols_pro": 0.33,
+            "ratio_canto_gol": 12.12,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.58,
+            "gols_sof": 0.08,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 5.58,
+            "gols_sof": 0.08,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 3.57,
+            "cantos_pro_fora": 4.6,
+            "diferenca": 1.03,
+            "n_casa": 7,
+            "n_fora": 5
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.94,
+            "desvio_geral": 2.42,
+            "ratio": 0.8,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Verdy** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 3.57 cantos pró, 5.29 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 4.6 cantos pró, 6 sofridos (n=5, sem padrão situacional detectado). Variância nos cantos pró: σ=2.42 (moderada)."
+    },
+    "Vissel Kobe": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 12
+      },
+      "baseline": {
+        "n_jogos": 12,
+        "n_jogos_casa": 6,
+        "n_jogos_fora": 6,
+        "n_com_placar": 12,
+        "cantos_pro_geral": 5.25,
+        "cantos_sofridos_geral": 4.75,
+        "cantos_pro_casa": 5.17,
+        "cantos_sofridos_casa": 3.17,
+        "cantos_pro_fora": 5.33,
+        "cantos_sofridos_fora": 6.33,
+        "cantos_pro_ht_geral": 2.58,
+        "cantos_sof_ht_geral": 2,
+        "consistencia_pro": 2.38,
+        "gols_pro_geral": 0,
+        "gols_sofridos_geral": 0.42,
+        "gols_pro_casa": 0,
+        "gols_pro_fora": 0,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 2.58,
+            "cantos_pro_ft": 5.25,
+            "ratio": 0.49,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 2,
+            "cantos_sof_ft": 4.75,
+            "ratio": 0.42,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0,
+            "cantos_pro": 5.25,
+            "ratio_gol_canto": 0,
+            "media_liga_cantos": 4.85,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": true,
+          "evidencia": {
+            "cantos_pro": 5.25,
+            "gols_pro": 0,
+            "ratio_canto_gol": 52.5,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.75,
+            "gols_sof": 0.42,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.75,
+            "gols_sof": 0.42,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 5.17,
+            "cantos_pro_fora": 5.33,
+            "diferenca": 0.16,
+            "n_casa": 6,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 5.25,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 1.85,
+            "desvio_geral": 2.38,
+            "ratio": 0.78,
+            "n": 12
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Vissel Kobe** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 5.17 cantos pró, 3.17 sofridos (n=6, sem padrão situacional detectado). ✈️ Fora: baseline 5.33 cantos pró, 6.33 sofridos (n=6, sem padrão situacional detectado). Assinaturas detectadas: `ATAQUE_ESTERIL` (consolidado). Variância nos cantos pró: σ=2.38 (moderada)."
+    },
+    "Yokohama F. Marinos": {
+      "identidade": {
+        "powerScore": null,
+        "powerPercentil": null,
+        "powerRaw": null,
+        "categoria": "SEM_DNA",
+        "perfil_dna": "SEM_DNA",
+        "forma": null,
+        "dna_indisponivel": true,
+        "n_jogos": 13
+      },
+      "baseline": {
+        "n_jogos": 13,
+        "n_jogos_casa": 7,
+        "n_jogos_fora": 6,
+        "n_com_placar": 13,
+        "cantos_pro_geral": 4.23,
+        "cantos_sofridos_geral": 4.54,
+        "cantos_pro_casa": 4.71,
+        "cantos_sofridos_casa": 3.43,
+        "cantos_pro_fora": 3.67,
+        "cantos_sofridos_fora": 5.83,
+        "cantos_pro_ht_geral": 1.85,
+        "cantos_sof_ht_geral": 1.77,
+        "consistencia_pro": 1.67,
+        "gols_pro_geral": 0.38,
+        "gols_sofridos_geral": 0.46,
+        "gols_pro_casa": 0.29,
+        "gols_pro_fora": 0.5,
+        "confiabilidade": "ALTA"
+      },
+      "buckets": {
+        "casa_vs_elite": {
+          "ctx": "casa",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_medio": {
+          "ctx": "casa",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "casa_vs_azarao": {
+          "ctx": "casa",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_elite": {
+          "ctx": "fora",
+          "alvo": "ELITE",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_medio": {
+          "ctx": "fora",
+          "alvo": "MÉDIO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        },
+        "fora_vs_azarao": {
+          "ctx": "fora",
+          "alvo": "AZARÃO",
+          "n": 0,
+          "qualifier": "amostra_insuficiente",
+          "padrao_detectado": false
+        }
+      },
+      "assinaturas": [
+        {
+          "nome": "BLITZ_INICIAL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_ht": 1.85,
+            "cantos_pro_ft": 4.23,
+            "ratio": 0.44,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RETRANCA_AVANCADA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof_ht": 1.77,
+            "cantos_sof_ft": 4.54,
+            "ratio": 0.39,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "EFETIVIDADE_CLINICA",
+          "presente": false,
+          "evidencia": {
+            "gols_pro": 0.38,
+            "cantos_pro": 4.23,
+            "ratio_gol_canto": 0.09,
+            "media_liga_cantos": 4.85,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ATAQUE_ESTERIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro": 4.23,
+            "gols_pro": 0.38,
+            "ratio_canto_gol": 11.13,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "MURO_DEFENSIVO",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.54,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "DEFESA_PRECARIA",
+          "presente": false,
+          "evidencia": {
+            "cantos_sof": 4.54,
+            "gols_sof": 0.46,
+            "media_liga_cantos": 4.85,
+            "media_liga_gols": 0.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "RUPTURA_HOME",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_casa": 4.71,
+            "cantos_pro_fora": 3.67,
+            "diferenca": 1.04,
+            "n_casa": 7,
+            "n_fora": 6
+          },
+          "qualifier": "consolidado"
+        },
+        {
+          "nome": "ELITE_KILLER",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_elite": 0,
+            "cantos_pro_vs_azarao": 0,
+            "n_elite": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "CARRINHO_FACIL",
+          "presente": false,
+          "evidencia": {
+            "cantos_pro_vs_azarao": 0,
+            "baseline": 4.23,
+            "win_rate_vs_azarao": 0,
+            "n_azarao": 0
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "DESEQUILIBRA_FAVORITO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_elite",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "SUCUMBE_AZARAO",
+          "presente": false,
+          "nao_avaliavel": "time_nao_eh_azarao",
+          "evidencia": {
+            "categoria": "SEM_DNA"
+          },
+          "qualifier": "amostra_insuficiente"
+        },
+        {
+          "nome": "TERMOMETRO_FORMA",
+          "presente": false,
+          "evidencia": {
+            "desvio_ultimos_5": 2.19,
+            "desvio_geral": 1.67,
+            "ratio": 1.31,
+            "n": 13
+          },
+          "qualifier": "consolidado"
+        }
+      ],
+      "narrativa": "**Yokohama F. Marinos** — Time sem categoria (PowerScore ?). Perfil indeterminado, forma recente ?????. 🏠 Em casa: baseline 4.71 cantos pró, 3.43 sofridos (n=7, sem padrão situacional detectado). ✈️ Fora: baseline 3.67 cantos pró, 5.83 sofridos (n=6, sem padrão situacional detectado). Variância nos cantos pró: σ=1.67 (baixa (previsível))."
+    }
+  },
+  "matriz_dna_cruzamentos": {},
+  "insights_liga": [
+    "Assinatura mais frequente na liga: **RUPTURA_HOME** (presente em 5 times).",
+    "Distribuição de categorias: 0 ELITE, 0 MÉDIO, 0 AZARÃO.",
+    "Baseline da liga: 9.7 cantos/jogo (σ=3.27)."
+  ],
+  "divergencias_dna_performance": []
+}

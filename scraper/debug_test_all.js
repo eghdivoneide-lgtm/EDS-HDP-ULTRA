@@ -1,0 +1,28 @@
+const fs = require('fs');
+const { chromium } = require('playwright');
+
+(async () => {
+  const browser = await chromium.launch({ headless: false });
+  const page = await browser.newPage();
+  page.on('response', async r => {
+    if(r.url().includes('feed/df_st_1_')) {
+      try {
+          const txt = await r.text();
+          let cantosEncontrados = [];
+          txt.split('~').forEach(b => {
+             if (b.includes('Corner') || b.includes('escanteio')) {
+                 cantosEncontrados.push(b);
+             }
+          });
+          console.log('CANTOS ENCONTRADOS NO PAYLOAD UNICO:', cantosEncontrados);
+      } catch(e) {}
+    }
+  });
+  await page.goto('https://www.flashscore.com/match/r1DNXnig/#/match-summary/match-statistics/0', { waitUntil: 'load' });
+  try {
+     const abaStats = await page.getByRole('link', { name: /Estatísticas|Stats/i }).first();
+     if (abaStats) await abaStats.click({timeout: 2000});
+  } catch(e) {}
+  await new Promise(r => setTimeout(r, 6000));
+  await browser.close();
+})();

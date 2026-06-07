@@ -1,0 +1,2214 @@
+{
+  "liga": "BR_B",
+  "temporada": "Brasileirão Série B",
+  "ultimaAtualizacao": "2026-05-15",
+  "totalRodadas": 40,
+  "n_jogos": 77,
+  "n_times": 20,
+  "times": [
+    "America MG",
+    "Athletic Club",
+    "Atletico GO",
+    "Avai",
+    "Botafogo SP",
+    "CRB",
+    "Ceara",
+    "Criciuma",
+    "Cuiaba",
+    "Fortaleza",
+    "Goias",
+    "Juventude",
+    "Londrina",
+    "Nautico",
+    "Novorizontino",
+    "Operario-PR",
+    "Ponte Preta",
+    "Sao Bernardo",
+    "Sport Recife",
+    "Vila Nova FC"
+  ],
+  "jogos": [
+    {
+      "rodada": 1,
+      "data": "26.04.2026 18:00",
+      "mandante": "Ceara",
+      "visitante": "Vila Nova FC",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 2,
+      "data": "18.04.2026 18:30",
+      "mandante": "Vila Nova FC",
+      "visitante": "Operario-PR",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 6
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 3,
+      "data": "01.04.2026 19:00",
+      "mandante": "Sport Recife",
+      "visitante": "Vila Nova FC",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 3,
+      "data": "01.04.2026 21:30",
+      "mandante": "Criciuma",
+      "visitante": "Athletic Club",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 71,
+          "v": 29
+        },
+        "finalizacoes": {
+          "m": 32,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 4,
+      "data": "04.04.2026 16:00",
+      "mandante": "Fortaleza",
+      "visitante": "Juventude",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 4,
+      "data": "04.04.2026 20:00",
+      "mandante": "Vila Nova FC",
+      "visitante": "Atletico GO",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 5,
+      "data": "11.04.2026 18:00",
+      "mandante": "Ponte Preta",
+      "visitante": "Vila Nova FC",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 6,
+      "data": "21.03.2026 17:00",
+      "mandante": "Vila Nova FC",
+      "visitante": "CRB",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 6,
+      "data": "26.04.2026 18:00",
+      "mandante": "Operario-PR",
+      "visitante": "Fortaleza",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 11,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 7,
+      "data": "19.04.2026 20:00",
+      "mandante": "Fortaleza",
+      "visitante": "Criciuma",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 8,
+      "data": "06.04.2026 21:00",
+      "mandante": "Goias",
+      "visitante": "Criciuma",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 9,
+      "data": "11.04.2026 16:00",
+      "mandante": "Juventude",
+      "visitante": "Goias",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 10,
+      "data": "12.04.2026 18:00",
+      "mandante": "Sao Bernardo",
+      "visitante": "Fortaleza",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 11,
+      "data": "31.03.2026 19:00",
+      "mandante": "Fortaleza",
+      "visitante": "Cuiaba",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 12,
+      "data": "21.03.2026 19:15",
+      "mandante": "Botafogo SP",
+      "visitante": "Fortaleza",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 12,
+      "data": "18.04.2026 18:00",
+      "mandante": "Nautico",
+      "visitante": "Sao Bernardo",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 10,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 13,
+      "data": "02.04.2026 19:00",
+      "mandante": "Sao Bernardo",
+      "visitante": "Operario-PR",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 14,
+      "data": "05.04.2026 20:30",
+      "mandante": "Botafogo SP",
+      "visitante": "Sao Bernardo",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 9,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 15,
+      "data": "21.03.2026 18:00",
+      "mandante": "Ceara",
+      "visitante": "Sao Bernardo",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 15,
+      "data": "26.04.2026 20:30",
+      "mandante": "Criciuma",
+      "visitante": "CRB",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 16,
+      "data": "10.04.2026 20:30",
+      "mandante": "Criciuma",
+      "visitante": "Botafogo SP",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 17,
+      "data": "22.03.2026 16:00",
+      "mandante": "Nautico",
+      "visitante": "Criciuma",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 2
+        },
+        "ft": {
+          "m": 12,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 17,
+      "data": "25.04.2026 21:00",
+      "mandante": "Juventude",
+      "visitante": "Londrina",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 18,
+      "data": "18.04.2026 20:45",
+      "mandante": "CRB",
+      "visitante": "Juventude",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 19,
+      "data": "31.03.2026 18:30",
+      "mandante": "Juventude",
+      "visitante": "Novorizontino",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 20,
+      "data": "22.03.2026 16:00",
+      "mandante": "Avai",
+      "visitante": "Juventude",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 20,
+      "data": "19.04.2026 16:00",
+      "mandante": "Londrina",
+      "visitante": "Ceara",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 2
+        },
+        "ft": {
+          "m": 14,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 20,
+      "data": "01.04.2026 19:00",
+      "mandante": "Atletico GO",
+      "visitante": "Nautico",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 21,
+      "data": "01.04.2026 19:00",
+      "mandante": "Londrina",
+      "visitante": "Goias",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 21,
+      "data": "01.04.2026 21:00",
+      "mandante": "Ponte Preta",
+      "visitante": "Ceara",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 21,
+      "data": "01.04.2026 21:30",
+      "mandante": "CRB",
+      "visitante": "Avai",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 22,
+      "data": "04.04.2026 18:00",
+      "mandante": "Cuiaba",
+      "visitante": "Ceara",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 22,
+      "data": "04.04.2026 20:30",
+      "mandante": "Londrina",
+      "visitante": "Sport Recife",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 23,
+      "data": "11.04.2026 20:30",
+      "mandante": "Ceara",
+      "visitante": "Nautico",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 23,
+      "data": "25.04.2026 20:30",
+      "mandante": "Sport Recife",
+      "visitante": "Novorizontino",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 24,
+      "data": "18.04.2026 18:00",
+      "mandante": "America MG",
+      "visitante": "Sport Recife",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 25,
+      "data": "01.04.2026 18:00",
+      "mandante": "America MG",
+      "visitante": "Botafogo SP",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 11,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 26,
+      "data": "05.04.2026 16:00",
+      "mandante": "Avai",
+      "visitante": "Operario-PR",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 9,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 26,
+      "data": "05.04.2026 18:00",
+      "mandante": "Novorizontino",
+      "visitante": "CRB",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 27,
+      "data": "11.04.2026 18:00",
+      "mandante": "Sport Recife",
+      "visitante": "Avai",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 28,
+      "data": "21.03.2026 20:30",
+      "mandante": "Cuiaba",
+      "visitante": "Sport Recife",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 28,
+      "data": "27.04.2026 19:00",
+      "mandante": "Athletic Club",
+      "visitante": "Nautico",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 29,
+      "data": "04.04.2026 18:00",
+      "mandante": "Nautico",
+      "visitante": "Ponte Preta",
+      "cantos": {
+        "ht": {
+          "m": 10,
+          "v": 1
+        },
+        "ft": {
+          "m": 17,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 30,
+      "data": "12.04.2026 18:00",
+      "mandante": "Operario-PR",
+      "visitante": "Cuiaba",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 31,
+      "data": "21.03.2026 18:15",
+      "mandante": "Operario-PR",
+      "visitante": "Atletico GO",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 7,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 31,
+      "data": "22.04.2026 21:30",
+      "mandante": "Cuiaba",
+      "visitante": "Botafogo SP",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 32,
+      "data": "19.04.2026 16:00",
+      "mandante": "Botafogo SP",
+      "visitante": "Atletico GO",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 33,
+      "data": "26.04.2026 20:30",
+      "mandante": "Atletico GO",
+      "visitante": "Avai",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 34,
+      "data": "18.04.2026 20:30",
+      "mandante": "Avai",
+      "visitante": "Ponte Preta",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 34,
+      "data": "19.04.2026 20:00",
+      "mandante": "Novorizontino",
+      "visitante": "Athletic Club",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 35,
+      "data": "05.04.2026 20:00",
+      "mandante": "Athletic Club",
+      "visitante": "America MG",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 36,
+      "data": "12.04.2026 18:00",
+      "mandante": "America MG",
+      "visitante": "Novorizontino",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 37,
+      "data": "22.03.2026 20:00",
+      "mandante": "Novorizontino",
+      "visitante": "Londrina",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 5
+        },
+        "ft": {
+          "m": 9,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 37,
+      "data": "12.04.2026 20:00",
+      "mandante": "CRB",
+      "visitante": "Athletic Club",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 38,
+      "data": "22.03.2026 18:00",
+      "mandante": "Athletic Club",
+      "visitante": "Ponte Preta",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 38,
+      "data": "12.04.2026 20:30",
+      "mandante": "Atletico GO",
+      "visitante": "Londrina",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 39,
+      "data": "24.04.2026 20:00",
+      "mandante": "Ponte Preta",
+      "visitante": "America MG",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 31,
+          "v": 69
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 39,
+      "data": "19.04.2026 18:00",
+      "mandante": "Goias",
+      "visitante": "Cuiaba",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 40,
+      "data": "22.03.2026 18:00",
+      "mandante": "Goias",
+      "visitante": "America MG",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 33,
+          "v": 67
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 24
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "04.05.2026 19:00",
+      "mandante": "Vila Nova FC",
+      "visitante": "Athletic Club",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 2
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 20:30",
+      "mandante": "America MG",
+      "visitante": "CRB",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 18:30",
+      "mandante": "Atletico GO",
+      "visitante": "Juventude",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 18:00",
+      "mandante": "Sport Recife",
+      "visitante": "Ceara",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 7
+        },
+        "ft": {
+          "m": 9,
+          "v": 11
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 16:00",
+      "mandante": "Operario-PR",
+      "visitante": "Londrina",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 16:00",
+      "mandante": "Sao Bernardo",
+      "visitante": "Ponte Preta",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 20:30",
+      "mandante": "Fortaleza",
+      "visitante": "Goias",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 18:30",
+      "mandante": "Cuiaba",
+      "visitante": "Criciuma",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 16:00",
+      "mandante": "Botafogo SP",
+      "visitante": "Nautico",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 19:30",
+      "mandante": "Novorizontino",
+      "visitante": "Botafogo SP",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 18:30",
+      "mandante": "Avai",
+      "visitante": "Fortaleza",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 16:00",
+      "mandante": "Nautico",
+      "visitante": "America MG",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 21:15",
+      "mandante": "Juventude",
+      "visitante": "Criciuma",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 9
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 20:30",
+      "mandante": "CRB",
+      "visitante": "Operario-PR",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 19:00",
+      "mandante": "Ceara",
+      "visitante": "Atletico GO",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 75,
+          "v": 25
+        },
+        "finalizacoes": {
+          "m": 32,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 18:30",
+      "mandante": "Ponte Preta",
+      "visitante": "Sport Recife",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 18:00",
+      "mandante": "Athletic Club",
+      "visitante": "Cuiaba",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 16:00",
+      "mandante": "Goias",
+      "visitante": "Vila Nova FC",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 11
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- ═══ OPÇÃO C — LUXO HERÁLDICO — Escudo verde com alvo dourado ═══ -->
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0d"/>
+      <stop offset="100%" stop-color="#1a2520"/>
+    </linearGradient>
+    <linearGradient id="shieldC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#1f4d2e"/>
+      <stop offset="50%"  stop-color="#2d7a45"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="goldC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#fde68a"/>
+      <stop offset="35%"  stop-color="#fbbf24"/>
+      <stop offset="65%"  stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <radialGradient id="shineC" cx="0.5" cy="0.3" r="0.6">
+      <stop offset="0%"   stop-color="rgba(255,255,255,0.35)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <linearGradient id="ringInnerC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d367"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="shadowC" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+      <feOffset dx="0" dy="4"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fundo squircle -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgC)"/>
+
+  <!-- ESCUDO HERÁLDICO -->
+  <g filter="url(#shadowC)">
+    <!-- Forma do escudo (clássico francês moderno) -->
+    <path d="M 256 60
+             L 420 80
+             L 420 240
+             Q 420 360 256 460
+             Q 92 360 92 240
+             L 92 80 Z"
+          fill="url(#shieldC)"
+          stroke="url(#goldC)"
+          stroke-width="10"
+          stroke-linejoin="round"/>
+
+    <!-- Brilho metálico no topo -->
+    <path d="M 256 60
+             L 420 80
+             L 420 200
+             Q 420 220 256 240
+             Q 92 220 92 200
+             L 92 80 Z"
+          fill="url(#shineC)"/>
+  </g>
+
+  <!-- 3 ANÉIS DOURADOS DO ALVO -->
+  <circle cx="256" cy="256" r="135" fill="none" stroke="url(#goldC)" stroke-width="6" opacity="0.55"/>
+  <circle cx="256" cy="256" r="100" fill="none" stroke="url(#goldC)" stroke-width="6" opacity="0.75"/>
+  <circle cx="256" cy="256" r="65"  fill="none" stroke="url(#goldC)" stroke-width="6" opacity="0.95"/>
+
+  <!-- BULLSEYE central com gradiente verde→dourado -->
+  <circle cx="256" cy="256" r="32" fill="url(#ringInnerC)"/>
+  <circle cx="256" cy="256" r="14" fill="url(#goldC)"/>
+  <circle cx="256" cy="256" r="32" fill="none" stroke="url(#goldC)" stroke-width="3"/>
+
+  <!-- CRUZ DE MIRA (linhas finas atravessando) -->
+  <line x1="256" y1="105" x2="256" y2="175" stroke="url(#goldC)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="256" y1="337" x2="256" y2="407" stroke="url(#goldC)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="105" y1="256" x2="175" y2="256" stroke="url(#goldC)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="337" y1="256" x2="407" y2="256" stroke="url(#goldC)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- 4 ESTRELAS heráldicas pequenas (decorativas) -->
+  <g fill="url(#goldC)" opacity="0.9">
+    <polygon points="160,130 165,142 178,142 168,150 172,162 160,154 148,162 152,150 142,142 155,142"/>
+    <polygon points="352,130 357,142 370,142 360,150 364,162 352,154 340,162 344,150 334,142 347,142"/>
+  </g>
+
+  <!-- TÍTULO embaixo do escudo -->
+  <text x="256" y="445" text-anchor="middle"
+        font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+        font-size="34" font-weight="900"
+        fill="url(#goldC)"
+        letter-spacing="6">EDS</text>
+</svg>

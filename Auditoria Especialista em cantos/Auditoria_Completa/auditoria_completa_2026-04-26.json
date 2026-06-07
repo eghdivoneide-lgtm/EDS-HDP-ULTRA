@@ -1,0 +1,3788 @@
+{
+  "gerado_em": "2026-04-26T00:35:11.097Z",
+  "versao_motor": "v2.1+TMI",
+  "total_ligas": 10,
+  "ligas": {
+    "BR": {
+      "liga": "BR",
+      "gerado_em": "2026-04-26T00:29:19.098Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Athletico-PR|Vitória::Atlético-MG|Flamengo::Bahia|Santos::Botafogo|Internacional::Corinthians|Vasco::Fluminense|Chapecoense::Grêmio|Coritiba::Red Bull Bragantino|Palmeiras::Remo|Cruzeiro::São Paulo|Mirassol",
+      "total_jogos": 10,
+      "teacher": [
+        {
+          "m": "Bahia",
+          "v": "Santos",
+          "valido": true,
+          "exp_ht": 4.05,
+          "exp_ft": 9.17,
+          "conf_ft": 61.3,
+          "reis": {
+            "vencedor": "Santos",
+            "odd": 1.88,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Botafogo",
+          "v": "Internacional",
+          "valido": true,
+          "exp_ht": 5.44,
+          "exp_ft": 11.49,
+          "conf_ft": 59,
+          "reis": {
+            "vencedor": "Internacional",
+            "odd": 1.38,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Internacional",
+            "odd": 1.38,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Remo",
+          "v": "Cruzeiro",
+          "valido": true,
+          "exp_ht": 5.11,
+          "exp_ft": 10.13,
+          "conf_ft": 70,
+          "reis": {
+            "vencedor": "Cruzeiro",
+            "odd": 1.58,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Cruzeiro",
+            "odd": 1.58,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "São Paulo",
+          "v": "Mirassol",
+          "valido": true,
+          "exp_ht": 3.36,
+          "exp_ft": 8.99,
+          "conf_ft": 59.9,
+          "reis": {
+            "vencedor": "São Paulo",
+            "odd": 1.83,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Corinthians",
+          "v": "Vasco",
+          "valido": true,
+          "exp_ht": 3.95,
+          "exp_ft": 7.62,
+          "conf_ft": 60,
+          "reis": {
+            "vencedor": "Vasco",
+            "odd": 1.11,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Vasco",
+            "odd": 1.11,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Grêmio",
+          "v": "Coritiba",
+          "valido": true,
+          "exp_ht": 4.12,
+          "exp_ft": 9.68,
+          "conf_ft": 67.5,
+          "reis": {
+            "vencedor": "Grêmio",
+            "odd": 1.13,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Grêmio",
+            "odd": 1.13,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Athletico-PR",
+          "v": "Vitória",
+          "valido": true,
+          "exp_ht": 5.27,
+          "exp_ft": 9.4,
+          "conf_ft": 63.4,
+          "reis": {
+            "vencedor": "Athletico-PR",
+            "odd": 1.46,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Athletico-PR",
+            "odd": 1.46,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Red Bull Bragantino",
+          "v": "Palmeiras",
+          "valido": true,
+          "exp_ht": 4.14,
+          "exp_ft": 13.72,
+          "conf_ft": 67.5,
+          "reis": {
+            "vencedor": "Red Bull Bragantino",
+            "odd": 1.9,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "OVER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Atlético-MG",
+          "v": "Flamengo",
+          "valido": true,
+          "exp_ht": 3.51,
+          "exp_ft": 8.84,
+          "conf_ft": 60.7,
+          "reis": {
+            "vencedor": "Flamengo",
+            "odd": 1.54,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Flamengo",
+            "odd": 1.54,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "Fluminense",
+          "v": "Chapecoense",
+          "valido": true,
+          "exp_ht": 5.47,
+          "exp_ft": 10.49,
+          "conf_ft": 62.7,
+          "reis": {
+            "vencedor": "Fluminense",
+            "odd": 1.05,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Fluminense",
+            "odd": 1.05,
+            "faixa": "NUCLEAR"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "Botafogo",
+          "v": "Internacional",
+          "time": "Internacional",
+          "odd": 1.38,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Remo",
+          "v": "Cruzeiro",
+          "time": "Cruzeiro",
+          "odd": 1.58,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "Corinthians",
+          "v": "Vasco",
+          "time": "Vasco",
+          "odd": 1.11,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Grêmio",
+          "v": "Coritiba",
+          "time": "Grêmio",
+          "odd": 1.13,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Athletico-PR",
+          "v": "Vitória",
+          "time": "Athletico-PR",
+          "odd": 1.46,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Atlético-MG",
+          "v": "Flamengo",
+          "time": "Flamengo",
+          "odd": 1.54,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "Fluminense",
+          "v": "Chapecoense",
+          "time": "Fluminense",
+          "odd": 1.05,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "Bahia",
+          "v": "Santos",
+          "sde": 24,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12
+        },
+        {
+          "m": "Botafogo",
+          "v": "Internacional",
+          "sde": 10,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 11.7
+        },
+        {
+          "m": "Remo",
+          "v": "Cruzeiro",
+          "sde": 11,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 9.8
+        },
+        {
+          "m": "São Paulo",
+          "v": "Mirassol",
+          "sde": 39,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 11
+        },
+        {
+          "m": "Corinthians",
+          "v": "Vasco",
+          "sde": 21,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.2
+        },
+        {
+          "m": "Grêmio",
+          "v": "Coritiba",
+          "sde": 66,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "4.5",
+          "sinalInverso": false,
+          "totalEstimado": 9.03
+        },
+        {
+          "m": "Athletico-PR",
+          "v": "Vitória",
+          "sde": 58,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "5.5",
+          "sinalInverso": false,
+          "totalEstimado": 9.3
+        },
+        {
+          "m": "Red Bull Bragantino",
+          "v": "Palmeiras",
+          "sde": 47,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 11.23
+        },
+        {
+          "m": "Atlético-MG",
+          "v": "Flamengo",
+          "sde": 20,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 7.3
+        },
+        {
+          "m": "Fluminense",
+          "v": "Chapecoense",
+          "sde": 75,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5.5",
+          "sinalInverso": false,
+          "totalEstimado": 8
+        }
+      ],
+      "cisne": [
+        {
+          "m": "Botafogo",
+          "v": "Internacional"
+        },
+        {
+          "m": "Corinthians",
+          "v": "Vasco"
+        },
+        {
+          "m": "Grêmio",
+          "v": "Coritiba"
+        },
+        {
+          "m": "Fluminense",
+          "v": "Chapecoense"
+        }
+      ]
+    },
+    "MLS": {
+      "liga": "MLS",
+      "gerado_em": "2026-04-26T00:29:19.167Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Austin FC|Houston Dynamo::CF Montreal|New York City::Chicago Fire|Sporting Kansas City::Columbus Crew|Philadelphia Union::DC United|Orlando City::FC Cincinnati|New York Red Bulls::Inter Miami|New England Revolution::Los Angeles Galaxy|Real Salt Lake::Minnesota United|Los Angeles FC::Nashville SC|Charlotte::San Diego FC|Portland Timbers::Seattle Sounders|FC Dallas::St. Louis City|San Jose Earthquakes::Toronto FC|Atlanta Utd::Vancouver Whitecaps|Colorado Rapids",
+      "total_jogos": 15,
+      "teacher": [
+        {
+          "m": "Toronto FC",
+          "v": "Atlanta Utd",
+          "valido": true,
+          "exp_ht": 6,
+          "exp_ft": 12.67,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "Toronto FC",
+            "odd": 1.32,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Toronto FC",
+            "odd": 1.32,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "CF Montreal",
+          "v": "New York City",
+          "valido": true,
+          "exp_ht": 2.93,
+          "exp_ft": 7.84,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "CF Montreal",
+            "odd": 2.25,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Minnesota United",
+          "v": "Los Angeles FC",
+          "valido": true,
+          "exp_ht": 4.62,
+          "exp_ft": 11.37,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "Los Angeles FC",
+            "odd": 1.15,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Los Angeles FC",
+            "odd": 1.15,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Columbus Crew",
+          "v": "Philadelphia Union",
+          "valido": true,
+          "exp_ht": 5.32,
+          "exp_ft": 10.56,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "Philadelphia Union",
+            "odd": 2.17,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": null
+        },
+        {
+          "m": "DC United",
+          "v": "Orlando City",
+          "valido": true,
+          "exp_ht": 2.97,
+          "exp_ft": 7.45,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "DC United",
+            "odd": 1.63,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "FC Cincinnati",
+          "v": "New York Red Bulls",
+          "valido": true,
+          "exp_ht": 5.5,
+          "exp_ft": 10.7,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "FC Cincinnati",
+            "odd": 1.41,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "FC Cincinnati",
+            "odd": 1.41,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Inter Miami",
+          "v": "New England Revolution",
+          "valido": true,
+          "exp_ht": 5.14,
+          "exp_ft": 9.25,
+          "conf_ft": 87.8,
+          "reis": {
+            "vencedor": "Inter Miami",
+            "odd": 1.07,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Inter Miami",
+            "odd": 1.07,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Austin FC",
+          "v": "Houston Dynamo",
+          "valido": true,
+          "exp_ht": 6.95,
+          "exp_ft": 13.17,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "Houston Dynamo",
+            "odd": 1.23,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Houston Dynamo",
+            "odd": 1.23,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Chicago Fire",
+          "v": "Sporting Kansas City",
+          "valido": true,
+          "exp_ht": 5.57,
+          "exp_ft": 10.87,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "Chicago Fire",
+            "odd": 1.06,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Chicago Fire",
+            "odd": 1.06,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Nashville SC",
+          "v": "Charlotte",
+          "valido": true,
+          "exp_ht": 2.86,
+          "exp_ft": 5.55,
+          "conf_ft": 92.9,
+          "reis": {
+            "vencedor": "Nashville SC",
+            "odd": 1.18,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Nashville SC",
+            "odd": 1.18,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "St. Louis City",
+          "v": "San Jose Earthquakes",
+          "valido": true,
+          "exp_ht": 2.01,
+          "exp_ft": 7.83,
+          "conf_ft": 92.9,
+          "reis": {
+            "vencedor": "St. Louis City",
+            "odd": 1.41,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "St. Louis City",
+            "odd": 1.41,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "San Diego FC",
+          "v": "Portland Timbers",
+          "valido": true,
+          "exp_ht": 3.88,
+          "exp_ft": 8.31,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "San Diego FC",
+            "odd": 1.18,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "San Diego FC",
+            "odd": 1.18,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Seattle Sounders",
+          "v": "FC Dallas",
+          "valido": true,
+          "exp_ht": 5.13,
+          "exp_ft": 12.66,
+          "conf_ft": 89,
+          "reis": {
+            "vencedor": "FC Dallas",
+            "odd": 1.31,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "FC Dallas",
+            "odd": 1.31,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Vancouver Whitecaps",
+          "v": "Colorado Rapids",
+          "valido": true,
+          "exp_ht": 4.94,
+          "exp_ft": 12.79,
+          "conf_ft": 95,
+          "reis": {
+            "vencedor": "Vancouver Whitecaps",
+            "odd": 1.05,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Vancouver Whitecaps",
+            "odd": 1.05,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Los Angeles Galaxy",
+          "v": "Real Salt Lake",
+          "valido": true,
+          "exp_ht": 5.43,
+          "exp_ft": 11.25,
+          "conf_ft": 93.9,
+          "reis": {
+            "vencedor": "Los Angeles Galaxy",
+            "odd": 1.21,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Los Angeles Galaxy",
+            "odd": 1.21,
+            "faixa": "NUCLEAR"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "Toronto FC",
+          "v": "Atlanta Utd",
+          "time": "Toronto FC",
+          "odd": 1.32,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Minnesota United",
+          "v": "Los Angeles FC",
+          "time": "Los Angeles FC",
+          "odd": 1.15,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "FC Cincinnati",
+          "v": "New York Red Bulls",
+          "time": "FC Cincinnati",
+          "odd": 1.41,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Inter Miami",
+          "v": "New England Revolution",
+          "time": "Inter Miami",
+          "odd": 1.07,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Austin FC",
+          "v": "Houston Dynamo",
+          "time": "Houston Dynamo",
+          "odd": 1.23,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Chicago Fire",
+          "v": "Sporting Kansas City",
+          "time": "Chicago Fire",
+          "odd": 1.06,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Nashville SC",
+          "v": "Charlotte",
+          "time": "Nashville SC",
+          "odd": 1.18,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "St. Louis City",
+          "v": "San Jose Earthquakes",
+          "time": "St. Louis City",
+          "odd": 1.41,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "San Diego FC",
+          "v": "Portland Timbers",
+          "time": "San Diego FC",
+          "odd": 1.18,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Seattle Sounders",
+          "v": "FC Dallas",
+          "time": "FC Dallas",
+          "odd": 1.31,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Vancouver Whitecaps",
+          "v": "Colorado Rapids",
+          "time": "Vancouver Whitecaps",
+          "odd": 1.05,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Los Angeles Galaxy",
+          "v": "Real Salt Lake",
+          "time": "Los Angeles Galaxy",
+          "odd": 1.21,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "Toronto FC",
+          "v": "Atlanta Utd",
+          "sde": 40,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12.67
+        },
+        {
+          "m": "CF Montreal",
+          "v": "New York City",
+          "sde": 10,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 5.67
+        },
+        {
+          "m": "Minnesota United",
+          "v": "Los Angeles FC",
+          "sde": 8,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 10.33
+        },
+        {
+          "m": "Columbus Crew",
+          "v": "Philadelphia Union",
+          "sde": 41,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12.5
+        },
+        {
+          "m": "DC United",
+          "v": "Orlando City",
+          "sde": 60,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "3",
+          "sinalInverso": false,
+          "totalEstimado": 8.75
+        },
+        {
+          "m": "FC Cincinnati",
+          "v": "New York Red Bulls",
+          "sde": 22,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 13.6
+        },
+        {
+          "m": "Inter Miami",
+          "v": "New England Revolution",
+          "sde": 93,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5.5",
+          "sinalInverso": false,
+          "totalEstimado": 13.17
+        },
+        {
+          "m": "Austin FC",
+          "v": "Houston Dynamo",
+          "sde": 34,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12
+        },
+        {
+          "m": "Chicago Fire",
+          "v": "Sporting Kansas City",
+          "sde": 69,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "6",
+          "sinalInverso": false,
+          "totalEstimado": 7.5
+        },
+        {
+          "m": "Nashville SC",
+          "v": "Charlotte",
+          "sde": 61,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "3",
+          "sinalInverso": false,
+          "totalEstimado": 6.67
+        },
+        {
+          "m": "St. Louis City",
+          "v": "San Jose Earthquakes",
+          "sde": 80,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "2.5",
+          "sinalInverso": false,
+          "totalEstimado": 9.92
+        },
+        {
+          "m": "San Diego FC",
+          "v": "Portland Timbers",
+          "sde": 59,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "4",
+          "sinalInverso": false,
+          "totalEstimado": 10.25
+        },
+        {
+          "m": "Seattle Sounders",
+          "v": "FC Dallas",
+          "sde": 29,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 11.5
+        },
+        {
+          "m": "Vancouver Whitecaps",
+          "v": "Colorado Rapids",
+          "sde": 63,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "5",
+          "sinalInverso": false,
+          "totalEstimado": 10.14
+        },
+        {
+          "m": "Los Angeles Galaxy",
+          "v": "Real Salt Lake",
+          "sde": 52,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "5.5",
+          "sinalInverso": false,
+          "totalEstimado": 11
+        }
+      ],
+      "cisne": [
+        {
+          "m": "Toronto FC",
+          "v": "Atlanta Utd"
+        },
+        {
+          "m": "FC Cincinnati",
+          "v": "New York Red Bulls"
+        },
+        {
+          "m": "Inter Miami",
+          "v": "New England Revolution"
+        },
+        {
+          "m": "Austin FC",
+          "v": "Houston Dynamo"
+        },
+        {
+          "m": "Chicago Fire",
+          "v": "Sporting Kansas City"
+        },
+        {
+          "m": "Nashville SC",
+          "v": "Charlotte"
+        },
+        {
+          "m": "St. Louis City",
+          "v": "San Jose Earthquakes"
+        },
+        {
+          "m": "San Diego FC",
+          "v": "Portland Timbers"
+        },
+        {
+          "m": "Seattle Sounders",
+          "v": "FC Dallas"
+        },
+        {
+          "m": "Vancouver Whitecaps",
+          "v": "Colorado Rapids"
+        }
+      ]
+    },
+    "ARG": {
+      "liga": "ARG",
+      "gerado_em": "2026-04-26T00:29:19.240Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Atl. Tucuman|Banfield::Belgrano|Gimnasia L.P.::Dep. Riestra|Independiente::Estudiantes L.P.|Talleres Cordoba::Estudiantes Rio Cuarto|Rosario Central::Huracan|Argentinos Jrs::Ind. Rivadavia|Gimnasia Mendoza::Lanus|Central Cordoba::Newells Old Boys|Instituto::Platense|San Lorenzo::Racing Club|Barracas Central::River Plate|Aldosivi::Sarmiento Junin|Tigre::Velez Sarsfield|Union de Santa Fe",
+      "total_jogos": 14,
+      "teacher": [
+        {
+          "m": "Dep. Riestra",
+          "v": "Independiente",
+          "valido": true,
+          "exp_ht": 3.93,
+          "exp_ft": 8.02,
+          "conf_ft": 81.5,
+          "reis": {
+            "vencedor": "Independiente",
+            "odd": 1.5,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Independiente",
+            "odd": 1.5,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Estudiantes Rio Cuarto",
+          "v": "Rosario Central",
+          "valido": true,
+          "exp_ht": 4.25,
+          "exp_ft": 10.34,
+          "conf_ft": 87.2,
+          "reis": {
+            "vencedor": "Estudiantes Rio Cuarto",
+            "odd": 1.29,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Estudiantes Rio Cuarto",
+            "odd": 1.29,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Lanus",
+          "v": "Central Cordoba",
+          "valido": true,
+          "exp_ht": 3.08,
+          "exp_ft": 4.94,
+          "conf_ft": 78.1,
+          "reis": {
+            "vencedor": "Lanus",
+            "odd": 1.19,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Lanus",
+            "odd": 1.19,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Platense",
+          "v": "San Lorenzo",
+          "valido": true,
+          "exp_ht": 1.75,
+          "exp_ft": 2.65,
+          "conf_ft": 78.1,
+          "reis": {
+            "vencedor": "Platense",
+            "odd": 1.8,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Racing Club",
+          "v": "Barracas Central",
+          "valido": true,
+          "exp_ht": 2.09,
+          "exp_ft": 6.25,
+          "conf_ft": 83,
+          "reis": {
+            "vencedor": "Racing Club",
+            "odd": 1.02,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Racing Club",
+            "odd": 1.02,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Estudiantes L.P.",
+          "v": "Talleres Cordoba",
+          "valido": true,
+          "exp_ht": 3.7,
+          "exp_ft": 8.55,
+          "conf_ft": 81.6,
+          "reis": {
+            "vencedor": "Estudiantes L.P.",
+            "odd": 1.77,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Sarmiento Junin",
+          "v": "Tigre",
+          "valido": true,
+          "exp_ht": 2.69,
+          "exp_ft": 5.6,
+          "conf_ft": 78.1,
+          "reis": {
+            "vencedor": "Tigre",
+            "odd": 1.61,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Tigre",
+            "odd": 1.61,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "River Plate",
+          "v": "Aldosivi",
+          "valido": true,
+          "exp_ht": 4.99,
+          "exp_ft": 8.96,
+          "conf_ft": 88,
+          "reis": {
+            "vencedor": "River Plate",
+            "odd": 1.02,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "River Plate",
+            "odd": 1.02,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Ind. Rivadavia",
+          "v": "Gimnasia Mendoza",
+          "valido": true,
+          "exp_ht": 3.89,
+          "exp_ft": 7.63,
+          "conf_ft": 88.1,
+          "reis": {
+            "vencedor": "Ind. Rivadavia",
+            "odd": 1.16,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Ind. Rivadavia",
+            "odd": 1.16,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Belgrano",
+          "v": "Gimnasia L.P.",
+          "valido": true,
+          "exp_ht": 3.16,
+          "exp_ft": 6.02,
+          "conf_ft": 78.1,
+          "reis": {
+            "vencedor": "Gimnasia L.P.",
+            "odd": 1.93,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Newells Old Boys",
+          "v": "Instituto",
+          "valido": true,
+          "exp_ht": 4.71,
+          "exp_ft": 10.3,
+          "conf_ft": 88.1,
+          "reis": {
+            "vencedor": "Instituto",
+            "odd": 1.29,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Instituto",
+            "odd": 1.29,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Atl. Tucuman",
+          "v": "Banfield",
+          "valido": true,
+          "exp_ht": 5.34,
+          "exp_ft": 10.16,
+          "conf_ft": 88.1,
+          "reis": {
+            "vencedor": "Atl. Tucuman",
+            "odd": 1.02,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Atl. Tucuman",
+            "odd": 1.02,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Velez Sarsfield",
+          "v": "Union de Santa Fe",
+          "valido": true,
+          "exp_ht": 3.98,
+          "exp_ft": 10.8,
+          "conf_ft": 85.9,
+          "reis": {
+            "vencedor": "Union de Santa Fe",
+            "odd": 1.05,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Union de Santa Fe",
+            "odd": 1.05,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Huracan",
+          "v": "Argentinos Jrs",
+          "valido": true,
+          "exp_ht": 3.72,
+          "exp_ft": 7.31,
+          "conf_ft": 83,
+          "reis": {
+            "vencedor": "Argentinos Jrs",
+            "odd": 1.68,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "Dep. Riestra",
+          "v": "Independiente",
+          "time": "Independiente",
+          "odd": 1.5,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Estudiantes Rio Cuarto",
+          "v": "Rosario Central",
+          "time": "Estudiantes Rio Cuarto",
+          "odd": 1.29,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Lanus",
+          "v": "Central Cordoba",
+          "time": "Lanus",
+          "odd": 1.19,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Racing Club",
+          "v": "Barracas Central",
+          "time": "Racing Club",
+          "odd": 1.02,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Sarmiento Junin",
+          "v": "Tigre",
+          "time": "Tigre",
+          "odd": 1.61,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "River Plate",
+          "v": "Aldosivi",
+          "time": "River Plate",
+          "odd": 1.02,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Ind. Rivadavia",
+          "v": "Gimnasia Mendoza",
+          "time": "Ind. Rivadavia",
+          "odd": 1.16,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Newells Old Boys",
+          "v": "Instituto",
+          "time": "Instituto",
+          "odd": 1.29,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Atl. Tucuman",
+          "v": "Banfield",
+          "time": "Atl. Tucuman",
+          "odd": 1.02,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Velez Sarsfield",
+          "v": "Union de Santa Fe",
+          "time": "Union de Santa Fe",
+          "odd": 1.05,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "Dep. Riestra",
+          "v": "Independiente",
+          "sde": 31,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 10.1
+        },
+        {
+          "m": "Estudiantes Rio Cuarto",
+          "v": "Rosario Central",
+          "sde": 28,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.83
+        },
+        {
+          "m": "Lanus",
+          "v": "Central Cordoba",
+          "sde": 54,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "3.5",
+          "sinalInverso": false,
+          "totalEstimado": 7.62
+        },
+        {
+          "m": "Platense",
+          "v": "San Lorenzo",
+          "sde": 46,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7.02
+        },
+        {
+          "m": "Racing Club",
+          "v": "Barracas Central",
+          "sde": 75,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "2.5",
+          "sinalInverso": false,
+          "totalEstimado": 6.17
+        },
+        {
+          "m": "Estudiantes L.P.",
+          "v": "Talleres Cordoba",
+          "sde": 40,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.29
+        },
+        {
+          "m": "Sarmiento Junin",
+          "v": "Tigre",
+          "sde": 29,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.64
+        },
+        {
+          "m": "River Plate",
+          "v": "Aldosivi",
+          "sde": 75,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5",
+          "sinalInverso": false,
+          "totalEstimado": 11.31
+        },
+        {
+          "m": "Ind. Rivadavia",
+          "v": "Gimnasia Mendoza",
+          "sde": 60,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "4",
+          "sinalInverso": false,
+          "totalEstimado": 6.43
+        },
+        {
+          "m": "Belgrano",
+          "v": "Gimnasia L.P.",
+          "sde": 49,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.43
+        },
+        {
+          "m": "Newells Old Boys",
+          "v": "Instituto",
+          "sde": 16,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 9.95
+        },
+        {
+          "m": "Atl. Tucuman",
+          "v": "Banfield",
+          "sde": 95,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5.5",
+          "sinalInverso": false,
+          "totalEstimado": 8.05
+        },
+        {
+          "m": "Velez Sarsfield",
+          "v": "Union de Santa Fe",
+          "sde": 17,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.17
+        },
+        {
+          "m": "Huracan",
+          "v": "Argentinos Jrs",
+          "sde": 9,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 9.71
+        }
+      ],
+      "cisne": [
+        {
+          "m": "Estudiantes Rio Cuarto",
+          "v": "Rosario Central"
+        },
+        {
+          "m": "Lanus",
+          "v": "Central Cordoba"
+        },
+        {
+          "m": "Racing Club",
+          "v": "Barracas Central"
+        },
+        {
+          "m": "River Plate",
+          "v": "Aldosivi"
+        },
+        {
+          "m": "Ind. Rivadavia",
+          "v": "Gimnasia Mendoza"
+        },
+        {
+          "m": "Newells Old Boys",
+          "v": "Instituto"
+        },
+        {
+          "m": "Atl. Tucuman",
+          "v": "Banfield"
+        },
+        {
+          "m": "Velez Sarsfield",
+          "v": "Union de Santa Fe"
+        }
+      ]
+    },
+    "USL": {
+      "liga": "USL",
+      "gerado_em": "2026-04-26T00:29:19.273Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "sem_rodada",
+      "motivo": "Rodada não importada — vá em \"Adicionar Jogos\"",
+      "total_jogos": 0,
+      "teacher": [],
+      "baladeprata": [],
+      "enigma": [],
+      "cisne": []
+    },
+    "BUN": {
+      "liga": "BUN",
+      "gerado_em": "2026-04-26T00:29:19.340Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Augsburg|Eintracht Frankfurt::Dortmund|Freiburg::FC Koln|Bayer Leverkusen::Hamburger SV|Hoffenheim::Heidenheim|St. Pauli::Mainz|Bayern Munich::RB Leipzig|Union Berlin::Stuttgart|Werder Bremen::Wolfsburg|B. Monchengladbach",
+      "total_jogos": 9,
+      "teacher": [
+        {
+          "m": "RB Leipzig",
+          "v": "Union Berlin",
+          "valido": true,
+          "exp_ht": 4.77,
+          "exp_ft": 12.46,
+          "conf_ft": 47.6,
+          "reis": {
+            "vencedor": "RB Leipzig",
+            "odd": 1.36,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "RB Leipzig",
+            "odd": 1.36,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Augsburg",
+          "v": "Eintracht Frankfurt",
+          "valido": true,
+          "exp_ht": 5.87,
+          "exp_ft": 11.26,
+          "conf_ft": 47.6,
+          "reis": {
+            "vencedor": "Eintracht Frankfurt",
+            "odd": 1.32,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Eintracht Frankfurt",
+            "odd": 1.32,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "FC Koln",
+          "v": "Bayer Leverkusen",
+          "valido": true,
+          "exp_ht": 4.74,
+          "exp_ft": 11.26,
+          "conf_ft": 47.6,
+          "reis": {
+            "vencedor": "Bayer Leverkusen",
+            "odd": 1.55,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Bayer Leverkusen",
+            "odd": 1.55,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "Heidenheim",
+          "v": "St. Pauli",
+          "valido": true,
+          "exp_ht": 2.55,
+          "exp_ft": 7.08,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Heidenheim",
+            "odd": 1.55,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Heidenheim",
+            "odd": 1.55,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "Mainz",
+          "v": "Bayern Munich",
+          "valido": true,
+          "exp_ht": 3.72,
+          "exp_ft": 9.42,
+          "conf_ft": 43.1,
+          "reis": {
+            "vencedor": "Bayern Munich",
+            "odd": 1.22,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Bayern Munich",
+            "odd": 1.22,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Wolfsburg",
+          "v": "B. Monchengladbach",
+          "valido": true,
+          "exp_ht": 5.73,
+          "exp_ft": 14.9,
+          "conf_ft": 47.6,
+          "reis": {
+            "vencedor": "B. Monchengladbach",
+            "odd": 1.63,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Hamburger SV",
+          "v": "Hoffenheim",
+          "valido": true,
+          "exp_ht": 4.24,
+          "exp_ft": 10.5,
+          "conf_ft": 46.4,
+          "reis": {
+            "vencedor": "Hoffenheim",
+            "odd": 1.27,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Hoffenheim",
+            "odd": 1.27,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Stuttgart",
+          "v": "Werder Bremen",
+          "valido": true,
+          "exp_ht": 6.69,
+          "exp_ft": 11.92,
+          "conf_ft": 47.6,
+          "reis": {
+            "vencedor": "Stuttgart",
+            "odd": 1.17,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Stuttgart",
+            "odd": 1.17,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Dortmund",
+          "v": "Freiburg",
+          "valido": true,
+          "exp_ht": 3.51,
+          "exp_ft": 8.78,
+          "conf_ft": 40.7,
+          "reis": {
+            "vencedor": "Dortmund",
+            "odd": 1.25,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Dortmund",
+            "odd": 1.25,
+            "faixa": "NUCLEAR"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "RB Leipzig",
+          "v": "Union Berlin",
+          "time": "RB Leipzig",
+          "odd": 1.36,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Augsburg",
+          "v": "Eintracht Frankfurt",
+          "time": "Eintracht Frankfurt",
+          "odd": 1.32,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "FC Koln",
+          "v": "Bayer Leverkusen",
+          "time": "Bayer Leverkusen",
+          "odd": 1.55,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "Heidenheim",
+          "v": "St. Pauli",
+          "time": "Heidenheim",
+          "odd": 1.55,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "Mainz",
+          "v": "Bayern Munich",
+          "time": "Bayern Munich",
+          "odd": 1.22,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Hamburger SV",
+          "v": "Hoffenheim",
+          "time": "Hoffenheim",
+          "odd": 1.27,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Stuttgart",
+          "v": "Werder Bremen",
+          "time": "Stuttgart",
+          "odd": 1.17,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Dortmund",
+          "v": "Freiburg",
+          "time": "Dortmund",
+          "odd": 1.25,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "RB Leipzig",
+          "v": "Union Berlin",
+          "sde": 33,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 10.47
+        },
+        {
+          "m": "Augsburg",
+          "v": "Eintracht Frankfurt",
+          "sde": 26,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9
+        },
+        {
+          "m": "FC Koln",
+          "v": "Bayer Leverkusen",
+          "sde": 22,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.27
+        },
+        {
+          "m": "Heidenheim",
+          "v": "St. Pauli",
+          "sde": 40,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7.87
+        },
+        {
+          "m": "Mainz",
+          "v": "Bayern Munich",
+          "sde": 30,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 11.47
+        },
+        {
+          "m": "Wolfsburg",
+          "v": "B. Monchengladbach",
+          "sde": 21,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.53
+        },
+        {
+          "m": "Hamburger SV",
+          "v": "Hoffenheim",
+          "sde": 12,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 8.53
+        },
+        {
+          "m": "Stuttgart",
+          "v": "Werder Bremen",
+          "sde": 40,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.73
+        },
+        {
+          "m": "Dortmund",
+          "v": "Freiburg",
+          "sde": 65,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "4",
+          "sinalInverso": false,
+          "totalEstimado": 11.4
+        }
+      ],
+      "cisne": [
+        {
+          "m": "RB Leipzig",
+          "v": "Union Berlin"
+        },
+        {
+          "m": "Augsburg",
+          "v": "Eintracht Frankfurt"
+        },
+        {
+          "m": "Mainz",
+          "v": "Bayern Munich"
+        },
+        {
+          "m": "Hamburger SV",
+          "v": "Hoffenheim"
+        },
+        {
+          "m": "Stuttgart",
+          "v": "Werder Bremen"
+        },
+        {
+          "m": "Dortmund",
+          "v": "Freiburg"
+        }
+      ]
+    },
+    "ALM": {
+      "liga": "ALM",
+      "gerado_em": "2026-04-26T00:29:19.385Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Macarthur FC|Wellington Phoenix::Melbourne City|Adelaide United::Newcastle Jets|Central Coast Mariners::Perth Glory|Brisbane Roar::Sydney FC|Auckland FC::WS Wanderers|Melbourne Victory",
+      "total_jogos": 6,
+      "teacher": [
+        {
+          "m": "Macarthur FC",
+          "v": "Wellington Phoenix",
+          "valido": true,
+          "exp_ht": 6.37,
+          "exp_ft": 13.4,
+          "conf_ft": 50.7,
+          "reis": {
+            "vencedor": "Wellington Phoenix",
+            "odd": 1.94,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Newcastle Jets",
+          "v": "Central Coast Mariners",
+          "valido": true,
+          "exp_ht": 4.1,
+          "exp_ft": 10.26,
+          "conf_ft": 51.5,
+          "reis": {
+            "vencedor": "Newcastle Jets",
+            "odd": 1.1,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Newcastle Jets",
+            "odd": 1.1,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "WS Wanderers",
+          "v": "Melbourne Victory",
+          "valido": true,
+          "exp_ht": 6.39,
+          "exp_ft": 14.9,
+          "conf_ft": 51.5,
+          "reis": {
+            "vencedor": "Melbourne Victory",
+            "odd": 1.39,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Melbourne Victory",
+            "odd": 1.39,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Perth Glory",
+          "v": "Brisbane Roar",
+          "valido": true,
+          "exp_ht": 2.8,
+          "exp_ft": 8.9,
+          "conf_ft": 47.5,
+          "reis": {
+            "vencedor": "Brisbane Roar",
+            "odd": 1.19,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Brisbane Roar",
+            "odd": 1.19,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Sydney FC",
+          "v": "Auckland FC",
+          "valido": true,
+          "exp_ht": 4.15,
+          "exp_ft": 7.1,
+          "conf_ft": 42.2,
+          "reis": {
+            "vencedor": "Auckland FC",
+            "odd": 1.63,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Melbourne City",
+          "v": "Adelaide United",
+          "valido": true,
+          "exp_ht": 4.12,
+          "exp_ft": 9.07,
+          "conf_ft": 48.6,
+          "reis": {
+            "vencedor": "Adelaide United",
+            "odd": 1.22,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Adelaide United",
+            "odd": 1.22,
+            "faixa": "NUCLEAR"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "Newcastle Jets",
+          "v": "Central Coast Mariners",
+          "time": "Newcastle Jets",
+          "odd": 1.1,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "WS Wanderers",
+          "v": "Melbourne Victory",
+          "time": "Melbourne Victory",
+          "odd": 1.39,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Perth Glory",
+          "v": "Brisbane Roar",
+          "time": "Brisbane Roar",
+          "odd": 1.19,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Melbourne City",
+          "v": "Adelaide United",
+          "time": "Adelaide United",
+          "odd": 1.22,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "Macarthur FC",
+          "v": "Wellington Phoenix",
+          "sde": 40,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12.57
+        },
+        {
+          "m": "Newcastle Jets",
+          "v": "Central Coast Mariners",
+          "sde": 53,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "4.5",
+          "sinalInverso": false,
+          "totalEstimado": 8.33
+        },
+        {
+          "m": "WS Wanderers",
+          "v": "Melbourne Victory",
+          "sde": 18,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12.98
+        },
+        {
+          "m": "Perth Glory",
+          "v": "Brisbane Roar",
+          "sde": 14,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 9.67
+        },
+        {
+          "m": "Sydney FC",
+          "v": "Auckland FC",
+          "sde": 39,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.94
+        },
+        {
+          "m": "Melbourne City",
+          "v": "Adelaide United",
+          "sde": 24,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 10.36
+        }
+      ],
+      "cisne": [
+        {
+          "m": "Newcastle Jets",
+          "v": "Central Coast Mariners"
+        },
+        {
+          "m": "WS Wanderers",
+          "v": "Melbourne Victory"
+        },
+        {
+          "m": "Perth Glory",
+          "v": "Brisbane Roar"
+        },
+        {
+          "m": "Melbourne City",
+          "v": "Adelaide United"
+        }
+      ]
+    },
+    "J1": {
+      "liga": "J1",
+      "gerado_em": "2026-04-26T00:29:19.432Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "FC Tokyo|Mito::Kashiwa Reysol|Kashima Antlers::Kawasaki Frontale|Chiba::Okayama|Avispa Fukuoka::Sanfrecce Hiroshima|Cerezo Osaka::Shimizu S-Pulse|Nagoya Grampus::Urawa Reds|Yokohama F. Marinos::V-Varen Nagasaki|Gamba Osaka",
+      "total_jogos": 8,
+      "teacher": [
+        {
+          "m": "FC Tokyo",
+          "v": "Mito",
+          "valido": true,
+          "exp_ht": 3.78,
+          "exp_ft": 7.95,
+          "conf_ft": 44,
+          "reis": {
+            "vencedor": "Mito",
+            "odd": 2.05,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Kashiwa Reysol",
+          "v": "Kashima Antlers",
+          "valido": true,
+          "exp_ht": 3.24,
+          "exp_ft": 11.06,
+          "conf_ft": 47.4,
+          "reis": {
+            "vencedor": "Kashiwa Reysol",
+            "odd": 1.49,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Kashiwa Reysol",
+            "odd": 1.49,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Okayama",
+          "v": "Avispa Fukuoka",
+          "valido": true,
+          "exp_ht": 6.31,
+          "exp_ft": 11.81,
+          "conf_ft": 47.4,
+          "reis": {
+            "vencedor": "Okayama",
+            "odd": 1.62,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Okayama",
+            "odd": 1.62,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "Shimizu S-Pulse",
+          "v": "Nagoya Grampus",
+          "valido": true,
+          "exp_ht": 4.29,
+          "exp_ft": 11.05,
+          "conf_ft": 47.4,
+          "reis": {
+            "vencedor": "Shimizu S-Pulse",
+            "odd": 1.41,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Shimizu S-Pulse",
+            "odd": 1.41,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Urawa Reds",
+          "v": "Yokohama F. Marinos",
+          "valido": true,
+          "exp_ht": 3.64,
+          "exp_ft": 9,
+          "conf_ft": 47.4,
+          "reis": {
+            "vencedor": "Urawa Reds",
+            "odd": 1.95,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Kawasaki Frontale",
+          "v": "Chiba",
+          "valido": true,
+          "exp_ht": 3.08,
+          "exp_ft": 8.73,
+          "conf_ft": 41.5,
+          "reis": {
+            "vencedor": "Kawasaki Frontale",
+            "odd": 1.28,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Kawasaki Frontale",
+            "odd": 1.28,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Sanfrecce Hiroshima",
+          "v": "Cerezo Osaka",
+          "valido": true,
+          "exp_ht": 4.21,
+          "exp_ft": 8.58,
+          "conf_ft": 45.1,
+          "reis": {
+            "vencedor": "Sanfrecce Hiroshima",
+            "odd": 1.02,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Sanfrecce Hiroshima",
+            "odd": 1.02,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "V-Varen Nagasaki",
+          "v": "Gamba Osaka",
+          "valido": true,
+          "exp_ht": 3.91,
+          "exp_ft": 7.16,
+          "conf_ft": 40.8,
+          "reis": {
+            "vencedor": "V-Varen Nagasaki",
+            "odd": 1.72,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "Kashiwa Reysol",
+          "v": "Kashima Antlers",
+          "time": "Kashiwa Reysol",
+          "odd": 1.49,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Okayama",
+          "v": "Avispa Fukuoka",
+          "time": "Okayama",
+          "odd": 1.62,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "Shimizu S-Pulse",
+          "v": "Nagoya Grampus",
+          "time": "Shimizu S-Pulse",
+          "odd": 1.41,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Kawasaki Frontale",
+          "v": "Chiba",
+          "time": "Kawasaki Frontale",
+          "odd": 1.28,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Sanfrecce Hiroshima",
+          "v": "Cerezo Osaka",
+          "time": "Sanfrecce Hiroshima",
+          "odd": 1.02,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "FC Tokyo",
+          "v": "Mito",
+          "sde": 29,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.9
+        },
+        {
+          "m": "Kashiwa Reysol",
+          "v": "Kashima Antlers",
+          "sde": 39,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.6
+        },
+        {
+          "m": "Okayama",
+          "v": "Avispa Fukuoka",
+          "sde": 71,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "6.5",
+          "sinalInverso": false,
+          "totalEstimado": 10.83
+        },
+        {
+          "m": "Shimizu S-Pulse",
+          "v": "Nagoya Grampus",
+          "sde": 64,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "4.5",
+          "sinalInverso": false,
+          "totalEstimado": 9.9
+        },
+        {
+          "m": "Urawa Reds",
+          "v": "Yokohama F. Marinos",
+          "sde": 30,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.8
+        },
+        {
+          "m": "Kawasaki Frontale",
+          "v": "Chiba",
+          "sde": 55,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "3.5",
+          "sinalInverso": false,
+          "totalEstimado": 9.23
+        },
+        {
+          "m": "Sanfrecce Hiroshima",
+          "v": "Cerezo Osaka",
+          "sde": 73,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "4.5",
+          "sinalInverso": false,
+          "totalEstimado": 11.83
+        },
+        {
+          "m": "V-Varen Nagasaki",
+          "v": "Gamba Osaka",
+          "sde": 49,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7
+        }
+      ],
+      "cisne": [
+        {
+          "m": "Shimizu S-Pulse",
+          "v": "Nagoya Grampus"
+        },
+        {
+          "m": "Kawasaki Frontale",
+          "v": "Chiba"
+        },
+        {
+          "m": "Sanfrecce Hiroshima",
+          "v": "Cerezo Osaka"
+        }
+      ]
+    },
+    "CHI": {
+      "liga": "CHI",
+      "gerado_em": "2026-04-26T00:29:19.474Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "A. Italiano|Limache::Everton|Cobresal::La Serena|Huachipato::Nublense|O'Higgins::U. De Chile|U. Catolica::U. De Concepcion|Colo Colo::Union La Calera|Coquimbo",
+      "total_jogos": 7,
+      "teacher": [
+        {
+          "m": "Union La Calera",
+          "v": "Coquimbo",
+          "valido": true,
+          "exp_ht": 5.95,
+          "exp_ft": 11.65,
+          "conf_ft": 44.1,
+          "reis": {
+            "vencedor": "Coquimbo",
+            "odd": 1.77,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "A. Italiano",
+          "v": "Limache",
+          "valido": true,
+          "exp_ht": 3.82,
+          "exp_ft": 8.09,
+          "conf_ft": 47.9,
+          "reis": {
+            "vencedor": "A. Italiano",
+            "odd": 1.96,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Nublense",
+          "v": "O'Higgins",
+          "valido": true,
+          "exp_ht": 4.01,
+          "exp_ft": 10.24,
+          "conf_ft": 44.4,
+          "reis": {
+            "vencedor": "O'Higgins",
+            "odd": 1.82,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": null
+        },
+        {
+          "m": "U. De Chile",
+          "v": "U. Catolica",
+          "valido": true,
+          "exp_ht": 4.68,
+          "exp_ft": 10.18,
+          "conf_ft": 43,
+          "reis": {
+            "vencedor": "U. Catolica",
+            "odd": 1.54,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "U. Catolica",
+            "odd": 1.54,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "La Serena",
+          "v": "Huachipato",
+          "valido": true,
+          "exp_ht": 4.41,
+          "exp_ft": 10.83,
+          "conf_ft": 47.3,
+          "reis": {
+            "vencedor": "La Serena",
+            "odd": 2.13,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "NEUTRO"
+          },
+          "bp": null
+        },
+        {
+          "m": "U. De Concepcion",
+          "v": "Colo Colo",
+          "valido": true,
+          "exp_ht": 5.72,
+          "exp_ft": 10.13,
+          "conf_ft": 45.2,
+          "reis": {
+            "vencedor": "U. De Concepcion",
+            "odd": 1.42,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "U. De Concepcion",
+            "odd": 1.42,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Everton",
+          "v": "Cobresal",
+          "valido": true,
+          "exp_ht": 5.3,
+          "exp_ft": 10.41,
+          "conf_ft": 47.9,
+          "reis": {
+            "vencedor": "Cobresal",
+            "odd": 1.5,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": {
+            "time": "Cobresal",
+            "odd": 1.5,
+            "faixa": "FORTE"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "U. De Chile",
+          "v": "U. Catolica",
+          "time": "U. Catolica",
+          "odd": 1.54,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "U. De Concepcion",
+          "v": "Colo Colo",
+          "time": "U. De Concepcion",
+          "odd": 1.42,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Everton",
+          "v": "Cobresal",
+          "time": "Cobresal",
+          "odd": 1.5,
+          "faixa": "FORTE"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "Union La Calera",
+          "v": "Coquimbo",
+          "sde": 33,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 10.3
+        },
+        {
+          "m": "A. Italiano",
+          "v": "Limache",
+          "sde": 29,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7
+        },
+        {
+          "m": "Nublense",
+          "v": "O'Higgins",
+          "sde": 30,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.4
+        },
+        {
+          "m": "U. De Chile",
+          "v": "U. Catolica",
+          "sde": 26,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 12.6
+        },
+        {
+          "m": "La Serena",
+          "v": "Huachipato",
+          "sde": 40,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7.6
+        },
+        {
+          "m": "U. De Concepcion",
+          "v": "Colo Colo",
+          "sde": 37,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 10.75
+        },
+        {
+          "m": "Everton",
+          "v": "Cobresal",
+          "sde": 14,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.6
+        }
+      ],
+      "cisne": [
+        {
+          "m": "U. De Concepcion",
+          "v": "Colo Colo"
+        }
+      ]
+    },
+    "ECU": {
+      "liga": "ECU",
+      "gerado_em": "2026-04-26T00:29:19.519Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Aucas|Delfin::Emelec|LDU Quito::Guayaquil City|Tecnico U.::Ind. del Valle|Leones del Norte::Macara|Libertad::Manta|U. Catolica::Mushuc Runa|Dep. Cuenca::Orense|Barcelona SC",
+      "total_jogos": 8,
+      "teacher": [
+        {
+          "m": "Mushuc Runa",
+          "v": "Dep. Cuenca",
+          "valido": true,
+          "exp_ht": 4.55,
+          "exp_ft": 9.1,
+          "conf_ft": 50.8,
+          "reis": {
+            "vencedor": "Mushuc Runa",
+            "odd": 1.39,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Mushuc Runa",
+            "odd": 1.39,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Ind. del Valle",
+          "v": "Leones del Norte",
+          "valido": true,
+          "exp_ht": 5.28,
+          "exp_ft": 13.44,
+          "conf_ft": 48.5,
+          "reis": {
+            "vencedor": "Ind. del Valle",
+            "odd": 1.01,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "OVER 10"
+          },
+          "bp": {
+            "time": "Ind. del Valle",
+            "odd": 1.01,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Emelec",
+          "v": "LDU Quito",
+          "valido": true,
+          "exp_ht": 4.42,
+          "exp_ft": 9.27,
+          "conf_ft": 45.6,
+          "reis": {
+            "vencedor": "Emelec",
+            "odd": 1.63,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Macara",
+          "v": "Libertad",
+          "valido": true,
+          "exp_ht": 5.91,
+          "exp_ft": 10.38,
+          "conf_ft": 49.6,
+          "reis": {
+            "vencedor": "Macara",
+            "odd": 2.09,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "OVER 4",
+            "ft": "NEUTRO"
+          },
+          "bp": null
+        },
+        {
+          "m": "Guayaquil City",
+          "v": "Tecnico U.",
+          "valido": true,
+          "exp_ht": 3.48,
+          "exp_ft": 8.29,
+          "conf_ft": 45.9,
+          "reis": {
+            "vencedor": "Tecnico U.",
+            "odd": 1.43,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Tecnico U.",
+            "odd": 1.43,
+            "faixa": "FORTE"
+          }
+        },
+        {
+          "m": "Orense",
+          "v": "Barcelona SC",
+          "valido": true,
+          "exp_ht": 3.61,
+          "exp_ft": 7.78,
+          "conf_ft": 48.2,
+          "reis": {
+            "vencedor": "Orense",
+            "odd": 2.15,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Manta",
+          "v": "U. Catolica",
+          "valido": true,
+          "exp_ht": 4.24,
+          "exp_ft": 8.08,
+          "conf_ft": 48.4,
+          "reis": {
+            "vencedor": "Manta",
+            "odd": 1.7,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Aucas",
+          "v": "Delfin",
+          "valido": true,
+          "exp_ht": 3.53,
+          "exp_ft": 9.68,
+          "conf_ft": 47.9,
+          "reis": {
+            "vencedor": "Aucas",
+            "odd": 1.53,
+            "faixa": "DOMINANTE"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Aucas",
+            "odd": 1.53,
+            "faixa": "MODERADA"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "Mushuc Runa",
+          "v": "Dep. Cuenca",
+          "time": "Mushuc Runa",
+          "odd": 1.39,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Ind. del Valle",
+          "v": "Leones del Norte",
+          "time": "Ind. del Valle",
+          "odd": 1.01,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Guayaquil City",
+          "v": "Tecnico U.",
+          "time": "Tecnico U.",
+          "odd": 1.43,
+          "faixa": "FORTE"
+        },
+        {
+          "m": "Aucas",
+          "v": "Delfin",
+          "time": "Aucas",
+          "odd": 1.53,
+          "faixa": "MODERADA"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "Mushuc Runa",
+          "v": "Dep. Cuenca",
+          "sde": 68,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5",
+          "sinalInverso": false,
+          "totalEstimado": 8.35
+        },
+        {
+          "m": "Ind. del Valle",
+          "v": "Leones del Norte",
+          "sde": 91,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5.5",
+          "sinalInverso": false,
+          "totalEstimado": 12.75
+        },
+        {
+          "m": "Emelec",
+          "v": "LDU Quito",
+          "sde": 30,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 11.25
+        },
+        {
+          "m": "Macara",
+          "v": "Libertad",
+          "sde": 23,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.7
+        },
+        {
+          "m": "Guayaquil City",
+          "v": "Tecnico U.",
+          "sde": 13,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7.75
+        },
+        {
+          "m": "Orense",
+          "v": "Barcelona SC",
+          "sde": 29,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 6.47
+        },
+        {
+          "m": "Manta",
+          "v": "U. Catolica",
+          "sde": 37,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.75
+        },
+        {
+          "m": "Aucas",
+          "v": "Delfin",
+          "sde": 71,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "4",
+          "sinalInverso": false,
+          "totalEstimado": 8.93
+        }
+      ],
+      "cisne": [
+        {
+          "m": "Mushuc Runa",
+          "v": "Dep. Cuenca"
+        },
+        {
+          "m": "Ind. del Valle",
+          "v": "Leones del Norte"
+        },
+        {
+          "m": "Guayaquil City",
+          "v": "Tecnico U."
+        }
+      ]
+    },
+    "ARG_B": {
+      "liga": "ARG_B",
+      "gerado_em": "2026-04-26T00:29:19.590Z",
+      "versao_motor": "v2.1+TMI",
+      "status": "ok",
+      "rodada_hash": "Acassuso|CA Estudiantes::Agropecuario|San Martin T.::Atl. Rafaela|Gimnasia Jujuy::Central Norte|Ciudad Bolivar::Chacarita Juniors|Midland::Chaco For Ever|CA Mitre::Club A. Guemes|Atletico Atlanta::Colon Santa Fe|Godoy Cruz::Deportivo Madryn|Def. de Belgrano::Deportivo Maipu|Almagro::Deportivo Moron|Racing Cordoba::Ferro|Almirante Brown::Nueva Chicago|Colegiales::San Martin S.J.|Quilmes::San Miguel|Los Andes::San Telmo|All Boys::Temperley|Patronato::Tristan Suarez|Gimnasia y Tiro",
+      "total_jogos": 18,
+      "teacher": [
+        {
+          "m": "San Miguel",
+          "v": "Los Andes",
+          "valido": true,
+          "exp_ht": 3.6,
+          "exp_ft": 6.15,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "San Miguel",
+            "odd": 1.26,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "San Miguel",
+            "odd": 1.26,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "San Telmo",
+          "v": "All Boys",
+          "valido": true,
+          "exp_ht": 1.77,
+          "exp_ft": 3.97,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "All Boys",
+            "odd": 1.94,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Temperley",
+          "v": "Patronato",
+          "valido": true,
+          "exp_ht": 4.2,
+          "exp_ft": 8.18,
+          "conf_ft": 44.4,
+          "reis": {
+            "vencedor": "Patronato",
+            "odd": 1.84,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "San Martin S.J.",
+          "v": "Quilmes",
+          "valido": true,
+          "exp_ht": 2.26,
+          "exp_ft": 7.2,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Quilmes",
+            "odd": 1.92,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Atl. Rafaela",
+          "v": "Gimnasia Jujuy",
+          "valido": true,
+          "exp_ht": 4.02,
+          "exp_ft": 9.88,
+          "conf_ft": 44.4,
+          "reis": {
+            "vencedor": "Atl. Rafaela",
+            "odd": 2.18,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Deportivo Moron",
+          "v": "Racing Cordoba",
+          "valido": true,
+          "exp_ht": 4.81,
+          "exp_ft": 9.5,
+          "conf_ft": 44.4,
+          "reis": {
+            "vencedor": "Deportivo Moron",
+            "odd": 1.11,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Deportivo Moron",
+            "odd": 1.11,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Nueva Chicago",
+          "v": "Colegiales",
+          "valido": true,
+          "exp_ht": 3.97,
+          "exp_ft": 7.13,
+          "conf_ft": 40.4,
+          "reis": {
+            "vencedor": "Colegiales",
+            "odd": 1.02,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Colegiales",
+            "odd": 1.02,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Tristan Suarez",
+          "v": "Gimnasia y Tiro",
+          "valido": true,
+          "exp_ht": 3.51,
+          "exp_ft": 7.13,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Tristan Suarez",
+            "odd": 1.8,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Acassuso",
+          "v": "CA Estudiantes",
+          "valido": true,
+          "exp_ht": 2.23,
+          "exp_ft": 4.9,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Acassuso",
+            "odd": 2.28,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Chacarita Juniors",
+          "v": "Midland",
+          "valido": true,
+          "exp_ht": 4.11,
+          "exp_ft": 6.4,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Midland",
+            "odd": 1.12,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Midland",
+            "odd": 1.12,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Agropecuario",
+          "v": "San Martin T.",
+          "valido": true,
+          "exp_ht": 2.13,
+          "exp_ft": 5.6,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Agropecuario",
+            "odd": 1.07,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Agropecuario",
+            "odd": 1.07,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Deportivo Madryn",
+          "v": "Def. de Belgrano",
+          "valido": true,
+          "exp_ht": 2.12,
+          "exp_ft": 5.25,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Deportivo Madryn",
+            "odd": 2.23,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Central Norte",
+          "v": "Ciudad Bolivar",
+          "valido": true,
+          "exp_ht": 3.94,
+          "exp_ft": 5.95,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Central Norte",
+            "odd": 1.17,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Central Norte",
+            "odd": 1.17,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Chaco For Ever",
+          "v": "CA Mitre",
+          "valido": true,
+          "exp_ht": 2.94,
+          "exp_ft": 5.78,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "CA Mitre",
+            "odd": 2.15,
+            "faixa": "EQUILIBRADO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Club A. Guemes",
+          "v": "Atletico Atlanta",
+          "valido": true,
+          "exp_ht": 4.84,
+          "exp_ft": 9.89,
+          "conf_ft": 43.4,
+          "reis": {
+            "vencedor": "Atletico Atlanta",
+            "odd": 1.15,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Atletico Atlanta",
+            "odd": 1.15,
+            "faixa": "NUCLEAR"
+          }
+        },
+        {
+          "m": "Deportivo Maipu",
+          "v": "Almagro",
+          "valido": true,
+          "exp_ht": 3.38,
+          "exp_ft": 8.23,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Almagro",
+            "odd": 1.85,
+            "faixa": "MEDIANO"
+          },
+          "sniper": {
+            "ht": "UNDER 4",
+            "ft": "UNDER 10"
+          },
+          "bp": null
+        },
+        {
+          "m": "Colon Santa Fe",
+          "v": "Godoy Cruz",
+          "valido": true,
+          "exp_ht": 4.34,
+          "exp_ft": 8.13,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Godoy Cruz",
+            "odd": 1.57,
+            "faixa": "MODERADO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Godoy Cruz",
+            "odd": 1.57,
+            "faixa": "MODERADA"
+          }
+        },
+        {
+          "m": "Ferro",
+          "v": "Almirante Brown",
+          "valido": true,
+          "exp_ht": 4.86,
+          "exp_ft": 9.33,
+          "conf_ft": 40,
+          "reis": {
+            "vencedor": "Ferro",
+            "odd": 1,
+            "faixa": "ABSOLUTO"
+          },
+          "sniper": {
+            "ht": "NEUTRO",
+            "ft": "UNDER 10"
+          },
+          "bp": {
+            "time": "Ferro",
+            "odd": 1,
+            "faixa": "NUCLEAR"
+          }
+        }
+      ],
+      "baladeprata": [
+        {
+          "m": "San Miguel",
+          "v": "Los Andes",
+          "time": "San Miguel",
+          "odd": 1.26,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Deportivo Moron",
+          "v": "Racing Cordoba",
+          "time": "Deportivo Moron",
+          "odd": 1.11,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Nueva Chicago",
+          "v": "Colegiales",
+          "time": "Colegiales",
+          "odd": 1.02,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Chacarita Juniors",
+          "v": "Midland",
+          "time": "Midland",
+          "odd": 1.12,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Agropecuario",
+          "v": "San Martin T.",
+          "time": "Agropecuario",
+          "odd": 1.07,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Central Norte",
+          "v": "Ciudad Bolivar",
+          "time": "Central Norte",
+          "odd": 1.17,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Club A. Guemes",
+          "v": "Atletico Atlanta",
+          "time": "Atletico Atlanta",
+          "odd": 1.15,
+          "faixa": "NUCLEAR"
+        },
+        {
+          "m": "Colon Santa Fe",
+          "v": "Godoy Cruz",
+          "time": "Godoy Cruz",
+          "odd": 1.57,
+          "faixa": "MODERADA"
+        },
+        {
+          "m": "Ferro",
+          "v": "Almirante Brown",
+          "time": "Ferro",
+          "odd": 1,
+          "faixa": "NUCLEAR"
+        }
+      ],
+      "enigma": [
+        {
+          "m": "San Miguel",
+          "v": "Los Andes",
+          "sde": 79,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "4",
+          "sinalInverso": false,
+          "totalEstimado": 6.33
+        },
+        {
+          "m": "San Telmo",
+          "v": "All Boys",
+          "sde": 20,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.55
+        },
+        {
+          "m": "Temperley",
+          "v": "Patronato",
+          "sde": 15,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 7.07
+        },
+        {
+          "m": "San Martin S.J.",
+          "v": "Quilmes",
+          "sde": 43,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.4
+        },
+        {
+          "m": "Atl. Rafaela",
+          "v": "Gimnasia Jujuy",
+          "sde": 14,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 10.95
+        },
+        {
+          "m": "Deportivo Moron",
+          "v": "Racing Cordoba",
+          "sde": 50,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "5",
+          "sinalInverso": false,
+          "totalEstimado": 7.5
+        },
+        {
+          "m": "Nueva Chicago",
+          "v": "Colegiales",
+          "sde": 6,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 6.9
+        },
+        {
+          "m": "Tristan Suarez",
+          "v": "Gimnasia y Tiro",
+          "sde": 34,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7.67
+        },
+        {
+          "m": "Acassuso",
+          "v": "CA Estudiantes",
+          "sde": 46,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 8.75
+        },
+        {
+          "m": "Chacarita Juniors",
+          "v": "Midland",
+          "sde": 15,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": true,
+          "totalEstimado": 8.2
+        },
+        {
+          "m": "Agropecuario",
+          "v": "San Martin T.",
+          "sde": 57,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "2.5",
+          "sinalInverso": false,
+          "totalEstimado": 8.35
+        },
+        {
+          "m": "Deportivo Madryn",
+          "v": "Def. de Belgrano",
+          "sde": 45,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 5.3
+        },
+        {
+          "m": "Central Norte",
+          "v": "Ciudad Bolivar",
+          "sde": 61,
+          "classificacao": "WATCH",
+          "confianca": "BAIXA (WATCH)",
+          "linhaFT": "-1.0",
+          "linhaHT": "4",
+          "sinalInverso": false,
+          "totalEstimado": 4.93
+        },
+        {
+          "m": "Chaco For Ever",
+          "v": "CA Mitre",
+          "sde": 26,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 7.7
+        },
+        {
+          "m": "Club A. Guemes",
+          "v": "Atletico Atlanta",
+          "sde": 14,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.65
+        },
+        {
+          "m": "Deportivo Maipu",
+          "v": "Almagro",
+          "sde": 37,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 9.4
+        },
+        {
+          "m": "Colon Santa Fe",
+          "v": "Godoy Cruz",
+          "sde": 17,
+          "classificacao": "RUIDO",
+          "confianca": "",
+          "linhaFT": null,
+          "linhaHT": null,
+          "sinalInverso": false,
+          "totalEstimado": 12.45
+        },
+        {
+          "m": "Ferro",
+          "v": "Almirante Brown",
+          "sde": 91,
+          "classificacao": "ATIVO",
+          "confianca": "ALTA",
+          "linhaFT": "-2.5",
+          "linhaHT": "5",
+          "sinalInverso": false,
+          "totalEstimado": 12.27
+        }
+      ],
+      "cisne": [
+        {
+          "m": "San Miguel",
+          "v": "Los Andes"
+        },
+        {
+          "m": "Deportivo Moron",
+          "v": "Racing Cordoba"
+        },
+        {
+          "m": "Nueva Chicago",
+          "v": "Colegiales"
+        },
+        {
+          "m": "Chacarita Juniors",
+          "v": "Midland"
+        },
+        {
+          "m": "Agropecuario",
+          "v": "San Martin T."
+        },
+        {
+          "m": "Central Norte",
+          "v": "Ciudad Bolivar"
+        },
+        {
+          "m": "Club A. Guemes",
+          "v": "Atletico Atlanta"
+        },
+        {
+          "m": "Ferro",
+          "v": "Almirante Brown"
+        }
+      ]
+    }
+  }
+}

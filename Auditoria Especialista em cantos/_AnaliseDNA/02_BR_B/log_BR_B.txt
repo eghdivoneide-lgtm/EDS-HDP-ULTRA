@@ -1,0 +1,48 @@
+═══ AUDITORIA — BR_B — 2026-05-16 ═══
+Liga: Brasileirão Série B
+Total jogos: 77 | Válidos: 77
+Times: 20
+DNA disponível: sim
+
+— Etapa 1: PowerScore + categoria —
+— Etapa 2: Baselines —
+Baseline liga: 10.39 cantos/jogo (HT=4.83)
+— Etapa 3: Bucket Matrix —
+— Etapa 4: 12 Assinaturas —
+  BLITZ_INICIAL: 8 times
+  RETRANCA_AVANCADA: 2 times
+  EFETIVIDADE_CLINICA: 4 times
+  ATAQUE_ESTERIL: 7 times
+  MURO_DEFENSIVO: 2 times
+  DEFESA_PRECARIA: 0 times
+  RUPTURA_HOME: 9 times
+  ELITE_KILLER: 1 times
+  CARRINHO_FACIL: 0 times
+  DESEQUILIBRA_FAVORITO: 0 times
+  SUCUMBE_AZARAO: 0 times
+  TERMOMETRO_FORMA: 0 times
+— Etapa 5: Narrativas —
+— Etapa 6: Matriz DNA × DNA —
+Cruzamentos detectados: 16
+— Etapa 7: Montagem da memória —
+— Etapa 8: Divergências DNA × Performance: 2 detectadas
+
+— ⚠️ AVISO: cobertura de placar baixa (23.4%) —
+Assinaturas placar-dependentes com nao_avaliavel por time:
+  Nenhum time com 0 jogos de placar — distribuição uniforme da cobertura.
+  Mas amostra por time é pequena (cobertura geral: 18/77 jogos):
+    America MG: 2 jogo(s) com placar
+    Athletic Club: 2 jogo(s) com placar
+    Atletico GO: 2 jogo(s) com placar
+    Avai: 1 jogo(s) com placar
+    Botafogo SP: 2 jogo(s) com placar
+    CRB: 2 jogo(s) com placar
+    Ceara: 2 jogo(s) com placar
+    Criciuma: 2 jogo(s) com placar
+    Cuiaba: 2 jogo(s) com placar
+    Fortaleza: 2 jogo(s) com placar
+    ... (10 times restantes)
+  Consequência: assinaturas baseadas em gols têm confiabilidade muito baixa nesta liga.
+
+Tempo de processamento: 0.03s
+Arquivos gerados: memoria_BR_B.json, relatorio_BR_B.html, CHECKPOINT_BR_B.md

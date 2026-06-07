@@ -1,0 +1,82 @@
+═══════════════════════════════════════════════
+  VALIDAÇÃO DE DATASETS — 2026-05-15
+═══════════════════════════════════════════════
+
+DNA_ESCOTEIRO carregado. Ligas com entrada: BR, MLS, ARG, ARG_B, USL, BUN, BR_B, J2, J2_J3, ARG_M, CHN_1, CHN_2, CHN_SUP
+
+┌─ BR (Brasileirão Série A) ─────────────────────
+│ Jogos totais: 137
+│ Jogos com cantos válidos: 137 (100%)
+│ Com placar: 137 (100%)
+│ Com stats_taticas: 137 (100%)
+│ Times no dataset: 20
+│ DNA disponível: SIM
+│ Times no DNA: 20
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────
+
+┌─ BR_B (Brasileirão Série B) ─────────────────────
+│ Jogos totais: 68
+│ Jogos com cantos válidos: 68 (100%)
+│ Com placar: 9 (13.2%)
+│ Com stats_taticas: 68 (100%)
+│ Times no dataset: 20
+│ DNA disponível: SIM
+│ Times no DNA: 20
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────
+
+┌─ ARG (Argentina — Liga Profesional) ─────────────────────
+│ Jogos totais: 239
+│ Jogos com cantos válidos: 239 (100%)
+│ Com placar: 239 (100%)
+│ Com stats_taticas: 239 (100%)
+│ Times no dataset: 30
+│ DNA disponível: SIM
+│ Times no DNA: 30
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────
+
+┌─ ARG_B (Argentina — Primera Nacional) ─────────────────────
+│ Jogos totais: 199
+│ Jogos com cantos válidos: 198 (99.5%)
+│ Com placar: 198 (100%)
+│ Com stats_taticas: 195 (98.5%)
+│ Times no dataset: 36
+│ DNA disponível: SIM
+│ Times no DNA: 36
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────
+
+┌─ MLS (Major League Soccer) ─────────────────────
+│ Jogos totais: 163
+│ Jogos com cantos válidos: 163 (100%)
+│ Com placar: 163 (100%)
+│ Com stats_taticas: 163 (100%)
+│ Times no dataset: 30
+│ DNA disponível: SIM
+│ Times no DNA: 30
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────
+
+┌─ USL (USL Championship) ─────────────────────
+│ Jogos totais: 94
+│ Jogos com cantos válidos: 94 (100%)
+│ Com placar: 94 (100%)
+│ Com stats_taticas: 94 (100%)
+│ Times no dataset: 25
+│ DNA disponível: SIM
+│ Times no DNA: 25
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────
+
+┌─ BUN (Bundesliga) ─────────────────────
+│ Jogos totais: 288
+│ Jogos com cantos válidos: 288 (100%)
+│ Com placar: 35 (12.2%)
+│ Com stats_taticas: 288 (100%)
+│ Times no dataset: 18
+│ DNA disponível: SIM
+│ Times no DNA: 18
+│ ✅ Match completo dataset×DNA
+└──────────────────────────────────────────────

@@ -1,0 +1,93 @@
+{
+  "BR": {
+    "temporada": "Brasileirão Série A",
+    "jogos_planejados": 117,
+    "jogos_finalizados": 117,
+    "times": 20,
+    "rodadas_finaliz": 22,
+    "rodadas_max": 22,
+    "data_min": "2026-01-28",
+    "data_max": "2026-04-19",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 100.0,
+    "fin_pct": 100.0
+  },
+  "ARG": {
+    "temporada": "Liga Profesional Argentina 2026",
+    "jogos_planejados": 210,
+    "jogos_finalizados": 210,
+    "times": 30,
+    "rodadas_finaliz": 16,
+    "rodadas_max": 16,
+    "data_min": "2026-01-22",
+    "data_max": "2026-04-20",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 100.0,
+    "fin_pct": 100.0
+  },
+  "ARG_B": {
+    "temporada": "2026",
+    "jogos_planejados": 164,
+    "jogos_finalizados": 163,
+    "times": 36,
+    "rodadas_finaliz": 113,
+    "rodadas_max": 113,
+    "data_min": "2026-02-13",
+    "data_max": "2026-04-20",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 98.2,
+    "fin_pct": 98.2
+  },
+  "MLS": {
+    "temporada": null,
+    "jogos_planejados": 118,
+    "jogos_finalizados": 118,
+    "times": 30,
+    "rodadas_finaliz": 6,
+    "rodadas_max": 6,
+    "data_min": "2026-02-21",
+    "data_max": "2026-04-19",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 100.0,
+    "fin_pct": 100.0
+  },
+  "BUN": {
+    "temporada": "Bundesliga (Alemanha)",
+    "jogos_planejados": 270,
+    "jogos_finalizados": 270,
+    "times": 18,
+    "rodadas_finaliz": 217,
+    "rodadas_max": 218,
+    "data_min": "2025-08-23",
+    "data_max": "2026-04-19",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 100.0,
+    "fin_pct": 100.0
+  },
+  "J1": {
+    "temporada": "2026",
+    "jogos_planejados": 111,
+    "jogos_finalizados": 11,
+    "times": 20,
+    "rodadas_finaliz": 0,
+    "rodadas_max": 82,
+    "data_min": "2026-04-11",
+    "data_max": "2026-04-19",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 100.0,
+    "fin_pct": 100.0
+  },
+  "ALM": {
+    "temporada": "2025/2026",
+    "jogos_planejados": 90,
+    "jogos_finalizados": 7,
+    "times": 12,
+    "rodadas_finaliz": 0,
+    "rodadas_max": 72,
+    "data_min": "2026-04-12",
+    "data_max": "2026-04-19",
+    "cantos_ht_pct": 100.0,
+    "posse_pct": 100.0,
+    "fin_pct": 100.0
+  }
+}

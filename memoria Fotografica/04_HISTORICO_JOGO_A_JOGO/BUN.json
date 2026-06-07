@@ -1,0 +1,8192 @@
+{
+  "liga": "BUN",
+  "temporada": "Bundesliga (Alemanha)",
+  "ultimaAtualizacao": "2026-05-15",
+  "totalRodadas": 218,
+  "n_jogos": 297,
+  "n_times": 18,
+  "times": [
+    "Augsburg",
+    "B. Monchengladbach",
+    "Bayer Leverkusen",
+    "Bayern Munich",
+    "Dortmund",
+    "Eintracht Frankfurt",
+    "FC Koln",
+    "Freiburg",
+    "Hamburger SV",
+    "Heidenheim",
+    "Hoffenheim",
+    "Mainz",
+    "RB Leipzig",
+    "St. Pauli",
+    "Stuttgart",
+    "Union Berlin",
+    "Werder Bremen",
+    "Wolfsburg"
+  ],
+  "jogos": [
+    {
+      "rodada": 1,
+      "data": "03.12.2025 16:45",
+      "mandante": "Union Berlin",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 2,
+      "data": "04.04.2026 10:30",
+      "mandante": "Freiburg",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 30,
+          "v": 70
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 3,
+      "data": "21.03.2026 11:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 12,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 74,
+          "v": 26
+        },
+        "finalizacoes": {
+          "m": 31,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 4,
+      "data": "14.03.2026 11:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 4,
+      "data": "01.03.2026 15:30",
+      "mandante": "Hamburger SV",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 5,
+      "data": "04.04.2026 10:30",
+      "mandante": "Werder Bremen",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 6,
+      "data": "06.03.2026 16:30",
+      "mandante": "Bayern Munich",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 7,
+      "data": "28.02.2026 14:30",
+      "mandante": "Dortmund",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 33,
+          "v": 67
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 8,
+      "data": "21.02.2026 11:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 9,
+      "data": "14.02.2026 11:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 9,
+      "data": "07.03.2026 11:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 10,
+      "data": "08.02.2026 11:30",
+      "mandante": "FC Koln",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 10,
+      "data": "08.02.2026 13:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 11,
+      "data": "11.02.2026 16:45",
+      "mandante": "Bayern Munich",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 12,
+      "data": "31.01.2026 14:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 28,
+          "v": 72
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 13,
+      "data": "24.01.2026 11:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 14,
+      "data": "17.01.2026 14:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 15,
+      "data": "14.01.2026 16:30",
+      "mandante": "FC Koln",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 28,
+          "v": 72
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 16,
+      "data": "11.01.2026 13:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 16,
+      "data": "20.03.2026 16:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 17,
+      "data": "15.03.2026 15:30",
+      "mandante": "Stuttgart",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 18,
+      "data": "21.02.2026 14:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 19,
+      "data": "15.02.2026 13:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 20,
+      "data": "31.01.2026 11:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 21,
+      "data": "27.01.2026 16:30",
+      "mandante": "St. Pauli",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 22,
+      "data": "24.01.2026 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 26,
+          "v": 74
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 23,
+      "data": "14.01.2026 16:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 24,
+      "data": "01.02.2026 11:30",
+      "mandante": "Stuttgart",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 25,
+      "data": "01.03.2026 11:30",
+      "mandante": "Stuttgart",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 26,
+      "data": "04.03.2026 16:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 26,
+      "data": "04.04.2026 13:30",
+      "mandante": "Stuttgart",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 67,
+          "v": 33
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 27,
+      "data": "22.03.2026 15:30",
+      "mandante": "Augsburg",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 28,
+      "data": "07.03.2026 11:30",
+      "mandante": "Mainz",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 29,
+      "data": "22.02.2026 15:30",
+      "mandante": "Heidenheim",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 34,
+          "v": 66
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 30,
+      "data": "14.02.2026 14:30",
+      "mandante": "Stuttgart",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 31,
+      "data": "07.02.2026 11:30",
+      "mandante": "St. Pauli",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 32,
+          "v": 68
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 32,
+      "data": "25.01.2026 11:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 33,
+      "data": "18.01.2026 11:30",
+      "mandante": "Stuttgart",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 34,
+      "data": "13.01.2026 14:30",
+      "mandante": "Stuttgart",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 2
+        },
+        "ft": {
+          "m": 10,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 34,
+      "data": "04.04.2026 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 34,
+      "data": "04.04.2026 10:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 12,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 25,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 35,
+      "data": "07.03.2026 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 36,
+      "data": "10.01.2026 14:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 36,
+      "data": "10.04.2026 15:30",
+      "mandante": "Augsburg",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 34,
+          "v": 66
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 37,
+      "data": "14.03.2026 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 1
+        },
+        "ft": {
+          "m": 16,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 38,
+      "data": "28.02.2026 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 10,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 39,
+      "data": "21.02.2026 11:30",
+      "mandante": "FC Koln",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 36,
+          "v": 64
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 40,
+      "data": "14.02.2026 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 25,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 41,
+      "data": "31.01.2026 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 6
+        },
+        "ft": {
+          "m": 3,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 42,
+      "data": "27.01.2026 16:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 7
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 26,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 43,
+      "data": "24.01.2026 11:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 44,
+      "data": "17.01.2026 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 45,
+      "data": "14.01.2026 16:30",
+      "mandante": "Hoffenheim",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 45,
+      "data": "21.03.2026 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 46,
+      "data": "07.03.2026 11:30",
+      "mandante": "Freiburg",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 47,
+      "data": "28.02.2026 11:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 48,
+      "data": "21.02.2026 11:30",
+      "mandante": "Union Berlin",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 49,
+      "data": "14.02.2026 11:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 50,
+      "data": "07.02.2026 14:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 51,
+      "data": "31.01.2026 11:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 52,
+      "data": "24.01.2026 11:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 52,
+      "data": "05.04.2026 12:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 67,
+          "v": 33
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 53,
+      "data": "22.03.2026 11:30",
+      "mandante": "Mainz",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 30,
+          "v": 70
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 54,
+      "data": "14.03.2026 11:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 55,
+      "data": "01.03.2026 13:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 56,
+      "data": "06.02.2026 16:30",
+      "mandante": "Union Berlin",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 27,
+          "v": 73
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 57,
+      "data": "07.02.2026 11:30",
+      "mandante": "Freiburg",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 33,
+          "v": 67
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 58,
+      "data": "08.03.2026 11:30",
+      "mandante": "St. Pauli",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 28,
+          "v": 72
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 59,
+      "data": "14.02.2026 11:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 60,
+      "data": "16.01.2026 16:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 60,
+      "data": "07.02.2026 11:30",
+      "mandante": "Mainz",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 61,
+      "data": "09.01.2026 16:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 61,
+      "data": "22.03.2026 13:30",
+      "mandante": "St. Pauli",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 62,
+      "data": "15.03.2026 13:30",
+      "mandante": "Freiburg",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 73,
+          "v": 27
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 63,
+      "data": "22.02.2026 11:30",
+      "mandante": "Freiburg",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 64,
+      "data": "25.01.2026 13:30",
+      "mandante": "Freiburg",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 65,
+      "data": "18.01.2026 13:30",
+      "mandante": "Augsburg",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 3
+        },
+        "ft": {
+          "m": 9,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 65,
+      "data": "08.03.2026 13:30",
+      "mandante": "Union Berlin",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 26,
+          "v": 74
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 66,
+      "data": "10.01.2026 11:30",
+      "mandante": "Freiburg",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 66,
+      "data": "15.03.2026 11:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 67,
+      "data": "20.02.2026 16:30",
+      "mandante": "Mainz",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 68,
+      "data": "13.02.2026 16:30",
+      "mandante": "Dortmund",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 69,
+      "data": "24.01.2026 11:30",
+      "mandante": "Mainz",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 0
+        },
+        "ft": {
+          "m": 15,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 70,
+      "data": "17.01.2026 11:30",
+      "mandante": "FC Koln",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 71,
+      "data": "13.01.2026 16:30",
+      "mandante": "Mainz",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 72,
+      "data": "01.02.2026 13:30",
+      "mandante": "Dortmund",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 1
+        },
+        "ft": {
+          "m": 12,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 73,
+      "data": "04.04.2026 10:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 74,
+      "data": "05.04.2026 10:30",
+      "mandante": "Union Berlin",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 75,
+      "data": "07.02.2026 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 6
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 75,
+      "data": "07.02.2026 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 10,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 76,
+      "data": "07.03.2026 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 77,
+      "data": "10.01.2026 11:30",
+      "mandante": "Union Berlin",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 77,
+      "data": "14.03.2026 11:30",
+      "mandante": "Dortmund",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 12,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 78,
+      "data": "27.02.2026 16:30",
+      "mandante": "Augsburg",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 79,
+      "data": "21.02.2026 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 6
+        },
+        "ft": {
+          "m": 4,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 80,
+      "data": "15.02.2026 11:30",
+      "mandante": "Augsburg",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 81,
+      "data": "31.01.2026 11:30",
+      "mandante": "Augsburg",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 82,
+      "data": "15.01.2026 16:30",
+      "mandante": "Augsburg",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 82,
+      "data": "04.04.2026 10:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 83,
+      "data": "11.01.2026 11:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 84,
+      "data": "28.02.2026 11:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 85,
+      "data": "14.02.2026 11:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 86,
+      "data": "24.01.2026 14:30",
+      "mandante": "Union Berlin",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 86,
+      "data": "21.03.2026 11:30",
+      "mandante": "FC Koln",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 87,
+      "data": "13.03.2026 16:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 88,
+      "data": "31.01.2026 11:30",
+      "mandante": "Werder Bremen",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 89,
+      "data": "17.01.2026 11:30",
+      "mandante": "Hamburger SV",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 25,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 89,
+      "data": "21.03.2026 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 90,
+      "data": "28.02.2026 11:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 91,
+      "data": "22.02.2026 13:30",
+      "mandante": "St. Pauli",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 92,
+      "data": "13.01.2026 16:30",
+      "mandante": "Dortmund",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 92,
+      "data": "14.03.2026 14:30",
+      "mandante": "Hamburger SV",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 1,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 93,
+      "data": "07.03.2026 14:30",
+      "mandante": "FC Koln",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 94,
+      "data": "30.01.2026 16:30",
+      "mandante": "FC Koln",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 95,
+      "data": "10.01.2026 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 95,
+      "data": "23.01.2026 16:30",
+      "mandante": "St. Pauli",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 96,
+      "data": "17.01.2026 11:30",
+      "mandante": "Dortmund",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 97,
+      "data": "14.01.2026 14:30",
+      "mandante": "Wolfsburg",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 98,
+      "data": "17.01.2026 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 98,
+      "data": "21.03.2026 14:30",
+      "mandante": "Dortmund",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 11,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 99,
+      "data": "21.12.2025 13:30",
+      "mandante": "Heidenheim",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 0,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 26,
+          "v": 74
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 23
+        }
+      }
+    },
+    {
+      "rodada": 100,
+      "data": "14.12.2025 13:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 85,
+          "v": 15
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 101,
+      "data": "06.12.2025 11:30",
+      "mandante": "Stuttgart",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 102,
+      "data": "29.11.2025 11:30",
+      "mandante": "Bayern Munich",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 10,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 80,
+          "v": 20
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 103,
+      "data": "22.11.2025 11:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 72,
+          "v": 28
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 104,
+      "data": "01.11.2025 14:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 1
+        },
+        "ft": {
+          "m": 10,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 105,
+      "data": "25.10.2025 10:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 1,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 17,
+          "v": 83
+        },
+        "finalizacoes": {
+          "m": 1,
+          "v": 27
+        }
+      }
+    },
+    {
+      "rodada": 106,
+      "data": "18.10.2025 13:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 107,
+      "data": "04.10.2025 13:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 108,
+      "data": "26.09.2025 15:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 26,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 109,
+      "data": "20.09.2025 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 110,
+      "data": "13.09.2025 13:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 71,
+          "v": 29
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 111,
+      "data": "30.08.2025 13:30",
+      "mandante": "Augsburg",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 111,
+      "data": "19.12.2025 16:30",
+      "mandante": "Dortmund",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 112,
+      "data": "14.12.2025 11:30",
+      "mandante": "Freiburg",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 114,
+      "data": "06.12.2025 14:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 115,
+      "data": "07.12.2025 13:30",
+      "mandante": "Dortmund",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 116,
+      "data": "29.11.2025 14:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 10,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 117,
+      "data": "22.11.2025 11:30",
+      "mandante": "Dortmund",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 118,
+      "data": "08.11.2025 11:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 119,
+      "data": "31.10.2025 16:30",
+      "mandante": "Augsburg",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 120,
+      "data": "25.10.2025 13:30",
+      "mandante": "Dortmund",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 17,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 121,
+      "data": "04.10.2025 10:30",
+      "mandante": "Dortmund",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 122,
+      "data": "27.09.2025 10:30",
+      "mandante": "Mainz",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 123,
+      "data": "21.09.2025 14:30",
+      "mandante": "Dortmund",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 124,
+      "data": "13.09.2025 10:30",
+      "mandante": "Heidenheim",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 25,
+          "v": 75
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 125,
+      "data": "31.08.2025 12:30",
+      "mandante": "Dortmund",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 126,
+      "data": "23.08.2025 13:30",
+      "mandante": "St. Pauli",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 126,
+      "data": "20.12.2025 14:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 127,
+      "data": "01.11.2025 11:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 128,
+      "data": "12.12.2025 16:30",
+      "mandante": "Union Berlin",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 129,
+      "data": "28.11.2025 16:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 130,
+      "data": "23.11.2025 11:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 0
+        },
+        "ft": {
+          "m": 13,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 131,
+      "data": "08.11.2025 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 132,
+      "data": "25.10.2025 10:30",
+      "mandante": "Augsburg",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 133,
+      "data": "18.10.2025 10:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 134,
+      "data": "27.09.2025 10:30",
+      "mandante": "Wolfsburg",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 7
+        },
+        "ft": {
+          "m": 6,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 135,
+      "data": "20.09.2025 13:30",
+      "mandante": "RB Leipzig",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 136,
+      "data": "13.09.2025 10:30",
+      "mandante": "Mainz",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 137,
+      "data": "30.08.2025 10:30",
+      "mandante": "RB Leipzig",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 138,
+      "data": "20.12.2025 11:30",
+      "mandante": "Stuttgart",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 139,
+      "data": "14.12.2025 15:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 24
+        }
+      }
+    },
+    {
+      "rodada": 140,
+      "data": "30.11.2025 11:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 34,
+          "v": 66
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 141,
+      "data": "09.11.2025 13:30",
+      "mandante": "Stuttgart",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 142,
+      "data": "26.10.2025 13:30",
+      "mandante": "Stuttgart",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 143,
+      "data": "18.10.2025 10:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 144,
+      "data": "05.10.2025 10:30",
+      "mandante": "Stuttgart",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 145,
+      "data": "28.09.2025 12:30",
+      "mandante": "FC Koln",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 8,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 146,
+      "data": "19.09.2025 15:30",
+      "mandante": "Stuttgart",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 147,
+      "data": "13.09.2025 10:30",
+      "mandante": "Freiburg",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 147,
+      "data": "13.12.2025 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 148,
+      "data": "29.11.2025 11:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 149,
+      "data": "21.11.2025 16:30",
+      "mandante": "Mainz",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 150,
+      "data": "02.11.2025 13:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 151,
+      "data": "28.10.2025 16:45",
+      "mandante": "St. Pauli",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 8,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 152,
+      "data": "25.10.2025 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 153,
+      "data": "03.10.2025 15:30",
+      "mandante": "Hoffenheim",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 154,
+      "data": "28.09.2025 10:30",
+      "mandante": "Freiburg",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 155,
+      "data": "13.09.2025 10:30",
+      "mandante": "Union Berlin",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 156,
+      "data": "30.08.2025 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 157,
+      "data": "23.08.2025 10:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 158,
+      "data": "13.12.2025 14:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 159,
+      "data": "06.12.2025 11:30",
+      "mandante": "Augsburg",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 32,
+          "v": 68
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 160,
+      "data": "22.11.2025 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 161,
+      "data": "08.11.2025 11:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 11,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 74,
+          "v": 26
+        },
+        "finalizacoes": {
+          "m": 25,
+          "v": 1
+        }
+      }
+    },
+    {
+      "rodada": 162,
+      "data": "26.10.2025 11:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 163,
+      "data": "18.10.2025 10:30",
+      "mandante": "Mainz",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 163,
+      "data": "01.11.2025 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 28,
+          "v": 72
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 164,
+      "data": "04.10.2025 10:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 74,
+          "v": 26
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 165,
+      "data": "27.09.2025 10:30",
+      "mandante": "St. Pauli",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 1
+        },
+        "ft": {
+          "m": 13,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 166,
+      "data": "21.09.2025 12:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 167,
+      "data": "12.09.2025 15:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 168,
+      "data": "30.08.2025 10:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 168,
+      "data": "20.12.2025 11:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 169,
+      "data": "13.12.2025 11:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 170,
+      "data": "30.11.2025 13:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 9,
+          "v": 0
+        },
+        "ft": {
+          "m": 14,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 171,
+      "data": "22.11.2025 14:30",
+      "mandante": "FC Koln",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 172,
+      "data": "09.11.2025 15:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 173,
+      "data": "25.10.2025 10:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 174,
+      "data": "19.10.2025 10:30",
+      "mandante": "Freiburg",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 175,
+      "data": "27.09.2025 13:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 176,
+      "data": "21.09.2025 10:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 77,
+          "v": 23
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 177,
+      "data": "23.08.2025 10:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 177,
+      "data": "20.12.2025 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 178,
+      "data": "01.11.2025 11:30",
+      "mandante": "Union Berlin",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 178,
+      "data": "01.11.2025 11:30",
+      "mandante": "Mainz",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 179,
+      "data": "05.10.2025 12:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 179,
+      "data": "05.10.2025 14:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 180,
+      "data": "06.12.2025 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 8,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 181,
+      "data": "30.11.2025 15:30",
+      "mandante": "Freiburg",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 75,
+          "v": 25
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 1
+        }
+      }
+    },
+    {
+      "rodada": 182,
+      "data": "09.11.2025 11:30",
+      "mandante": "Freiburg",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 183,
+      "data": "20.09.2025 10:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 184,
+      "data": "31.08.2025 14:30",
+      "mandante": "FC Koln",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 184,
+      "data": "21.12.2025 11:30",
+      "mandante": "Mainz",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 5
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 185,
+      "data": "05.12.2025 16:30",
+      "mandante": "Mainz",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 186,
+      "data": "20.09.2025 10:30",
+      "mandante": "Augsburg",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 187,
+      "data": "31.08.2025 10:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 188,
+      "data": "24.08.2025 10:30",
+      "mandante": "Mainz",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 188,
+      "data": "20.12.2025 11:30",
+      "mandante": "Augsburg",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 9
+        },
+        "ft": {
+          "m": 6,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 189,
+      "data": "22.11.2025 11:30",
+      "mandante": "Augsburg",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 190,
+      "data": "18.10.2025 10:30",
+      "mandante": "FC Koln",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 191,
+      "data": "04.10.2025 10:30",
+      "mandante": "Augsburg",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 10,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 192,
+      "data": "27.09.2025 10:30",
+      "mandante": "Heidenheim",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 193,
+      "data": "14.09.2025 10:30",
+      "mandante": "St. Pauli",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 194,
+      "data": "23.08.2025 10:30",
+      "mandante": "Freiburg",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 194,
+      "data": "20.12.2025 11:30",
+      "mandante": "FC Koln",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 195,
+      "data": "06.12.2025 11:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 0,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 196,
+      "data": "29.11.2025 11:30",
+      "mandante": "Union Berlin",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 197,
+      "data": "23.11.2025 13:30",
+      "mandante": "St. Pauli",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 198,
+      "data": "24.10.2025 15:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 199,
+      "data": "17.10.2025 15:30",
+      "mandante": "Union Berlin",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 200,
+      "data": "28.09.2025 14:30",
+      "mandante": "Union Berlin",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 34,
+          "v": 66
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 201,
+      "data": "23.08.2025 10:30",
+      "mandante": "Union Berlin",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 5,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 25,
+          "v": 75
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 201,
+      "data": "02.11.2025 11:30",
+      "mandante": "FC Koln",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 202,
+      "data": "07.12.2025 11:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 203,
+      "data": "25.10.2025 10:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 204,
+      "data": "20.09.2025 10:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 7
+        },
+        "ft": {
+          "m": 1,
+          "v": 12
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 205,
+      "data": "29.08.2025 15:30",
+      "mandante": "Hamburger SV",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 206,
+      "data": "24.08.2025 12:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 4
+        },
+        "ft": {
+          "m": 7,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 207,
+      "data": "13.12.2025 11:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 208,
+      "data": "22.11.2025 11:30",
+      "mandante": "Heidenheim",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 209,
+      "data": "01.11.2025 11:30",
+      "mandante": "St. Pauli",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 210,
+      "data": "08.11.2025 14:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 36,
+          "v": 64
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 211,
+      "data": "14.09.2025 12:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 212,
+      "data": "30.08.2025 10:30",
+      "mandante": "Stuttgart",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 7
+        },
+        "ft": {
+          "m": 6,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 212,
+      "data": "29.11.2025 11:30",
+      "mandante": "Werder Bremen",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 213,
+      "data": "07.11.2025 16:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 13,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 214,
+      "data": "18.10.2025 10:30",
+      "mandante": "Heidenheim",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 12,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 31,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 215,
+      "data": "04.10.2025 10:30",
+      "mandante": "Werder Bremen",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 216,
+      "data": "06.12.2025 11:30",
+      "mandante": "FC Koln",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 217,
+      "data": "13.09.2025 10:30",
+      "mandante": "Wolfsburg",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 217,
+      "data": "13.12.2025 11:30",
+      "mandante": "St. Pauli",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 36,
+          "v": 64
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 218,
+      "data": "23.08.2025 10:30",
+      "mandante": "Heidenheim",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "12.04.2026 14:30",
+      "mandante": "Mainz",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "12.04.2026 12:30",
+      "mandante": "Stuttgart",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "12.04.2026 10:30",
+      "mandante": "FC Koln",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "11.04.2026 13:30",
+      "mandante": "St. Pauli",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 23,
+          "v": 77
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "11.04.2026 10:30",
+      "mandante": "Dortmund",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "11.04.2026 10:30",
+      "mandante": "Heidenheim",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "11.04.2026 10:30",
+      "mandante": "RB Leipzig",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 11,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "11.04.2026 10:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "19.04.2026 14:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 0,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "19.04.2026 12:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 11,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 28,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "19.04.2026 10:30",
+      "mandante": "Freiburg",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "18.04.2026 13:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "18.04.2026 10:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 11,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 35,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "18.04.2026 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "18.04.2026 10:30",
+      "mandante": "Union Berlin",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 11,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 25,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "18.04.2026 10:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "17.04.2026 15:30",
+      "mandante": "St. Pauli",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "RB Leipzig",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 10,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 67,
+          "v": 33
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Augsburg",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "FC Koln",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 25,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Heidenheim",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Mainz",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 30,
+          "v": 70
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Wolfsburg",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 8,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Hamburger SV",
+      "visitante": "Hoffenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 9
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Stuttgart",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 2
+        },
+        "ft": {
+          "m": 14,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "2026-04-26",
+      "mandante": "Dortmund",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 0
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 14:30",
+      "mandante": "Freiburg",
+      "visitante": "Wolfsburg",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 12:30",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Dortmund",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 10:30",
+      "mandante": "St. Pauli",
+      "visitante": "Mainz",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 7,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 13:30",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "RB Leipzig",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 10:30",
+      "mandante": "Bayern Munich",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 13,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 75,
+          "v": 25
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 10:30",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Hamburger SV",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Stuttgart",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 10:30",
+      "mandante": "Union Berlin",
+      "visitante": "FC Koln",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 10:30",
+      "mandante": "Werder Bremen",
+      "visitante": "Augsburg",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 14:30",
+      "mandante": "Mainz",
+      "visitante": "Union Berlin",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 6
+        },
+        "ft": {
+          "m": 7,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 12:30",
+      "mandante": "FC Koln",
+      "visitante": "Heidenheim",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 10:30",
+      "mandante": "Hamburger SV",
+      "visitante": "Freiburg",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 13:30",
+      "mandante": "Wolfsburg",
+      "visitante": "Bayern Munich",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 32,
+          "v": 68
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 10:30",
+      "mandante": "Augsburg",
+      "visitante": "B. Monchengladbach",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 10:30",
+      "mandante": "Hoffenheim",
+      "visitante": "Werder Bremen",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 72,
+          "v": 28
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 10:30",
+      "mandante": "RB Leipzig",
+      "visitante": "St. Pauli",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 70,
+          "v": 30
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 10:30",
+      "mandante": "Stuttgart",
+      "visitante": "Bayer Leverkusen",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "08.05.2026 15:30",
+      "mandante": "Dortmund",
+      "visitante": "Eintracht Frankfurt",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 9
+        }
+      }
+    }
+  ]
+}

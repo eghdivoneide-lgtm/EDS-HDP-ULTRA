@@ -1,0 +1,28 @@
+node_modules/
+*.png
+*.jpg
+data/prints/
+
+# Scraper: dados brutos e debug (não versionar)
+scraper/raw_*.json
+scraper/diagnose_html.txt
+scraper/diagnose_text.txt
+scraper/test_output_safe.json
+scraper/match_ids_*.json
+scraper/package-lock.json
+
+# Backups manuais — use tags/branches em vez disso.
+# Se precisar de um snapshot, crie uma tag (ex: v-antes-X-YYYY-MM-DD).
+*.backup_*
+*.prefusion_*
+*.pre-*
+_backups/
+data/_quarentena/
+_arquivo-backups-*/
+
+# Plan files locais do Claude Code
+.claude/
+
+# Arquivos temporários do Word
+~$*.docx
+~$*.doc

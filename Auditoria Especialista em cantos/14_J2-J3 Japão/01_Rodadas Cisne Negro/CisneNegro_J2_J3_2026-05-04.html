@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>🦢 Radar Cisne Negro — J2_J3 — 2026-05-04</title>
+<style>
+
+    :root {
+      --bg:       #0a0f0d;
+      --bg2:      #111a14;
+      --bg3:      #162019;
+      --border:   rgba(52,211,103,0.15);
+      --green:    #34d367;
+      --green2:   #22c55e;
+      --gold:     #f59e0b;
+      --gold2:    #fbbf24;
+      --red:      #ef4444;
+      --text:     #e8f5ee;
+      --muted:    #6b8f79;
+      --card:     rgba(22,32,25,0.85);
+      --glass:    rgba(52,211,103,0.06);
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;}
+
+    /* ── HEADER ── */
+    header{
+      background:linear-gradient(135deg,#0a2e18 0%,#0f1f13 50%,#0a0f0d 100%);
+      border-bottom:1px solid var(--border);
+      padding:1.2rem 2rem;
+      display:flex;align-items:center;justify-content:space-between;
+      position:sticky;top:0;z-index:100;
+      backdrop-filter:blur(12px);
+    }
+    .logo{display:flex;align-items:center;gap:.75rem;}
+    .logo-icon{font-size:2rem;}
+    .logo-text h1{font-size:1.1rem;font-weight:800;color:var(--green);letter-spacing:-.5px;}
+    .logo-text p{font-size:.7rem;color:var(--muted);font-weight:500;letter-spacing:.5px;text-transform:uppercase;}
+    .badge{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;font-size:.65rem;font-weight:800;padding:.25rem .6rem;border-radius:99px;letter-spacing:.5px;}
+
+    /* ── NAV (v2 — tabs de grupo + sub-nav contextual) ── */
+    /* Tabs de grupo (sempre visível no topo) */
+    .nav-grupos {
+      display:flex; gap:.2rem; padding:0 2rem;
+      background:var(--bg3); border-bottom:1px solid var(--border);
+      overflow-x:auto; flex-wrap:wrap;
+    }
+    .nav-grupos .tab-grupo {
+      background:transparent; color:var(--muted); border:none;
+      border-bottom:3px solid transparent;
+      padding:.85rem 1.4rem; font-size:.85rem; font-weight:800;
+      cursor:pointer; transition:all .15s; white-space:nowrap;
+      font-family:'Inter',sans-serif; letter-spacing:.3px;
+    }
+    .nav-grupos .tab-grupo:hover { color:var(--text); background:rgba(255,255,255,0.02); }
+    .nav-grupos .tab-grupo.active {
+      color:var(--green); border-bottom-color:var(--green);
+      background:rgba(52,211,103,0.05);
+    }
+    .nav-grupos .tab-grupo.has-active::after {
+      content:'•'; color:var(--green); font-size:1.2rem; margin-left:.4rem; line-height:0;
+    }
+    /* Sub-nav contextual (mostra views do grupo ativo) */
+    nav, #nav-subnav {
+      display:flex; gap:.5rem; padding:1rem 2rem;
+      background:var(--bg2); border-bottom:1px solid var(--border);
+      overflow-x:auto;
+    }
+    nav button, #nav-subnav button {
+      background:transparent; border:1px solid var(--border);
+      color:var(--muted); font-family:'Inter',sans-serif;
+      font-size:.8rem; font-weight:600;
+      padding:.5rem 1rem; border-radius:8px; cursor:pointer;
+      transition:all .2s; white-space:nowrap;
+    }
+    nav button.active, nav button:hover,
+    #nav-subnav button.active, #nav-subnav button:hover {
+      background:var(--glass); border-color:var(--green); color:var(--green);
+    }
+    #btn-enigma.active, #btn-enigma:hover {
+      background:rgba(139,92,246,0.2) !important; border-color:#a78bfa !important; color:#a78bfa !important;
+    }
+    #btn-auditoria.active, #btn-auditoria:hover {
+      background:rgba(52,211,103,0.2) !important; border-color:var(--green) !important; color:var(--green) !important;
+    }
+
+    /* ── ENIGMA ── */
+    .enigma-card {
+      background:linear-gradient(135deg,rgba(22,16,42,0.95),rgba(30,20,55,0.9));
+      border:1px solid rgba(139,92,246,0.25);border-radius:16px;padding:1.4rem;
+      margin-bottom:1rem;transition:transform .2s,border-color .2s;
+      position:relative;overflow:hidden;
+    }
+    .enigma-card::before {
+      content:'';position:absolute;top:0;left:0;right:0;height:3px;
+      background:linear-gradient(90deg,#7c3aed,#a78bfa,transparent);
+    }
+    .enigma-card:hover { transform:translateY(-2px);border-color:rgba(139,92,246,0.5); }
+    .enigma-card.sinal-ativo { border-color:rgba(139,92,246,0.7);box-shadow:0 0 20px rgba(139,92,246,0.15); }
+    .enigma-card.sinal-ativo::before { background:linear-gradient(90deg,#7c3aed,#ec4899,#a78bfa); }
+    .enigma-card.sinal-watch { border-color:rgba(245,158,11,0.5); }
+    .enigma-card.sinal-watch::before { background:linear-gradient(90deg,#f59e0b,#fbbf24,transparent); }
+    .enigma-card.sinal-ruido { opacity:.55; }
+    .enigma-sde-bar {
+      width:100%;height:8px;background:rgba(255,255,255,0.07);border-radius:4px;margin:.5rem 0;overflow:hidden;
+    }
+    .enigma-sde-fill {
+      height:100%;border-radius:4px;transition:width .6s cubic-bezier(.4,0,.2,1);
+    }
+    .enigma-pill {
+      display:inline-flex;align-items:center;gap:.3rem;font-size:.7rem;font-weight:700;
+      padding:.25rem .6rem;border-radius:6px;
+    }
+    .enigma-grid { display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:.8rem; }
+    .enigma-stat-row { display:flex;align-items:center;justify-content:space-between;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:.8rem; }
+    .enigma-stat-row:last-child { border-bottom:none; }
+    .enigma-recomendar {
+      display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;
+      margin-top:1rem;padding:.8rem;background:rgba(52,211,103,0.05);border-radius:10px;border:1px solid rgba(52,211,103,0.15);
+    }
+    .enigma-linha-tag {
+      font-size:.9rem;font-weight:800;padding:.4rem .9rem;border-radius:8px;
+      background:linear-gradient(135deg,rgba(52,211,103,0.2),rgba(34,197,94,0.1));
+      border:1px solid var(--green);color:var(--green);letter-spacing:.5px;
+    }
+    .enigma-linha-tag.gold { background:linear-gradient(135deg,rgba(245,158,11,0.2),rgba(251,191,36,0.1));border-color:var(--gold);color:var(--gold); }
+    .enigma-alerta-proibido {
+      font-size:.7rem;color:#ef4444;font-weight:700;
+      display:flex;align-items:center;gap:.3rem;margin-top:.4rem;
+    }
+    .enigma-veredito-bar {
+      display:flex;align-items:center;gap:.6rem;margin:.6rem 0;
+    }
+    .enigma-team-label { font-size:.95rem;font-weight:800;color:var(--text); }
+    .enigma-vs { font-size:.7rem;color:var(--muted);font-weight:700;padding:0 .3rem; }
+
+    /* ── MAIN ── */
+    main{padding:1.5rem 2rem;max-width:1200px;margin:0 auto;}
+
+    /* ── VIEWS ── */
+    .view{display:none;}
+    .view.active{display:block;}
+
+    /* ── CARDS GRID ── */
+    .grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:1.5rem;}
+    .stat-card{
+      background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1.2rem;
+      backdrop-filter:blur(8px);position:relative;overflow:hidden;
+      transition:transform .2s,border-color .2s;
+    }
+    .stat-card:hover{transform:translateY(-2px);border-color:var(--green);}
+    .stat-card::before{
+      content:'';position:absolute;top:0;left:0;right:0;height:2px;
+      background:linear-gradient(90deg,var(--green),transparent);
+    }
+    .stat-card .label{font-size:.7rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.4rem;}
+    .stat-card .value{font-size:2rem;font-weight:900;color:var(--green);line-height:1;}
+    .stat-card .sub{font-size:.75rem;color:var(--muted);margin-top:.3rem;}
+    .stat-card .icon{position:absolute;right:1rem;top:1rem;font-size:1.5rem;opacity:.3;}
+
+    /* ── SECTION TITLE ── */
+    .section-title{
+      font-size:1rem;font-weight:700;color:var(--text);
+      margin-bottom:1rem;display:flex;align-items:center;gap:.5rem;
+    }
+    .section-title span{color:var(--green);}
+
+    /* ── TABLE ── */
+    .table-wrap{overflow-x:auto;border-radius:12px;border:1px solid var(--border);}
+    table{width:100%;border-collapse:collapse;font-size:.82rem;}
+    thead tr{background:var(--bg3);border-bottom:1px solid var(--border);}
+    thead th{padding:.75rem 1rem;text-align:left;font-weight:700;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;}
+    tbody tr{border-bottom:1px solid rgba(52,211,103,0.05);transition:background .15s;}
+    tbody tr:hover{background:var(--glass);}
+    tbody td{padding:.7rem 1rem;color:var(--text);}
+    .td-num{text-align:center;font-variant-numeric:tabular-nums;font-weight:600;}
+    .td-team{font-weight:600;}
+    .rank{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--bg3);font-size:.72rem;font-weight:700;color:var(--muted);}
+    .rank.top{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;}
+    .badge-ht{background:rgba(245,158,11,.15);color:var(--gold);padding:.2rem .5rem;border-radius:5px;font-size:.72rem;font-weight:700;}
+    .badge-ft{background:rgba(52,211,103,.15);color:var(--green);padding:.2rem .5rem;border-radius:5px;font-size:.72rem;font-weight:700;}
+
+    /* ── SELECTS ── */
+    .controls{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem;}
+    .select-group{display:flex;flex-direction:column;gap:.4rem;flex:1;min-width:160px;}
+    .select-group label{font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;}
+    select,input{
+      background:var(--bg2);border:1px solid var(--border);color:var(--text);
+      font-family:'Inter',sans-serif;font-size:.85rem;font-weight:500;
+      padding:.55rem .85rem;border-radius:8px;cursor:pointer;
+      transition:border-color .2s;appearance:none;width:100%;
+    }
+    select:focus,input:focus{outline:none;border-color:var(--green);}
+
+    /* ── PROJEÇÃO ── */
+    .proj-card{
+      background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;
+      margin-bottom:1rem;backdrop-filter:blur(8px);
+    }
+    .proj-vs{font-size:1.4rem;font-weight:900;text-align:center;margin-bottom:1.2rem;}
+    .proj-vs .vs{color:var(--muted);font-size:.9rem;margin:0 .5rem;}
+    .proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+    .proj-box{
+      background:var(--bg3);border:1px solid var(--border);border-radius:12px;padding:1rem;text-align:center;
+    }
+    .proj-box .plabel{font-size:.7rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.5rem;}
+    .proj-box .pval{font-size:2.2rem;font-weight:900;line-height:1;}
+    .proj-box .pval.ht{color:var(--gold);}
+    .proj-box .pval.ft{color:var(--green);}
+    .proj-box .psub{font-size:.72rem;color:var(--muted);margin-top:.3rem;}
+    .conf-bar-wrap{margin-top:.5rem;}
+    .conf-bar-bg{height:6px;background:var(--bg3);border-radius:3px;overflow:hidden;margin-top:.3rem;}
+    .conf-bar{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--green2),var(--green));transition:width .6s ease;}
+    .conf-label{font-size:.7rem;color:var(--muted);}
+
+    /* ── DASHBOARD APOSTAS ── */
+    .market-list{background:var(--bg3);border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+    .market-header{background:rgba(52,211,103,0.1);padding:.6rem 1rem;font-weight:800;font-size:.75rem;text-transform:uppercase;color:var(--green);border-bottom:1px solid var(--border);}
+    .market-row{display:flex;justify-content:space-between;align-items:center;padding:.65rem 1rem;border-bottom:1px solid rgba(52,211,103,0.05);font-size:.85rem;color:var(--text);}
+    .market-row:last-child{border-bottom:none;}
+    .market-row span{font-weight:600;}
+
+    .power-bar-wrap{display:flex;align-items:center;gap:.5rem;margin-top:.4rem;}
+    .power-val{font-size:.7rem;font-weight:700;width:30px;text-align:right;}
+    .power-bar-bg{flex:1;height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;}
+    .power-bar{height:100%;border-radius:3px;}
+    .power-atk{background:linear-gradient(90deg,var(--green2),var(--green));}
+    .power-def{background:linear-gradient(90deg,var(--red),#fca5a5);}
+
+    /* ── JOGOS HISTÓRICO ── */
+    .jogos-list{display:flex;flex-direction:column;gap:.5rem;}
+    .jogo-row{
+      display:grid;grid-template-columns:60px 1fr auto auto auto auto;align-items:center;gap:.75rem;
+      background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:.65rem 1rem;
+      font-size:.8rem;transition:border-color .15s;
+    }
+    .jogo-row:hover{border-color:var(--green);}
+    .jogo-data{color:var(--muted);font-size:.72rem;}
+    .jogo-times{font-weight:600;}
+    .jogo-times .home{color:var(--text);}
+    .jogo-times .away{color:var(--muted);}
+
+    /* ── EMPTY/LOADING ── */
+    .empty{text-align:center;padding:3rem;color:var(--muted);}
+    .empty .eicon{font-size:3rem;margin-bottom:.75rem;}
+    .empty p{font-size:.85rem;}
+
+    /* ── ALERT ── */
+    .alert{
+      background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.3);
+      border-radius:10px;padding:.75rem 1rem;font-size:.8rem;color:var(--gold);
+      margin-bottom:1rem;display:flex;align-items:center;gap:.5rem;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:600px){
+      header{padding:1rem;}
+      main{padding:1rem;}
+      nav{padding:.75rem 1rem;}
+      .proj-grid{grid-template-columns:1fr;}
+      .jogo-row{grid-template-columns:50px 1fr auto auto;}
+    }
+
+    /* ── SMARTCOACH IA ── */
+    #sc-bubble{
+      position:fixed;bottom:20px;right:20px;width:60px;height:60px;
+      background:linear-gradient(135deg,var(--green),var(--green2));
+      border-radius:50%;display:flex;align-items:center;justify-content:center;
+      font-size:1.8rem;cursor:pointer;box-shadow:0 10px 25px rgba(52,211,103,0.3);
+      z-index:900;transition:transform .2s;
+    }
+    #sc-bubble:hover{transform:scale(1.1);}
+    #sc-drawer{
+      position:fixed;bottom:90px;right:20px;width:380px;height:550px;max-height:80vh;max-width:90vw;
+      background:var(--bg2);border:1px solid var(--border);border-radius:16px;
+      box-shadow:0 15px 40px rgba(0,0,0,0.5);z-index:901;
+      display:flex;flex-direction:column;overflow:hidden;
+      transform:translateY(20px);opacity:0;pointer-events:none;
+      transition:all .35s cubic-bezier(0.175,0.885,0.32,1.275);
+    }
+    #sc-drawer.open{transform:translateY(0);opacity:1;pointer-events:auto;}
+    #sc-drawer.fullscreen{
+      top:0!important;left:0!important;right:0!important;bottom:0!important;
+      width:100vw!important;height:100vh!important;max-height:100vh!important;max-width:100vw!important;
+      border-radius:0!important;border:none!important;
+    }
+    .sc-header{
+      background:linear-gradient(135deg,#0d381c 0%,#0a1f12 100%);padding:1rem;
+      display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border);
+    }
+    .sc-header-title{display:flex;align-items:center;gap:.5rem;font-weight:700;}
+    .sc-header-actions{display:flex;gap:.5rem;}
+    .sc-btn{background:transparent;border:none;color:var(--text);cursor:pointer;font-size:1rem;opacity:.7;transition:opacity .2s;}
+    .sc-btn:hover{opacity:1;}
+    #sc-chat{flex:1;padding:1rem;overflow-y:auto;display:flex;flex-direction:column;gap:1rem;}
+    .msg{max-width:90%;padding:.9rem 1rem;border-radius:14px;font-size:.85rem;line-height:1.55;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.01em;}
+    .msg-bot{
+      background:linear-gradient(135deg,rgba(22,32,25,0.95),rgba(14,22,17,0.95));
+      border:1px solid rgba(52,211,103,0.18);
+      align-self:flex-start;border-bottom-left-radius:3px;
+      box-shadow:0 4px 14px rgba(0,0,0,0.25);
+    }
+    .msg-user{background:rgba(52,211,103,0.12);border:1px solid rgba(52,211,103,0.28);align-self:flex-end;border-bottom-right-radius:3px;color:var(--text);}
+
+    /* ── SmartCoach v3.3 — tipografia e blocos elegantes ── */
+    .msg-bot .sc-h{
+      font-family:'Inter',sans-serif;font-weight:800;color:var(--gold);
+      margin:.85rem 0 .45rem;letter-spacing:.02em;line-height:1.3;
+      padding-bottom:.3rem;border-bottom:1px solid rgba(245,158,11,0.18);
+    }
+    .msg-bot h2.sc-h{font-size:1.02rem;}
+    .msg-bot h3.sc-h{font-size:.92rem;}
+    .msg-bot h4.sc-h{font-size:.85rem;border-bottom:none;padding-bottom:0;}
+    .msg-bot h5.sc-h, .msg-bot h6.sc-h{font-size:.8rem;border-bottom:none;padding-bottom:0;}
+    .msg-bot .sc-h:first-child{margin-top:0;}
+
+    .msg-bot .sc-p{margin:.35rem 0;color:var(--text);}
+    .msg-bot .sc-p:first-child{margin-top:0;}
+    .msg-bot .sc-p:last-child{margin-bottom:0;}
+
+    .msg-bot strong{color:var(--green);font-weight:700;}
+    .msg-bot em{color:var(--gold);font-style:normal;font-weight:600;}
+
+    .msg-bot .sc-div{
+      border:none;height:1px;margin:1rem 0;
+      background:linear-gradient(90deg,transparent,rgba(245,158,11,0.35),transparent);
+    }
+
+    .msg-bot .sc-list{margin:.4rem 0 .4rem 0;padding-left:1.1rem;}
+    .msg-bot .sc-list li{margin:.22rem 0;color:var(--text);position:relative;}
+    .msg-bot ul.sc-list{list-style:none;padding-left:.2rem;}
+    .msg-bot ul.sc-list li::before{content:'▸ ';color:var(--gold);font-weight:700;margin-right:.15rem;}
+    .msg-bot ol.sc-list li::marker{color:var(--gold);font-weight:700;}
+
+    .msg-bot .sc-tab{
+      width:100%;border-collapse:separate;border-spacing:0;
+      margin:.7rem 0;font-size:.8rem;
+      background:var(--bg);border:1px solid rgba(52,211,103,0.15);
+      border-radius:8px;overflow:hidden;
+      box-shadow:inset 0 0 0 1px rgba(255,255,255,0.02);
+    }
+    .msg-bot .sc-tab thead th{
+      background:linear-gradient(135deg,rgba(52,211,103,0.14),rgba(245,158,11,0.08));
+      color:var(--gold);font-weight:700;font-size:.72rem;
+      letter-spacing:.05em;text-transform:uppercase;
+      padding:.55rem .65rem;text-align:left;
+      border-bottom:1px solid rgba(52,211,103,0.22);
+    }
+    .msg-bot .sc-tab tbody td{
+      padding:.5rem .65rem;color:var(--text);
+      border-bottom:1px solid rgba(255,255,255,0.04);
+    }
+    .msg-bot .sc-tab tbody tr:last-child td{border-bottom:none;}
+    .msg-bot .sc-tab tbody tr:nth-child(even) td{background:rgba(255,255,255,0.015);}
+    .msg-bot .sc-tab tbody tr:hover td{background:rgba(52,211,103,0.05);}
+    .msg-bot .sc-tab td:first-child{color:var(--muted);font-weight:500;}
+    .msg-bot .sc-tab td strong{color:var(--green);}
+    .msg-bot .sc-tab td em{color:var(--gold);}
+
+    .msg-bot code.sc-inline{
+      background:rgba(52,211,103,0.08);color:var(--green);
+      padding:.05rem .35rem;border-radius:4px;font-size:.78rem;
+      font-family:'SF Mono','Monaco',monospace;letter-spacing:.01em;
+    }
+
+    /* Rótulo discreto "🤖 SmartCoach" sempre visível no topo da bolha */
+    .msg-bot::before{
+      content:'🤖 SmartCoach';display:block;font-size:.62rem;font-weight:700;
+      color:var(--muted);letter-spacing:.1em;text-transform:uppercase;
+      margin-bottom:.5rem;opacity:.6;
+    }
+    .sc-input-area{padding:.8rem;background:var(--bg3);border-top:1px solid var(--border);display:flex;flex-direction:column;gap:.5rem;}
+    .sc-input-row{display:flex;gap:.5rem;align-items:center;}
+    #sc-input{flex:1;background:var(--bg);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:.6rem .8rem;font-size:.85rem;}
+    #sc-send{background:var(--green);color:#000;border:none;border-radius:8px;padding:0 1rem;font-weight:700;cursor:pointer;white-space:nowrap;}
+    /* ── Botão câmera ── */
+    #sc-img-btn{
+      background:rgba(245,158,11,0.15);border:1.5px solid var(--gold);color:var(--gold);
+      border-radius:8px;padding:0 .8rem;font-size:1.1rem;cursor:pointer;
+      transition:all .2s;height:36px;font-weight:700;
+    }
+    #sc-img-btn:hover{background:rgba(245,158,11,0.3);box-shadow:0 0 8px rgba(245,158,11,0.4);}
+    #sc-img-btn.ativo{background:rgba(245,158,11,0.35);box-shadow:0 0 12px rgba(245,158,11,0.6);}
+    #sc-file-input{display:none;}
+    /* ── Preview múltiplas imagens ── */
+    #sc-img-preview{
+      display:none;flex-wrap:wrap;gap:.4rem;
+      background:var(--bg);border:1px solid rgba(245,158,11,0.3);
+      border-radius:8px;padding:.5rem;align-items:center;
+    }
+    #sc-img-preview.visivel{display:flex;}
+    .sc-thumb-wrap{position:relative;display:inline-block;}
+    .sc-thumb-wrap img{
+      width:52px;height:52px;object-fit:cover;
+      border-radius:6px;border:1px solid var(--gold);display:block;
+    }
+    .sc-thumb-remove{
+      position:absolute;top:-5px;right:-5px;
+      background:var(--red);color:#fff;border:none;border-radius:50%;
+      width:16px;height:16px;font-size:.6rem;cursor:pointer;
+      display:flex;align-items:center;justify-content:center;line-height:1;
+    }
+    .sc-img-count{font-size:.7rem;color:var(--gold);font-weight:700;padding:.2rem .5rem;}
+    #sc-img-clear-all{
+      background:none;border:1px solid var(--red);color:var(--red);
+      border-radius:6px;cursor:pointer;font-size:.65rem;padding:.2rem .5rem;
+      margin-left:auto;
+    }
+    #sc-img-clear-all:hover{background:rgba(239,68,68,0.1);}
+    /* ── Drag-over ── */
+    #sc-drawer.drag-over #sc-chat{
+      border:2px dashed var(--gold);background:rgba(245,158,11,0.05);
+    }
+    #sc-settings{
+      position:absolute;top:0;left:0;width:100%;height:100%;background:var(--bg2);z-index:902;
+      padding:2rem 1.5rem;display:none;flex-direction:column;
+    }
+    #sc-settings.active{display:flex;}
+  
+body { background: var(--bg); padding: 2rem; color: var(--text); font-family: 'Inter','Segoe UI',system-ui,sans-serif; margin: 0; }
+.container { max-width: 1100px; margin: 0 auto; }
+.cabecalho-export { text-align: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid var(--gold); }
+.cabecalho-export h1 { color: var(--gold); margin: 0; font-size: 2rem; text-transform: uppercase; letter-spacing: 1.5px; }
+.cabecalho-export p { color: var(--muted); margin-top: .4rem; font-size: .95rem; }
+.cabecalho-export .meta { font-size: .8rem; color: var(--gold); margin-top: .4rem; opacity: .85; }
+.grid4 { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; }
+.stat-card { background: var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="cabecalho-export">
+    <h1>🦢 Radar Cisne Negro</h1>
+    <p>8 jogos com vantagem projetada ≥ 2.0 cantos</p>
+    <div class="meta">Liga: J2_J3 · 03/05/2026 às 22:02:11</div>
+  </div>
+  <div class="grid4"><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Iwata <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Iwaki</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Iwaki</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+6.21 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Vegalta Sendai <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Blaublitz</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Vegalta Sendai</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+2.45 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Yokohama FC <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Sagamihara</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Yokohama FC</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+7.46 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Nagano <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Fujieda MYFC</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Fujieda MYFC</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+4.03 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Vanraure <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Kusatsu</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Vanraure</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+2.53 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Yamaga <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Kofu</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Yamaga</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+2.38 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Fukushima Utd <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Omiya Ardija</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Omiya Ardija</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+3.23 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div><div class="stat-card" style="border-color: var(--gold);">
+    <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+    <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">Ryukyu <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> Kagoshima Utd</div>
+    <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+      <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">Kagoshima Utd</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+4.27 cantos</span></div>
+      <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+    </div>
+    
+  </div></div>
+  <div style="text-align:center; padding-top:2rem; margin-top:2rem; border-top:1px solid var(--border); color:var(--muted); font-size:.8rem">
+    Gerado pelo Especialista em Cantos · EDS Análise
+  </div>
+</div>
+</body>
+</html>

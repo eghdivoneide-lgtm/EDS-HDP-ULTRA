@@ -1,0 +1,688 @@
+{
+  "liga": "Argentina — Liga Profesional 2026",
+  "gerado_em": "2026-04-09",
+  "jogos_analisados": 180,
+  "baseline": {
+    "media_cantos_HT": 4.09,
+    "media_cantos_FT": 8.5,
+    "l_htH": 2.461,
+    "l_htA": 1.628,
+    "l_ftH": 4.978,
+    "l_ftA": 3.522
+  },
+  "perfis_times": {
+    "Instituto": {
+      "n_jogos": 7,
+      "xHT_mandante": 3.61,
+      "xFT_mandante": 4.84,
+      "xHT_visitante": 1.82,
+      "xFT_visitante": 4.89,
+      "posse_media": 49.3,
+      "finalizacoes_media": 8.9,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 1.75,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "fator_ataque": 0.97,
+      "fator_defesa": 1.39,
+      "alertas": []
+    },
+    "Velez Sarsfield": {
+      "n_jogos": 7,
+      "xHT_mandante": 1.81,
+      "xFT_mandante": 4.5,
+      "xHT_visitante": 0.93,
+      "xFT_visitante": 2.03,
+      "posse_media": 53.8,
+      "finalizacoes_media": 8.8,
+      "tendencia_cantos": "estavel",
+      "volatilidade": 2.05,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "FORTALEZA",
+      "fator_ataque": 0.9,
+      "fator_defesa": 0.58,
+      "alertas": []
+    },
+    "Union de Santa Fe": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.99,
+      "xFT_mandante": 6.8,
+      "xHT_visitante": 0.83,
+      "xFT_visitante": 4.62,
+      "posse_media": 53.7,
+      "finalizacoes_media": 14.2,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 2.36,
+      "perfil_ataque": "DOMINANTE",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "fator_ataque": 1.37,
+      "fator_defesa": 1.31,
+      "alertas": [
+        "OVER_HT_FAVORAVEL: pressão no 1T acima da média da liga"
+      ]
+    },
+    "Platense": {
+      "n_jogos": 7,
+      "xHT_mandante": 2.22,
+      "xFT_mandante": 4.55,
+      "xHT_visitante": 1.41,
+      "xFT_visitante": 2.76,
+      "posse_media": 52.2,
+      "finalizacoes_media": 6.8,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 1.19,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "COMPACTO",
+      "fator_ataque": 0.91,
+      "fator_defesa": 0.78,
+      "alertas": []
+    },
+    "Aldosivi": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.13,
+      "xFT_mandante": 5.24,
+      "xHT_visitante": 2.02,
+      "xFT_visitante": 5.24,
+      "posse_media": 40.5,
+      "finalizacoes_media": 9.5,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 1.5,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "SANGRA_CANTOS",
+      "fator_ataque": 1.05,
+      "fator_defesa": 1.49,
+      "alertas": [
+        "ALVO_OVER: sangra cantos como visitante — confrontos vs ele tendem a OVER"
+      ]
+    },
+    "Defensa y Justicia": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.21,
+      "xFT_mandante": 4.98,
+      "xHT_visitante": 1.76,
+      "xFT_visitante": 4.09,
+      "posse_media": 48.7,
+      "finalizacoes_media": 6.8,
+      "tendencia_cantos": "estavel",
+      "volatilidade": 1.3,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 1,
+      "fator_defesa": 1.16,
+      "alertas": []
+    },
+    "Central Cordoba": {
+      "n_jogos": 6,
+      "xHT_mandante": 1.27,
+      "xFT_mandante": 3.81,
+      "xHT_visitante": 1.23,
+      "xFT_visitante": 3.62,
+      "posse_media": 47.3,
+      "finalizacoes_media": 7.5,
+      "tendencia_cantos": "decrescente_forte",
+      "volatilidade": 3.26,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 0.77,
+      "fator_defesa": 1.03,
+      "alertas": [
+        "FORMA_DESCENDENTE: volume de cantos caindo — cautela com OVER",
+        "JOGO_FECHADO_HT: raramente gera cantos no 1T"
+      ]
+    },
+    "Gimnasia Mendoza": {
+      "n_jogos": 6,
+      "xHT_mandante": 2.15,
+      "xFT_mandante": 4.46,
+      "xHT_visitante": 2.22,
+      "xFT_visitante": 4.09,
+      "posse_media": 49.3,
+      "finalizacoes_media": 9.5,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 1.61,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 0.9,
+      "fator_defesa": 1.16,
+      "alertas": []
+    },
+    "Banfield": {
+      "n_jogos": 7,
+      "xHT_mandante": 2.81,
+      "xFT_mandante": 4.22,
+      "xHT_visitante": 1.27,
+      "xFT_visitante": 2.22,
+      "posse_media": 43.9,
+      "finalizacoes_media": 10.4,
+      "tendencia_cantos": "estavel",
+      "volatilidade": 2.43,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "FORTALEZA",
+      "fator_ataque": 0.85,
+      "fator_defesa": 0.63,
+      "alertas": []
+    },
+    "Huracan": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.13,
+      "xFT_mandante": 5.83,
+      "xHT_visitante": 2.32,
+      "xFT_visitante": 4.26,
+      "posse_media": 54.2,
+      "finalizacoes_media": 7.8,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 1.71,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "fator_ataque": 1.17,
+      "fator_defesa": 1.21,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    },
+    "Independiente": {
+      "n_jogos": 7,
+      "xHT_mandante": 2.89,
+      "xFT_mandante": 5.59,
+      "xHT_visitante": 2.32,
+      "xFT_visitante": 5.5,
+      "posse_media": 53.7,
+      "finalizacoes_media": 11.9,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 2.92,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "SANGRA_CANTOS",
+      "fator_ataque": 1.12,
+      "fator_defesa": 1.56,
+      "alertas": [
+        "ALVO_OVER: sangra cantos como visitante — confrontos vs ele tendem a OVER"
+      ]
+    },
+    "Estudiantes L.P.": {
+      "n_jogos": 6,
+      "xHT_mandante": 4.67,
+      "xFT_mandante": 6.56,
+      "xHT_visitante": 1.76,
+      "xFT_visitante": 3.24,
+      "posse_media": 53,
+      "finalizacoes_media": 9.3,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 2.38,
+      "perfil_ataque": "DOMINANTE",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 1.32,
+      "fator_defesa": 0.92,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos",
+        "OVER_HT_FAVORAVEL: pressão no 1T acima da média da liga"
+      ]
+    },
+    "San Lorenzo": {
+      "n_jogos": 6,
+      "xHT_mandante": 1.93,
+      "xFT_mandante": 4.75,
+      "xHT_visitante": 2.3,
+      "xFT_visitante": 3.66,
+      "posse_media": 52.7,
+      "finalizacoes_media": 9.7,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 2.52,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 0.95,
+      "fator_defesa": 1.04,
+      "alertas": []
+    },
+    "Lanus": {
+      "n_jogos": 7,
+      "xHT_mandante": 2.12,
+      "xFT_mandante": 3.44,
+      "xHT_visitante": 0.71,
+      "xFT_visitante": 2.18,
+      "posse_media": 55,
+      "finalizacoes_media": 8.6,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 2.76,
+      "perfil_ataque": "REATIVO",
+      "perfil_defesa_vis": "FORTALEZA",
+      "fator_ataque": 0.69,
+      "fator_defesa": 0.62,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    },
+    "Talleres Cordoba": {
+      "n_jogos": 6,
+      "xHT_mandante": 2.21,
+      "xFT_mandante": 5.25,
+      "xHT_visitante": 1.75,
+      "xFT_visitante": 4.15,
+      "posse_media": 56.8,
+      "finalizacoes_media": 8.8,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 3.34,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 1.05,
+      "fator_defesa": 1.18,
+      "alertas": []
+    },
+    "Newells Old Boys": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.52,
+      "xFT_mandante": 5.41,
+      "xHT_visitante": 0.75,
+      "xFT_visitante": 2.56,
+      "posse_media": 46.5,
+      "finalizacoes_media": 9.7,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 2.21,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "COMPACTO",
+      "fator_ataque": 1.09,
+      "fator_defesa": 0.73,
+      "alertas": []
+    },
+    "Ind. Rivadavia": {
+      "n_jogos": 7,
+      "xHT_mandante": 1.11,
+      "xFT_mandante": 4.04,
+      "xHT_visitante": 2.15,
+      "xFT_visitante": 4.04,
+      "posse_media": 42.9,
+      "finalizacoes_media": 10.7,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 1.92,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 0.81,
+      "fator_defesa": 1.15,
+      "alertas": [
+        "JOGO_FECHADO_HT: raramente gera cantos no 1T"
+      ]
+    },
+    "Atl. Tucuman": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.03,
+      "xFT_mandante": 5.9,
+      "xHT_visitante": 1.35,
+      "xFT_visitante": 4.65,
+      "posse_media": 50.8,
+      "finalizacoes_media": 10.5,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 2.29,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "fator_ataque": 1.18,
+      "fator_defesa": 1.32,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    },
+    "Barracas Central": {
+      "n_jogos": 6,
+      "xHT_mandante": 2.51,
+      "xFT_mandante": 4.65,
+      "xHT_visitante": 1.21,
+      "xFT_visitante": 4,
+      "posse_media": 46.2,
+      "finalizacoes_media": 8.5,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 2.06,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 0.93,
+      "fator_defesa": 1.14,
+      "alertas": []
+    },
+    "River Plate": {
+      "n_jogos": 7,
+      "xHT_mandante": 3.85,
+      "xFT_mandante": 6.6,
+      "xHT_visitante": 1.83,
+      "xFT_visitante": 5.27,
+      "posse_media": 70.6,
+      "finalizacoes_media": 17,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 2.5,
+      "perfil_ataque": "DOMINANTE",
+      "perfil_defesa_vis": "SANGRA_CANTOS",
+      "fator_ataque": 1.32,
+      "fator_defesa": 1.5,
+      "alertas": [
+        "ALVO_OVER: sangra cantos como visitante — confrontos vs ele tendem a OVER",
+        "OVER_HT_FAVORAVEL: pressão no 1T acima da média da liga",
+        "DOMINANCIA_TATICA: posse alta + muitas finalizações = pressão sustentada"
+      ]
+    },
+    "Rosario Central": {
+      "n_jogos": 6,
+      "xHT_mandante": 1.9,
+      "xFT_mandante": 5.13,
+      "xHT_visitante": 1.98,
+      "xFT_visitante": 3.43,
+      "posse_media": 59.7,
+      "finalizacoes_media": 13.2,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 2.63,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 1.03,
+      "fator_defesa": 0.97,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    },
+    "Belgrano": {
+      "n_jogos": 7,
+      "xHT_mandante": 2.58,
+      "xFT_mandante": 5.97,
+      "xHT_visitante": 0.84,
+      "xFT_visitante": 2.15,
+      "posse_media": 53.4,
+      "finalizacoes_media": 8.8,
+      "tendencia_cantos": "decrescente_forte",
+      "volatilidade": 3.22,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "FORTALEZA",
+      "fator_ataque": 1.2,
+      "fator_defesa": 0.61,
+      "alertas": [
+        "FORMA_DESCENDENTE: volume de cantos caindo — cautela com OVER"
+      ]
+    },
+    "Gimnasia L.P.": {
+      "n_jogos": 6,
+      "xHT_mandante": 2.65,
+      "xFT_mandante": 6.32,
+      "xHT_visitante": 1.75,
+      "xFT_visitante": 3.69,
+      "posse_media": 46,
+      "finalizacoes_media": 10.3,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 1.88,
+      "perfil_ataque": "DOMINANTE",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 1.27,
+      "fator_defesa": 1.05,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    },
+    "Racing Club": {
+      "n_jogos": 8,
+      "xHT_mandante": 1.81,
+      "xFT_mandante": 4.33,
+      "xHT_visitante": 1.7,
+      "xFT_visitante": 3.66,
+      "posse_media": 56.8,
+      "finalizacoes_media": 14.5,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 1.8,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 0.87,
+      "fator_defesa": 1.04,
+      "alertas": [
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    },
+    "Boca Juniors": {
+      "n_jogos": 7,
+      "xHT_mandante": 3.14,
+      "xFT_mandante": 5.73,
+      "xHT_visitante": 2.16,
+      "xFT_visitante": 3.31,
+      "posse_media": 65.4,
+      "finalizacoes_media": 8.9,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 3.51,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "PADRAO",
+      "fator_ataque": 1.15,
+      "fator_defesa": 0.94,
+      "alertas": []
+    },
+    "Dep. Riestra": {
+      "n_jogos": 6,
+      "xHT_mandante": 1.32,
+      "xFT_mandante": 3.75,
+      "xHT_visitante": 0.9,
+      "xFT_visitante": 1.85,
+      "posse_media": 47.7,
+      "finalizacoes_media": 6.3,
+      "tendencia_cantos": "estavel",
+      "volatilidade": 2.31,
+      "perfil_ataque": "PASSIVO",
+      "perfil_defesa_vis": "FORTALEZA",
+      "fator_ataque": 0.75,
+      "fator_defesa": 0.53,
+      "alertas": [
+        "JOGO_FECHADO_HT: raramente gera cantos no 1T"
+      ]
+    },
+    "Argentinos Jrs": {
+      "n_jogos": 8,
+      "xHT_mandante": 2.4,
+      "xFT_mandante": 7.23,
+      "xHT_visitante": 2.47,
+      "xFT_visitante": 4.4,
+      "posse_media": 63.5,
+      "finalizacoes_media": 13.4,
+      "tendencia_cantos": "crescente",
+      "volatilidade": 2.36,
+      "perfil_ataque": "ABSOLUTO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "fator_ataque": 1.45,
+      "fator_defesa": 1.25,
+      "alertas": [
+        "MANDANTE_ABSOLUTO: posse dominante + alto volume de cantos"
+      ]
+    },
+    "Sarmiento Junin": {
+      "n_jogos": 6,
+      "xHT_mandante": 3.02,
+      "xFT_mandante": 4.86,
+      "xHT_visitante": 0.75,
+      "xFT_visitante": 2.25,
+      "posse_media": 53.2,
+      "finalizacoes_media": 9.8,
+      "tendencia_cantos": "decrescente_forte",
+      "volatilidade": 2.42,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "FORTALEZA",
+      "fator_ataque": 0.98,
+      "fator_defesa": 0.64,
+      "alertas": [
+        "FORMA_DESCENDENTE: volume de cantos caindo — cautela com OVER"
+      ]
+    },
+    "Tigre": {
+      "n_jogos": 7,
+      "xHT_mandante": 1.06,
+      "xFT_mandante": 3.2,
+      "xHT_visitante": 2.6,
+      "xFT_visitante": 4.92,
+      "posse_media": 43.9,
+      "finalizacoes_media": 10,
+      "tendencia_cantos": "decrescente",
+      "volatilidade": 2.56,
+      "perfil_ataque": "REATIVO",
+      "perfil_defesa_vis": "VULNERAVEL",
+      "fator_ataque": 0.64,
+      "fator_defesa": 1.4,
+      "alertas": [
+        "JOGO_FECHADO_HT: raramente gera cantos no 1T"
+      ]
+    },
+    "Estudiantes Rio Cuarto": {
+      "n_jogos": 7,
+      "xHT_mandante": 1.51,
+      "xFT_mandante": 5.19,
+      "xHT_visitante": 4.3,
+      "xFT_visitante": 6.6,
+      "posse_media": 41.2,
+      "finalizacoes_media": 9.6,
+      "tendencia_cantos": "crescente_forte",
+      "volatilidade": 2.88,
+      "perfil_ataque": "PADRAO",
+      "perfil_defesa_vis": "SANGRA_CANTOS",
+      "fator_ataque": 1.04,
+      "fator_defesa": 1.87,
+      "alertas": [
+        "ALVO_OVER: sangra cantos como visitante — confrontos vs ele tendem a OVER",
+        "FORMA_ASCENDENTE: cantos aumentando significativamente nos últimos jogos"
+      ]
+    }
+  },
+  "analise_under": {
+    "gerado_em": "2026-04-09",
+    "descricao": "Times com perfil UNDER — baixo volume de cantos em casa ou como visitante compacto",
+    "mandantes_compactos": [
+      {
+        "time": "Tigre",
+        "xHT_M": 1.06,
+        "xFT_M": 3.2,
+        "tendencia": "↘",
+        "alerta": "EXTREMO — menor gerador de cantos em casa da liga",
+        "p_under_HT": "100%",
+        "p_under_FT": "100%"
+      },
+      {
+        "time": "Central Cordoba",
+        "xHT_M": 1.27,
+        "xFT_M": 3.81,
+        "tendencia": "↘↘",
+        "alerta": "FORMA_DECRESCENTE — volume de cantos em queda acelerada",
+        "p_under_HT": "99%",
+        "p_under_FT": "100%"
+      },
+      {
+        "time": "Ind. Rivadavia",
+        "xHT_M": 1.11,
+        "xFT_M": 4.04,
+        "tendencia": "↘",
+        "alerta": "PASSIVO — posse baixa 43%, raramente pressiona",
+        "p_under_HT": "99%",
+        "p_under_FT": "100%"
+      },
+      {
+        "time": "Dep. Riestra",
+        "xHT_M": 1.32,
+        "xFT_M": 3.75,
+        "tendencia": "↘",
+        "alerta": "REATIVO — jogo fechado sistematicamente",
+        "p_under_HT": "99%",
+        "p_under_FT": "100%"
+      },
+      {
+        "time": "Banfield",
+        "xHT_M": 2.81,
+        "xFT_M": 4.22,
+        "tendencia": "↘",
+        "alerta": "COMPACTO — abaixo da média em queda",
+        "p_under_HT": "85%",
+        "p_under_FT": "100%"
+      },
+      {
+        "time": "Gimnasia Mendoza",
+        "xHT_M": 2.15,
+        "xFT_M": 4.46,
+        "tendencia": "↘",
+        "alerta": "COMPACTO — consistentemente fechado",
+        "p_under_HT": "93%",
+        "p_under_FT": "99%"
+      }
+    ],
+    "visitantes_fortaleza": [
+      {
+        "time": "Dep. Riestra",
+        "xHT_V": 0.9,
+        "xFT_V": 1.85,
+        "alerta": "FORTALEZA EXTREMA — concede menos cantos da liga como visitante"
+      },
+      {
+        "time": "Lanus",
+        "xHT_V": 0.71,
+        "xFT_V": 2.18,
+        "alerta": "FORTALEZA — bloco defensivo sólido fora de casa"
+      },
+      {
+        "time": "Belgrano",
+        "xHT_V": 0.84,
+        "xFT_V": 2.15,
+        "alerta": "COMPACTO — não sangra cantos fora"
+      },
+      {
+        "time": "Velez Sarsfield",
+        "xHT_V": 0.93,
+        "xFT_V": 2.03,
+        "alerta": "COMPACTO — poucos cantos concedidos fora"
+      },
+      {
+        "time": "Sarmiento Junin",
+        "xHT_V": 0.75,
+        "xFT_V": 2.25,
+        "alerta": "FORTALEZA — extremamente fechado fora"
+      },
+      {
+        "time": "Newells Old Boys",
+        "xHT_V": 0.75,
+        "xFT_V": 2.56,
+        "alerta": "COMPACTO — jogo fechado fora de casa"
+      }
+    ],
+    "top_confrontos_under": [
+      {
+        "jogo": "Ind. Rivadavia vs Dep. Riestra",
+        "xHT": 2.01,
+        "xFT": 5.89,
+        "sinal": "DUPLO UNDER",
+        "forca": "EXTREMO"
+      },
+      {
+        "jogo": "Central Cordoba vs Lanus",
+        "xHT": 1.98,
+        "xFT": 5.99,
+        "sinal": "DUPLO UNDER",
+        "forca": "EXTREMO"
+      },
+      {
+        "jogo": "Central Cordoba vs Dep. Riestra",
+        "xHT": 2.17,
+        "xFT": 5.66,
+        "sinal": "DUPLO UNDER",
+        "forca": "EXTREMO"
+      },
+      {
+        "jogo": "Ind. Rivadavia vs Belgrano",
+        "xHT": 1.95,
+        "xFT": 6.19,
+        "sinal": "DUPLO UNDER",
+        "forca": "FORTE"
+      },
+      {
+        "jogo": "Dep. Riestra vs Sarmiento Junin",
+        "xHT": 2.07,
+        "xFT": 6,
+        "sinal": "DUPLO UNDER",
+        "forca": "FORTE"
+      },
+      {
+        "jogo": "Tigre vs Dep. Riestra",
+        "xHT": 1.96,
+        "xFT": 5.05,
+        "sinal": "JOGO TRUNCADO",
+        "forca": "EXTREMO"
+      },
+      {
+        "jogo": "Tigre vs Lanus",
+        "xHT": 1.76,
+        "xFT": 5.38,
+        "sinal": "JOGO TRUNCADO",
+        "forca": "EXTREMO"
+      }
+    ],
+    "oportunidade_banca": "Banca precifica esses times pelo histórico de nome médio. Motor detecta padrão UNDER real por dados recentes. GAP de valor especialmente em Tigre, Central Córdoba e Dep. Riestra como mandantes."
+  }
+}

@@ -1,0 +1,31 @@
+═══ AUDITORIA — ARG_B — 2026-05-16 ═══
+Liga: Argentina — Primera Nacional
+Total jogos: 217 | Válidos: 216
+Times: 36
+DNA disponível: sim
+
+— Etapa 1: PowerScore + categoria —
+— Etapa 2: Baselines —
+Baseline liga: 8.6 cantos/jogo (HT=4.12)
+— Etapa 3: Bucket Matrix —
+— Etapa 4: 12 Assinaturas —
+  BLITZ_INICIAL: 13 times
+  RETRANCA_AVANCADA: 0 times
+  EFETIVIDADE_CLINICA: 2 times
+  ATAQUE_ESTERIL: 1 times
+  MURO_DEFENSIVO: 0 times
+  DEFESA_PRECARIA: 0 times
+  RUPTURA_HOME: 15 times
+  ELITE_KILLER: 11 times
+  CARRINHO_FACIL: 4 times
+  DESEQUILIBRA_FAVORITO: 1 times
+  SUCUMBE_AZARAO: 4 times
+  TERMOMETRO_FORMA: 0 times
+— Etapa 5: Narrativas —
+— Etapa 6: Matriz DNA × DNA —
+Cruzamentos detectados: 36
+— Etapa 7: Montagem da memória —
+— Etapa 8: Divergências DNA × Performance: 2 detectadas
+
+Tempo de processamento: 0.04s
+Arquivos gerados: memoria_ARG_B.json, relatorio_ARG_B.html, CHECKPOINT_ARG_B.md

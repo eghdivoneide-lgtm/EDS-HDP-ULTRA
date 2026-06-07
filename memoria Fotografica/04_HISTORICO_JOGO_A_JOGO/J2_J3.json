@@ -1,0 +1,8966 @@
+{
+  "liga": "J2_J3",
+  "temporada": "J2/J3 League (Japão — 4 federações regionais)",
+  "ultimaAtualizacao": "2026-05-16",
+  "totalRodadas": 233,
+  "n_jogos": 319,
+  "n_times": 40,
+  "times": [
+    "Albirex Niigata",
+    "Blaublitz",
+    "Ehime",
+    "Fujieda MYFC",
+    "Fukushima Utd",
+    "Gainare Tottori",
+    "Gifu",
+    "Giravanz Kitakyushu",
+    "Hokkaido Consadole Sapporo",
+    "Imabari",
+    "Iwaki",
+    "Iwata",
+    "Kagoshima Utd",
+    "Kamatamare",
+    "Kanazawa",
+    "Kochi United",
+    "Kofu",
+    "Kumamoto",
+    "Kusatsu",
+    "Montedio Yamagata",
+    "Nagano",
+    "Nara Club",
+    "Oita Trinita",
+    "Omiya Ardija",
+    "Osaka",
+    "Reilac Shiga",
+    "Renofa Yamaguchi",
+    "Ryukyu",
+    "Sagamihara",
+    "Sagan Tosu",
+    "Shonan Bellmare",
+    "Tegevajaro Miyazaki",
+    "Tochigi City",
+    "Tochigi SC",
+    "Tokushima",
+    "Toyama",
+    "Vanraure",
+    "Vegalta Sendai",
+    "Yamaga",
+    "Yokohama FC"
+  ],
+  "jogos": [
+    {
+      "rodada": 1,
+      "data": "29.04.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 2,
+      "data": "25.04.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 3,
+      "data": "18.04.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 2
+        }
+      }
+    },
+    {
+      "rodada": 4,
+      "data": "04.04.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 5,
+      "data": "07.03.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 6,
+      "data": "12.04.2026 02:00",
+      "mandante": "Sagamihara",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 7,
+      "data": "29.03.2026 02:00",
+      "mandante": "Blaublitz",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 8,
+      "data": "22.03.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 12
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 9,
+      "data": "14.03.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 10,
+      "data": "28.02.2026 01:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 11,
+      "data": "22.02.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 12,
+      "data": "14.02.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 13,
+      "data": "07.02.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 13,
+      "data": "29.04.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 14,
+      "data": "25.04.2026 05:00",
+      "mandante": "Sagamihara",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 7
+        },
+        "ft": {
+          "m": 8,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 15,
+      "data": "18.04.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 16,
+      "data": "04.04.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 1,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 17,
+      "data": "12.04.2026 02:00",
+      "mandante": "Blaublitz",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 18,
+      "data": "28.03.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 19,
+      "data": "20.03.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 20,
+      "data": "14.03.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 1
+        },
+        "ft": {
+          "m": 12,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 21,
+      "data": "28.02.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 4
+        },
+        "ft": {
+          "m": 10,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 22,
+      "data": "21.02.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 2,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 23,
+      "data": "14.02.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 24,
+      "data": "07.02.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 25,
+      "data": "29.04.2026 02:00",
+      "mandante": "Blaublitz",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 26,
+      "data": "26.04.2026 01:00",
+      "mandante": "Vanraure",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 2
+        }
+      }
+    },
+    {
+      "rodada": 27,
+      "data": "19.04.2026 02:00",
+      "mandante": "Blaublitz",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 1,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 28,
+      "data": "04.04.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 9,
+          "v": 2
+        },
+        "ft": {
+          "m": 11,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 29,
+      "data": "21.03.2026 02:00",
+      "mandante": "Blaublitz",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 7
+        },
+        "ft": {
+          "m": 3,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 30,
+      "data": "15.03.2026 01:00",
+      "mandante": "Blaublitz",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 7,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 31,
+      "data": "08.03.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 32,
+      "data": "28.02.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 33,
+      "data": "21.02.2026 02:00",
+      "mandante": "Sagamihara",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 34,
+      "data": "15.02.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 35,
+      "data": "29.04.2026 02:00",
+      "mandante": "Sagamihara",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 36,
+      "data": "19.04.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 6
+        },
+        "ft": {
+          "m": 9,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 37,
+      "data": "04.04.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 4,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 38,
+      "data": "29.03.2026 01:00",
+      "mandante": "Vanraure",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 10,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 39,
+      "data": "21.03.2026 02:00",
+      "mandante": "Sagamihara",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 40,
+      "data": "01.03.2026 02:00",
+      "mandante": "Sagamihara",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 41,
+      "data": "04.03.2026 06:30",
+      "mandante": "Sagamihara",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 10,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 42,
+      "data": "08.03.2026 02:00",
+      "mandante": "Sagamihara",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 42,
+      "data": "29.04.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 43,
+      "data": "25.04.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 44,
+      "data": "01.03.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 45,
+      "data": "07.02.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 46,
+      "data": "08.03.2026 01:00",
+      "mandante": "Vanraure",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 12
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 47,
+      "data": "08.04.2026 06:30",
+      "mandante": "Tochigi SC",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 48,
+      "data": "12.04.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 49,
+      "data": "15.03.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 0
+        },
+        "ft": {
+          "m": 12,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 50,
+      "data": "22.02.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 50,
+      "data": "19.04.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 51,
+      "data": "05.04.2026 01:00",
+      "mandante": "Vanraure",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 52,
+      "data": "29.03.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 53,
+      "data": "21.02.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 12,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 54,
+      "data": "15.02.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Montedio Yamagata",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 54,
+      "data": "12.04.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 6
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 55,
+      "data": "15.03.2026 01:00",
+      "mandante": "Vanraure",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 56,
+      "data": "14.02.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Vanraure",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 56,
+      "data": "25.04.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 56,
+      "data": "04.04.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 57,
+      "data": "08.03.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 58,
+      "data": "12.04.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 59,
+      "data": "28.03.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 60,
+      "data": "22.03.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 60,
+      "data": "29.04.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 8,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 61,
+      "data": "25.04.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 5,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 62,
+      "data": "18.04.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 63,
+      "data": "08.03.2026 02:00",
+      "mandante": "Gifu",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 8,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 64,
+      "data": "11.04.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 65,
+      "data": "28.03.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 66,
+      "data": "21.03.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 67,
+      "data": "14.03.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 4,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 68,
+      "data": "28.02.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 69,
+      "data": "21.02.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 70,
+      "data": "14.02.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 71,
+      "data": "07.02.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 71,
+      "data": "29.04.2026 01:00",
+      "mandante": "Iwaki",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 29,
+          "v": 71
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 21
+        }
+      }
+    },
+    {
+      "rodada": 72,
+      "data": "25.04.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 1,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 73,
+      "data": "19.04.2026 02:00",
+      "mandante": "Iwaki",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 74,
+      "data": "01.03.2026 02:00",
+      "mandante": "Iwaki",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 75,
+      "data": "05.04.2026 02:00",
+      "mandante": "Yamaga",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 76,
+      "data": "08.02.2026 02:00",
+      "mandante": "Iwaki",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 77,
+      "data": "12.04.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 23
+        }
+      }
+    },
+    {
+      "rodada": 78,
+      "data": "29.03.2026 02:00",
+      "mandante": "Iwaki",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 79,
+      "data": "21.03.2026 02:00",
+      "mandante": "Nagano",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 80,
+      "data": "07.03.2026 02:00",
+      "mandante": "Iwaki",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 3,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 81,
+      "data": "22.02.2026 02:00",
+      "mandante": "Gifu",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 82,
+      "data": "15.02.2026 01:00",
+      "mandante": "Iwaki",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 82,
+      "data": "25.04.2026 01:00",
+      "mandante": "Iwata",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 83,
+      "data": "19.04.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 84,
+      "data": "04.04.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 85,
+      "data": "11.04.2026 02:00",
+      "mandante": "Gifu",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 86,
+      "data": "28.03.2026 02:00",
+      "mandante": "Gifu",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 11,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 87,
+      "data": "21.03.2026 02:00",
+      "mandante": "Yamaga",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 88,
+      "data": "15.03.2026 07:00",
+      "mandante": "Gifu",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 89,
+      "data": "28.02.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 90,
+      "data": "15.02.2026 02:00",
+      "mandante": "Gifu",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 90,
+      "data": "04.04.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 67,
+          "v": 33
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 91,
+      "data": "08.02.2026 01:30",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 92,
+      "data": "29.04.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 93,
+      "data": "25.04.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 94,
+      "data": "28.03.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 95,
+      "data": "21.03.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 96,
+      "data": "14.03.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 97,
+      "data": "07.03.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 98,
+      "data": "14.02.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 98,
+      "data": "18.04.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 99,
+      "data": "12.04.2026 02:00",
+      "mandante": "Yamaga",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 100,
+      "data": "21.03.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 101,
+      "data": "28.02.2026 02:00",
+      "mandante": "Nagano",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 102,
+      "data": "21.02.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 103,
+      "data": "14.02.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 104,
+      "data": "07.02.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 105,
+      "data": "29.04.2026 06:00",
+      "mandante": "Yamaga",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 106,
+      "data": "26.04.2026 02:00",
+      "mandante": "Yamaga",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 107,
+      "data": "18.04.2026 01:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 5
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 108,
+      "data": "29.03.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 109,
+      "data": "14.03.2026 02:00",
+      "mandante": "Nagano",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 110,
+      "data": "07.03.2026 02:00",
+      "mandante": "Yamaga",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 111,
+      "data": "21.02.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 111,
+      "data": "04.04.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 112,
+      "data": "14.03.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 113,
+      "data": "21.02.2026 02:00",
+      "mandante": "Nagano",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 36,
+          "v": 64
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 113,
+      "data": "05.04.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 114,
+      "data": "12.04.2026 01:00",
+      "mandante": "Nagano",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 115,
+      "data": "28.02.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 116,
+      "data": "07.02.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 3,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "29.04.2026 06:00",
+      "mandante": "Nagano",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 9
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 20
+        }
+      }
+    },
+    {
+      "rodada": 118,
+      "data": "08.03.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 118,
+      "data": "29.04.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 119,
+      "data": "25.04.2026 02:00",
+      "mandante": "Imabari",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 120,
+      "data": "19.04.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 120,
+      "data": "08.03.2026 02:00",
+      "mandante": "Kanazawa",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 121,
+      "data": "11.04.2026 02:00",
+      "mandante": "Osaka",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 122,
+      "data": "29.03.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 123,
+      "data": "20.03.2026 02:00",
+      "mandante": "Albirex Niigata",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 124,
+      "data": "15.03.2026 01:05",
+      "mandante": "Toyama",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 125,
+      "data": "08.03.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 12,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 126,
+      "data": "28.02.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 127,
+      "data": "22.02.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 128,
+      "data": "15.02.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 129,
+      "data": "08.02.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 129,
+      "data": "29.04.2026 02:00",
+      "mandante": "Osaka",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 12,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 130,
+      "data": "26.04.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 131,
+      "data": "18.04.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 132,
+      "data": "05.04.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 5
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 133,
+      "data": "12.04.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 134,
+      "data": "29.03.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 1,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 33,
+          "v": 67
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 135,
+      "data": "22.03.2026 02:00",
+      "mandante": "Imabari",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 136,
+      "data": "15.03.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 10,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 137,
+      "data": "28.02.2026 04:00",
+      "mandante": "Ehime",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 11,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 138,
+      "data": "15.02.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 139,
+      "data": "07.02.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 140,
+      "data": "29.04.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 141,
+      "data": "05.04.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 142,
+      "data": "22.03.2026 02:00",
+      "mandante": "Ehime",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 143,
+      "data": "14.03.2026 01:00",
+      "mandante": "Kochi United",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 144,
+      "data": "01.03.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 145,
+      "data": "04.04.2026 02:00",
+      "mandante": "Albirex Niigata",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 146,
+      "data": "07.03.2026 02:00",
+      "mandante": "Albirex Niigata",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 147,
+      "data": "22.02.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 148,
+      "data": "15.02.2026 02:00",
+      "mandante": "Osaka",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 149,
+      "data": "25.04.2026 02:00",
+      "mandante": "Albirex Niigata",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 150,
+      "data": "18.04.2026 02:00",
+      "mandante": "Albirex Niigata",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 151,
+      "data": "29.03.2026 02:00",
+      "mandante": "Osaka",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 3
+        },
+        "ft": {
+          "m": 12,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 152,
+      "data": "14.03.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 1,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 153,
+      "data": "01.03.2026 02:00",
+      "mandante": "Imabari",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 154,
+      "data": "22.02.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 155,
+      "data": "08.02.2026 01:05",
+      "mandante": "Ehime",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 155,
+      "data": "29.04.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 156,
+      "data": "25.04.2026 02:00",
+      "mandante": "Kanazawa",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 157,
+      "data": "08.02.2026 02:00",
+      "mandante": "Imabari",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 158,
+      "data": "12.04.2026 02:00",
+      "mandante": "Kanazawa",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 158,
+      "data": "28.03.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 1,
+          "v": 12
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": 159,
+      "data": "22.03.2026 02:00",
+      "mandante": "Kanazawa",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 160,
+      "data": "01.03.2026 02:00",
+      "mandante": "Kanazawa",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 161,
+      "data": "15.02.2026 02:00",
+      "mandante": "Ehime",
+      "visitante": "Kanazawa",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 4
+        },
+        "ft": {
+          "m": 9,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 2
+        }
+      }
+    },
+    {
+      "rodada": 162,
+      "data": "29.04.2026 05:00",
+      "mandante": "Ehime",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 163,
+      "data": "26.04.2026 03:00",
+      "mandante": "Ehime",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 164,
+      "data": "17.04.2026 07:00",
+      "mandante": "Osaka",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 165,
+      "data": "05.04.2026 01:30",
+      "mandante": "Imabari",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 166,
+      "data": "06.03.2026 07:00",
+      "mandante": "Osaka",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 167,
+      "data": "12.04.2026 02:00",
+      "mandante": "Ehime",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 168,
+      "data": "29.03.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 169,
+      "data": "15.03.2026 02:00",
+      "mandante": "Ehime",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 7
+        },
+        "ft": {
+          "m": 4,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 170,
+      "data": "21.02.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 5
+        },
+        "ft": {
+          "m": 3,
+          "v": 13
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 170,
+      "data": "22.02.2026 02:00",
+      "mandante": "Imabari",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 1,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 171,
+      "data": "08.02.2026 02:00",
+      "mandante": "Osaka",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 172,
+      "data": "08.03.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 173,
+      "data": "14.02.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 174,
+      "data": "18.04.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 175,
+      "data": "22.03.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 175,
+      "data": "29.04.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 176,
+      "data": "25.04.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 177,
+      "data": "19.04.2026 02:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": 178,
+      "data": "05.04.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 179,
+      "data": "12.04.2026 02:00",
+      "mandante": "Kumamoto",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 180,
+      "data": "29.03.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 36,
+          "v": 64
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 181,
+      "data": "21.03.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 182,
+      "data": "14.03.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 183,
+      "data": "07.03.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": 184,
+      "data": "28.02.2026 02:00",
+      "mandante": "Ryukyu",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 185,
+      "data": "21.02.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 3,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 186,
+      "data": "15.02.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 187,
+      "data": "08.02.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 188,
+      "data": "29.04.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 34,
+          "v": 66
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 189,
+      "data": "18.04.2026 01:40",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 1,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 190,
+      "data": "05.04.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 0
+        },
+        "ft": {
+          "m": 15,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": 191,
+      "data": "12.04.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 192,
+      "data": "29.03.2026 01:00",
+      "mandante": "Kumamoto",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 193,
+      "data": "22.03.2026 02:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 7
+        },
+        "ft": {
+          "m": 2,
+          "v": 9
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 194,
+      "data": "15.03.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 9,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 195,
+      "data": "08.03.2026 02:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 196,
+      "data": "28.02.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 197,
+      "data": "22.02.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 198,
+      "data": "15.02.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 199,
+      "data": "29.04.2026 02:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 8,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 200,
+      "data": "25.04.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 201,
+      "data": "11.04.2026 07:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 202,
+      "data": "29.03.2026 02:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 203,
+      "data": "22.03.2026 02:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 204,
+      "data": "14.03.2026 02:00",
+      "mandante": "Ryukyu",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 3
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 205,
+      "data": "01.03.2026 01:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": 206,
+      "data": "07.03.2026 02:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 207,
+      "data": "15.02.2026 02:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 207,
+      "data": "01.03.2026 01:05",
+      "mandante": "Kumamoto",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 208,
+      "data": "08.02.2026 01:00",
+      "mandante": "Kumamoto",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 209,
+      "data": "12.04.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 209,
+      "data": "25.04.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 210,
+      "data": "19.04.2026 03:00",
+      "mandante": "Kumamoto",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 211,
+      "data": "04.04.2026 05:00",
+      "mandante": "Ryukyu",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 212,
+      "data": "05.04.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 213,
+      "data": "12.04.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 2,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 214,
+      "data": "29.03.2026 02:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 215,
+      "data": "22.03.2026 03:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": 216,
+      "data": "14.03.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 10,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": 217,
+      "data": "15.02.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 218,
+      "data": "08.02.2026 02:00",
+      "mandante": "Ryukyu",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 218,
+      "data": "29.04.2026 02:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 219,
+      "data": "25.04.2026 02:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 220,
+      "data": "15.03.2026 01:00",
+      "mandante": "Kumamoto",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": 221,
+      "data": "08.03.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 7
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": 222,
+      "data": "22.02.2026 01:00",
+      "mandante": "Kumamoto",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 222,
+      "data": "25.04.2026 07:00",
+      "mandante": "Ryukyu",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": 223,
+      "data": "19.04.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": 224,
+      "data": "21.03.2026 02:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": 225,
+      "data": "22.02.2026 02:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 2
+        }
+      }
+    },
+    {
+      "rodada": 226,
+      "data": "15.02.2026 02:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": 226,
+      "data": "29.04.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": 227,
+      "data": "07.02.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 228,
+      "data": "08.03.2026 02:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 229,
+      "data": "12.04.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 230,
+      "data": "28.02.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": 231,
+      "data": "21.02.2026 02:00",
+      "mandante": "Ryukyu",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 6
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": 232,
+      "data": "18.04.2026 04:00",
+      "mandante": "Ryukyu",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": 233,
+      "data": "29.03.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 06:00",
+      "mandante": "Ryukyu",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 7
+        },
+        "ft": {
+          "m": 3,
+          "v": 12
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Albirex Niigata",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Fukushima Utd",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Imabari",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 0
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Kanazawa",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 5
+        },
+        "ft": {
+          "m": 6,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Kumamoto",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 02:03",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 01:03",
+      "mandante": "Vanraure",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "03.05.2026 01:03",
+      "mandante": "Yamaga",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 0
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 3
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 06:00",
+      "mandante": "Nagano",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 9
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 03:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Gifu",
+      "visitante": "Hokkaido Consadole Sapporo",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Iwata",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 12
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Kochi United",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 4
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 4
+        },
+        "ft": {
+          "m": 9,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "02.05.2026 02:00",
+      "mandante": "Yokohama FC",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 10,
+          "v": 0
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 28,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "13.05.2026 06:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Reilac Shiga",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 4
+        },
+        "ft": {
+          "m": 5,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 03:00",
+      "mandante": "Ehime",
+      "visitante": "Toyama",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 18
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Fukushima Utd",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 6
+        },
+        "ft": {
+          "m": 1,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Gainare Tottori",
+      "visitante": "Giravanz Kitakyushu",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 1,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Kamatamare",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 16
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Kumamoto",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Oita Trinita",
+      "visitante": "Sagan Tosu",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Kagoshima Utd",
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 4
+        },
+        "ft": {
+          "m": 0,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 32,
+          "v": 68
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Shonan Bellmare",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Tochigi SC",
+      "visitante": "Blaublitz",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 9
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Tokushima",
+      "visitante": "Nara Club",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Vanraure",
+      "visitante": "Vegalta Sendai",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 02:00",
+      "mandante": "Yamaga",
+      "visitante": "Fujieda MYFC",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 5
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "10.05.2026 01:30",
+      "mandante": "Kanazawa",
+      "visitante": "Albirex Niigata",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 06:00",
+      "mandante": "Nagano",
+      "visitante": "Gifu",
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Omiya Ardija",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 9
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 02:00",
+      "mandante": "Iwaki",
+      "visitante": "Kofu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 02:00",
+      "mandante": "Kusatsu",
+      "visitante": "Tochigi City",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 19
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 02:00",
+      "mandante": "Osaka",
+      "visitante": "Imabari",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "09.05.2026 02:00",
+      "mandante": "Renofa Yamaguchi",
+      "visitante": "Tegevajaro Miyazaki",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 7
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 07:00",
+      "mandante": "Gifu",
+      "visitante": "Yamaga",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 5
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 03:00",
+      "mandante": "Blaublitz",
+      "visitante": "Sagamihara",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 4
+        },
+        "ft": {
+          "m": 6,
+          "v": 10
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Albirex Niigata",
+      "visitante": "Tokushima",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Fujieda MYFC",
+      "visitante": "Fukushima Utd",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Giravanz Kitakyushu",
+      "visitante": "Kumamoto",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Hokkaido Consadole Sapporo",
+      "visitante": "Nagano",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 1
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Imabari",
+      "visitante": "Kochi United",
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 1
+        },
+        "ft": {
+          "m": 10,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 2
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Kagoshima Utd",
+      "visitante": "Oita Trinita",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Kanazawa",
+      "visitante": "Ehime",
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Kofu",
+      "visitante": "Iwata",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Montedio Yamagata",
+      "visitante": "Kusatsu",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 13
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Nara Club",
+      "visitante": "Osaka",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Omiya Ardija",
+      "visitante": "Iwaki",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 9,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 10
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Reilac Shiga",
+      "visitante": "Renofa Yamaguchi",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 14
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Sagan Tosu",
+      "visitante": "Gainare Tottori",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 4
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Tegevajaro Miyazaki",
+      "visitante": "Ryukyu",
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Tochigi City",
+      "visitante": "Yokohama FC",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 17
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Toyama",
+      "visitante": "Kamatamare",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 11
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Vanraure",
+      "visitante": "Shonan Bellmare",
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 6
+        }
+      }
+    },
+    {
+      "rodada": null,
+      "data": "06.05.2026 02:00",
+      "mandante": "Vegalta Sendai",
+      "visitante": "Tochigi SC",
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        }
+      }
+    }
+  ]
+}

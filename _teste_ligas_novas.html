@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Teste — 5 Ligas Novas</title>
+<style>
+  body { font-family: monospace; background:#111; color:#eee; padding:20px; }
+  h1 { color:#4ade80; }
+  table { border-collapse: collapse; margin-top: 20px; }
+  td, th { border:1px solid #444; padding:8px 14px; }
+  th { background:#222; color:#fbbf24; }
+  .ok { color:#4ade80; }
+  .err { color:#ef4444; }
+</style>
+</head>
+<body>
+<h1>🔬 Teste de carregamento — 5 novas ligas</h1>
+<p>Se você vê números > 0 nas colunas, os arquivos JS estão OK. Se aparecer "ERRO", o cache do browser é o problema.</p>
+
+<script src="data/j1league2026.js?v=test1"></script>
+<script src="data/chile2026.js?v=test1"></script>
+<script src="data/equador2026.js?v=test1"></script>
+<script src="data/chinasuper2026.js?v=test1"></script>
+<script src="data/chinaone2026.js?v=test1"></script>
+
+<table id="t">
+  <tr><th>Liga</th><th>Variável</th><th>Carregou?</th><th>Times</th><th>Jogos</th><th>1º time</th></tr>
+</table>
+
+<script>
+const ligas = [
+  ['J1',       'DADOS_J1'],
+  ['CHI',      'DADOS_CHI'],
+  ['ECU',      'DADOS_ECU'],
+  ['CHN_SUP',  'DADOS_CHN_SUP'],
+  ['CHN_1',    'DADOS_CHN_1']
+];
+const t = document.getElementById('t');
+ligas.forEach(([cod, varName]) => {
+  const d = window[varName];
+  const tr = document.createElement('tr');
+  if (!d) {
+    tr.innerHTML = `<td>${cod}</td><td>${varName}</td><td class="err">❌ NÃO CARREGOU</td><td>—</td><td>—</td><td>—</td>`;
+  } else {
+    const times = d.times?.length || 0;
+    const jogos = d.jogos?.length || 0;
+    const ok = times > 0 && jogos > 0;
+    tr.innerHTML = `<td>${cod}</td><td>${varName}</td>` +
+      `<td class="${ok?'ok':'err'}">${ok?'✅ OK':'❌ vazio'}</td>` +
+      `<td>${times}</td><td>${jogos}</td><td>${d.times?.[0] || '—'}</td>`;
+  }
+  t.appendChild(tr);
+});
+</script>
+
+<h2 style="margin-top:30px">📋 Diagnóstico</h2>
+<p id="diag"></p>
+<script>
+  const rows = document.querySelectorAll('#t tr');
+  const okCount = document.querySelectorAll('.ok').length;
+  const errCount = document.querySelectorAll('.err').length;
+  const diag = document.getElementById('diag');
+  if (errCount === 0) {
+    diag.innerHTML = '<span class="ok">✅ TODAS as 5 ligas carregaram corretamente.</span><br>' +
+                     'Se o index.html principal ainda mostra "Liga indisponível", é cache do browser do HTML.<br>' +
+                     'Solução: feche TODAS as abas do index.html e abra em aba anônima (Ctrl+Shift+N).';
+  } else {
+    diag.innerHTML = '<span class="err">❌ ' + errCount + ' liga(s) com problema.</span><br>' +
+                     'Verifique o console (F12) para erros de carregamento.';
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,1640 @@
+{
+  "BR": {
+    "over_8_5": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 147,
+      "acertos": 101,
+      "wr": 68.70748299319727
+    },
+    "over_9_5": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 147,
+      "acertos": 82,
+      "wr": 55.78231292517007
+    },
+    "over_10_5": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 147,
+      "acertos": 53,
+      "wr": 36.054421768707485
+    },
+    "under_7_5": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 147,
+      "acertos": 33,
+      "wr": 22.448979591836736
+    },
+    "under_8_5": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 147,
+      "acertos": 46,
+      "wr": 31.292517006802722
+    },
+    "under_9_5": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 147,
+      "acertos": 65,
+      "wr": 44.21768707482993
+    },
+    "over_ht_3_5": {
+      "liga": "BR",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 147,
+      "acertos": 94,
+      "wr": 63.945578231292515
+    },
+    "over_ht_4_5": {
+      "liga": "BR",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 147,
+      "acertos": 65,
+      "wr": 44.21768707482993
+    },
+    "under_ht_4_5": {
+      "liga": "BR",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 147,
+      "acertos": 82,
+      "wr": 55.78231292517007
+    },
+    "dna_def_prec_over95": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_def_under95": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_blitz_overht35": {
+      "liga": "BR",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 45,
+      "acertos": 31,
+      "wr": 68.88888888888889
+    },
+    "dna_blitz_overht45": {
+      "liga": "BR",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 45,
+      "acertos": 24,
+      "wr": 53.333333333333336
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 4,
+      "acertos": 3,
+      "wr": 75
+    },
+    "dna_carrinho_over95": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 4,
+      "acertos": 2,
+      "wr": 50
+    },
+    "dna_atq_ester_over95": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "BR",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 22,
+      "acertos": 11,
+      "wr": 50
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "BR",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 9,
+      "acertos": 4,
+      "wr": 44.44444444444444
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "BR",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 11,
+      "acertos": 4,
+      "wr": 36.36363636363637
+    }
+  },
+  "BR_B": {
+    "over_8_5": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 77,
+      "acertos": 50,
+      "wr": 64.93506493506493
+    },
+    "over_9_5": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 77,
+      "acertos": 43,
+      "wr": 55.84415584415584
+    },
+    "over_10_5": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 77,
+      "acertos": 36,
+      "wr": 46.753246753246756
+    },
+    "under_7_5": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 77,
+      "acertos": 21,
+      "wr": 27.272727272727273
+    },
+    "under_8_5": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 77,
+      "acertos": 27,
+      "wr": 35.064935064935064
+    },
+    "under_9_5": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 77,
+      "acertos": 34,
+      "wr": 44.15584415584416
+    },
+    "over_ht_3_5": {
+      "liga": "BR_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 77,
+      "acertos": 58,
+      "wr": 75.32467532467533
+    },
+    "over_ht_4_5": {
+      "liga": "BR_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 77,
+      "acertos": 41,
+      "wr": 53.246753246753244
+    },
+    "under_ht_4_5": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 77,
+      "acertos": 36,
+      "wr": 46.753246753246756
+    },
+    "dna_def_prec_over95": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_def_under95": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 8,
+      "acertos": 5,
+      "wr": 62.5
+    },
+    "dna_blitz_overht35": {
+      "liga": "BR_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 31,
+      "acertos": 23,
+      "wr": 74.19354838709677
+    },
+    "dna_blitz_overht45": {
+      "liga": "BR_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 31,
+      "acertos": 17,
+      "wr": 54.83870967741935
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 1,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_carrinho_over95": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_atq_ester_over95": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 26,
+      "acertos": 19,
+      "wr": 73.07692307692308
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "BR_B",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 9,
+      "acertos": 4,
+      "wr": 44.44444444444444
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "BR_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 3,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "BR_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 6,
+      "acertos": 3,
+      "wr": 50
+    }
+  },
+  "ARG": {
+    "over_8_5": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 249,
+      "acertos": 127,
+      "wr": 51.00401606425703
+    },
+    "over_9_5": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 249,
+      "acertos": 92,
+      "wr": 36.94779116465863
+    },
+    "over_10_5": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 249,
+      "acertos": 74,
+      "wr": 29.718875502008032
+    },
+    "under_7_5": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 249,
+      "acertos": 97,
+      "wr": 38.95582329317269
+    },
+    "under_8_5": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 249,
+      "acertos": 122,
+      "wr": 48.99598393574297
+    },
+    "under_9_5": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 249,
+      "acertos": 157,
+      "wr": 63.05220883534137
+    },
+    "over_ht_3_5": {
+      "liga": "ARG",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 249,
+      "acertos": 138,
+      "wr": 55.42168674698795
+    },
+    "over_ht_4_5": {
+      "liga": "ARG",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 249,
+      "acertos": 95,
+      "wr": 38.15261044176707
+    },
+    "under_ht_4_5": {
+      "liga": "ARG",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 249,
+      "acertos": 154,
+      "wr": 61.84738955823293
+    },
+    "dna_def_prec_over95": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_def_under95": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 11,
+      "acertos": 7,
+      "wr": 63.63636363636363
+    },
+    "dna_blitz_overht35": {
+      "liga": "ARG",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 115,
+      "acertos": 68,
+      "wr": 59.130434782608695
+    },
+    "dna_blitz_overht45": {
+      "liga": "ARG",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 115,
+      "acertos": 50,
+      "wr": 43.47826086956522
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 1,
+      "acertos": 1,
+      "wr": 100
+    },
+    "dna_carrinho_over95": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 4,
+      "acertos": 2,
+      "wr": 50
+    },
+    "dna_atq_ester_over95": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 24,
+      "acertos": 10,
+      "wr": 41.666666666666664
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 8,
+      "acertos": 5,
+      "wr": 62.5
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "ARG",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 39,
+      "acertos": 19,
+      "wr": 48.717948717948715
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "ARG",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 15,
+      "acertos": 6,
+      "wr": 40
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "ARG",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 21,
+      "acertos": 11,
+      "wr": 52.38095238095238
+    }
+  },
+  "ARG_B": {
+    "over_8_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 216,
+      "acertos": 104,
+      "wr": 48.148148148148145
+    },
+    "over_9_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 216,
+      "acertos": 89,
+      "wr": 41.2037037037037
+    },
+    "over_10_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 216,
+      "acertos": 59,
+      "wr": 27.314814814814813
+    },
+    "under_7_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 216,
+      "acertos": 89,
+      "wr": 41.2037037037037
+    },
+    "under_8_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 216,
+      "acertos": 112,
+      "wr": 51.851851851851855
+    },
+    "under_9_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 216,
+      "acertos": 127,
+      "wr": 58.7962962962963
+    },
+    "over_ht_3_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 216,
+      "acertos": 130,
+      "wr": 60.18518518518518
+    },
+    "over_ht_4_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 216,
+      "acertos": 88,
+      "wr": 40.74074074074074
+    },
+    "under_ht_4_5": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 216,
+      "acertos": 128,
+      "wr": 59.25925925925926
+    },
+    "dna_def_prec_over95": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_def_under95": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_blitz_overht35": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 80,
+      "acertos": 54,
+      "wr": 67.5
+    },
+    "dna_blitz_overht45": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 80,
+      "acertos": 43,
+      "wr": 53.75
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_carrinho_over95": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 11,
+      "acertos": 6,
+      "wr": 54.54545454545455
+    },
+    "dna_atq_ester_over95": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 5,
+      "acertos": 2,
+      "wr": 40
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 20,
+      "acertos": 12,
+      "wr": 60
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "ARG_B",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 33,
+      "acertos": 14,
+      "wr": 42.42424242424242
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "ARG_B",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 14,
+      "acertos": 4,
+      "wr": 28.571428571428573
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "ARG_B",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 16,
+      "acertos": 10,
+      "wr": 62.5
+    }
+  },
+  "MLS": {
+    "over_8_5": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 177,
+      "acertos": 118,
+      "wr": 66.66666666666667
+    },
+    "over_9_5": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 177,
+      "acertos": 98,
+      "wr": 55.367231638418076
+    },
+    "over_10_5": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 177,
+      "acertos": 78,
+      "wr": 44.067796610169495
+    },
+    "under_7_5": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 177,
+      "acertos": 42,
+      "wr": 23.728813559322035
+    },
+    "under_8_5": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 177,
+      "acertos": 59,
+      "wr": 33.333333333333336
+    },
+    "under_9_5": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 177,
+      "acertos": 79,
+      "wr": 44.632768361581924
+    },
+    "over_ht_3_5": {
+      "liga": "MLS",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 177,
+      "acertos": 120,
+      "wr": 67.79661016949153
+    },
+    "over_ht_4_5": {
+      "liga": "MLS",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 177,
+      "acertos": 99,
+      "wr": 55.932203389830505
+    },
+    "under_ht_4_5": {
+      "liga": "MLS",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 177,
+      "acertos": 78,
+      "wr": 44.067796610169495
+    },
+    "dna_def_prec_over95": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 11,
+      "acertos": 7,
+      "wr": 63.63636363636363
+    },
+    "dna_muro_def_under95": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_blitz_overht35": {
+      "liga": "MLS",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 70,
+      "acertos": 50,
+      "wr": 71.42857142857143
+    },
+    "dna_blitz_overht45": {
+      "liga": "MLS",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 70,
+      "acertos": 41,
+      "wr": 58.57142857142857
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 17,
+      "acertos": 9,
+      "wr": 52.94117647058823
+    },
+    "dna_carrinho_over95": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 7,
+      "acertos": 7,
+      "wr": 100
+    },
+    "dna_atq_ester_over95": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 10,
+      "acertos": 4,
+      "wr": 40
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "MLS",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 29,
+      "acertos": 17,
+      "wr": 58.62068965517241
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "MLS",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 13,
+      "acertos": 9,
+      "wr": 69.23076923076923
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "MLS",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 16,
+      "acertos": 7,
+      "wr": 43.75
+    }
+  },
+  "USL": {
+    "over_8_5": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 106,
+      "acertos": 59,
+      "wr": 55.660377358490564
+    },
+    "over_9_5": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 106,
+      "acertos": 47,
+      "wr": 44.339622641509436
+    },
+    "over_10_5": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 106,
+      "acertos": 37,
+      "wr": 34.905660377358494
+    },
+    "under_7_5": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 106,
+      "acertos": 37,
+      "wr": 34.905660377358494
+    },
+    "under_8_5": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 106,
+      "acertos": 47,
+      "wr": 44.339622641509436
+    },
+    "under_9_5": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 106,
+      "acertos": 59,
+      "wr": 55.660377358490564
+    },
+    "over_ht_3_5": {
+      "liga": "USL",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 106,
+      "acertos": 65,
+      "wr": 61.320754716981135
+    },
+    "over_ht_4_5": {
+      "liga": "USL",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 106,
+      "acertos": 48,
+      "wr": 45.283018867924525
+    },
+    "under_ht_4_5": {
+      "liga": "USL",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 106,
+      "acertos": 58,
+      "wr": 54.716981132075475
+    },
+    "dna_def_prec_over95": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_def_under95": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 4,
+      "acertos": 3,
+      "wr": 75
+    },
+    "dna_blitz_overht35": {
+      "liga": "USL",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 50,
+      "acertos": 35,
+      "wr": 70
+    },
+    "dna_blitz_overht45": {
+      "liga": "USL",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 50,
+      "acertos": 27,
+      "wr": 54
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 14,
+      "acertos": 12,
+      "wr": 85.71428571428571
+    },
+    "dna_carrinho_over95": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_atq_ester_over95": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 6,
+      "acertos": 4,
+      "wr": 66.66666666666667
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "USL",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 18,
+      "acertos": 9,
+      "wr": 50
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "USL",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 8,
+      "acertos": 5,
+      "wr": 62.5
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "USL",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 9,
+      "acertos": 8,
+      "wr": 88.88888888888889
+    }
+  },
+  "BUN": {
+    "over_8_5": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 297,
+      "acertos": 179,
+      "wr": 60.26936026936027
+    },
+    "over_9_5": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 297,
+      "acertos": 153,
+      "wr": 51.515151515151516
+    },
+    "over_10_5": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 297,
+      "acertos": 112,
+      "wr": 37.71043771043771
+    },
+    "under_7_5": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 297,
+      "acertos": 82,
+      "wr": 27.60942760942761
+    },
+    "under_8_5": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 297,
+      "acertos": 118,
+      "wr": 39.73063973063973
+    },
+    "under_9_5": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 297,
+      "acertos": 144,
+      "wr": 48.484848484848484
+    },
+    "over_ht_3_5": {
+      "liga": "BUN",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 297,
+      "acertos": 184,
+      "wr": 61.95286195286195
+    },
+    "over_ht_4_5": {
+      "liga": "BUN",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 297,
+      "acertos": 137,
+      "wr": 46.127946127946124
+    },
+    "under_ht_4_5": {
+      "liga": "BUN",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 297,
+      "acertos": 160,
+      "wr": 53.872053872053876
+    },
+    "dna_def_prec_over95": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_def_under95": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_blitz_overht35": {
+      "liga": "BUN",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 83,
+      "acertos": 55,
+      "wr": 66.26506024096386
+    },
+    "dna_blitz_overht45": {
+      "liga": "BUN",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 83,
+      "acertos": 43,
+      "wr": 51.80722891566265
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 12,
+      "acertos": 7,
+      "wr": 58.333333333333336
+    },
+    "dna_carrinho_over95": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_atq_ester_over95": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "BUN",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 42,
+      "acertos": 24,
+      "wr": 57.142857142857146
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "BUN",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 20,
+      "acertos": 14,
+      "wr": 70
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "BUN",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 20,
+      "acertos": 8,
+      "wr": 40
+    }
+  },
+  "J1": {
+    "over_8_5": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 129,
+      "acertos": 77,
+      "wr": 59.689922480620154
+    },
+    "over_9_5": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 129,
+      "acertos": 62,
+      "wr": 48.06201550387597
+    },
+    "over_10_5": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 129,
+      "acertos": 44,
+      "wr": 34.10852713178294
+    },
+    "under_7_5": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 129,
+      "acertos": 32,
+      "wr": 24.8062015503876
+    },
+    "under_8_5": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 129,
+      "acertos": 52,
+      "wr": 40.310077519379846
+    },
+    "under_9_5": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 129,
+      "acertos": 67,
+      "wr": 51.93798449612403
+    },
+    "over_ht_3_5": {
+      "liga": "J1",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 129,
+      "acertos": 73,
+      "wr": 56.58914728682171
+    },
+    "over_ht_4_5": {
+      "liga": "J1",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 129,
+      "acertos": 56,
+      "wr": 43.41085271317829
+    },
+    "under_ht_4_5": {
+      "liga": "J1",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 129,
+      "acertos": 73,
+      "wr": 56.58914728682171
+    },
+    "dna_def_prec_over95": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 6,
+      "acertos": 6,
+      "wr": 100
+    },
+    "dna_muro_def_under95": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 13,
+      "acertos": 9,
+      "wr": 69.23076923076923
+    },
+    "dna_blitz_overht35": {
+      "liga": "J1",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 12,
+      "acertos": 12,
+      "wr": 100
+    },
+    "dna_blitz_overht45": {
+      "liga": "J1",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 12,
+      "acertos": 10,
+      "wr": 83.33333333333333
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_carrinho_over95": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_atq_ester_over95": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 22,
+      "acertos": 11,
+      "wr": 50
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "J1",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "J1",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "J1",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    }
+  },
+  "J2_J3": {
+    "over_8_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 8.5,
+      "n": 319,
+      "acertos": 214,
+      "wr": 67.08463949843261
+    },
+    "over_9_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 319,
+      "acertos": 161,
+      "wr": 50.470219435736674
+    },
+    "over_10_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 10.5,
+      "n": 319,
+      "acertos": 123,
+      "wr": 38.557993730407524
+    },
+    "under_7_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 7.5,
+      "n": 319,
+      "acertos": 64,
+      "wr": 20.062695924764892
+    },
+    "under_8_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 8.5,
+      "n": 319,
+      "acertos": 105,
+      "wr": 32.9153605015674
+    },
+    "under_9_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 319,
+      "acertos": 158,
+      "wr": 49.529780564263326
+    },
+    "over_ht_3_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 319,
+      "acertos": 211,
+      "wr": 66.14420062695925
+    },
+    "over_ht_4_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 319,
+      "acertos": 155,
+      "wr": 48.58934169278997
+    },
+    "under_ht_4_5": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderHT",
+      "dir": "UNDER",
+      "linha": 4.5,
+      "n": 319,
+      "acertos": 164,
+      "wr": 51.41065830721003
+    },
+    "dna_def_prec_over95": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 8,
+      "acertos": 5,
+      "wr": 62.5
+    },
+    "dna_muro_def_under95": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 7,
+      "acertos": 5,
+      "wr": 71.42857142857143
+    },
+    "dna_blitz_overht35": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 3.5,
+      "n": 88,
+      "acertos": 64,
+      "wr": 72.72727272727273
+    },
+    "dna_blitz_overht45": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverHT",
+      "dir": "OVER",
+      "linha": 4.5,
+      "n": 88,
+      "acertos": 51,
+      "wr": 57.95454545454545
+    },
+    "dna_efet_dupla_under95": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 11,
+      "acertos": 9,
+      "wr": 81.81818181818181
+    },
+    "dna_carrinho_over95": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 9,
+      "acertos": 6,
+      "wr": 66.66666666666667
+    },
+    "dna_atq_ester_over95": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 24,
+      "acertos": 13,
+      "wr": 54.166666666666664
+    },
+    "dna_muro_duplo_under95": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 0,
+      "acertos": 0,
+      "wr": 0
+    },
+    "dna_psdiff50_hdp": {
+      "liga": "J2_J3",
+      "mercadoNome": "HDP",
+      "dir": "OVER",
+      "linha": -2.5,
+      "n": 44,
+      "acertos": 20,
+      "wr": 45.45454545454545
+    },
+    "dna_eliteXazarao_over95": {
+      "liga": "J2_J3",
+      "mercadoNome": "OverFT",
+      "dir": "OVER",
+      "linha": 9.5,
+      "n": 20,
+      "acertos": 6,
+      "wr": 30
+    },
+    "dna_eliteXelite_under95": {
+      "liga": "J2_J3",
+      "mercadoNome": "UnderFT",
+      "dir": "UNDER",
+      "linha": 9.5,
+      "n": 25,
+      "acertos": 13,
+      "wr": 52
+    }
+  }
+}

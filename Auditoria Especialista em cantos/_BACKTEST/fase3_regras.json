@@ -1,0 +1,584 @@
+[
+  {
+    "regra": "Mandante DEFESA_PRECARIA → Over 9.5 FT",
+    "n": 25,
+    "acertos": 18,
+    "wr": 72,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "MLS": {
+        "n": 11,
+        "acertos": 7
+      },
+      "J1": {
+        "n": 6,
+        "acertos": 6
+      },
+      "J2_J3": {
+        "n": 8,
+        "acertos": 5
+      }
+    }
+  },
+  {
+    "regra": "Mandante DEFESA_PRECARIA → Under 9.5 FT (negativo: deveria errar)",
+    "n": 25,
+    "acertos": 7,
+    "wr": 28,
+    "dir": "UNDER",
+    "linha": 9.5,
+    "porLiga": {
+      "MLS": {
+        "n": 11,
+        "acertos": 4
+      },
+      "J1": {
+        "n": 6,
+        "acertos": 0
+      },
+      "J2_J3": {
+        "n": 8,
+        "acertos": 3
+      }
+    }
+  },
+  {
+    "regra": "Dois MURO_DUPLO → Under 9.5 FT",
+    "n": 28,
+    "acertos": 17,
+    "wr": 60.714285714285715,
+    "dir": "UNDER",
+    "linha": 9.5,
+    "porLiga": {
+      "ARG": {
+        "n": 8,
+        "acertos": 5
+      },
+      "ARG_B": {
+        "n": 20,
+        "acertos": 12
+      }
+    }
+  },
+  {
+    "regra": "Mandante BLITZ_INICIAL → Over HT 3.5",
+    "n": 574,
+    "acertos": 392,
+    "wr": 68.29268292682927,
+    "dir": "OVER",
+    "linha": 3.5,
+    "porLiga": {
+      "BR": {
+        "n": 45,
+        "acertos": 31
+      },
+      "BR_B": {
+        "n": 31,
+        "acertos": 23
+      },
+      "ARG": {
+        "n": 115,
+        "acertos": 68
+      },
+      "ARG_B": {
+        "n": 80,
+        "acertos": 54
+      },
+      "MLS": {
+        "n": 70,
+        "acertos": 50
+      },
+      "USL": {
+        "n": 50,
+        "acertos": 35
+      },
+      "BUN": {
+        "n": 83,
+        "acertos": 55
+      },
+      "J1": {
+        "n": 12,
+        "acertos": 12
+      },
+      "J2_J3": {
+        "n": 88,
+        "acertos": 64
+      }
+    }
+  },
+  {
+    "regra": "ELITE casa (PS≥80) vs AZARÃO fora (PS≤30) → Over 9.5",
+    "n": 102,
+    "acertos": 48,
+    "wr": 47.05882352941177,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 9,
+        "acertos": 4
+      },
+      "BR_B": {
+        "n": 3,
+        "acertos": 0
+      },
+      "ARG": {
+        "n": 15,
+        "acertos": 6
+      },
+      "ARG_B": {
+        "n": 14,
+        "acertos": 4
+      },
+      "MLS": {
+        "n": 13,
+        "acertos": 9
+      },
+      "USL": {
+        "n": 8,
+        "acertos": 5
+      },
+      "BUN": {
+        "n": 20,
+        "acertos": 14
+      },
+      "J2_J3": {
+        "n": 20,
+        "acertos": 6
+      }
+    }
+  },
+  {
+    "regra": "ELITE casa (PS≥80) vs AZARÃO fora (PS≤30) → HDP -2.5 cantos (diff≥3)",
+    "n": 102,
+    "acertos": 47,
+    "wr": 46.07843137254902,
+    "dir": "HDP",
+    "linha": -2.5,
+    "porLiga": {
+      "BR": {
+        "n": 9,
+        "acertos": 5
+      },
+      "BR_B": {
+        "n": 3,
+        "acertos": 0
+      },
+      "ARG": {
+        "n": 15,
+        "acertos": 7
+      },
+      "ARG_B": {
+        "n": 14,
+        "acertos": 4
+      },
+      "MLS": {
+        "n": 13,
+        "acertos": 7
+      },
+      "USL": {
+        "n": 8,
+        "acertos": 4
+      },
+      "BUN": {
+        "n": 20,
+        "acertos": 12
+      },
+      "J2_J3": {
+        "n": 20,
+        "acertos": 8
+      }
+    }
+  },
+  {
+    "regra": "Dois com EFETIVIDADE_CLINICA → Under 9.5",
+    "n": 60,
+    "acertos": 41,
+    "wr": 68.33333333333333,
+    "dir": "UNDER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 4,
+        "acertos": 3
+      },
+      "BR_B": {
+        "n": 1,
+        "acertos": 0
+      },
+      "ARG": {
+        "n": 1,
+        "acertos": 1
+      },
+      "MLS": {
+        "n": 17,
+        "acertos": 9
+      },
+      "USL": {
+        "n": 14,
+        "acertos": 12
+      },
+      "BUN": {
+        "n": 12,
+        "acertos": 7
+      },
+      "J2_J3": {
+        "n": 11,
+        "acertos": 9
+      }
+    }
+  },
+  {
+    "regra": "Mandante CARRINHO_FACIL vs AZARÃO (PS≤30) → Over 9.5",
+    "n": 35,
+    "acertos": 23,
+    "wr": 65.71428571428571,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 4,
+        "acertos": 2
+      },
+      "ARG": {
+        "n": 4,
+        "acertos": 2
+      },
+      "ARG_B": {
+        "n": 11,
+        "acertos": 6
+      },
+      "MLS": {
+        "n": 7,
+        "acertos": 7
+      },
+      "J2_J3": {
+        "n": 9,
+        "acertos": 6
+      }
+    }
+  },
+  {
+    "regra": "Visitante AZARÃO com SUCUMBE_AZARAO → Over 9.5",
+    "n": 158,
+    "acertos": 78,
+    "wr": 49.36708860759494,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 16,
+        "acertos": 10
+      },
+      "ARG": {
+        "n": 24,
+        "acertos": 10
+      },
+      "ARG_B": {
+        "n": 25,
+        "acertos": 11
+      },
+      "MLS": {
+        "n": 24,
+        "acertos": 14
+      },
+      "USL": {
+        "n": 6,
+        "acertos": 2
+      },
+      "BUN": {
+        "n": 16,
+        "acertos": 10
+      },
+      "J2_J3": {
+        "n": 47,
+        "acertos": 21
+      }
+    }
+  },
+  {
+    "regra": "Mandante ATAQUE_ESTERIL → Over 9.5",
+    "n": 117,
+    "acertos": 63,
+    "wr": 53.84615384615385,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR_B": {
+        "n": 26,
+        "acertos": 19
+      },
+      "ARG": {
+        "n": 24,
+        "acertos": 10
+      },
+      "ARG_B": {
+        "n": 5,
+        "acertos": 2
+      },
+      "MLS": {
+        "n": 10,
+        "acertos": 4
+      },
+      "USL": {
+        "n": 6,
+        "acertos": 4
+      },
+      "J1": {
+        "n": 22,
+        "acertos": 11
+      },
+      "J2_J3": {
+        "n": 24,
+        "acertos": 13
+      }
+    }
+  },
+  {
+    "regra": "Mandante MURO_DEFENSIVO → Under 9.5",
+    "n": 43,
+    "acertos": 29,
+    "wr": 67.44186046511628,
+    "dir": "UNDER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR_B": {
+        "n": 8,
+        "acertos": 5
+      },
+      "ARG": {
+        "n": 11,
+        "acertos": 7
+      },
+      "USL": {
+        "n": 4,
+        "acertos": 3
+      },
+      "J1": {
+        "n": 13,
+        "acertos": 9
+      },
+      "J2_J3": {
+        "n": 7,
+        "acertos": 5
+      }
+    }
+  },
+  {
+    "regra": "PS_diff ≥ 50 (assimetria forte mandante) → Over 9.5",
+    "n": 236,
+    "acertos": 124,
+    "wr": 52.54237288135593,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 22,
+        "acertos": 13
+      },
+      "BR_B": {
+        "n": 9,
+        "acertos": 4
+      },
+      "ARG": {
+        "n": 39,
+        "acertos": 14
+      },
+      "ARG_B": {
+        "n": 33,
+        "acertos": 11
+      },
+      "MLS": {
+        "n": 29,
+        "acertos": 20
+      },
+      "USL": {
+        "n": 18,
+        "acertos": 9
+      },
+      "BUN": {
+        "n": 42,
+        "acertos": 28
+      },
+      "J2_J3": {
+        "n": 44,
+        "acertos": 25
+      }
+    }
+  },
+  {
+    "regra": "PS_diff ≥ 50 → HDP -2.5 cantos mandante",
+    "n": 236,
+    "acertos": 118,
+    "wr": 50,
+    "dir": "HDP",
+    "linha": -2.5,
+    "porLiga": {
+      "BR": {
+        "n": 22,
+        "acertos": 11
+      },
+      "BR_B": {
+        "n": 9,
+        "acertos": 4
+      },
+      "ARG": {
+        "n": 39,
+        "acertos": 19
+      },
+      "ARG_B": {
+        "n": 33,
+        "acertos": 14
+      },
+      "MLS": {
+        "n": 29,
+        "acertos": 17
+      },
+      "USL": {
+        "n": 18,
+        "acertos": 9
+      },
+      "BUN": {
+        "n": 42,
+        "acertos": 24
+      },
+      "J2_J3": {
+        "n": 44,
+        "acertos": 20
+      }
+    }
+  },
+  {
+    "regra": "ELITE×ELITE (ambos PS≥70) → Over 9.5",
+    "n": 124,
+    "acertos": 60,
+    "wr": 48.38709677419355,
+    "dir": "OVER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 11,
+        "acertos": 7
+      },
+      "BR_B": {
+        "n": 6,
+        "acertos": 3
+      },
+      "ARG": {
+        "n": 21,
+        "acertos": 10
+      },
+      "ARG_B": {
+        "n": 16,
+        "acertos": 6
+      },
+      "MLS": {
+        "n": 16,
+        "acertos": 9
+      },
+      "USL": {
+        "n": 9,
+        "acertos": 1
+      },
+      "BUN": {
+        "n": 20,
+        "acertos": 12
+      },
+      "J2_J3": {
+        "n": 25,
+        "acertos": 12
+      }
+    }
+  },
+  {
+    "regra": "ELITE×ELITE (ambos PS≥70) → Under 9.5",
+    "n": 124,
+    "acertos": 64,
+    "wr": 51.61290322580645,
+    "dir": "UNDER",
+    "linha": 9.5,
+    "porLiga": {
+      "BR": {
+        "n": 11,
+        "acertos": 4
+      },
+      "BR_B": {
+        "n": 6,
+        "acertos": 3
+      },
+      "ARG": {
+        "n": 21,
+        "acertos": 11
+      },
+      "ARG_B": {
+        "n": 16,
+        "acertos": 10
+      },
+      "MLS": {
+        "n": 16,
+        "acertos": 7
+      },
+      "USL": {
+        "n": 9,
+        "acertos": 8
+      },
+      "BUN": {
+        "n": 20,
+        "acertos": 8
+      },
+      "J2_J3": {
+        "n": 25,
+        "acertos": 13
+      }
+    }
+  },
+  {
+    "regra": "ARG/ARG_B/USL → Under 8.5 FT (linha trucada)",
+    "n": 571,
+    "acertos": 281,
+    "wr": 49.21190893169877,
+    "dir": "UNDER",
+    "linha": 8.5,
+    "porLiga": {
+      "ARG": {
+        "n": 249,
+        "acertos": 122
+      },
+      "ARG_B": {
+        "n": 216,
+        "acertos": 112
+      },
+      "USL": {
+        "n": 106,
+        "acertos": 47
+      }
+    }
+  },
+  {
+    "regra": "BR/BR_B/MLS/J2_J3 → Over 10.5 FT (linha ofensiva)",
+    "n": 720,
+    "acertos": 290,
+    "wr": 40.27777777777778,
+    "dir": "OVER",
+    "linha": 10.5,
+    "porLiga": {
+      "BR": {
+        "n": 147,
+        "acertos": 53
+      },
+      "BR_B": {
+        "n": 77,
+        "acertos": 36
+      },
+      "MLS": {
+        "n": 177,
+        "acertos": 78
+      },
+      "J2_J3": {
+        "n": 319,
+        "acertos": 123
+      }
+    }
+  }
+]

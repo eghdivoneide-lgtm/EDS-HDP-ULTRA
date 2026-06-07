@@ -1,0 +1,737 @@
+{
+  "BR": [
+    {
+      "jogo": "Fluminense × São Paulo",
+      "mercado": "UNDER 9.5 FT",
+      "score": 4.4,
+      "margem": 5.5,
+      "xFT": 4,
+      "xHT": 1.98,
+      "n": 1,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ",
+        "M_RETRANCA",
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER",
+        "V_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "catM": "elite",
+      "catV": "medio_forte",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_CRESCENTE"
+    },
+    {
+      "jogo": "Botafogo × Corinthians",
+      "mercado": "OVER 9.5 FT",
+      "score": 2.8,
+      "margem": 3,
+      "xFT": 12.5,
+      "xHT": 5.25,
+      "n": 2,
+      "conf": "ALTA",
+      "flags": [],
+      "bucketM": {
+        "total": 12.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "catM": "medio_forte",
+      "catV": "azarao",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO"
+    },
+    {
+      "jogo": "Red Bull Bragantino × Vitória",
+      "mercado": "OVER 9.5 FT",
+      "score": 2.77,
+      "margem": 3.17,
+      "xFT": 12.67,
+      "xHT": 4.69,
+      "n": 3,
+      "conf": "ALTA",
+      "flags": [
+        "M_ELITE_KILLER",
+        "V_ELITE_KILLER"
+      ],
+      "bucketM": {
+        "total": 18,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 10,
+        "n": 2,
+        "over95": 50,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "catM": "medio",
+      "catV": "medio",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO"
+    }
+  ],
+  "BR_B": [
+    {
+      "jogo": "Goias × Botafogo SP",
+      "mercado": "OVER 9.5 FT",
+      "score": 5.6,
+      "margem": 6,
+      "xFT": 15.5,
+      "xHT": 7.83,
+      "n": 2,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ",
+        "V_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 13,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 18,
+        "n": 1,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "catM": "azarao",
+      "catV": "medio_forte",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO"
+    },
+    {
+      "jogo": "Criciuma × Atletico GO",
+      "mercado": "OVER 9.5 FT",
+      "score": 5.4,
+      "margem": 3.5,
+      "xFT": 13,
+      "xHT": 6.57,
+      "n": 4,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_RUPTURA_HOME",
+        "V_BLITZ",
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 14,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 12.67,
+        "n": 3,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "catM": "medio_forte",
+      "catV": "azarao",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "ATAQUE_DECLINANDO"
+    },
+    {
+      "jogo": "Ceara × Fortaleza",
+      "mercado": "OVER 9.5 FT",
+      "score": 4.05,
+      "margem": 2.25,
+      "xFT": 11.75,
+      "xHT": 5.4,
+      "n": 4,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_ELITE_KILLER",
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 8.5,
+        "n": 2,
+        "over95": 50,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 15,
+        "n": 2,
+        "over95": 100,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "catM": "medio_forte",
+      "catV": "elite",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO"
+    },
+    {
+      "jogo": "Vila Nova FC × Avai",
+      "mercado": "OVER 9.5 FT",
+      "score": 3.6,
+      "margem": 2.5,
+      "xFT": 12,
+      "xHT": 5.22,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ"
+      ],
+      "bucketM": {
+        "total": 10.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 15,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "catM": "elite",
+      "catV": "medio",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": null
+    }
+  ],
+  "ARG": [
+    {
+      "jogo": "Argentinos Jrs × Belgrano",
+      "mercado": "UNDER 9.5 FT",
+      "score": 4.9,
+      "margem": 3.1,
+      "xFT": 6.4,
+      "xHT": 2.94,
+      "n": 5,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_MURO"
+      ],
+      "bucketM": {
+        "total": 4,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 8,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "catM": "medio_forte",
+      "catV": "elite",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO"
+    },
+    {
+      "jogo": "River Plate × Rosario Central",
+      "mercado": "UNDER 9.5 FT",
+      "score": 3.3,
+      "margem": 3,
+      "xFT": 6.5,
+      "xHT": 3.05,
+      "n": 2,
+      "conf": "ALTA",
+      "flags": [
+        "M_RETRANCA",
+        "M_RUPTURA_HOME",
+        "V_RETRANCA"
+      ],
+      "bucketM": {
+        "total": 7,
+        "n": 1,
+        "over95": 0,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 6,
+        "n": 1,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "catM": "elite",
+      "catV": "medio_forte",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_DEGRADANDO"
+    },
+    {
+      "jogo": "Argentinos Jrs × Belgrano",
+      "mercado": "UNDER 4.5 HT",
+      "score": 2.66,
+      "margem": 1.56,
+      "xFT": 6.4,
+      "xHT": 2.94,
+      "n": 5,
+      "conf": "ALTA",
+      "flags": [
+        "M_MURO"
+      ],
+      "bucketM": {
+        "total": 4,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 8,
+        "n": 3,
+        "over95": 33.33,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "catM": "medio_forte",
+      "catV": "elite",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ATAQUE_DECLINANDO"
+    }
+  ],
+  "ARG_B": [
+    {
+      "jogo": "CA Mitre × San Miguel",
+      "mercado": "UNDER 9.5 FT",
+      "score": 6.17,
+      "margem": 5.17,
+      "xFT": 4.33,
+      "xHT": 2.23,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_ELITE_KILLER",
+        "V_BLITZ",
+        "V_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 2,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 5.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "catM": "medio",
+      "catV": "azarao",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ESTAGNADO"
+    },
+    {
+      "jogo": "Deportivo Maipu × Nueva Chicago",
+      "mercado": "OVER 9.5 FT",
+      "score": 5.9,
+      "margem": 6.5,
+      "xFT": 16,
+      "xHT": 7.44,
+      "n": 1,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 16,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": null,
+      "catM": "medio_forte",
+      "catV": "azarao",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO"
+    },
+    {
+      "jogo": "Los Andes × Godoy Cruz",
+      "mercado": "UNDER 9.5 FT",
+      "score": 5.23,
+      "margem": 4.83,
+      "xFT": 4.67,
+      "xHT": 2.17,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "V_ELITE_KILLER"
+      ],
+      "bucketM": {
+        "total": 4.67,
+        "n": 3,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "catM": "elite",
+      "catV": "medio",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "ESTAGNADO"
+    },
+    {
+      "jogo": "CA Estudiantes × Colon Santa Fe",
+      "mercado": "UNDER 9.5 FT",
+      "score": 3.97,
+      "margem": 3.17,
+      "xFT": 6.33,
+      "xHT": 3.26,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ",
+        "V_BLITZ",
+        "V_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 9,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "catM": "medio_forte",
+      "catV": "azarao",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ESTAGNADO"
+    }
+  ],
+  "MLS": [
+    {
+      "jogo": "Inter Miami × Portland Timbers",
+      "mercado": "OVER 9.5 FT",
+      "score": 5.7,
+      "margem": 3.5,
+      "xFT": 13,
+      "xHT": 6.89,
+      "n": 5,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ",
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 13.5,
+        "n": 2,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 12.67,
+        "n": 3,
+        "over95": 66.67,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "catM": "medio_forte",
+      "catV": "azarao",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO"
+    },
+    {
+      "jogo": "Orlando City × Atlanta Utd",
+      "mercado": "OVER 9.5 FT",
+      "score": 5.63,
+      "margem": 3.83,
+      "xFT": 13.33,
+      "xHT": 5.8,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_DEF_PRECARIA",
+        "V_BLITZ"
+      ],
+      "bucketM": {
+        "total": 13.33,
+        "n": 3,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "bucketV": null,
+      "catM": "azarao",
+      "catV": "azarao",
+      "tendM": "ESTAGNADO",
+      "tendV": "ATAQUE_CRESCENTE"
+    },
+    {
+      "jogo": "Charlotte × Toronto FC",
+      "mercado": "OVER 9.5 FT",
+      "score": 4.75,
+      "margem": 3.25,
+      "xFT": 12.75,
+      "xHT": 5.16,
+      "n": 4,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_RUPTURA_HOME",
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 12,
+        "n": 3,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 15,
+        "n": 1,
+        "over95": 100,
+        "veredito": "EQUILIBRADO",
+        "conf": "amostra_baixa"
+      },
+      "catM": "medio",
+      "catV": "medio",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO"
+    },
+    {
+      "jogo": "New York Red Bulls × New York City",
+      "mercado": "UNDER 9.5 FT",
+      "score": 4.5,
+      "margem": 3,
+      "xFT": 6.5,
+      "xHT": 2.67,
+      "n": 4,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ",
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "bucketV": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "EQUILIBRADO",
+        "conf": "tendencia"
+      },
+      "catM": "azarao",
+      "catV": "medio",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "ESTAGNADO"
+    }
+  ],
+  "USL": [
+    {
+      "jogo": "Detroit × Miami FC",
+      "mercado": "OVER 9.5 FT",
+      "score": 4.3,
+      "margem": 3.5,
+      "xFT": 13,
+      "xHT": 5.52,
+      "n": 2,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_VOLATIL"
+      ],
+      "bucketM": {
+        "total": 14,
+        "n": 1,
+        "over95": 100,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 12,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "catM": "elite",
+      "catV": "medio",
+      "tendM": "ESTAGNADO",
+      "tendV": "EM_EVOLUCAO_FORTE"
+    },
+    {
+      "jogo": "FC Tulsa × Hartford Athletic",
+      "mercado": "OVER 9.5 FT",
+      "score": 2.9,
+      "margem": 3.5,
+      "xFT": 13,
+      "xHT": 5,
+      "n": 2,
+      "conf": "ALTA",
+      "flags": [
+        "M_RETRANCA",
+        "M_RUPTURA_HOME"
+      ],
+      "bucketM": null,
+      "bucketV": {
+        "total": 13,
+        "n": 2,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "tendencia"
+      },
+      "catM": "azarao",
+      "catV": "azarao",
+      "tendM": null,
+      "tendV": "DEFESA_MELHORANDO"
+    }
+  ],
+  "J2_J3": [
+    {
+      "jogo": "Iwata × Fujieda MYFC",
+      "mercado": "UNDER 9.5 FT",
+      "score": 6,
+      "margem": 6,
+      "xFT": 3.5,
+      "xHT": 1.59,
+      "n": 2,
+      "conf": "MÁXIMA",
+      "flags": [],
+      "bucketM": {
+        "total": 4,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 3,
+        "n": 1,
+        "over95": 0,
+        "veredito": "CONTROLOU",
+        "conf": "amostra_baixa"
+      },
+      "catM": "medio",
+      "catV": "medio",
+      "tendM": "ATAQUE_CRESCENTE",
+      "tendV": "DEFESA_MELHORANDO"
+    },
+    {
+      "jogo": "Tochigi City × Montedio Yamagata",
+      "mercado": "OVER 9.5 FT",
+      "score": 4.1,
+      "margem": 4,
+      "xFT": 13.5,
+      "xHT": 5.81,
+      "n": 2,
+      "conf": "MÁXIMA",
+      "flags": [
+        "V_DEF_PRECARIA"
+      ],
+      "bucketM": {
+        "total": 11,
+        "n": 1,
+        "over95": 100,
+        "veredito": "DOMINOU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 16,
+        "n": 1,
+        "over95": 100,
+        "veredito": "ENGOLIDO",
+        "conf": "amostra_baixa"
+      },
+      "catM": "azarao",
+      "catV": "azarao",
+      "tendM": "ATAQUE_DECLINANDO",
+      "tendV": "DEFESA_MELHORANDO"
+    },
+    {
+      "jogo": "Kofu × Gifu",
+      "mercado": "UNDER 9.5 FT",
+      "score": 3.9,
+      "margem": 2.5,
+      "xFT": 7,
+      "xHT": 3.01,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_BLITZ"
+      ],
+      "bucketM": {
+        "total": 8,
+        "n": 1,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "amostra_baixa"
+      },
+      "bucketV": {
+        "total": 6.5,
+        "n": 2,
+        "over95": 0,
+        "veredito": "DOMINOU",
+        "conf": "tendencia"
+      },
+      "catM": "elite",
+      "catV": "medio_forte",
+      "tendM": "DEFESA_DEGRADANDO",
+      "tendV": "ATAQUE_DECLINANDO"
+    },
+    {
+      "jogo": "Oita Trinita × Tegevajaro Miyazaki",
+      "mercado": "UNDER 9.5 FT",
+      "score": 3.9,
+      "margem": 2.5,
+      "xFT": 7,
+      "xHT": 3.18,
+      "n": 3,
+      "conf": "MÁXIMA",
+      "flags": [
+        "M_ELITE_KILLER"
+      ],
+      "bucketM": null,
+      "bucketV": {
+        "total": 7,
+        "n": 3,
+        "over95": 0,
+        "veredito": "SOFREU",
+        "conf": "tendencia"
+      },
+      "catM": "medio",
+      "catV": "elite",
+      "tendM": "DEFESA_MELHORANDO",
+      "tendV": "DEFESA_MELHORANDO"
+    }
+  ]
+}

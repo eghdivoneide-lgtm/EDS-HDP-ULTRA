@@ -1,0 +1,48 @@
+═══ AUDITORIA — BUN — 2026-05-16 ═══
+Liga: Bundesliga
+Total jogos: 297 | Válidos: 297
+Times: 18
+DNA disponível: sim
+
+— Etapa 1: PowerScore + categoria —
+— Etapa 2: Baselines —
+Baseline liga: 9.71 cantos/jogo (HT=4.38)
+— Etapa 3: Bucket Matrix —
+— Etapa 4: 12 Assinaturas —
+  BLITZ_INICIAL: 5 times
+  RETRANCA_AVANCADA: 0 times
+  EFETIVIDADE_CLINICA: 4 times
+  ATAQUE_ESTERIL: 0 times
+  MURO_DEFENSIVO: 0 times
+  DEFESA_PRECARIA: 0 times
+  RUPTURA_HOME: 6 times
+  ELITE_KILLER: 3 times
+  CARRINHO_FACIL: 0 times
+  DESEQUILIBRA_FAVORITO: 2 times
+  SUCUMBE_AZARAO: 1 times
+  TERMOMETRO_FORMA: 0 times
+— Etapa 5: Narrativas —
+— Etapa 6: Matriz DNA × DNA —
+Cruzamentos detectados: 23
+— Etapa 7: Montagem da memória —
+— Etapa 8: Divergências DNA × Performance: 0 detectadas
+
+— ⚠️ AVISO: cobertura de placar baixa (14.8%) —
+Assinaturas placar-dependentes com nao_avaliavel por time:
+  Nenhum time com 0 jogos de placar — distribuição uniforme da cobertura.
+  Mas amostra por time é pequena (cobertura geral: 44/297 jogos):
+    Augsburg: 4 jogo(s) com placar
+    B. Monchengladbach: 5 jogo(s) com placar
+    Bayer Leverkusen: 5 jogo(s) com placar
+    Bayern Munich: 5 jogo(s) com placar
+    Dortmund: 5 jogo(s) com placar
+    Eintracht Frankfurt: 5 jogo(s) com placar
+    FC Koln: 5 jogo(s) com placar
+    Freiburg: 5 jogo(s) com placar
+    Hamburger SV: 5 jogo(s) com placar
+    Heidenheim: 5 jogo(s) com placar
+    ... (8 times restantes)
+  Consequência: assinaturas baseadas em gols têm confiabilidade muito baixa nesta liga.
+
+Tempo de processamento: 0.03s
+Arquivos gerados: memoria_BUN.json, relatorio_BUN.html, CHECKPOINT_BUN.md

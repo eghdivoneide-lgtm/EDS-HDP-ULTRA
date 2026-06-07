@@ -1,0 +1,53 @@
+{
+  "versoes_treino": 11,
+  "penalidades_ativas": [
+    {
+      "tipo": "SUPERIORIDADE_NUMERICA",
+      "team": "San Jose Earthquakes",
+      "ignorar_pre_live": true
+    },
+    {
+      "tipo": "EXPULSAO",
+      "time": "San Diego FC",
+      "penalidade": "INVALIDAR",
+      "liga": "MLS",
+      "data": "2026-04-07"
+    },
+    {
+      "tipo": "TATICA_DEFENSIVA",
+      "time": "Atlanta Utd",
+      "penalidade": -0.2,
+      "liga": "MLS",
+      "data": "2026-04-07"
+    },
+    {
+      "tipo": "EXPULSAO",
+      "time": "FC Cincinnati",
+      "penalidade": "INVALIDAR",
+      "liga": "MLS",
+      "data": "2026-04-07"
+    },
+    {
+      "tipo": "EXPULSAO",
+      "time": "New England Revolution",
+      "penalidade": "INVALIDAR",
+      "liga": "MLS",
+      "data": "2026-04-07"
+    },
+    {
+      "tipo": "EXPULSAO",
+      "time": "Toronto FC",
+      "penalidade": "INVALIDAR",
+      "liga": "MLS",
+      "data": "2026-04-07"
+    },
+    {
+      "tipo": "EXPULSAO",
+      "time": "Colorado Rapids",
+      "penalidade": "INVALIDAR",
+      "liga": "MLS",
+      "data": "2026-04-07"
+    }
+  ],
+  "historico_acuracia": []
+}

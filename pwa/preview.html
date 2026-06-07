@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>EDS — Comparador de Ícones PWA</title>
+<style>
+  :root {
+    --bg:#0a0f0d; --bg2:#111a14; --bg3:#162019;
+    --green:#34d367; --gold:#f59e0b; --text:#e6f4ea;
+    --muted:#6b8f79; --border:rgba(52,211,103,0.15);
+  }
+  * { box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:'Inter','Segoe UI',system-ui,sans-serif; margin:0; padding:2rem; }
+  .container { max-width:1200px; margin:0 auto; }
+  h1 { color:var(--green); text-align:center; font-size:1.8rem; margin-bottom:.3rem; letter-spacing:1px; }
+  .sub { text-align:center; color:var(--muted); font-size:.95rem; margin-bottom:2.5rem; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-bottom:2.5rem; }
+  .card { background:var(--bg2); border:1px solid var(--border); border-radius:14px; padding:1.5rem; }
+  .card h2 { color:var(--gold); font-size:1.1rem; margin:0 0 .3rem 0; letter-spacing:.5px; }
+  .card .desc { color:var(--muted); font-size:.78rem; margin-bottom:1.2rem; }
+  .hero { display:flex; justify-content:center; padding:1.5rem; background:linear-gradient(135deg,#1a2520,#0a0f0d); border-radius:12px; margin-bottom:1.2rem; }
+  .hero img { width:200px; height:200px; }
+  .sizes { display:grid; grid-template-columns:repeat(6,1fr); gap:.6rem; align-items:end; padding:1rem; background:var(--bg3); border-radius:10px; margin-bottom:1.2rem; }
+  .sizes .size { text-align:center; }
+  .sizes img { display:block; margin:0 auto .3rem; }
+  .sizes .lbl { font-size:.65rem; color:var(--muted); font-weight:700; }
+  .mockups { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+  .mockup { background:var(--bg3); border-radius:12px; padding:1rem; }
+  .mockup .mock-title { font-size:.7rem; color:var(--muted); font-weight:700; text-transform:uppercase; letter-spacing:.5px; margin-bottom:.6rem; text-align:center; }
+  /* Mockup Android */
+  .android-home {
+    background:linear-gradient(180deg,#3a4d3f,#0a0f0d);
+    border-radius:18px; padding:1rem; height:200px; position:relative;
+    display:flex; flex-direction:column;
+  }
+  .android-home .status { font-size:.6rem; color:rgba(255,255,255,0.7); margin-bottom:.5rem; display:flex; justify-content:space-between; }
+  .android-home .icons { display:grid; grid-template-columns:repeat(4,1fr); gap:.5rem; flex:1; align-content:start; }
+  .android-home .app { text-align:center; }
+  .android-home .app img { width:48px; height:48px; border-radius:12px; }
+  .android-home .app .name { font-size:.55rem; color:#fff; margin-top:.2rem; font-weight:600; }
+  .android-home .app.eds .name { color:var(--green); font-weight:800; }
+  .placeholder { width:48px; height:48px; background:rgba(255,255,255,0.15); border-radius:12px; margin:0 auto; }
+  /* Mockup iOS */
+  .ios-home {
+    background:linear-gradient(180deg,#2c1810,#0a0f0d);
+    border-radius:18px; padding:1rem; height:200px;
+    display:flex; flex-direction:column;
+  }
+  .ios-home .status { font-size:.6rem; color:rgba(255,255,255,0.7); margin-bottom:.5rem; display:flex; justify-content:space-between; }
+  .ios-home .icons { display:grid; grid-template-columns:repeat(4,1fr); gap:.5rem; flex:1; align-content:start; }
+  .ios-home .app { text-align:center; }
+  .ios-home .app img { width:54px; height:54px; border-radius:14px; }
+  .ios-home .app .name { font-size:.55rem; color:#fff; margin-top:.2rem; font-weight:500; }
+  .ios-home .app.eds .name { color:var(--green); font-weight:800; }
+  /* Botões */
+  .actions { text-align:center; margin-top:1.2rem; display:flex; gap:.6rem; justify-content:center; flex-wrap:wrap; }
+  button {
+    background:linear-gradient(135deg,var(--green),#22c55e); border:none; color:#000;
+    padding:.7rem 1.3rem; border-radius:8px; font-weight:800; font-size:.85rem;
+    cursor:pointer; box-shadow:0 4px 12px rgba(52,211,103,0.3); transition:transform .2s;
+  }
+  button:hover { transform:translateY(-2px); }
+  button.alt { background:transparent; color:var(--gold); border:1px solid var(--gold); box-shadow:none; }
+  .escolhi { background:var(--bg2); border:2px solid var(--green); border-radius:12px; padding:1.2rem; text-align:center; margin-top:2rem; }
+  .escolhi strong { color:var(--green); }
+  .footer-note { font-size:.7rem; color:var(--muted); text-align:center; margin-top:2rem; padding-top:1rem; border-top:1px solid var(--border); }
+  @media (max-width:800px) { .grid, .mockups { grid-template-columns:1fr; } .sizes { grid-template-columns:repeat(3,1fr); } }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🎨 EDS — Comparador de Ícones PWA</h1>
+  <div class="sub">Visualize as 2 opções em vários tamanhos e em mockups da home screen. Quando decidir, me avise no chat.</div>
+
+  <div class="grid">
+    <!-- ════════════ OPÇÃO A ════════════ -->
+    <div class="card">
+      <h2>🅰️ Opção A — Minimalista</h2>
+      <div class="desc">Alvo verde concêntrico sobre fundo escuro, mira tênue. Limpa, geométrica, "tech".</div>
+
+      <div class="hero"><img src="icon-A.svg" alt="Opção A 200px"/></div>
+
+      <div class="sizes">
+        <div class="size"><img src="icon-A.svg" width="16" height="16"/><div class="lbl">16px</div></div>
+        <div class="size"><img src="icon-A.svg" width="32" height="32"/><div class="lbl">32px</div></div>
+        <div class="size"><img src="icon-A.svg" width="48" height="48"/><div class="lbl">48px</div></div>
+        <div class="size"><img src="icon-A.svg" width="64" height="64"/><div class="lbl">64px</div></div>
+        <div class="size"><img src="icon-A.svg" width="96" height="96"/><div class="lbl">96px</div></div>
+        <div class="size"><img src="icon-A.svg" width="128" height="128"/><div class="lbl">128px</div></div>
+      </div>
+
+      <div class="mockups">
+        <div class="mockup">
+          <div class="mock-title">📱 Android Home</div>
+          <div class="android-home">
+            <div class="status"><span>9:41</span><span>📶 100%</span></div>
+            <div class="icons">
+              <div class="app eds"><img src="icon-A.svg"/><div class="name">EDS Cantos</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="mockup">
+          <div class="mock-title">🍎 iOS Home</div>
+          <div class="ios-home">
+            <div class="status"><span>9:41</span><span>📶 100%</span></div>
+            <div class="icons">
+              <div class="app eds"><img src="icon-A.svg"/><div class="name">EDS Cantos</div></div>
+              <div class="app"><div class="placeholder" style="border-radius:14px;width:54px;height:54px"></div><div class="name">App</div></div>
+              <div class="app"><div class="placeholder" style="border-radius:14px;width:54px;height:54px"></div><div class="name">App</div></div>
+              <div class="app"><div class="placeholder" style="border-radius:14px;width:54px;height:54px"></div><div class="name">App</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button onclick="gerarPNGs('A')">💾 Baixar PNGs (192 + 512)</button>
+        <button class="alt" onclick="alert('No chat com o assistente, diga: \\'escolho a Opção A\\'')">✅ Escolher Opção A</button>
+      </div>
+    </div>
+
+    <!-- ════════════ OPÇÃO C ════════════ -->
+    <div class="card">
+      <h2>🅲 Opção C — Luxo Heráldico</h2>
+      <div class="desc">Escudo verde com bordas douradas, alvo concêntrico, estrelas decorativas e selo "EDS". Premium, "investidor".</div>
+
+      <div class="hero"><img src="icon-C.svg" alt="Opção C 200px"/></div>
+
+      <div class="sizes">
+        <div class="size"><img src="icon-C.svg" width="16" height="16"/><div class="lbl">16px</div></div>
+        <div class="size"><img src="icon-C.svg" width="32" height="32"/><div class="lbl">32px</div></div>
+        <div class="size"><img src="icon-C.svg" width="48" height="48"/><div class="lbl">48px</div></div>
+        <div class="size"><img src="icon-C.svg" width="64" height="64"/><div class="lbl">64px</div></div>
+        <div class="size"><img src="icon-C.svg" width="96" height="96"/><div class="lbl">96px</div></div>
+        <div class="size"><img src="icon-C.svg" width="128" height="128"/><div class="lbl">128px</div></div>
+      </div>
+
+      <div class="mockups">
+        <div class="mockup">
+          <div class="mock-title">📱 Android Home</div>
+          <div class="android-home">
+            <div class="status"><span>9:41</span><span>📶 100%</span></div>
+            <div class="icons">
+              <div class="app eds"><img src="icon-C.svg"/><div class="name">EDS Cantos</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+              <div class="app"><div class="placeholder"></div><div class="name">Apps</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="mockup">
+          <div class="mock-title">🍎 iOS Home</div>
+          <div class="ios-home">
+            <div class="status"><span>9:41</span><span>📶 100%</span></div>
+            <div class="icons">
+              <div class="app eds"><img src="icon-C.svg"/><div class="name">EDS Cantos</div></div>
+              <div class="app"><div class="placeholder" style="border-radius:14px;width:54px;height:54px"></div><div class="name">App</div></div>
+              <div class="app"><div class="placeholder" style="border-radius:14px;width:54px;height:54px"></div><div class="name">App</div></div>
+              <div class="app"><div class="placeholder" style="border-radius:14px;width:54px;height:54px"></div><div class="name">App</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button onclick="gerarPNGs('C')">💾 Baixar PNGs (192 + 512)</button>
+        <button class="alt" onclick="alert('No chat com o assistente, diga: \\'escolho a Opção C\\'')">✅ Escolher Opção C</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="escolhi">
+    <div style="font-size:.95rem;margin-bottom:.4rem;">Já decidiu, Comandante?</div>
+    <div style="font-size:.85rem;color:var(--muted);">No chat com o assistente, diga "<strong>escolho a Opção A</strong>" ou "<strong>escolho a Opção C</strong>" — ele copia o SVG vencedor pra <code style="background:var(--bg);padding:.1rem .4rem;border-radius:3px;">icon.svg</code> e o PWA passa a usar.</div>
+  </div>
+
+  <div class="footer-note">
+    💡 Os PNGs gerados via "💾 Baixar PNGs" usam <code>canvas</code> do navegador — não precisam de ferramenta externa.
+    O PWA já funciona com SVG na maioria dos browsers; PNG só é necessário pra fallback no iOS antigo.
+  </div>
+</div>
+
+<script>
+async function gerarPNGs(opcao) {
+  const sizes = [192, 512];
+  const svgPath = `icon-${opcao}.svg`;
+  for (const size of sizes) {
+    try {
+      const resp = await fetch(svgPath);
+      const svgText = await resp.text();
+      const svgBlob = new Blob([svgText], {type:'image/svg+xml'});
+      const url = URL.createObjectURL(svgBlob);
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+        img.src = url;
+      });
+      const canvas = document.createElement('canvas');
+      canvas.width = size; canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0, size, size);
+      URL.revokeObjectURL(url);
+      const blob = await new Promise(r => canvas.toBlob(r, 'image/png'));
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `icon-${opcao}-${size}.png`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch(e) {
+      alert(`Erro ao gerar PNG ${size}px da opção ${opcao}: ${e.message}`);
+      console.error(e);
+    }
+  }
+  alert(`✅ PNGs gerados! 2 arquivos baixados (192px e 512px da Opção ${opcao}).`);
+}
+</script>
+</body>
+</html>

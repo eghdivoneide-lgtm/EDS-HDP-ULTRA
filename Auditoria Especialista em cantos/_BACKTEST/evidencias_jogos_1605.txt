@@ -1,0 +1,352 @@
+
+══════════════════════════════════════════════════════════════════════
+  BR
+══════════════════════════════════════════════════════════════════════
+
+  1. [ALTA] OVER 9.5 FT — Botafogo × Corinthians
+     Margem 1.61 | xFT 11.11 | xHT 5.89 | n=8 | over9.5_empirico=75%
+     PS: 67.5 (MEDIO_FORTE) × 17.5 (AZARAO)
+     Tendência M:ATAQUE_CRESCENTE V:ESTAGNADO
+     ── Botafogo (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-25 Cruzeiro(PSundefined) 3-7 (HT:2) total=10 SOFREU [peso 1]
+        2026-04-07 Mirassol(PSundefined) 2-8 (HT:1) total=10 ENGOLIDO [peso 1]
+        2026-04-12 Coritiba(PSundefined) 7-4 (HT:5) total=11 CONTROLOU [peso 1]
+        2026-05-02 Remo(PSundefined) 9-6 (HT:6) total=15 CONTROLOU [peso 1]
+     ── Corinthians (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-29 Athletico-PR(PSundefined) 0-8 (HT:0) total=8 ENGOLIDO [peso 0.75]
+        2026-04-02 Santos(PSundefined) 6-4 (HT:4) total=10 CONTROLOU [peso 0.5]
+        2026-04-07 Fluminense(PSundefined) 10-8 (HT:2) total=18 CONTROLOU [peso 0.75]
+        2026-04-18 Vitória(PSundefined) 2-4 (HT:0) total=6 SOFREU [peso 0.75]
+
+  2. [ALTA] OVER 9.5 FT — Chapecoense × Remo
+     Margem 1.21 | xFT 10.71 | xHT 2.68 | n=10 | over9.5_empirico=90%
+     PS: 2.5 (AZARAO) × 12.5 (AZARAO)
+     Flags: M_RUPTURA_HOME, M_VOLATIL
+     Tendência M:DEFESA_MELHORANDO V:ESTAGNADO
+     ── Chapecoense (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-23 Santos(PSundefined) 1-14 (HT:0) total=15 ENGOLIDO [peso 0.5]
+        2026-03-27 Coritiba(PSundefined) 6-5 (HT:1) total=11 EQUILIBRADO [peso 0.75]
+        2026-04-02 Grêmio(PSundefined) 4-5 (HT:1) total=9 EQUILIBRADO [peso 0.5]
+        2026-04-03 Corinthians(PSundefined) 6-4 (HT:0) total=10 CONTROLOU [peso 1]
+        2026-04-07 Atlético-MG(PSundefined) 7-3 (HT:2) total=10 CONTROLOU [peso 0.75]
+     ── Remo (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-27 Atlético-MG(PSundefined) 5-6 (HT:1) total=11 EQUILIBRADO [peso 0.5]
+        2026-04-02 Coritiba(PSundefined) 6-4 (HT:3) total=10 CONTROLOU [peso 0.5]
+
+  3. [ALTA] OVER 4.5 HT — Santos × Coritiba
+     Margem 1.92 | xFT 9.96 | xHT 6.42 | n=14 | over9.5_empirico=71%
+     PS: 42.5 (MEDIO) × 27.5 (MEDIO_FRACO)
+     Flags: M_BLITZ, M_VOLATIL
+     Tendência M:ATAQUE_DECLINANDO V:DEFESA_MELHORANDO
+     ── Santos (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-30 Vasco(PSundefined) 5-2 (HT:5) total=7 CONTROLOU [peso 0.75]
+        2026-04-02 Corinthians(PSundefined) 4-6 (HT:3) total=10 SOFREU [peso 1]
+        2026-04-07 Remo(PSundefined) 7-4 (HT:3) total=11 CONTROLOU [peso 0.75]
+        2026-04-11 Atlético-MG(PSundefined) 5-7 (HT:5) total=12 SOFREU [peso 1]
+        2026-05-10 Red Bull Bragantino(PSundefined) 7-3 (HT:6) total=10 CONTROLOU [peso 0.5]
+     ── Coritiba (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-26 Cruzeiro(PSundefined) 2-12 (HT:1) total=14 ENGOLIDO [peso 0.75]
+        2026-03-31 Corinthians(PSundefined) 6-8 (HT:3) total=14 SOFREU [peso 0.5]
+        2026-04-12 Botafogo(PSundefined) 4-7 (HT:3) total=11 SOFREU [peso 0.5]
+        2026-04-26 Grêmio(PSundefined) 2-5 (HT:2) total=7 SOFREU [peso 1]
+        2026-05-02 Vitória(PSundefined) 4-2 (HT:1) total=6 CONTROLOU [peso 1]
+
+  4. [ALTA-MÉDIA] OVER 9.5 FT — Red Bull Bragantino × Vitória
+     Margem 1.63 | xFT 11.13 | xHT 4.47 | n=12 | over9.5_empirico=58%
+     PS: 57.5 (MEDIO) × 52.5 (MEDIO)
+     Flags: M_ELITE_KILLER, V_ELITE_KILLER
+     Tendência M:DEFESA_MELHORANDO V:ATAQUE_DECLINANDO
+     ── Red Bull Bragantino (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-25 Atlético-MG(PSundefined) 6-12 (HT:3) total=18 ENGOLIDO [peso 0.75]
+        2026-03-30 Athletico-PR(PSundefined) 2-7 (HT:2) total=9 ENGOLIDO [peso 0.5]
+        2026-04-02 São Paulo(PSundefined) 6-4 (HT:2) total=10 CONTROLOU [peso 0.5]
+        2026-04-04 Botafogo(PSundefined) 11-6 (HT:3) total=17 DOMINOU [peso 0.75]
+     ── Vitória (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-11 Bahia(PSundefined) 3-7 (HT:0) total=10 SOFREU [peso 0.75]
+        2026-03-19 Grêmio(PSundefined) 5-4 (HT:2) total=9 EQUILIBRADO [peso 0.75]
+        2026-04-26 Athletico-PR(PSundefined) 4-4 (HT:3) total=8 EQUILIBRADO [peso 0.5]
+        2026-05-09 Fluminense(PSundefined) 3-6 (HT:1) total=9 SOFREU [peso 0.5]
+
+══════════════════════════════════════════════════════════════════════
+  BR_B
+══════════════════════════════════════════════════════════════════════
+
+  1. [MÁXIMA] OVER 9.5 FT — Criciuma × Atletico GO
+     Margem 2.98 | xFT 12.48 | xHT 7.32 | n=7 | over9.5_empirico=100%
+     PS: 72.5 (MEDIO_FORTE) × 37.5 (MEDIO_FRACO)
+     Flags: M_RUPTURA_HOME, V_BLITZ, M_VOLATIL
+     Tendência M:DEFESA_MELHORANDO V:ATAQUE_DECLINANDO
+     ── Criciuma (casa) histórico relevante (peso ≥0.5) ──
+        2026-04-01 Athletic Club(PSundefined) 9-2 (HT:3) total=11 DOMINOU [peso 1]
+        2026-04-10 Botafogo SP(PSundefined) 9-6 (HT:4) total=15 CONTROLOU [peso 0.5]
+        2026-04-26 CRB(PSundefined) 9-5 (HT:6) total=14 CONTROLOU [peso 0.5]
+     ── Atletico GO (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-21 Operario-PR(PSundefined) 7-7 (HT:5) total=14 EQUILIBRADO [peso 1]
+        2026-04-04 Vila Nova FC(PSundefined) 3-8 (HT:2) total=11 ENGOLIDO [peso 0.75]
+        2026-04-19 Botafogo SP(PSundefined) 5-7 (HT:4) total=12 SOFREU [peso 1]
+        2026-05-09 Ceara(PSundefined) 1-11 (HT:1) total=12 ENGOLIDO [peso 1]
+
+  2. [MÁXIMA] UNDER 9.5 FT — Cuiaba × Novorizontino
+     Margem 2.52 | xFT 6.98 | xHT 4.61 | n=6 | over9.5_empirico=33%
+     PS: 32.5 (MEDIO_FRACO) × 50 (MEDIO)
+     Flags: M_BLITZ, M_RETRANCA, M_MURO, V_MURO
+     Tendência M:ATAQUE_CRESCENTE V:-
+     ── Cuiaba (casa) histórico relevante (peso ≥0.5) ──
+        2026-04-04 Ceara(PSundefined) 1-2 (HT:1) total=3 EQUILIBRADO [peso 0.75]
+        2026-04-22 Botafogo SP(PSundefined) 6-4 (HT:4) total=10 CONTROLOU [peso 0.75]
+        2026-05-02 Criciuma(PSundefined) 3-2 (HT:3) total=5 EQUILIBRADO [peso 0.5]
+     ── Novorizontino (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-31 Juventude(PSundefined) 8-4 (HT:4) total=12 CONTROLOU [peso 0.5]
+        2026-04-12 America MG(PSundefined) 5-4 (HT:3) total=9 EQUILIBRADO [peso 0.5]
+
+  3. [MÁXIMA] OVER 9.5 FT — Ponte Preta × Londrina
+     Margem 2.24 | xFT 11.74 | xHT 5.43 | n=4 | over9.5_empirico=100%
+     PS: 17.5 (AZARAO) × 7.5 (AZARAO)
+     Flags: M_RUPTURA_HOME, V_BLITZ, M_VOLATIL, V_VOLATIL
+     Tendência M:EM_EVOLUCAO_FORTE V:-
+     ── Ponte Preta (casa) histórico relevante (peso ≥0.5) ──
+        2026-04-24 America MG(PSundefined) 2-10 (HT:1) total=12 ENGOLIDO [peso 1]
+     ── Londrina (fora) histórico relevante (peso ≥0.5) ──
+        2026-04-12 Atletico GO(PSundefined) 2-8 (HT:0) total=10 ENGOLIDO [peso 0.75]
+
+  4. [ALTA] OVER 9.5 FT — Ceara × Fortaleza
+     Margem 1.39 | xFT 10.89 | xHT 4.56 | n=6 | over9.5_empirico=67%
+     PS: 62.5 (MEDIO_FORTE) × 87.5 (ELITE)
+     Flags: M_ELITE_KILLER, M_VOLATIL
+     Tendência M:ATAQUE_CRESCENTE V:DEFESA_DEGRADANDO
+     ── Ceara (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-21 Sao Bernardo(PSundefined) 7-3 (HT:1) total=10 CONTROLOU [peso 1]
+        2026-04-26 Vila Nova FC(PSundefined) 3-4 (HT:3) total=7 EQUILIBRADO [peso 1]
+     ── Fortaleza (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-21 Botafogo SP(PSundefined) 5-7 (HT:2) total=12 SOFREU [peso 1]
+        2026-04-26 Operario-PR(PSundefined) 7-11 (HT:3) total=18 SOFREU [peso 0.75]
+        2026-05-10 Avai(PSundefined) 4-5 (HT:3) total=9 EQUILIBRADO [peso 0.75]
+
+══════════════════════════════════════════════════════════════════════
+  ARG
+══════════════════════════════════════════════════════════════════════
+
+  1. [ALTA] UNDER 9.5 FT — Argentinos Jrs × Belgrano
+     Margem 2.17 | xFT 7.33 | xHT 2.71 | n=15 | over9.5_empirico=27%
+     PS: 75 (MEDIO_FORTE) × 85 (ELITE)
+     Flags: M_MURO
+     Tendência M:ATAQUE_CRESCENTE V:ATAQUE_DECLINANDO
+     H2H: 2026-02-02 (casa) 5-1 total=6
+     ── Argentinos Jrs (casa) histórico relevante (peso ≥0.5) ──
+        2026-02-02 Belgrano(PSundefined) 5-1 (HT:1) total=6 CONTROLOU [peso 1]
+        2026-02-12 River Plate(PSundefined) 1-1 (HT:1) total=2 EQUILIBRADO [peso 1]
+        2026-03-11 Rosario Central(PSundefined) 5-5 (HT:2) total=10 EQUILIBRADO [peso 0.75]
+        2026-03-26 Lanus(PSundefined) 7-1 (HT:5) total=8 DOMINOU [peso 0.75]
+        2026-05-09 Lanus(PSundefined) 3-2 (HT:2) total=5 EQUILIBRADO [peso 0.75]
+        2026-05-12 Huracan(PSundefined) 9-2 (HT:2) total=11 DOMINOU [peso 0.5]
+     ── Belgrano (fora) histórico relevante (peso ≥0.5) ──
+        2026-01-24 Rosario Central(PSundefined) 3-4 (HT:0) total=7 EQUILIBRADO [peso 1]
+        2026-02-02 Argentinos Jrs(PSundefined) 1-5 (HT:0) total=6 SOFREU [peso 1]
+        2026-02-14 Ind. Rivadavia(PSundefined) 5-8 (HT:2) total=13 SOFREU [peso 0.5]
+        2026-02-20 Defensa y Justicia(PSundefined) 3-5 (HT:0) total=8 SOFREU [peso 0.5]
+        2026-03-03 Huracan(PSundefined) 3-3 (HT:1) total=6 EQUILIBRADO [peso 0.75]
+        2026-04-05 River Plate(PSundefined) 1-8 (HT:0) total=9 ENGOLIDO [peso 0.75]
+        2026-04-20 Barracas Central(PSundefined) 4-2 (HT:2) total=6 CONTROLOU [peso 0.5]
+        2026-05-09 Talleres Cordoba(PSundefined) 3-8 (HT:1) total=11 ENGOLIDO [peso 0.75]
+
+══════════════════════════════════════════════════════════════════════
+  ARG_B
+══════════════════════════════════════════════════════════════════════
+
+  1. [MÁXIMA] UNDER 9.5 FT — CA Mitre × San Miguel
+     Margem 3.82 | xFT 5.68 | xHT 3.46 | n=5 | over9.5_empirico=20%
+     PS: 54.2 (MEDIO) × 9.7 (AZARAO)
+     Flags: M_RUPTURA_HOME, M_ELITE_KILLER, V_BLITZ, V_VOLATIL
+     Tendência M:ATAQUE_DECLINANDO V:ESTAGNADO
+     ── CA Mitre (casa) histórico relevante (peso ≥0.5) ──
+        2026-05-03 Acassuso(PSundefined) 2-0 (HT:1) total=2 CONTROLOU [peso 1]
+     ── San Miguel (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-28 Colegiales(PSundefined) 3-6 (HT:2) total=9 SOFREU [peso 0.75]
+        2026-04-18 Godoy Cruz(PSundefined) 1-4 (HT:1) total=5 SOFREU [peso 0.75]
+
+  2. [MÁXIMA] UNDER 9.5 FT — CA Estudiantes × Colon Santa Fe
+     Margem 3.28 | xFT 6.22 | xHT 2.61 | n=7 | over9.5_empirico=14%
+     PS: 68.1 (MEDIO_FORTE) × 20.8 (AZARAO)
+     Flags: M_BLITZ, V_BLITZ, V_VOLATIL
+     Tendência M:DEFESA_DEGRADANDO V:ESTAGNADO
+     ── CA Estudiantes (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-14 Def. de Belgrano(PSundefined) 4-1 (HT:2) total=5 CONTROLOU [peso 0.75]
+        2026-04-04 Central Norte(PSundefined) 2-3 (HT:1) total=5 EQUILIBRADO [peso 1]
+        2026-04-19 Chaco For Ever(PSundefined) 3-3 (HT:1) total=6 EQUILIBRADO [peso 1]
+     ── Colon Santa Fe (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-22 San Telmo(PSundefined) 3-6 (HT:1) total=9 SOFREU [peso 1]
+        2026-03-29 Patronato(PSundefined) 7-4 (HT:3) total=11 CONTROLOU [peso 0.75]
+        2026-04-18 Deportivo Moron(PSundefined) 2-4 (HT:1) total=6 SOFREU [peso 0.5]
+        2026-05-02 Los Andes(PSundefined) 0-1 (HT:0) total=1 EQUILIBRADO [peso 0.75]
+
+  3. [MÁXIMA] UNDER 9.5 FT — Los Andes × Godoy Cruz
+     Margem 2.38 | xFT 7.12 | xHT 3.44 | n=8 | over9.5_empirico=25%
+     PS: 81.9 (ELITE) × 41.7 (MEDIO)
+     Flags: V_ELITE_KILLER
+     Tendência M:ATAQUE_CRESCENTE V:ESTAGNADO
+     ── Los Andes (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-14 Central Norte(PSundefined) 2-4 (HT:2) total=6 SOFREU [peso 0.5]
+        2026-03-29 Temperley(PSundefined) 4-1 (HT:3) total=5 CONTROLOU [peso 1]
+        2026-04-05 Chaco For Ever(PSundefined) 5-3 (HT:2) total=8 CONTROLOU [peso 0.75]
+        2026-04-18 San Telmo(PSundefined) 4-2 (HT:2) total=6 CONTROLOU [peso 0.5]
+        2026-05-02 Colon Santa Fe(PSundefined) 1-0 (HT:0) total=1 EQUILIBRADO [peso 0.5]
+     ── Godoy Cruz (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-29 Deportivo Maipu(PSundefined) 10-1 (HT:5) total=11 DOMINOU [peso 0.75]
+        2026-04-11 San Telmo(PSundefined) 5-5 (HT:1) total=10 EQUILIBRADO [peso 0.75]
+
+  4. [ALTA] UNDER 9.5 FT — All Boys × Deportivo Moron
+     Margem 1.57 | xFT 7.93 | xHT 4.84 | n=8 | over9.5_empirico=25%
+     PS: 18.1 (AZARAO) × 90.3 (ELITE)
+     Flags: V_BLITZ
+     Tendência M:ESTAGNADO V:ESTAGNADO
+     ── All Boys (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-01 Ciudad Bolivar(PSundefined) 7-1 (HT:5) total=8 DOMINOU [peso 0.75]
+        2026-04-04 Ferro(PSundefined) 5-2 (HT:2) total=7 CONTROLOU [peso 1]
+     ── Deportivo Moron (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-21 Acassuso(PSundefined) 3-3 (HT:2) total=6 EQUILIBRADO [peso 0.75]
+        2026-03-28 Almagro(PSundefined) 5-7 (HT:2) total=12 SOFREU [peso 0.75]
+        2026-04-11 San Miguel(PSundefined) 5-2 (HT:5) total=7 CONTROLOU [peso 1]
+        2026-05-03 Godoy Cruz(PSundefined) 3-4 (HT:0) total=7 EQUILIBRADO [peso 0.5]
+
+══════════════════════════════════════════════════════════════════════
+  MLS
+══════════════════════════════════════════════════════════════════════
+
+  1. [MÁXIMA] OVER 9.5 FT — Orlando City × Atlanta Utd
+     Margem 2.34 | xFT 11.84 | xHT 4.47 | n=6 | over9.5_empirico=83%
+     PS: 5 (AZARAO) × 25 (MEDIO_FRACO)
+     Flags: M_DEF_PRECARIA, V_BLITZ
+     Tendência M:ESTAGNADO V:ATAQUE_CRESCENTE
+     ── Orlando City (casa) histórico relevante (peso ≥0.5) ──
+        2026-02-21 New York Red Bulls(PSundefined) 5-9 (HT:0) total=14 SOFREU [peso 1]
+        2026-03-14 CF Montreal(PSundefined) 4-10 (HT:2) total=14 ENGOLIDO [peso 1]
+        2026-04-18 Houston Dynamo(PSundefined) 4-3 (HT:3) total=7 EQUILIBRADO [peso 1]
+        2026-05-13 Philadelphia Union(PSundefined) 2-10 (HT:0) total=12 ENGOLIDO [peso 0.75]
+
+  2. [MÁXIMA] OVER 9.5 FT — Inter Miami × Portland Timbers
+     Margem 2.8 | xFT 12.3 | xHT 7.47 | n=9 | over9.5_empirico=67%
+     PS: 61.7 (MEDIO_FORTE) × 21.7 (AZARAO)
+     Flags: M_BLITZ, M_RUPTURA_HOME, M_VOLATIL
+     Tendência M:ATAQUE_CRESCENTE V:DEFESA_MELHORANDO
+     ── Inter Miami (casa) histórico relevante (peso ≥0.5) ──
+        2026-04-06 Austin FC(PSundefined) 7-3 (HT:2) total=10 CONTROLOU [peso 0.5]
+        2026-04-11 New York Red Bulls(PSundefined) 12-3 (HT:8) total=15 DOMINOU [peso 1]
+        2026-05-02 Orlando City(PSundefined) 10-2 (HT:8) total=12 DOMINOU [peso 0.75]
+     ── Portland Timbers (fora) histórico relevante (peso ≥0.5) ──
+        2026-02-28 Colorado Rapids(PSundefined) 6-12 (HT:4) total=18 ENGOLIDO [peso 1]
+        2026-04-18 Minnesota United(PSundefined) 4-3 (HT:2) total=7 EQUILIBRADO [peso 0.5]
+        2026-04-26 San Diego FC(PSundefined) 6-6 (HT:1) total=12 EQUILIBRADO [peso 0.75]
+        2026-05-02 Real Salt Lake(PSundefined) 2-6 (HT:2) total=8 SOFREU [peso 1]
+
+  3. [MÁXIMA] OVER 9.5 FT — San Jose Earthquakes × FC Dallas
+     Margem 2.18 | xFT 11.68 | xHT 4.29 | n=5 | over9.5_empirico=80%
+     PS: 91.7 (ELITE) × 78.3 (MEDIO_FORTE)
+     Flags: M_RUPTURA_HOME, M_ELITE_KILLER, V_ELITE_KILLER, M_VOLATIL
+     Tendência M:ATAQUE_DECLINANDO V:DEFESA_DEGRADANDO
+     ── San Jose Earthquakes (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-15 Seattle Sounders(PSundefined) 17-0 (HT:5) total=17 DOMINOU [peso 1]
+        2026-04-06 San Diego FC(PSundefined) 7-5 (HT:1) total=12 CONTROLOU [peso 1]
+        2026-05-09 Vancouver Whitecaps(PSundefined) 2-4 (HT:2) total=6 SOFREU [peso 0.75]
+     ── FC Dallas (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-08 Los Angeles FC(PSundefined) 7-4 (HT:4) total=11 CONTROLOU [peso 1]
+        2026-04-26 Seattle Sounders(PSundefined) 7-4 (HT:3) total=11 CONTROLOU [peso 1]
+
+  4. [ALTA] OVER 9.5 FT — Charlotte × Toronto FC
+     Margem 1.89 | xFT 11.39 | xHT 5.1 | n=9 | over9.5_empirico=78%
+     PS: 58.3 (MEDIO) × 45 (MEDIO)
+     Flags: M_RUPTURA_HOME, M_VOLATIL
+     Tendência M:DEFESA_MELHORANDO V:DEFESA_MELHORANDO
+     ── Charlotte (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-07 Austin FC(PSundefined) 12-3 (HT:3) total=15 DOMINOU [peso 1]
+        2026-03-14 Inter Miami(PSundefined) 3-5 (HT:1) total=8 SOFREU [peso 0.75]
+        2026-03-21 New York Red Bulls(PSundefined) 2-8 (HT:1) total=10 ENGOLIDO [peso 0.5]
+        2026-05-09 FC Cincinnati(PSundefined) 7-4 (HT:3) total=11 CONTROLOU [peso 1]
+        2026-05-13 New York City(PSundefined) 8-2 (HT:5) total=10 DOMINOU [peso 1]
+     ── Toronto FC (fora) histórico relevante (peso ≥0.5) ──
+        2026-02-21 FC Dallas(PSundefined) 7-3 (HT:2) total=10 CONTROLOU [peso 0.75]
+        2026-03-08 FC Cincinnati(PSundefined) 7-8 (HT:5) total=15 EQUILIBRADO [peso 1]
+
+══════════════════════════════════════════════════════════════════════
+  USL
+══════════════════════════════════════════════════════════════════════
+
+  1. [ALTA] OVER 9.5 FT — FC Tulsa × Hartford Athletic
+     Margem 1.92 | xFT 11.42 | xHT 4.5 | n=7 | over9.5_empirico=86%
+     PS: 26 (MEDIO_FRACO) × 38 (MEDIO_FRACO)
+     Flags: M_RETRANCA, M_RUPTURA_HOME
+     Tendência M:- V:DEFESA_MELHORANDO
+     ── FC Tulsa (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-14 San Antonio(PSundefined) 8-4 (HT:1) total=12 CONTROLOU [peso 0.5]
+        2026-03-21 Las Vegas Lights(PSundefined) 4-6 (HT:2) total=10 SOFREU [peso 1]
+     ── Hartford Athletic (fora) histórico relevante (peso ≥0.5) ──
+        2026-03-07 Sporting Jax(PSundefined) 2-9 (HT:2) total=11 ENGOLIDO [peso 0.5]
+        2026-03-11 Birmingham(PSundefined) 5-5 (HT:2) total=10 EQUILIBRADO [peso 0.75]
+        2026-03-21 Brooklyn(PSundefined) 4-11 (HT:3) total=15 ENGOLIDO [peso 0.75]
+        2026-04-04 Miami FC(PSundefined) 9-3 (HT:2) total=12 DOMINOU [peso 0.75]
+
+══════════════════════════════════════════════════════════════════════
+  J2_J3
+══════════════════════════════════════════════════════════════════════
+
+  1. [MÁXIMA] OVER 9.5 FT — Toyama × Tokushima
+     Margem 3.33 | xFT 12.83 | xHT 2.51 | n=4 | over9.5_empirico=100%
+     PS: 96.3 (ELITE) × 91.3 (ELITE)
+     Tendência M:ATAQUE_DECLINANDO V:DEFESA_MELHORANDO
+     H2H: 2026-02-22 (fora) 4-8 total=12
+     ── Toyama (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-08 Ehime(PSundefined) 12-1 (HT:4) total=13 DOMINOU [peso 0.5]
+        2026-04-19 Kochi United(PSundefined) 6-7 (HT:0) total=13 EQUILIBRADO [peso 0.5]
+     ── Tokushima (fora) histórico relevante (peso ≥0.5) ──
+        2026-04-26 Kochi United(PSundefined) 5-5 (HT:0) total=10 EQUILIBRADO [peso 0.5]
+
+  2. [ALTA] UNDER 9.5 FT — Iwata × Fujieda MYFC
+     Margem 2.37 | xFT 7.13 | xHT 3.23 | n=13 | over9.5_empirico=31%
+     PS: 43.8 (MEDIO) × 56.3 (MEDIO)
+     Tendência M:ATAQUE_CRESCENTE V:DEFESA_MELHORANDO
+     H2H: 2026-03-07 (fora) 7-3 total=10
+     ── Iwata (casa) histórico relevante (peso ≥0.5) ──
+        2026-02-21 Yamaga(PSundefined) 3-2 (HT:2) total=5 EQUILIBRADO [peso 0.75]
+        2026-03-14 Hokkaido Consadole Sapporo(PSundefined) 1-3 (HT:0) total=4 SOFREU [peso 1]
+        2026-03-21 Omiya Ardija(PSundefined) 2-7 (HT:0) total=9 ENGOLIDO [peso 0.5]
+        2026-04-04 Kofu(PSundefined) 3-7 (HT:1) total=10 SOFREU [peso 0.5]
+        2026-04-25 Gifu(PSundefined) 5-5 (HT:4) total=10 EQUILIBRADO [peso 0.75]
+        2026-05-02 Iwaki(PSundefined) 3-5 (HT:0) total=8 SOFREU [peso 0.5]
+     ── Fujieda MYFC (fora) histórico relevante (peso ≥0.5) ──
+        2026-04-11 Gifu(PSundefined) 3-2 (HT:1) total=5 EQUILIBRADO [peso 0.5]
+        2026-04-29 Hokkaido Consadole Sapporo(PSundefined) 3-0 (HT:2) total=3 CONTROLOU [peso 1]
+        2026-05-10 Yamaga(PSundefined) 5-4 (HT:3) total=9 EQUILIBRADO [peso 0.5]
+
+  3. [ALTA] UNDER 4.5 HT — Sagan Tosu × Renofa Yamaguchi
+     Margem 2.63 | xFT 8.53 | xHT 1.87 | n=10 | over9.5_empirico=40%
+     PS: 58.8 (MEDIO) × 68.8 (MEDIO_FORTE)
+     Flags: M_MURO, M_VOLATIL
+     Tendência M:DEFESA_DEGRADANDO V:DEFESA_DEGRADANDO
+     H2H: 2026-03-07 (fora) 4-4 total=8
+     ── Sagan Tosu (casa) histórico relevante (peso ≥0.5) ──
+        2026-02-15 Kumamoto(PSundefined) 2-0 (HT:1) total=2 CONTROLOU [peso 0.75]
+        2026-02-28 Kagoshima Utd(PSundefined) 0-5 (HT:0) total=5 ENGOLIDO [peso 1]
+        2026-04-05 Oita Trinita(PSundefined) 5-2 (HT:1) total=7 CONTROLOU [peso 0.5]
+        2026-05-02 Tegevajaro Miyazaki(PSundefined) 6-3 (HT:2) total=9 CONTROLOU [peso 0.5]
+     ── Renofa Yamaguchi (fora) histórico relevante (peso ≥0.5) ──
+        2026-02-08 Kumamoto(PSundefined) 2-7 (HT:0) total=9 ENGOLIDO [peso 1]
+        2026-02-22 Kagoshima Utd(PSundefined) 4-7 (HT:0) total=11 SOFREU [peso 0.75]
+        2026-04-11 Oita Trinita(PSundefined) 8-6 (HT:2) total=14 CONTROLOU [peso 0.75]
+        2026-05-02 Gainare Tottori(PSundefined) 1-9 (HT:0) total=10 ENGOLIDO [peso 0.5]
+
+  4. [ALTA] OVER 4.5 HT — Sagamihara × Vanraure
+     Margem 1.58 | xFT 10.55 | xHT 6.08 | n=11 | over9.5_empirico=64%
+     PS: 46.3 (MEDIO) × 26.3 (MEDIO_FRACO)
+     Flags: M_BLITZ, V_BLITZ, M_VOLATIL
+     Tendência M:DEFESA_DEGRADANDO V:ATAQUE_DECLINANDO
+     H2H: 2026-03-29 (fora) 6-10 total=16
+     ── Sagamihara (casa) histórico relevante (peso ≥0.5) ──
+        2026-03-01 Montedio Yamagata(PSundefined) 9-2 (HT:3) total=11 DOMINOU [peso 0.75]
+        2026-03-04 Kusatsu(PSundefined) 10-5 (HT:3) total=15 DOMINOU [peso 1]
+        2026-03-08 Tochigi SC(PSundefined) 5-4 (HT:5) total=9 EQUILIBRADO [peso 1]
+        2026-04-29 Tochigi City(PSundefined) 5-9 (HT:4) total=14 SOFREU [peso 0.75]
+     ── Vanraure (fora) histórico relevante (peso ≥0.5) ──
+        2026-02-14 Kusatsu(PSundefined) 3-2 (HT:2) total=5 EQUILIBRADO [peso 0.5]
+        2026-03-21 Blaublitz(PSundefined) 7-3 (HT:7) total=10 CONTROLOU [peso 0.5]
+        2026-04-08 Tochigi SC(PSundefined) 5-3 (HT:2) total=8 CONTROLOU [peso 0.75]
+        2026-04-19 Montedio Yamagata(PSundefined) 1-9 (HT:0) total=10 ENGOLIDO [peso 1]
+        2026-04-29 Yokohama FC(PSundefined) 2-5 (HT:1) total=7 SOFREU [peso 0.75]

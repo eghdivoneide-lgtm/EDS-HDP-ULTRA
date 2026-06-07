@@ -1,0 +1,48 @@
+═══ AUDITORIA — J2_J3 — 2026-05-16 ═══
+Liga: J2 + J3 League
+Total jogos: 319 | Válidos: 319
+Times: 40
+DNA disponível: sim
+
+— Etapa 1: PowerScore + categoria —
+— Etapa 2: Baselines —
+Baseline liga: 9.88 cantos/jogo (HT=4.54)
+— Etapa 3: Bucket Matrix —
+— Etapa 4: 12 Assinaturas —
+  BLITZ_INICIAL: 11 times
+  RETRANCA_AVANCADA: 1 times
+  EFETIVIDADE_CLINICA: 9 times
+  ATAQUE_ESTERIL: 3 times
+  MURO_DEFENSIVO: 1 times
+  DEFESA_PRECARIA: 1 times
+  RUPTURA_HOME: 3 times
+  ELITE_KILLER: 13 times
+  CARRINHO_FACIL: 4 times
+  DESEQUILIBRA_FAVORITO: 3 times
+  SUCUMBE_AZARAO: 6 times
+  TERMOMETRO_FORMA: 1 times
+— Etapa 5: Narrativas —
+— Etapa 6: Matriz DNA × DNA —
+Cruzamentos detectados: 35
+— Etapa 7: Montagem da memória —
+— Etapa 8: Divergências DNA × Performance: 2 detectadas
+
+— ⚠️ AVISO: cobertura de placar baixa (19.4%) —
+Assinaturas placar-dependentes com nao_avaliavel por time:
+  Nenhum time com 0 jogos de placar — distribuição uniforme da cobertura.
+  Mas amostra por time é pequena (cobertura geral: 62/319 jogos):
+    Albirex Niigata: 3 jogo(s) com placar
+    Blaublitz: 3 jogo(s) com placar
+    Ehime: 3 jogo(s) com placar
+    Fujieda MYFC: 3 jogo(s) com placar
+    Fukushima Utd: 4 jogo(s) com placar
+    Gainare Tottori: 4 jogo(s) com placar
+    Gifu: 3 jogo(s) com placar
+    Giravanz Kitakyushu: 3 jogo(s) com placar
+    Hokkaido Consadole Sapporo: 3 jogo(s) com placar
+    Imabari: 3 jogo(s) com placar
+    ... (30 times restantes)
+  Consequência: assinaturas baseadas em gols têm confiabilidade muito baixa nesta liga.
+
+Tempo de processamento: 0.04s
+Arquivos gerados: memoria_J2_J3.json, relatorio_J2_J3.html, CHECKPOINT_J2_J3.md

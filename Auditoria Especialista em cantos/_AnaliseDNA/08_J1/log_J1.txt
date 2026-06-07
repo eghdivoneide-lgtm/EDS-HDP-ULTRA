@@ -1,0 +1,31 @@
+═══ AUDITORIA — J1 — 2026-05-16 ═══
+Liga: J1 League
+Total jogos: 129 | Válidos: 129
+Times: 20
+DNA disponível: NÃO ❌
+
+— Etapa 1: PowerScore + categoria —
+— Etapa 2: Baselines —
+Baseline liga: 9.7 cantos/jogo (HT=4.26)
+— Etapa 3: Bucket Matrix —
+— Etapa 4: 12 Assinaturas —
+  BLITZ_INICIAL: 2 times
+  RETRANCA_AVANCADA: 1 times
+  EFETIVIDADE_CLINICA: 0 times
+  ATAQUE_ESTERIL: 4 times
+  MURO_DEFENSIVO: 2 times
+  DEFESA_PRECARIA: 1 times
+  RUPTURA_HOME: 5 times
+  ELITE_KILLER: 0 times
+  CARRINHO_FACIL: 0 times
+  DESEQUILIBRA_FAVORITO: 0 times
+  SUCUMBE_AZARAO: 0 times
+  TERMOMETRO_FORMA: 0 times
+— Etapa 5: Narrativas —
+— Etapa 6: Matriz DNA × DNA —
+Cruzamentos detectados: 0
+— Etapa 7: Montagem da memória —
+— Etapa 8: Divergências DNA × Performance: 0 detectadas
+
+Tempo de processamento: 0.02s
+Arquivos gerados: memoria_J1.json, relatorio_J1.html, CHECKPOINT_J1.md

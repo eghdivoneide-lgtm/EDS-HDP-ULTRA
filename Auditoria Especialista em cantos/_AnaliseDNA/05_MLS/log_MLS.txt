@@ -1,0 +1,31 @@
+═══ AUDITORIA — MLS — 2026-05-16 ═══
+Liga: Major League Soccer
+Total jogos: 177 | Válidos: 177
+Times: 30
+DNA disponível: sim
+
+— Etapa 1: PowerScore + categoria —
+— Etapa 2: Baselines —
+Baseline liga: 10.16 cantos/jogo (HT=4.71)
+— Etapa 3: Bucket Matrix —
+— Etapa 4: 12 Assinaturas —
+  BLITZ_INICIAL: 12 times
+  RETRANCA_AVANCADA: 3 times
+  EFETIVIDADE_CLINICA: 9 times
+  ATAQUE_ESTERIL: 2 times
+  MURO_DEFENSIVO: 0 times
+  DEFESA_PRECARIA: 2 times
+  RUPTURA_HOME: 6 times
+  ELITE_KILLER: 6 times
+  CARRINHO_FACIL: 4 times
+  DESEQUILIBRA_FAVORITO: 4 times
+  SUCUMBE_AZARAO: 4 times
+  TERMOMETRO_FORMA: 0 times
+— Etapa 5: Narrativas —
+— Etapa 6: Matriz DNA × DNA —
+Cruzamentos detectados: 30
+— Etapa 7: Montagem da memória —
+— Etapa 8: Divergências DNA × Performance: 2 detectadas
+
+Tempo de processamento: 0.04s
+Arquivos gerados: memoria_MLS.json, relatorio_MLS.html, CHECKPOINT_MLS.md

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "periodo": "2026-04-22",
+    "liga_foco": "MLS",
+    "fonte": "Pinnacle Sports (print oficial 'Minhas janelas')",
+    "status_liga_na_entrada": "observacao",
+    "observacao": "Lote 2 do backtest MLS (apos lote 1 com ROI -18.3% em n=12). Usuario fez 9 apostas (nao 8 como informado inicialmente). Mistura de 5 entradas guiadas pelo motor (3 Unders Tier A + 2 HDPs extras no proprio plano) e 4 entradas por estrategia estatica propria (cruzamento ranking HT Pro Casa x HT Concede Fora)."
+  },
+  "resumos_por_liga": {
+    "MLS": { "n": 9, "V": 5, "D": 4, "R": 0, "winRate": 0.556, "lucro": 3.40, "roi": 0.036 }
+  },
+  "agregado": {
+    "n_total": 9, "vitorias": 5, "derrotas": 4, "reembolsos": 0,
+    "win_rate": 0.556, "lucro_total": 3.40, "roi_estimado": 0.036
+  },
+  "apostas": [
+    {"data":"2026-04-22","liga":"MLS","mandante":"Toronto FC","visitante":"Philadelphia Union","mercado":"HDP HT","selecao":"Philadelphia -0.5 (HT) AO VIVO","odd":2.040,"stake":10.00,"resultado":"D","placar_ht":"1-1","placar_ft":"2-2","obs":"Extra do usuario (nao estava no plano Claude). HT empatou 1-1 = red em -0.5."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"San Jose Earthquakes","visitante":"Austin FC","mercado":"HDP HT","selecao":"San Jose -1.5 (HT)","odd":1.961,"stake":10.00,"resultado":"V","obs":"Arriscada no papel, venceu. San Jose favorito absoluto no FT (@1.01); HT confirmou dominio. Cruzamento estatico alinhava (San Jose #3 HT Pro Casa)."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"Los Angeles FC","visitante":"Colorado Rapids","mercado":"HDP HT","selecao":"LAFC -1.0 (HT)","odd":1.800,"stake":10.00,"resultado":"D","obs":"Moderada - perdeu na fronteira. Motor projetava diff HT de apenas ~1.26 cantos (exatamente na linha do handicap)."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"Orlando City","visitante":"Charlotte FC","mercado":"O/U FT","selecao":"Under 9.0 FT AO VIVO","odd":1.653,"stake":10.72,"resultado":"V","placar_cantos":"2-4 (total 6)","obs":"Tier A Claude confirmada. xFT 6.87 entregou 6 cantos - dentro do esperado."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"Atlanta United","visitante":"New England Revolution","mercado":"O/U FT","selecao":"Under 9.5 FT AO VIVO","odd":1.990,"stake":10.00,"resultado":"D","placar_cantos":"8-3 (total 11)","obs":"OUTLIER. Sniper 91.8% Under 10, motor xFT 6.76, TMI 0.88/0.90 dos dois lados. Jogo fugiu de TODOS os sinais. Acontece ~8% das vezes mesmo com modelo perfeito (cauda pesada do Poisson)."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"New York City","visitante":"FC Cincinnati","mercado":"O/U FT","selecao":"Under 10 FT AO VIVO","odd":1.925,"stake":10.00,"resultado":"V","placar_cantos":"2-4 (total 6)","obs":"Tier A Claude confirmada. xFT 7.53 entregou 6 cantos."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"New York Red Bulls","visitante":"DC United","mercado":"HDP HT","selecao":"NYRB -1.0 (HT) AO VIVO","odd":1.892,"stake":10.00,"resultado":"D","placar_ht":"0-2","obs":"Previsto arriscada. TMI 0.90/0.92 indicava jogo lento dos dois lados. HT acabou 0-2 PARA O VISITANTE. Confirma leitura: o motor recomendava Under 4 HT, nao HDP favorito."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"San Jose Earthquakes","visitante":"Austin FC","mercado":"HDP FT","selecao":"San Jose -1.0 (FT)","odd":1.657,"stake":13.00,"resultado":"V","obs":"Extra do usuario. San Jose ranking #3 HT Pro Casa + @1.01 no 1x2. Cruzamento estatico do usuario funcionou perfeitamente aqui."},
+    {"data":"2026-04-22","liga":"MLS","mandante":"Columbus Crew","visitante":"Los Angeles Galaxy","mercado":"HDP HT","selecao":"Columbus -1.0 (HT)","odd":1.900,"stake":10.00,"resultado":"V","obs":"Extra do usuario. Columbus #1 HT Pro Casa (5.33). LA Galaxy posicao 20 geral. CRUZAMENTO ESTATICO VALIDADO."}
+  ]
+}
