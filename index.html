@@ -898,6 +898,20 @@
   </div>
 
   <!-- ═══════════════════════════════════════════════════════════
+       SUPER MÚLTIPLA SNIPER — 15 PERNAS JACKPOT
+  ══════════════════════════════════════════════════════════════ -->
+  <div id="view-supermultipla" class="view">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem">
+      <div>
+        <div class="section-title" style="margin:0;background:linear-gradient(135deg,#fbbf24,#f59e0b,#ef4444);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:1.4rem;">🎰 Super Múltipla Sniper — 15 Pernas</div>
+        <div style="font-size:.8rem;color:var(--muted);margin-top:.3rem">Rastreador de Triple Locks · 6 ligas foco · HDP FT mandante</div>
+      </div>
+      <button onclick="renderSuperMultipla()" style="background:linear-gradient(135deg,#fbbf24,#f59e0b);border:none;color:#000;padding:.65rem 1.2rem;border-radius:8px;font-weight:800;font-size:.85rem;cursor:pointer;box-shadow:0 4px 12px rgba(245,158,11,0.3);transition:transform .2s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">🔄 Varrer Rodada</button>
+    </div>
+    <div id="sm-painel"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
        AUDITORIA — Memória institucional cross-liga
   ══════════════════════════════════════════════════════════════ -->
   <div id="view-auditoria" class="view">
@@ -4419,6 +4433,7 @@ const VIEW_TO_GRUPO = {
   'tracker':         'operacao',
   'apostas':         'operacao',
   'multiplas-elite': 'operacao',
+  'supermultipla':   'operacao',
   'auditoria':       'auditoria'
 };
 
@@ -4440,7 +4455,9 @@ const SUBNAV_BY_GRUPO = {
     { id: 'tracker', label: '📈 Bet Tracker' },
     { id: 'apostas', label: '🎰 Apostas Reais' },
     { id: 'multiplas-elite', label: '🏆 Múltiplas Elite',
-      style: 'background:linear-gradient(135deg,rgba(245,158,11,0.25),rgba(251,191,36,0.18),rgba(253,230,138,0.12));border-color:var(--gold);color:var(--gold);font-weight:800;' }
+      style: 'background:linear-gradient(135deg,rgba(245,158,11,0.25),rgba(251,191,36,0.18),rgba(253,230,138,0.12));border-color:var(--gold);color:var(--gold);font-weight:800;' },
+    { id: 'supermultipla', label: '🎰 Super Múltipla 15',
+      style: 'background:linear-gradient(135deg,rgba(251,191,36,0.25),rgba(239,68,68,0.18));border-color:#fbbf24;color:#fbbf24;font-weight:800;' }
   ],
   auditoria: [
     { id: 'auditoria', label: '🔍 Auditoria Cross-Liga',
@@ -4498,6 +4515,7 @@ function showView(id) {
   if (id==='top3') renderTop3();
   if (id==='apostas') renderApostasReais();
   if (id==='multiplas-elite') renderMultiplasElite(); // curadoria SmartCoach IA
+  if (id==='supermultipla') renderSuperMultipla();
   if (id==='auditoria') renderAuditoria(); // cross-liga · não depende de LIGA_ATUAL
 }
 
@@ -11625,7 +11643,8 @@ function gerarCandidatosMultiplas() {
             bpFaixa: p.balaDePrataData ? p.balaDePrataData.faixa : null,
             bpOdd: p.balaDePrataData ? +p.balaDePrataData.odd.toFixed(2) : null,
             sniperFT: p.tiroSniperData ? p.tiroSniperData.ft : null,
-            divergencia_alta: alertaDiv.length > 0 ? alertaDiv : null
+            divergencia_alta: alertaDiv.length > 0 ? alertaDiv : null,
+            uslSinal: p.uslSinal || null
           });
         } catch(e) {}
       });
@@ -13267,6 +13286,230 @@ init();
 // Dashboard é a view padrão (já tem .active no HTML), então populamos a sub-nav do grupo "visao".
 _renderSubNav('visao', 'dashboard');
 _atualizarTabsGrupo('visao', 'dashboard');
+
+// ══════════════════════════════════════════════════
+//  SUPER MÚLTIPLA SNIPER — painel de 15 pernas
+// ══════════════════════════════════════════════════
+const _SM_LIGAS_FOCO = [
+  { code:'ARG_B', flag:'🇦🇷', nome:'Primera B Nacional', homeWin:63.7 },
+  { code:'BR_B',  flag:'🇧🇷', nome:'Brasileirão B',      homeWin:59.8 },
+  { code:'ARG',   flag:'🇦🇷', nome:'Liga Profesional',   homeWin:59.3 },
+  { code:'BR',    flag:'🇧🇷', nome:'Brasileirão A',      homeWin:55.9 },
+  { code:'MLS',   flag:'🇺🇸', nome:'MLS',               homeWin:51.7 },
+  { code:'USL',   flag:'🇺🇸', nome:'USL Championship',  homeWin:46.2 }
+];
+
+function renderSuperMultipla() {
+  const container = document.getElementById('sm-painel');
+  if (!container) return;
+
+  container.innerHTML = `<div style="text-align:center;padding:2rem;color:var(--muted)">⏳ Varrendo ${_SM_LIGAS_FOCO.length} ligas...</div>`;
+
+  const hojeIso = (typeof _dataIsoHoje === 'function') ? _dataIsoHoje() : new Date().toISOString().slice(0,10);
+  const tripleLocks = [], gxsForte = [], ligaStatus = [];
+  const ligaOriginal = LIGA_ATUAL, dadosOriginal = DADOS_2026;
+
+  _SM_LIGAS_FOCO.forEach(({ code, flag, nome, homeWin }) => {
+    const dadosLiga = window['DADOS_' + code];
+    if (!dadosLiga || !dadosLiga.times) {
+      ligaStatus.push({ code, flag, nome, homeWin, status: 'sem-dados', jogos: 0, found: 0 });
+      return;
+    }
+    let raw = null;
+    try { raw = localStorage.getItem('sniper_rodada_' + code); } catch(e) {}
+    const jogosLiga = raw ? (() => { try { return JSON.parse(raw); } catch(e) { return []; } })() : [];
+    const naFaixa = jogosLiga.filter(j => !j.data || j.data >= hojeIso);
+    if (naFaixa.length === 0) {
+      ligaStatus.push({ code, flag, nome, homeWin, status: 'sem-rodada', jogos: 0, found: 0 });
+      return;
+    }
+
+    LIGA_ATUAL = code;
+    DADOS_2026 = dadosLiga;
+    _forcaCantosCache = null; _forcaCantosCacheLiga = null;
+    _rankingHTCache = null; _rankingHTCacheLiga = null;
+
+    let found = 0;
+    naFaixa.forEach(j => {
+      try {
+        const p = projecaoJogo(j.m, j.v);
+        if (!p) return;
+        const us = p.uslSinal;
+        if (!us || !us.ativo || us.nivel !== 'FORTE') return;
+
+        const isTriple = us.formScoreM >= 0.15;
+        const diff = Math.abs((p.expHomeFT || 0) - (p.expAwayFT || 0));
+
+        const leg = {
+          liga: code, flag, nome, homeWin,
+          m: j.m, v: j.v, data: j.data || '', hora: j.hora || '',
+          confFT: Math.round(p.confFT || 0),
+          expTotalFT: +((p.expTotalFT || 0)).toFixed(2),
+          linhaHDP: _linhaHDPSugerida(diff),
+          perfilM: us.perfilM, perfilV: us.perfilV,
+          formScoreM: +((us.formScoreM || 0)).toFixed(2),
+          multHome: us.multHome,
+          bonusConfianca: us.bonusConfianca || 0,
+          isTriple
+        };
+
+        if (isTriple) tripleLocks.push(leg);
+        else gxsForte.push(leg);
+        found++;
+      } catch(e) {}
+    });
+
+    ligaStatus.push({ code, flag, nome, homeWin, status: 'ok', jogos: naFaixa.length, found });
+  });
+
+  LIGA_ATUAL = ligaOriginal;
+  DADOS_2026 = dadosOriginal;
+  _forcaCantosCache = null; _forcaCantosCacheLiga = null;
+  _rankingHTCache = null; _rankingHTCacheLiga = null;
+
+  tripleLocks.sort((a, b) => b.confFT - a.confFT);
+  gxsForte.sort((a, b) => b.confFT - a.confFT);
+
+  const totalPernas = tripleLocks.length + gxsForte.length;
+  const META = 15;
+  const pct = Math.min(100, (totalPernas / META) * 100);
+  const ODD_LEG = 1.90;
+
+  // ── DREAM CALCULATOR ──
+  let html = `
+  <div style="background:linear-gradient(135deg,rgba(251,191,36,0.08),rgba(239,68,68,0.05));border:2px solid rgba(251,191,36,0.3);border-radius:16px;padding:1.4rem;margin-bottom:1.5rem">
+    <div style="font-size:1rem;font-weight:900;color:#fbbf24;margin-bottom:.3rem;text-align:center">💎 CALCULADORA JACKPOT</div>
+    <div style="font-size:.72rem;color:var(--muted);text-align:center;margin-bottom:1rem">@ odd ${ODD_LEG.toFixed(2)} por perna (estimativa conservadora HDP FT)</div>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem">
+      ${[20, 50, 100, 200].map(s => {
+        const r15 = Math.round(s * Math.pow(ODD_LEG, 15));
+        const r18 = Math.round(s * Math.pow(ODD_LEG, 18));
+        return `<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(251,191,36,0.2);border-radius:8px;padding:.7rem;text-align:center">
+          <div style="font-size:.85rem;font-weight:700;color:#fbbf24">R$ ${s.toFixed(0)}</div>
+          <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">15×→ <strong style="color:#34d399">R$ ${r15.toLocaleString('pt-BR')}</strong></div>
+          <div style="font-size:.65rem;color:var(--muted)">18×→ <strong style="color:#f87171">R$ ${r18.toLocaleString('pt-BR')}</strong></div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+
+  // ── PROGRESS BAR ──
+  const msColor = totalPernas >= META ? '#fbbf24' : totalPernas >= 12 ? '#34d399' : totalPernas >= 10 ? '#60a5fa' : 'var(--muted)';
+  const msLabel = totalPernas >= META ? '🎰 META ATINGIDA — HORA DE OPERAR!' : totalPernas >= 12 ? '🔥 QUASE LÁ — 12 PERNAS!' : totalPernas >= 10 ? '✅ MILESTONE 10 ATINGIDO!' : '⏳ Acumulando sinais...';
+  html += `
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:1.2rem;margin-bottom:1.5rem">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.7rem">
+      <div style="font-size:.9rem;font-weight:800;color:${msColor}">${msLabel}</div>
+      <div style="font-size:1.3rem;font-weight:900;color:${msColor}">${totalPernas}<span style="font-size:.8rem;color:var(--muted)">/${META}</span></div>
+    </div>
+    <div style="height:14px;background:rgba(255,255,255,0.08);border-radius:99px;overflow:hidden;margin-bottom:.5rem;position:relative">
+      <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,${msColor},${totalPernas>=META?'#ef4444':msColor}88);border-radius:99px;transition:width .5s ease"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:.62rem;color:var(--muted);margin-bottom:.8rem">
+      <span>0</span>
+      <span style="${totalPernas>=10?'color:#60a5fa;font-weight:700':''}">10 ✓</span>
+      <span style="${totalPernas>=12?'color:#34d399;font-weight:700':''}">12 ✓</span>
+      <span style="${totalPernas>=META?'color:#fbbf24;font-weight:700':''}">15 🎰</span>
+    </div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap;font-size:.72rem">
+      <span style="background:rgba(251,191,36,0.15);color:#fbbf24;padding:.2rem .65rem;border-radius:10px;font-weight:800">🔒🔒🔒 ${tripleLocks.length} Triple Lock${tripleLocks.length!==1?'s':''}</span>
+      <span style="background:rgba(52,211,153,0.1);color:#34d399;padding:.2rem .65rem;border-radius:10px;font-weight:700">🔒🔒 ${gxsForte.length} G×S FORTE</span>
+      ${totalPernas > 0 ? `<span style="background:rgba(255,255,255,0.05);color:var(--muted);padding:.2rem .65rem;border-radius:10px">Odd comb: ${Math.pow(ODD_LEG,totalPernas).toFixed(1)}×</span>` : ''}
+    </div>
+  </div>`;
+
+  // ── LEAGUE STATUS ──
+  html += `
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:12px;padding:1rem;margin-bottom:1.5rem">
+    <div style="font-size:.72rem;font-weight:800;color:var(--muted);margin-bottom:.6rem;text-transform:uppercase;letter-spacing:1px">Status das 6 ligas foco</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.4rem">
+      ${ligaStatus.map(l => {
+        const col = l.status === 'ok' ? (l.found > 0 ? 'var(--green)' : 'var(--text)') : 'var(--muted)';
+        const icon = l.status === 'ok' ? (l.found > 0 ? '🔒' : '✅') : l.status === 'sem-rodada' ? '📭' : '❌';
+        return `<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:8px;padding:.5rem;text-align:center">
+          <div style="font-size:.95rem">${l.flag}</div>
+          <div style="font-size:.62rem;color:${col};font-weight:700">${icon} ${l.code}</div>
+          <div style="font-size:.6rem;color:var(--muted)">${l.status==='ok'?`${l.found} sinal`:l.status==='sem-rodada'?'sem rodada':'sem dados'}</div>
+          <div style="font-size:.58rem;color:var(--muted)">Casa ${l.homeWin}%</div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+
+  // ── TRIPLE LOCK LEGS ──
+  if (tripleLocks.length > 0) {
+    html += `<div style="margin-bottom:.5rem;font-size:.85rem;font-weight:800;color:#fbbf24">🔒🔒🔒 TRIPLE LOCK — ${tripleLocks.length} perna${tripleLocks.length!==1?'s':''}</div>`;
+    tripleLocks.forEach((leg, i) => { html += _renderSMPerna(leg, i + 1); });
+  }
+
+  // ── G×S FORTE LEGS ──
+  if (gxsForte.length > 0) {
+    html += `<div style="margin-top:1rem;margin-bottom:.5rem;font-size:.85rem;font-weight:800;color:#34d399">🔒🔒 G×S FORTE — ${gxsForte.length} perna${gxsForte.length!==1?'s':''}</div>`;
+    gxsForte.forEach((leg, i) => { html += _renderSMPerna(leg, tripleLocks.length + i + 1); });
+  }
+
+  if (totalPernas === 0) {
+    html += `<div style="text-align:center;padding:3rem;color:var(--muted);background:var(--bg3);border:1px dashed var(--border);border-radius:12px">
+      <div style="font-size:2rem;margin-bottom:.5rem">📭</div>
+      <div style="font-weight:700;margin-bottom:.3rem">Nenhum Triple Lock ou G×S FORTE encontrado hoje</div>
+      <div style="font-size:.8rem">Importe as rodadas das 6 ligas foco na aba <strong>Adicionar Jogos</strong></div>
+    </div>`;
+  }
+
+  // ── BILHETE ATUAL ──
+  if (totalPernas >= 3) {
+    const allLegs = [...tripleLocks, ...gxsForte];
+    const oddBilhete = Math.pow(ODD_LEG, totalPernas);
+    const confMedia = Math.round(allLegs.reduce((a, l) => a + l.confFT, 0) / allLegs.length);
+    html += `
+    <div style="background:linear-gradient(135deg,rgba(251,191,36,0.1),rgba(34,197,94,0.06));border:2px solid rgba(251,191,36,0.4);border-radius:14px;padding:1.2rem;margin-top:1.5rem">
+      <div style="font-size:.95rem;font-weight:900;color:#fbbf24;margin-bottom:.8rem">🎫 BILHETE ATUAL — ${totalPernas} PERNAS</div>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem;font-size:.82rem">
+        <div>💰 Odd total: <strong style="color:#fbbf24">${oddBilhete.toFixed(2)}×</strong></div>
+        <div>🎯 Conf média: <strong style="color:var(--green)">${confMedia}%</strong></div>
+        ${[10, 20, 50, 100].map(s => `<div>R$${s} → <strong style="color:var(--green)">R$ ${(s * oddBilhete).toLocaleString('pt-BR', {maximumFractionDigits:2})}</strong></div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  container.innerHTML = html;
+}
+
+function _renderSMPerna(leg, num) {
+  const isTriple = leg.isTriple;
+  const corBg  = isTriple ? 'rgba(251,191,36,0.07)' : 'rgba(52,211,153,0.05)';
+  const corBrd = isTriple ? 'rgba(251,191,36,0.35)' : 'rgba(52,211,153,0.25)';
+  const corLbl = isTriple ? '#fbbf24' : '#34d399';
+  const badge  = isTriple ? '🔒🔒🔒 TRIPLE LOCK' : '🔒🔒 G×S FORTE';
+  const perfColors = { G_STRONG:'#fbbf24', G:'#34d399', N:'var(--muted)', S:'#f87171', S_STRONG:'#ef4444' };
+  const perfBadge = p => p ? `<span style="color:${perfColors[p]||'var(--muted)'};font-size:.62rem;font-weight:700">${p}</span>` : '';
+  const tempo = leg.hora || leg.data;
+
+  return `
+  <div style="background:${corBg};border:1px solid ${corBrd};border-radius:10px;padding:.9rem 1rem;margin-bottom:.5rem">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.4rem">
+      <div>
+        <div style="font-size:.64rem;font-weight:900;color:${corLbl};letter-spacing:.5px">${leg.flag} ${leg.code} · ${badge}</div>
+        <div style="font-size:.95rem;font-weight:800;color:var(--text);margin-top:.2rem">${num}. ${leg.m} <span style="color:var(--muted);font-weight:400;font-size:.8rem">×</span> ${leg.v}</div>
+        <div style="font-size:.68rem;color:var(--muted);margin-top:.2rem">
+          ${perfBadge(leg.perfilM)} <span style="color:var(--muted)">→</span> ${perfBadge(leg.perfilV)}
+          ${leg.formScoreM ? ` · Form: <strong style="color:${isTriple?'#fbbf24':'var(--green)'}">${leg.formScoreM>=0?'+':''}${leg.formScoreM}</strong>` : ''}
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:.82rem;font-weight:800;color:var(--green)">HDP ${leg.linhaHDP}</div>
+        <div style="font-size:.72rem;color:${leg.confFT>=70?'var(--green)':leg.confFT>=60?'var(--gold)':'var(--red)'}">Conf: ${leg.confFT}%</div>
+        ${tempo ? `<div style="font-size:.62rem;color:var(--muted)">${tempo}</div>` : ''}
+      </div>
+    </div>
+    <div style="margin-top:.5rem;display:flex;gap:.4rem;flex-wrap:wrap;font-size:.64rem">
+      <span style="background:rgba(255,255,255,0.05);padding:.18rem .5rem;border-radius:6px;color:var(--muted)">xFT: ${leg.expTotalFT}</span>
+      <span style="background:rgba(255,255,255,0.05);padding:.18rem .5rem;border-radius:6px;color:var(--muted)">Casa: ${leg.homeWin}%</span>
+      ${leg.multHome && leg.multHome !== 1.0 ? `<span style="background:rgba(52,211,153,0.1);padding:.18rem .5rem;border-radius:6px;color:#34d399">xCorners ${leg.multHome>1?'▲':'▼'}${Math.abs((leg.multHome-1)*100).toFixed(0)}%</span>` : ''}
+      ${leg.bonusConfianca > 0 ? `<span style="background:rgba(251,191,36,0.1);padding:.18rem .5rem;border-radius:6px;color:#fbbf24">+${leg.bonusConfianca}pp conf</span>` : ''}
+    </div>
+  </div>`;
+}
 
 // ══════════════════════════════════════════════════
 //  PWA — Registro do Service Worker (instalação e cache)
