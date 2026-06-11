@@ -9619,10 +9619,25 @@ function renderRodada() {
           <span style="color:var(--muted);font-size:.72rem">🎯 Sniper</span>
           <span style="font-size:.75rem"><span style="color:${sn.corHT};font-weight:700">${sn.ht}</span> · <span style="color:${sn.corFT};font-weight:700">${sn.ft}</span></span>
         </div>
-        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:.4rem;margin-bottom:1rem">
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:.4rem;margin-bottom:.6rem">
           <span style="color:var(--muted);font-size:.72rem">⚡ TMI</span>
           <strong style="color:${p.tatica.tmiHome >= 1 ? 'var(--green)' : 'var(--red)'}">C:${fmt(p.tatica.tmiHome)}x · F:${fmt(p.tatica.tmiAway)}x</strong>
         </div>
+
+        ${(function() {
+          const _us = p.uslSinal;
+          if (!_us || !_us.ativo || _us.nivel === 'NULO') return '';
+          const isTriple = _us.nivel === 'FORTE' && _us.formScoreM >= 0.15;
+          const label = isTriple ? '🔒🔒🔒 TRIPLE LOCK' : _us.nivel === 'FORTE' ? '🔒🔒 G×S FORTE' : _us.nivel === 'MEDIO' ? '🔒 G×S MÉDIO' : '💡 INVERSÃO';
+          const cor   = isTriple ? '#fbbf24' : _us.nivel === 'FORTE' ? '#34d367' : _us.nivel === 'MEDIO' ? '#86efac' : '#93c5fd';
+          const bg    = isTriple ? 'rgba(245,158,11,0.12)' : _us.nivel === 'FORTE' ? 'rgba(34,197,94,0.1)' : _us.nivel === 'MEDIO' ? 'rgba(34,197,94,0.06)' : 'rgba(59,130,246,0.1)';
+          const brd   = isTriple ? 'rgba(245,158,11,0.4)'  : _us.nivel === 'FORTE' ? 'rgba(34,197,94,0.35)' : _us.nivel === 'MEDIO' ? 'rgba(34,197,94,0.2)' : 'rgba(59,130,246,0.3)';
+          const mH = (_us.multHome && _us.multHome !== 1.0) ? ` C:${_us.multHome > 1 ? '▲' : '▼'}${Math.abs((_us.multHome-1)*100).toFixed(0)}%` : '';
+          const mA = (_us.multAway && _us.multAway !== 1.0) ? ` F:${_us.multAway > 1 ? '▲' : '▼'}${Math.abs((_us.multAway-1)*100).toFixed(0)}%` : '';
+          return `<div style="border:1px solid ${brd};background:${bg};border-radius:6px;padding:.35rem .65rem;margin-bottom:.55rem;font-size:.68rem;font-weight:800;color:${cor};display:flex;justify-content:space-between;align-items:center">
+            <span>${label}</span><span style="font-size:.62rem;font-weight:400;opacity:.8">${mH}${mA}</span>
+          </div>`;
+        })()}
 
         ${brechaAlert ? `<div style="margin-bottom:.6rem;background:rgba(139,92,246,0.1);border:1px solid rgba(139,92,246,0.3);border-radius:6px;padding:.5rem;font-size:.65rem;color:#a78bfa;font-weight:700">${brechaTexto}</div>` : ''}
         <button onclick="carregarProjecaoExata('${j.m}','${j.v}')" style="width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.6rem;border-radius:6px;font-size:.8rem;font-weight:700;cursor:pointer;transition:all .2s" onmouseover="this.style.background='var(--green)';this.style.color='#000'" onmouseout="this.style.background='var(--bg3)';this.style.color='var(--text)'">🔍 ABRIR DADOS COMPLETOS</button>
