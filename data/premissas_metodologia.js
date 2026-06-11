@@ -370,9 +370,7 @@ window.PREMISSAS_EDS = {
 
     // Detecta valor de mercado em Corner HDP
     detectarValueHDP: function(diff_formacao, linha_hdp_mercado) {
-      // diff_formacao = score_form_mand - score_form_vis
-      // linha_hdp_mercado = linha que o mercado oferece (ex: -2.5 para mandante)
-      var expected_edge = diff_formacao * 3.5; // escala para cantos reais
+      var expected_edge = diff_formacao * 3.5;
       if (expected_edge > Math.abs(linha_hdp_mercado) + 0.5) {
         return { value: true, msg: 'Mercado subestima edge formação — linha HDP favorável' };
       }
@@ -380,6 +378,30 @@ window.PREMISSAS_EDS = {
         return { value: false, msg: 'Mercado superprecificou — linha HDP cara' };
       }
       return { value: null, msg: 'Preço justo — sem edge claro' };
+    },
+
+    // Busca dados do confronto tático A (mandante) × B (visitante)
+    // Retorna: { diff, win_pct, nivel, sinal, verificado, fonte } ou null
+    getConfrontoTatico: function(formMand, formVis) {
+      var mx = window.PREMISSAS_EDS.confrontos_taticos.matriz;
+      var key = formMand + '×' + formVis;
+      if (mx[key]) return mx[key];
+      // Tenta derivar da diferença de scores individuais
+      var r = window.PREMISSAS_EDS.formacoes.ranking;
+      var eA = r.find(function(x){ return x.formacao === formMand; });
+      var eB = r.find(function(x){ return x.formacao === formVis;  });
+      if (!eA || !eB) return null;
+      var diff = parseFloat((eA.diff - eB.diff).toFixed(2));
+      var nivel = diff >= 3.0 ? 'EXTREMO' : diff >= 2.0 ? 'FORTE' : diff >= 1.0 ? 'MODERADO' : diff >= 0.3 ? 'LEVE' : 'NEUTRO';
+      var sinalEmoji = diff >= 3.0 ? '🔴🔴🔴' : diff >= 2.0 ? '🟢🟢' : diff >= 1.0 ? '🟢' : diff >= 0.3 ? '🟡' : '⚪';
+      return {
+        diff: diff,
+        win_pct: diff >= 3.0 ? 0.78 : diff >= 2.0 ? 0.70 : diff >= 1.0 ? 0.62 : 0.52,
+        nivel: nivel,
+        sinal: sinalEmoji + ' ' + nivel,
+        verificado: false,
+        fonte: 'derivado (scores individuais cross-liga)',
+      };
     },
   },
 
@@ -458,6 +480,155 @@ window.PREMISSAS_EDS = {
       'FORMACAO_SOFREDORA: visitante com formação score ≤ -0.4',
       'TRIPLE_LOCK: USL_G + USL_S + FORMACAO_GERADORA — sinal máximo',
     ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────
+  //  BLOCO 9 — CONFRONTOS TÁTICOS (MATCHUP MATRIX)
+  //  Histórico de cantos por par de formações A (mandante) × B (visitante)
+  //  Fonte: Bundesliga 2023-24 e 2025-26 + derivados cross-liga
+  // ─────────────────────────────────────────────────────────────────
+  confrontos_taticos: {
+    descricao: 'Diferencial médio de cantos quando formação A (mandante) enfrenta formação B (visitante)',
+    metodologia: 'diff > 0 = mandante dominou cantos | verificado=true = dado direto das temporadas Bundesliga',
+    niveis: {
+      EXTREMO:  { diff_min: 3.0,  emoji: '🔴🔴🔴', win_pct_ref: 0.80 },
+      FORTE:    { diff_min: 2.0,  emoji: '🟢🟢',   win_pct_ref: 0.70 },
+      MODERADO: { diff_min: 1.0,  emoji: '🟢',     win_pct_ref: 0.62 },
+      LEVE:     { diff_min: 0.3,  emoji: '🟡',     win_pct_ref: 0.54 },
+      NEUTRO:   { diff_min: -0.3, emoji: '⚪',     win_pct_ref: 0.50 },
+    },
+    matriz: {
+      // ── VERIFICADOS (Bundesliga 2023-24 + 2025-26) ──────────────────
+      '3-4-2-1×3-4-3': {
+        diff: 2.85, win_pct: 0.78, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: true, fonte: 'Bundesliga 23-24 (+2.83) | média 2 temporadas',
+        insight: '3-4-2-1 mantém pressão lateral; 3-4-3 perde duelos nas costas do meia',
+      },
+      '4-3-3×3-4-2-1': {
+        diff: 4.00, win_pct: 0.75, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO',
+        verificado: true, fonte: 'Bundesliga 23-24 (+4.00)',
+        insight: 'Linhas altas do 4-3-3 somam pressão das alas + pivô — domínio total de córners',
+      },
+      '4-2-3-1×3-4-3': {
+        diff: 2.67, win_pct: 0.67, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: true, fonte: 'Bundesliga 23-24 (+3.33) + 25-26 (+2.0) | média',
+        insight: '3-4-3 cede espaço lateral — 4-2-3-1 aproveita com cruzamentos bloqueados',
+      },
+      '4-2-3-1×5-4-1': {
+        diff: 1.78, win_pct: 0.67, nivel: 'MODERADO', sinal: '🟢 MODERADO',
+        verificado: true, fonte: 'Bundesliga 25-26',
+        insight: '5-4-1 fecha espaços mas não gera reação de cantos — passividade cede corners',
+      },
+      '3-5-2×3-4-2-1': {
+        diff: 3.57, win_pct: 0.71, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: true, fonte: 'Bundesliga 25-26',
+        insight: '3-5-2 com ala-esquerda + ala-direita altos superam meia-linha do 3-4-2-1',
+      },
+
+      // ── DERIVADOS DE ALTA CONFIANÇA (cross-liga, n ≥ 50 jogos) ───────
+      '4-1-3-2×4-5-1': {
+        diff: 4.04, win_pct: 0.79, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO',
+        verificado: false, fonte: 'derivado cross-liga (score 4-1-3-2=+0.73, 4-5-1=-3.31)',
+        insight: '4-5-1 é a formação mais sofredora de cantos — qualquer GERADORA domina',
+      },
+      '3-1-4-2×4-5-1': {
+        diff: 4.16, win_pct: 0.80, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO',
+        verificado: false, fonte: 'derivado cross-liga (score 3-1-4-2=+0.85, 4-5-1=-3.31)',
+        insight: 'Combinação mais extrema conhecida — 3-1-4-2 vs 4-5-1',
+      },
+      '4-2-3-1×4-5-1': {
+        diff: 3.59, win_pct: 0.78, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO',
+        verificado: false, fonte: 'derivado cross-liga (score +0.28 vs -3.31)',
+        insight: 'Visto frequentemente na Copa 2026 — seleções CONMEBOL defensivas',
+      },
+      '4-3-3×4-5-1': {
+        diff: 3.52, win_pct: 0.77, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO',
+        verificado: false, fonte: 'derivado cross-liga (score +0.21 vs -3.31)',
+        insight: '4-3-3 gera pressão lateral constante — 4-5-1 é bloqueio passivo',
+      },
+      '3-4-2-1×4-5-1': {
+        diff: 3.49, win_pct: 0.77, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO',
+        verificado: false, fonte: 'derivado cross-liga (score +0.18 vs -3.31)',
+        insight: 'Copa 2026: Europa/América Sul (3-4-2-1) vs CONCACAF (4-5-1)',
+      },
+      '4-1-3-2×3-4-1-2': {
+        diff: 2.52, win_pct: 0.72, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.73 vs -1.79)',
+      },
+      '4-1-3-2×4-4-1-1': {
+        diff: 2.69, win_pct: 0.73, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.73 vs -1.96)',
+      },
+      '4-2-3-1×3-4-1-2': {
+        diff: 2.07, win_pct: 0.70, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.28 vs -1.79)',
+      },
+      '4-3-3×3-4-1-2': {
+        diff: 2.00, win_pct: 0.70, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.21 vs -1.79)',
+      },
+      '4-3-3×4-4-1-1': {
+        diff: 2.17, win_pct: 0.71, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.21 vs -1.96)',
+      },
+      '4-1-3-2×3-5-2': {
+        diff: 2.17, win_pct: 0.71, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.73 vs -1.44)',
+      },
+      '3-4-2-1×3-5-2': {
+        diff: 1.62, win_pct: 0.65, nivel: 'MODERADO', sinal: '🟢 MODERADO',
+        verificado: false, fonte: 'derivado cross-liga (score +0.18 vs -1.44)',
+      },
+      '4-2-3-1×3-5-2': {
+        diff: 1.72, win_pct: 0.66, nivel: 'MODERADO', sinal: '🟢 MODERADO',
+        verificado: false, fonte: 'derivado cross-liga (score +0.28 vs -1.44)',
+      },
+      '4-3-3×3-5-2': {
+        diff: 1.65, win_pct: 0.65, nivel: 'MODERADO', sinal: '🟢 MODERADO',
+        verificado: false, fonte: 'derivado cross-liga (score +0.21 vs -1.44)',
+      },
+      '4-2-3-1×3-4-3': {
+        diff: 0.81, win_pct: 0.57, nivel: 'LEVE',    sinal: '🟡 LEVE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.28 vs -0.53)',
+      },
+      '4-3-3×3-4-3': {
+        diff: 0.74, win_pct: 0.56, nivel: 'LEVE',    sinal: '🟡 LEVE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.21 vs -0.53)',
+      },
+      '4-4-2×4-5-1': {
+        diff: 3.32, win_pct: 0.76, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score +0.01 vs -3.31)',
+      },
+      '5-4-1×4-5-1': {
+        diff: 3.23, win_pct: 0.75, nivel: 'FORTE',   sinal: '🟢🟢 FORTE',
+        verificado: false, fonte: 'derivado cross-liga (score -0.08 vs -3.31)',
+        insight: 'Mesmo a SOFREDORA_LEVE 5-4-1 domina cantos vs 4-5-1 EXTREMA',
+      },
+      // Inversões notáveis (visitante favorito de cantos)
+      '3-4-3×4-2-3-1': {
+        diff: -0.81, win_pct: 0.43, nivel: 'LEVE',    sinal: '🟡 LEVE (visitante)',
+        verificado: false, fonte: 'derivado cross-liga (score -0.53 vs +0.28)',
+        insight: 'Visitante 4-2-3-1 favorito de cantos — verificar USL antes de apostar',
+      },
+      '4-5-1×4-3-3': {
+        diff: -3.52, win_pct: 0.22, nivel: 'EXTREMO', sinal: '🔴🔴🔴 EXTREMO (visitante)',
+        verificado: false, fonte: 'derivado cross-liga (score -3.31 vs +0.21)',
+        insight: 'FUGA TOTAL: mandante 4-5-1 nunca apostar no HDP de cantos',
+      },
+    },
+
+    // Função auxiliar para exibir o confronto no card visual
+    getLabel: function(formMand, formVis) {
+      var m = window.PREMISSAS_EDS.confrontos_taticos.matriz;
+      var key = formMand + '×' + formVis;
+      if (m[key]) {
+        var c = m[key];
+        var badge = c.verificado ? ' ✓' : ' ~';
+        return c.sinal + ' | diff ' + (c.diff >= 0 ? '+' : '') + c.diff.toFixed(2) +
+               ' | win ' + Math.round(c.win_pct * 100) + '%' + badge;
+      }
+      return null;
+    },
   },
 
 };
