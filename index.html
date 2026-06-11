@@ -1058,6 +1058,9 @@
 <script src="data/normalizador_perfis.js?v=1.0"></script>
 <script src="data/perfis_br2026.js?v=1.0"></script>
 <script src="data/perfis_arg2026.js?v=1.0"></script>
+<!-- ══ METODOLOGIA v3.0 — Sistema USL + Premissas científicas ══ -->
+<script src="data/premissas_metodologia.js?v=3.0"></script>
+<script src="data/memoria_usl.js?v=2026-06-11"></script>
 <script>
   // ── DIAGNÓSTICO DE BOOT ── Loga quais datasets carregaram e quais não.
   // Executa ANTES do script principal, então capturamos o estado real de
@@ -3153,6 +3156,60 @@ function _renderDNATime(time, s) {
                   : deltaCasaFora < -0.3 ? '✈️ ligeiramente melhor fora'
                   : '⚖️ equilibrado casa/fora';
 
+  // ── USL v3.0 — busca perfil de cantos do time ──
+  const _uslLiga = window.MEMORIA_USL && window.MEMORIA_USL[LIGA_ATUAL];
+  const _uslPerfil = _uslLiga && _uslLiga.perfis && (
+    _uslLiga.perfis[time] ||
+    Object.entries(_uslLiga.perfis).find(([k]) =>
+      k.toLowerCase().includes(time.toLowerCase()) ||
+      time.toLowerCase().includes(k.toLowerCase())
+    )?.[1]
+  );
+  const _uslCores = { G_STRONG:'#34d367', G:'#86efac', N:'#f59e0b', S:'#fb923c', S_STRONG:'#ef4444' };
+  const _uslLabels = { G_STRONG:'GERADOR FORTE 🟢🟢', G:'GERADOR 🟢', N:'NEUTRO 🟡', S:'SOFREDOR 🔴', S_STRONG:'SOFREDOR FORTE 🔴🔴' };
+
+  let uslHTML = '';
+  if (_uslPerfil) {
+    const uc = _uslCores[_uslPerfil.perfil_usl] || 'var(--text)';
+    const ul = _uslLabels[_uslPerfil.perfil_usl] || _uslPerfil.perfil_usl;
+    const diffStr = (_uslPerfil.diff_cantos >= 0 ? '+' : '') + _uslPerfil.diff_cantos.toFixed(2);
+    const diffCasaStr = _uslPerfil.diff_cantos_casa != null ? (_uslPerfil.diff_cantos_casa >= 0 ? '+' : '') + _uslPerfil.diff_cantos_casa.toFixed(2) : '—';
+    const diffForaStr = _uslPerfil.diff_cantos_fora != null ? (_uslPerfil.diff_cantos_fora >= 0 ? '+' : '') + _uslPerfil.diff_cantos_fora.toFixed(2) : '—';
+    const winPct = (_uslPerfil.win_pct_cantos * 100).toFixed(0) + '%';
+    const formBadge = _uslPerfil.formacao_principal
+      ? `<span style="background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:.1rem .4rem;font-size:.7rem;color:var(--muted)">${_uslPerfil.formacao_principal}</span> <span style="font-size:.7rem;color:${_uslPerfil.score_formacao >= 0.15 ? '#34d367' : _uslPerfil.score_formacao <= -0.15 ? '#ef4444' : '#f59e0b'}">${_uslPerfil.score_formacao >= 0 ? '+' : ''}${_uslPerfil.score_formacao}</span>`
+      : '<span style="color:var(--muted);font-size:.7rem">—</span>';
+    const alertasUslHTML = (_uslPerfil.alertas_usl || []).map(a =>
+      `<div style="padding:.25rem .5rem;background:var(--bg3);border-left:3px solid ${uc};border-radius:4px;margin-bottom:.25rem;font-size:.72rem">${a}</div>`
+    ).join('');
+    uslHTML = `
+      <div style="background:var(--bg3);border:1px solid ${uc}33;border-left:4px solid ${uc};border-radius:8px;padding:1rem;margin-top:.8rem">
+        <div style="font-weight:800;font-size:.85rem;margin-bottom:.6rem" style="color:${uc}">⚡ Perfil USL v3.0 — Cantos HDP</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.6rem;font-size:.78rem">
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Classe</div>
+            <div style="font-weight:900;color:${uc};font-size:.9rem">${ul}</div>
+          </div>
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Diff cantos</div>
+            <div style="font-weight:800;color:${uc}">${diffStr} / jogo</div>
+            <div style="font-size:.68rem;color:var(--muted)">Casa: ${diffCasaStr} · Fora: ${diffForaStr}</div>
+          </div>
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Win% cantos</div>
+            <div style="font-weight:800;color:var(--text)">${winPct} <span style="font-size:.65rem;color:var(--muted)">(${_uslPerfil.n_jogos_usl} jogos)</span></div>
+          </div>
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Formação</div>
+            <div>${formBadge}</div>
+            <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">${_uslPerfil.classe_formacao || '—'}</div>
+          </div>
+        </div>
+        ${alertasUslHTML ? `<div style="margin-top:.6rem">${alertasUslHTML}</div>` : ''}
+      </div>
+    `;
+  }
+
   // DNA Escoteiro (perfil, forma, multipliers, alertas)
   let dnaEscoteiroHTML = '';
   if (dna) {
@@ -3248,6 +3305,7 @@ function _renderDNATime(time, s) {
 
   return `
     <div class="section-title">🧬 DNA do ${time}</div>
+    ${uslHTML}
     ${dnaEscoteiroHTML || `<div style="background:var(--bg3);border:1px dashed var(--border);border-radius:8px;padding:.8rem;color:var(--muted);font-size:.78rem;margin-bottom:.5rem">⚠️ DNA Escoteiro não disponível para ${time} (liga ainda sem perfil qualitativo cadastrado)</div>`}
     ${comportamentoHTML}
   `;
@@ -8313,6 +8371,56 @@ function getAppContext() {
       });
     }
   }
+
+  /* ── ⚡ USL v3.0 — Sinal G×S de Cantos ── */
+  (function() {
+    const _uslMem = window.MEMORIA_USL && window.MEMORIA_USL[LIGA_ATUAL];
+    if (!_uslMem || !jogoFocoM || !jogoFocoV) return;
+    const _findUSL = (nome) => {
+      if (!_uslMem.perfis) return null;
+      if (_uslMem.perfis[nome]) return { time: nome, ..._uslMem.perfis[nome] };
+      const k = Object.keys(_uslMem.perfis).find(k =>
+        k.toLowerCase().includes(nome.toLowerCase()) ||
+        nome.toLowerCase().includes(k.toLowerCase())
+      );
+      return k ? { time: k, ..._uslMem.perfis[k] } : null;
+    };
+    const uM = _findUSL(jogoFocoM);
+    const uV = _findUSL(jogoFocoV);
+    if (!uM && !uV) return;
+
+    ctx += `\n═══ SISTEMA USL v3.0 — SINAL HDP CANTOS ═══\n`;
+    const _bl = window.PREMISSAS_EDS && window.PREMISSAS_EDS.baselines && window.PREMISSAS_EDS.baselines[LIGA_ATUAL];
+    if (_bl) {
+      ctx += `Liga ${LIGA_ATUAL}: G×S hit rate histórico ${(_bl.gxs_hit_rate*100).toFixed(0)}% | ROI FORTE ${(_bl.roi_forte*100).toFixed(0)}% | Diff médio +${_bl.gxs_diff_medio}\n`;
+    }
+    if (uM) {
+      const d = uM.diff_cantos >= 0 ? '+' + uM.diff_cantos : '' + uM.diff_cantos;
+      ctx += `🏠 ${jogoFocoM}: USL=${uM.perfil_usl} | Diff=${d}/jogo | Win%=${(uM.win_pct_cantos*100).toFixed(0)}% | Forma=${uM.formacao_principal||'?'} (score=${uM.score_formacao>=0?'+':''}${uM.score_formacao})\n`;
+      if (uM.alertas_usl && uM.alertas_usl.length) uM.alertas_usl.forEach(a => { ctx += `   ⚡ ${a}\n`; });
+    }
+    if (uV) {
+      const d = uV.diff_cantos >= 0 ? '+' + uV.diff_cantos : '' + uV.diff_cantos;
+      ctx += `✈️ ${jogoFocoV}: USL=${uV.perfil_usl} | Diff=${d}/jogo | Win%=${(uV.win_pct_cantos*100).toFixed(0)}% | Forma=${uV.formacao_principal||'?'} (score=${uV.score_formacao>=0?'+':''}${uV.score_formacao})\n`;
+      if (uV.alertas_usl && uV.alertas_usl.length) uV.alertas_usl.forEach(a => { ctx += `   ⚡ ${a}\n`; });
+    }
+    // Detecta sinal G×S
+    if (uM && uV && window.PREMISSAS_EDS) {
+      const nivel = window.PREMISSAS_EDS.utils.nivelSinalGxS(uM.perfil_usl, uV.perfil_usl);
+      if (nivel === 'FORTE') {
+        ctx += `🔒🔒 G×S FORTE: ${jogoFocoM}(${uM.perfil_usl}) vs ${jogoFocoV}(${uV.perfil_usl}) — TRIPLE LOCK candidato!\n`;
+        const formOk = uM.score_formacao >= 0.15;
+        if (formOk) ctx += `🔒🔒🔒 TRIPLE LOCK CONFIRMADO: USL G×S FORTE + Formação ${uM.formacao_principal} GERADORA!\n`;
+      } else if (nivel === 'MEDIO') {
+        ctx += `🔒 G×S MÉDIO: ${jogoFocoM}(${uM.perfil_usl}) vs ${jogoFocoV}(${uV.perfil_usl}) — sinal de cantos presente\n`;
+      } else if (nivel === 'INVERSAO') {
+        ctx += `💡 INVERSÃO G×S: Visitante ${jogoFocoV} é GERADOR — avaliar HDP cantos ao visitante!\n`;
+      } else {
+        ctx += `⚪ Sem sinal G×S claro neste confronto (${uM?.perfil_usl||'?'} vs ${uV?.perfil_usl||'?'})\n`;
+      }
+    }
+    ctx += `═══════════════════════════════════════════\n`;
+  })();
 
   /* ── 🧬 DNA PROFUNDO — Perfis Normalizados por Liga ── */
   (function() {
