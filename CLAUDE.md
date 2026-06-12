@@ -115,7 +115,21 @@ Antes de calcular qualquer confT, verificar e documentar:
 
 4. **Forma recente (L3) tem peso de ajuste, não substitui histCasa.** Se L3 contradiz a temporada toda, investigar antes de ajustar.
 
-5. **Conflito de sinais → SKIP obrigatório.** Se histCasa forte mas matchup fraco E perfil contrário, não forçar sinal.
+5. **Conflito de sinais → SKIP obrigatório.** Se histCasa forte mas matchup fraco E perfil contrário, não forçar sinal. **EXCEÇÃO:** ver Regra de Desempate Mandante abaixo — se histCasa ≥ 70%, o conflito resolve para MANDANTE, não para SKIP/OVER.
+
+---
+
+## REGRAS DE DESEMPATE E LINHAS (v4.1 — calibração 13/jun/2026)
+
+*Origem: auditoria da rodada USL 13/jun — o mandante venceu o duelo de cantos nos 4 jogos, incluindo os 2 em que o modelo deu sinal contrário ou neutro. Com as regras abaixo, a rodada teria sido 4/4 em vez de 2/4.*
+
+1. **DESEMPATE MANDANTE (USL).** Em conflito de perfis (G_STRONG × G_STRONG) ou sinais ambíguos, o fator casa decide: se histCasa ≥ 70%, o sinal é MANDANTE — não OVER, não SKIP. (Caso Tampa Bay × Charleston: dois G_STRONG, Tampa 80% casa → mandante venceu 5×3.)
+
+2. **SINAL VISITANTE USL = REBAIXAR 1 TIER AUTOMÁTICO** quando há viagem cross-conference > 2.500 km. Time que vence o jogo fora com folga não precisa de cantos — o perfil G fora pode vir de jogos pressionando atrás do placar. (Caso Louisville: 73% G×S Forte → deveria ser Marginal ⚠️; perdeu o duelo 7×4 mesmo vencendo o jogo 2-0.)
+
+3. **HANDICAP PELA MARGEM, NÃO PELO confT.** confT mede probabilidade de VENCER o duelo, não a margem. Linha -1.5 só com diff projetado ≥ 3.0 cantos; entre 1.5 e 3.0 jogar ML ou -0.5. (Caso Monterey Bay: sinal certo 5×4, mas -1.5 perdeu — diff projetado era ~2.5.)
+
+4. **MATCHUP COM AMOSTRA < 10 JOGOS NÃO VETA histCasa ≥ 75%.** Matchup pequeno vale como ajuste fino, nunca como veto a um histórico de casa forte. (Caso Tampa: matchup 4-2-3-1×5-4-1=33.3% em 9j rebaixou indevidamente um mandante G_STRONG com 80% em casa.)
 
 ---
 
