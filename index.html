@@ -898,13 +898,13 @@
   </div>
 
   <!-- ═══════════════════════════════════════════════════════════
-       SUPER MÚLTIPLA SNIPER — 15 PERNAS JACKPOT
+       SUPER MÚLTIPLA SNIPER — 14 PERNAS JACKPOT (7 LIGAS)
   ══════════════════════════════════════════════════════════════ -->
   <div id="view-supermultipla" class="view">
     <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem">
       <div>
-        <div class="section-title" style="margin:0;background:linear-gradient(135deg,#fbbf24,#f59e0b,#ef4444);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:1.4rem;">🎰 Super Múltipla Sniper — 15 Pernas</div>
-        <div style="font-size:.8rem;color:var(--muted);margin-top:.3rem">Rastreador de Triple Locks · 6 ligas foco · HDP FT mandante</div>
+        <div class="section-title" style="margin:0;background:linear-gradient(135deg,#fbbf24,#f59e0b,#ef4444);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:1.4rem;">🎰 Super Múltipla Sniper — 14 Pernas</div>
+        <div style="font-size:.8rem;color:var(--muted);margin-top:.3rem">Rastreador de Triple Locks · 7 ligas foco (ECU incluído) · HDP FT mandante</div>
       </div>
       <button onclick="renderSuperMultipla()" style="background:linear-gradient(135deg,#fbbf24,#f59e0b);border:none;color:#000;padding:.65rem 1.2rem;border-radius:8px;font-weight:800;font-size:.85rem;cursor:pointer;box-shadow:0 4px 12px rgba(245,158,11,0.3);transition:transform .2s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">🔄 Varrer Rodada</button>
     </div>
@@ -4456,7 +4456,7 @@ const SUBNAV_BY_GRUPO = {
     { id: 'apostas', label: '🎰 Apostas Reais' },
     { id: 'multiplas-elite', label: '🏆 Múltiplas Elite',
       style: 'background:linear-gradient(135deg,rgba(245,158,11,0.25),rgba(251,191,36,0.18),rgba(253,230,138,0.12));border-color:var(--gold);color:var(--gold);font-weight:800;' },
-    { id: 'supermultipla', label: '🎰 Super Múltipla 15',
+    { id: 'supermultipla', label: '🎰 Super Múltipla 14',
       style: 'background:linear-gradient(135deg,rgba(251,191,36,0.25),rgba(239,68,68,0.18));border-color:#fbbf24;color:#fbbf24;font-weight:800;' }
   ],
   auditoria: [
@@ -13292,6 +13292,7 @@ _atualizarTabsGrupo('visao', 'dashboard');
 // ══════════════════════════════════════════════════
 const _SM_LIGAS_FOCO = [
   { code:'ARG_B', flag:'🇦🇷', nome:'Primera B Nacional', homeWin:63.7 },
+  { code:'ECU',   flag:'🇪🇨', nome:'Liga Pro Ecuador',   homeWin:60.5 },
   { code:'BR_B',  flag:'🇧🇷', nome:'Brasileirão B',      homeWin:59.8 },
   { code:'ARG',   flag:'🇦🇷', nome:'Liga Profesional',   homeWin:59.3 },
   { code:'BR',    flag:'🇧🇷', nome:'Brasileirão A',      homeWin:55.9 },
@@ -13371,7 +13372,7 @@ function renderSuperMultipla() {
   gxsForte.sort((a, b) => b.confFT - a.confFT);
 
   const totalPernas = tripleLocks.length + gxsForte.length;
-  const META = 15;
+  const META = 14;
   const pct = Math.min(100, (totalPernas / META) * 100);
   const ODD_LEG = 1.90;
 
@@ -13379,14 +13380,14 @@ function renderSuperMultipla() {
   let html = `
   <div style="background:linear-gradient(135deg,rgba(251,191,36,0.08),rgba(239,68,68,0.05));border:2px solid rgba(251,191,36,0.3);border-radius:16px;padding:1.4rem;margin-bottom:1.5rem">
     <div style="font-size:1rem;font-weight:900;color:#fbbf24;margin-bottom:.3rem;text-align:center">💎 CALCULADORA JACKPOT</div>
-    <div style="font-size:.72rem;color:var(--muted);text-align:center;margin-bottom:1rem">@ odd ${ODD_LEG.toFixed(2)} por perna (estimativa conservadora HDP FT)</div>
+    <div style="font-size:.72rem;color:var(--muted);text-align:center;margin-bottom:1rem">@ odd ${ODD_LEG.toFixed(2)} por perna (estimativa conservadora HDP FT) · 7 ligas foco</div>
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem">
       ${[20, 50, 100, 200].map(s => {
-        const r15 = Math.round(s * Math.pow(ODD_LEG, 15));
+        const r14 = Math.round(s * Math.pow(ODD_LEG, 14));
         const r18 = Math.round(s * Math.pow(ODD_LEG, 18));
         return `<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(251,191,36,0.2);border-radius:8px;padding:.7rem;text-align:center">
           <div style="font-size:.85rem;font-weight:700;color:#fbbf24">R$ ${s.toFixed(0)}</div>
-          <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">15×→ <strong style="color:#34d399">R$ ${r15.toLocaleString('pt-BR')}</strong></div>
+          <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">14×→ <strong style="color:#34d399">R$ ${r14.toLocaleString('pt-BR')}</strong></div>
           <div style="font-size:.65rem;color:var(--muted)">18×→ <strong style="color:#f87171">R$ ${r18.toLocaleString('pt-BR')}</strong></div>
         </div>`;
       }).join('')}
@@ -13394,8 +13395,8 @@ function renderSuperMultipla() {
   </div>`;
 
   // ── PROGRESS BAR ──
-  const msColor = totalPernas >= META ? '#fbbf24' : totalPernas >= 12 ? '#34d399' : totalPernas >= 10 ? '#60a5fa' : 'var(--muted)';
-  const msLabel = totalPernas >= META ? '🎰 META ATINGIDA — HORA DE OPERAR!' : totalPernas >= 12 ? '🔥 QUASE LÁ — 12 PERNAS!' : totalPernas >= 10 ? '✅ MILESTONE 10 ATINGIDO!' : '⏳ Acumulando sinais...';
+  const msColor = totalPernas >= META ? '#fbbf24' : totalPernas >= 11 ? '#34d399' : totalPernas >= 8 ? '#60a5fa' : 'var(--muted)';
+  const msLabel = totalPernas >= META ? '🎰 META ATINGIDA — HORA DE OPERAR!' : totalPernas >= 11 ? '🔥 QUASE LÁ — 11 PERNAS!' : totalPernas >= 8 ? '✅ MILESTONE 8 ATINGIDO!' : '⏳ Acumulando sinais...';
   html += `
   <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:1.2rem;margin-bottom:1.5rem">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.7rem">
@@ -13407,9 +13408,9 @@ function renderSuperMultipla() {
     </div>
     <div style="display:flex;justify-content:space-between;font-size:.62rem;color:var(--muted);margin-bottom:.8rem">
       <span>0</span>
-      <span style="${totalPernas>=10?'color:#60a5fa;font-weight:700':''}">10 ✓</span>
-      <span style="${totalPernas>=12?'color:#34d399;font-weight:700':''}">12 ✓</span>
-      <span style="${totalPernas>=META?'color:#fbbf24;font-weight:700':''}">15 🎰</span>
+      <span style="${totalPernas>=8?'color:#60a5fa;font-weight:700':''}">8 ✓</span>
+      <span style="${totalPernas>=11?'color:#34d399;font-weight:700':''}">11 ✓</span>
+      <span style="${totalPernas>=META?'color:#fbbf24;font-weight:700':''}">14 🎰</span>
     </div>
     <div style="display:flex;gap:.5rem;flex-wrap:wrap;font-size:.72rem">
       <span style="background:rgba(251,191,36,0.15);color:#fbbf24;padding:.2rem .65rem;border-radius:10px;font-weight:800">🔒🔒🔒 ${tripleLocks.length} Triple Lock${tripleLocks.length!==1?'s':''}</span>
@@ -13421,7 +13422,7 @@ function renderSuperMultipla() {
   // ── LEAGUE STATUS ──
   html += `
   <div style="background:var(--bg3);border:1px solid var(--border);border-radius:12px;padding:1rem;margin-bottom:1.5rem">
-    <div style="font-size:.72rem;font-weight:800;color:var(--muted);margin-bottom:.6rem;text-transform:uppercase;letter-spacing:1px">Status das 6 ligas foco</div>
+    <div style="font-size:.72rem;font-weight:800;color:var(--muted);margin-bottom:.6rem;text-transform:uppercase;letter-spacing:1px">Status das 7 ligas foco</div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.4rem">
       ${ligaStatus.map(l => {
         const col = l.status === 'ok' ? (l.found > 0 ? 'var(--green)' : 'var(--text)') : 'var(--muted)';
