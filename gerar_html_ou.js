@@ -12,25 +12,38 @@ const BAND = {
   CHI: { flag: "🇨🇱", nome: "Liga Primera Chile", linha: "O/U 9.5" },
 };
 
-// só as melhores (FORTE + MÉDIO) para os cards, agrupadas por liga
+// todos os jogos da rodada, agrupados por liga, ordenados por |edge| desc
+const todos = D.sinais;
 const melhores = D.melhores;
 const porLiga = {};
-for (const r of melhores) (porLiga[r.liga] = porLiga[r.liga] || []).push(r);
+for (const r of todos) (porLiga[r.liga] = porLiga[r.liga] || []).push(r);
 
-const nForte = melhores.filter(r => r.forcaFT === "FORTE").length;
-const nMedio = melhores.filter(r => r.forcaFT === "MÉDIO").length;
-const nOver = melhores.filter(r => r.ladoFT === "OVER").length;
-const nUnder = melhores.filter(r => r.ladoFT === "UNDER").length;
+const nForte  = todos.filter(r => r.forcaFT === "FORTE").length;
+const nMedio  = todos.filter(r => r.forcaFT === "MÉDIO").length;
+const nLean   = todos.filter(r => r.forcaFT === "LEAN").length;
+const nBase   = todos.filter(r => r.forcaFT === "BASE").length;
+const nOver   = todos.filter(r => r.ladoFT === "OVER").length;
+const nUnder  = todos.filter(r => r.ladoFT === "UNDER").length;
 
 // classe de cor por lado+força
 function ladoCls(r) {
-  if (r.ladoFT === "OVER") return r.forcaFT === "FORTE" ? "ov-f" : "ov-m";
-  return r.forcaFT === "FORTE" ? "un-f" : "un-m";
+  const f = r.forcaFT;
+  if (r.ladoFT === "OVER") {
+    if (f === "FORTE") return "ov-f";
+    if (f === "MÉDIO") return "ov-m";
+    if (f === "LEAN")  return "ov-l";
+    return "ov-b";
+  }
+  if (f === "FORTE") return "un-f";
+  if (f === "MÉDIO") return "un-m";
+  if (f === "LEAN")  return "un-l";
+  return "un-b";
 }
 function forcaBadge(f) {
   if (f === "FORTE") return '<span class="fb fb-f">FORTE</span>';
   if (f === "MÉDIO") return '<span class="fb fb-m">MÉDIO</span>';
-  return '<span class="fb fb-l">LEAN</span>';
+  if (f === "LEAN")  return '<span class="fb fb-l">LEAN</span>';
+  return '<span class="fb fb-b">BASE</span>';
 }
 
 function card(r) {
@@ -63,11 +76,17 @@ for (const liga of ["USL", "BRB", "ARG", "CHI"]) {
   if (!list) continue;
   list.sort((a, b) => Math.abs(b.edgeFT) - Math.abs(a.edgeFT));
   const b = BAND[liga];
+  const nF = list.filter(r => r.forcaFT === "FORTE").length;
+  const nM = list.filter(r => r.forcaFT === "MÉDIO").length;
+  const nL = list.filter(r => r.forcaFT === "LEAN").length;
   secoes += `
 <div class="sec">
   <h2>${b.flag} ${b.nome}</h2>
   <span class="pill">${b.linha}</span>
-  <span class="desc">${list.length} indicações · base OVER ${list[0].baseOverFT}%</span>
+  <span class="pill" style="background:#1B5E2020;color:#4ade80;border-color:#1B5E20">${nF} forte</span>
+  <span class="pill" style="background:#1f4e7920;color:#9cc3e6;border-color:#1f4e79">${nM} médio</span>
+  <span class="pill" style="background:#37414120;color:#9ca3af;border-color:#374141">${nL} lean</span>
+  <span class="desc">${list.length} jogos · base OVER ${list[0].baseOverFT}%</span>
 </div>
 <div class="grid">
 ${list.map(card).join("")}
@@ -107,20 +126,27 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
 .ou{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:0;overflow:hidden;border-left-width:4px}
 .ou.ov-f{border-left-color:#4ade80}
 .ou.ov-m{border-left-color:#86efac}
+.ou.ov-l{border-left-color:#d1fae5}
+.ou.ov-b{border-left-color:#374151}
 .ou.un-f{border-left-color:#f87171}
 .ou.un-m{border-left-color:#fca5a5}
+.ou.un-l{border-left-color:#fee2e2}
+.ou.un-b{border-left-color:#374151}
 .ou-hd{display:flex;align-items:center;justify-content:space-between;padding:8px 12px 4px}
 .hor{font-size:10px;color:#8b949e;font-weight:600}
 .fb{font-size:8.5px;font-weight:700;padding:1px 6px;border-radius:4px}
 .fb-f{background:#1B5E20;color:#a5d6a7}
 .fb-m{background:#1f4e79;color:#9cc3e6}
 .fb-l{background:#374151;color:#9ca3af}
+.fb-b{background:#1c2128;color:#6b7280;border:1px solid #30363d}
 .ou-jogo{font-size:12.5px;font-weight:600;color:#e6edf3;padding:2px 12px 7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ou-jogo .x{color:#6b7280;font-weight:400;margin:0 2px}
 .ou-sin{display:flex;align-items:center;justify-content:space-between;padding:0 12px 6px}
 .ou-sin .lado{font-size:14px;font-weight:700}
-.ou.ov-f .lado,.ou.ov-m .lado{color:#4ade80}
-.ou.un-f .lado,.ou.un-m .lado{color:#f87171}
+.ou.ov-f .lado,.ou.ov-m .lado,.ou.ov-l .lado{color:#4ade80}
+.ou.ov-b .lado{color:#6ee7b7}
+.ou.un-f .lado,.ou.un-m .lado,.ou.un-l .lado{color:#f87171}
+.ou.un-b .lado{color:#fca5a5}
 .ou-sin .prob{font-size:15px;font-weight:700;color:#fff}
 .ou-meta{display:flex;align-items:center;justify-content:space-between;padding:5px 12px;background:#0d1117;border-top:1px solid rgba(48,54,61,0.5);font-size:10px;color:#8b949e}
 .ou-meta .edge{font-weight:700;color:#c9d1d9}
@@ -139,29 +165,33 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
 <div class="header">
   <div class="logo">EDS HDP Ultra · Mercado Over/Under Cantos</div>
   <h1>O/U Cantos <span>13–16 jun 2026</span></h1>
-  <div class="sub">Melhores indicações · gatilho combo de perfil + diffSum · histórico próprio (1.324 jogos)</div>
+  <div class="sub">Todos os jogos da rodada · combo de perfil + diffSum · histórico próprio (1.324 jogos)</div>
   <div class="tag-row">
     <span class="tag" style="background:#1B5E20;color:#a5d6a7">FORTE · edge ≥ 15%</span>
     <span class="tag" style="background:#1f4e79;color:#9cc3e6">MÉDIO · edge 10–14%</span>
+    <span class="tag" style="background:#374151;color:#9ca3af">LEAN · edge 6–9%</span>
+    <span class="tag" style="background:#1c2128;color:#6b7280">BASE · edge &lt; 6%</span>
     <span class="tag" style="background:#143d2b;color:#4ade80">OVER</span>
     <span class="tag" style="background:#3d1717;color:#f87171">UNDER</span>
   </div>
 </div>
 
 <div class="stats">
-  <div class="sc"><div class="n" style="color:#58a6ff">${melhores.length}</div><div class="l">Indicações</div></div>
-  <div class="sc"><div class="n" style="color:#4ade80">${nForte}</div><div class="l">Força Forte</div></div>
-  <div class="sc"><div class="n" style="color:#9cc3e6">${nMedio}</div><div class="l">Força Média</div></div>
-  <div class="sc"><div class="n" style="color:#4ade80">${nOver}</div><div class="l">Sinais Over</div></div>
-  <div class="sc"><div class="n" style="color:#f87171">${nUnder}</div><div class="l">Sinais Under</div></div>
+  <div class="sc"><div class="n" style="color:#58a6ff">${todos.length}</div><div class="l">Total Jogos</div></div>
+  <div class="sc"><div class="n" style="color:#4ade80">${nForte}</div><div class="l">Forte</div></div>
+  <div class="sc"><div class="n" style="color:#9cc3e6">${nMedio}</div><div class="l">Médio</div></div>
+  <div class="sc"><div class="n" style="color:#9ca3af">${nLean}</div><div class="l">Lean</div></div>
+  <div class="sc"><div class="n" style="color:#6b7280">${nBase}</div><div class="l">Base</div></div>
+  <div class="sc"><div class="n" style="color:#4ade80">${nOver}</div><div class="l">Over</div></div>
+  <div class="sc"><div class="n" style="color:#f87171">${nUnder}</div><div class="l">Under</div></div>
 </div>
 
 <div class="info">
-  <strong>Como ler:</strong> cada card mostra o lado (OVER/UNDER), a linha FT da liga, a probabilidade histórica e o
-  <strong>edge</strong> sobre a base da liga. O gatilho vem do combo de perfil (mandante × visitante) cruzado com o
-  <strong>diffSum</strong> (soma dos diff_cantos). Linhas por liga: USL e ARG_B jogam <strong>O/U 8.5</strong>
-  (média ~8.6 cantos); BR_B e CHI jogam <strong>O/U 9.5</strong>. Só são exibidas indicações FORTE e MÉDIO —
-  os sinais LEAN e de base ficam no <code>ou_output.json</code>.
+  <strong>Como ler:</strong> todos os ${todos.length} jogos da rodada estão listados, ordenados por |edge| dentro de cada liga.
+  A borda lateral indica o lado (verde = OVER, vermelho = UNDER) e a intensidade indica a força.
+  O badge no canto superior direito mostra a força: <strong>FORTE</strong> (jogar com confiança) ·
+  <strong>MÉDIO</strong> (bom sinal) · <strong>LEAN</strong> (leve) · <strong>BASE</strong> (só aposta se tiver outro motivo externo).
+  Linha FT: USL e ARG jogam <strong>O/U 8.5</strong> · BR_B e CHI jogam <strong>O/U 9.5</strong>.
 </div>
 
 ${secoes}
@@ -175,8 +205,8 @@ ${secoes}
 </div>
 
 <div class="footer">
-  EDS HDP Ultra — Motor O/U v1.0 · gerado de ou_output.json · ${D.rodada}<br>
-  Dados: 1.324 jogos · 8 ligas analisadas · linhas calibradas por média de cantos da liga
+  EDS HDP Ultra — Motor O/U v1.0 · ${D.rodada} · todos os jogos da rodada<br>
+  Dados: 1.324 jogos históricos · 8 ligas · linhas calibradas por média de cantos da liga
 </div>
 
 </div>

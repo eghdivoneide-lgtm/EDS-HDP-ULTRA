@@ -31,20 +31,27 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
 .ou{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:0;overflow:hidden;border-left-width:4px}
 .ou.ov-f{border-left-color:#4ade80}
 .ou.ov-m{border-left-color:#86efac}
+.ou.ov-l{border-left-color:#d1fae5}
+.ou.ov-b{border-left-color:#374151}
 .ou.un-f{border-left-color:#f87171}
 .ou.un-m{border-left-color:#fca5a5}
+.ou.un-l{border-left-color:#fee2e2}
+.ou.un-b{border-left-color:#374151}
 .ou-hd{display:flex;align-items:center;justify-content:space-between;padding:8px 12px 4px}
 .hor{font-size:10px;color:#8b949e;font-weight:600}
 .fb{font-size:8.5px;font-weight:700;padding:1px 6px;border-radius:4px}
 .fb-f{background:#1B5E20;color:#a5d6a7}
 .fb-m{background:#1f4e79;color:#9cc3e6}
 .fb-l{background:#374151;color:#9ca3af}
+.fb-b{background:#1c2128;color:#6b7280;border:1px solid #30363d}
 .ou-jogo{font-size:12.5px;font-weight:600;color:#e6edf3;padding:2px 12px 7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ou-jogo .x{color:#6b7280;font-weight:400;margin:0 2px}
 .ou-sin{display:flex;align-items:center;justify-content:space-between;padding:0 12px 6px}
 .ou-sin .lado{font-size:14px;font-weight:700}
-.ou.ov-f .lado,.ou.ov-m .lado{color:#4ade80}
-.ou.un-f .lado,.ou.un-m .lado{color:#f87171}
+.ou.ov-f .lado,.ou.ov-m .lado,.ou.ov-l .lado{color:#4ade80}
+.ou.ov-b .lado{color:#6ee7b7}
+.ou.un-f .lado,.ou.un-m .lado,.ou.un-l .lado{color:#f87171}
+.ou.un-b .lado{color:#fca5a5}
 .ou-sin .prob{font-size:15px;font-weight:700;color:#fff}
 .ou-meta{display:flex;align-items:center;justify-content:space-between;padding:5px 12px;background:#0d1117;border-top:1px solid rgba(48,54,61,0.5);font-size:10px;color:#8b949e}
 .ou-meta .edge{font-weight:700;color:#c9d1d9}
@@ -63,36 +70,43 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
 <div class="header">
   <div class="logo">EDS HDP Ultra · Mercado Over/Under Cantos</div>
   <h1>O/U Cantos <span>13–16 jun 2026</span></h1>
-  <div class="sub">Melhores indicações · gatilho combo de perfil + diffSum · histórico próprio (1.324 jogos)</div>
+  <div class="sub">Todos os jogos da rodada · combo de perfil + diffSum · histórico próprio (1.324 jogos)</div>
   <div class="tag-row">
     <span class="tag" style="background:#1B5E20;color:#a5d6a7">FORTE · edge ≥ 15%</span>
     <span class="tag" style="background:#1f4e79;color:#9cc3e6">MÉDIO · edge 10–14%</span>
+    <span class="tag" style="background:#374151;color:#9ca3af">LEAN · edge 6–9%</span>
+    <span class="tag" style="background:#1c2128;color:#6b7280">BASE · edge &lt; 6%</span>
     <span class="tag" style="background:#143d2b;color:#4ade80">OVER</span>
     <span class="tag" style="background:#3d1717;color:#f87171">UNDER</span>
   </div>
 </div>
 
 <div class="stats">
-  <div class="sc"><div class="n" style="color:#58a6ff">20</div><div class="l">Indicações</div></div>
-  <div class="sc"><div class="n" style="color:#4ade80">16</div><div class="l">Força Forte</div></div>
-  <div class="sc"><div class="n" style="color:#9cc3e6">4</div><div class="l">Força Média</div></div>
-  <div class="sc"><div class="n" style="color:#4ade80">6</div><div class="l">Sinais Over</div></div>
-  <div class="sc"><div class="n" style="color:#f87171">14</div><div class="l">Sinais Under</div></div>
+  <div class="sc"><div class="n" style="color:#58a6ff">47</div><div class="l">Total Jogos</div></div>
+  <div class="sc"><div class="n" style="color:#4ade80">16</div><div class="l">Forte</div></div>
+  <div class="sc"><div class="n" style="color:#9cc3e6">4</div><div class="l">Médio</div></div>
+  <div class="sc"><div class="n" style="color:#9ca3af">9</div><div class="l">Lean</div></div>
+  <div class="sc"><div class="n" style="color:#6b7280">18</div><div class="l">Base</div></div>
+  <div class="sc"><div class="n" style="color:#4ade80">15</div><div class="l">Over</div></div>
+  <div class="sc"><div class="n" style="color:#f87171">32</div><div class="l">Under</div></div>
 </div>
 
 <div class="info">
-  <strong>Como ler:</strong> cada card mostra o lado (OVER/UNDER), a linha FT da liga, a probabilidade histórica e o
-  <strong>edge</strong> sobre a base da liga. O gatilho vem do combo de perfil (mandante × visitante) cruzado com o
-  <strong>diffSum</strong> (soma dos diff_cantos). Linhas por liga: USL e ARG_B jogam <strong>O/U 8.5</strong>
-  (média ~8.6 cantos); BR_B e CHI jogam <strong>O/U 9.5</strong>. Só são exibidas indicações FORTE e MÉDIO —
-  os sinais LEAN e de base ficam no <code>ou_output.json</code>.
+  <strong>Como ler:</strong> todos os 47 jogos da rodada estão listados, ordenados por |edge| dentro de cada liga.
+  A borda lateral indica o lado (verde = OVER, vermelho = UNDER) e a intensidade indica a força.
+  O badge no canto superior direito mostra a força: <strong>FORTE</strong> (jogar com confiança) ·
+  <strong>MÉDIO</strong> (bom sinal) · <strong>LEAN</strong> (leve) · <strong>BASE</strong> (só aposta se tiver outro motivo externo).
+  Linha FT: USL e ARG jogam <strong>O/U 8.5</strong> · BR_B e CHI jogam <strong>O/U 9.5</strong>.
 </div>
 
 
 <div class="sec">
   <h2>🇺🇸 USL Championship</h2>
   <span class="pill">O/U 8.5</span>
-  <span class="desc">8 indicações · base OVER 53.8%</span>
+  <span class="pill" style="background:#1B5E2020;color:#4ade80;border-color:#1B5E20">7 forte</span>
+  <span class="pill" style="background:#1f4e7920;color:#9cc3e6;border-color:#1f4e79">1 médio</span>
+  <span class="pill" style="background:#37414120;color:#9ca3af;border-color:#374141">3 lean</span>
+  <span class="desc">12 jogos · base OVER 53.8%</span>
 </div>
 <div class="grid">
 
@@ -224,11 +238,78 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
     </div>
     
   </div>
+  <div class="ou un-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 20:00</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Pittsburgh <span class="x">×</span> Indy Eleven</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">55.6%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×S · n=18</span>
+      <span class="edge">edge -9.4%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 21:00</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Birmingham <span class="x">×</span> Las Vegas Lights</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">58.3%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×N · n=12</span>
+      <span class="edge">edge -7.3%</span>
+    </div>
+    <div class="ht">HT: <b>UNDER 3.5</b> · 75%</div>
+  </div>
+  <div class="ou ov-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 20:00</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Lexington <span class="x">×</span> San Antonio</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 8.5 FT</span>
+      <span class="prob">60.7%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×S · n=28</span>
+      <span class="edge">edge +6.9%</span>
+    </div>
+    
+  </div>
+  <div class="ou ov-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 19:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Loudoun <span class="x">×</span> Rhode Island</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 8.5 FT</span>
+      <span class="prob">60%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S_STRONG×S · n=5</span>
+      <span class="edge">edge +3.7%</span>
+    </div>
+    
+  </div>
 </div>
 <div class="sec">
   <h2>🇧🇷 Brasileirão B</h2>
   <span class="pill">O/U 9.5</span>
-  <span class="desc">5 indicações · base OVER 53.6%</span>
+  <span class="pill" style="background:#1B5E2020;color:#4ade80;border-color:#1B5E20">5 forte</span>
+  <span class="pill" style="background:#1f4e7920;color:#9cc3e6;border-color:#1f4e79">0 médio</span>
+  <span class="pill" style="background:#37414120;color:#9ca3af;border-color:#374141">0 lean</span>
+  <span class="desc">9 jogos · base OVER 53.6%</span>
 </div>
 <div class="grid">
 
@@ -312,11 +393,78 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
     </div>
     
   </div>
+  <div class="ou ov-b">
+    <div class="ou-hd">
+      <span class="hor">15.06 21:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Londrina <span class="x">×</span> Avai</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 9.5 FT</span>
+      <span class="prob">60%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×N · n=5</span>
+      <span class="edge">edge +3.8%</span>
+    </div>
+    
+  </div>
+  <div class="ou ov-b">
+    <div class="ou-hd">
+      <span class="hor">15.06 21:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Criciuma <span class="x">×</span> Ceara</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 9.5 FT</span>
+      <span class="prob">60%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×N · n=5</span>
+      <span class="edge">edge +3.8%</span>
+    </div>
+    
+  </div>
+  <div class="ou ov-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 11:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Juventude <span class="x">×</span> Ponte Preta</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 9.5 FT</span>
+      <span class="prob">53.8%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×S · n=13</span>
+      <span class="edge">edge +0.2%</span>
+    </div>
+    
+  </div>
+  <div class="ou ov-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 16:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Athletic Club <span class="x">×</span> Goiás</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 9.5 FT</span>
+      <span class="prob">53.8%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S_STRONG×N · n=13</span>
+      <span class="edge">edge +0.2%</span>
+    </div>
+    
+  </div>
 </div>
 <div class="sec">
   <h2>🇦🇷 Argentina B Nacional</h2>
   <span class="pill">O/U 8.5</span>
-  <span class="desc">3 indicações · base OVER 49%</span>
+  <span class="pill" style="background:#1B5E2020;color:#4ade80;border-color:#1B5E20">1 forte</span>
+  <span class="pill" style="background:#1f4e7920;color:#9cc3e6;border-color:#1f4e79">2 médio</span>
+  <span class="pill" style="background:#37414120;color:#9ca3af;border-color:#374141">4 lean</span>
+  <span class="desc">18 jogos · base OVER 49%</span>
 </div>
 <div class="grid">
 
@@ -368,11 +516,254 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
     </div>
     <div class="ht">HT: <b>OVER 3.5</b> · 74.3%</div>
   </div>
+  <div class="ou un-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 15:30</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Nueva Chicago <span class="x">×</span> Chacarita Juniors</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">57.1%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S_STRONG×N · n=7</span>
+      <span class="edge">edge -9.1%</span>
+    </div>
+    <div class="ht">HT: <b>UNDER 3.5</b> · 57.1%</div>
+  </div>
+  <div class="ou ov-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 15:30</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Def. Belgrano <span class="x">×</span> Colon Santa Fe</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 8.5 FT</span>
+      <span class="prob">55%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×G · n=20</span>
+      <span class="edge">edge +9%</span>
+    </div>
+    <div class="ht">HT: <b>OVER 3.5</b> · 75%</div>
+  </div>
+  <div class="ou ov-l">
+    <div class="ou-hd">
+      <span class="hor">14.06 15:30</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Ferro <span class="x">×</span> Acassuso</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 8.5 FT</span>
+      <span class="prob">56.8%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G_STRONG×S_STRONG · n=81</span>
+      <span class="edge">edge +7.8%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 16:00</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Ciudad Bolivar <span class="x">×</span> Dep. Moron</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">54.5%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×N · n=22</span>
+      <span class="edge">edge -6.5%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 14:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Midland <span class="x">×</span> Atletico Atlanta</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">53.8%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×N · n=26</span>
+      <span class="edge">edge -5.9%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 15:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Colegiales <span class="x">×</span> San Martin Tucuman</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">53.8%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×N · n=26</span>
+      <span class="edge">edge -5.9%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 15:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Patronato <span class="x">×</span> Atl. Rafaela</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">54.5%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×N · n=22</span>
+      <span class="edge">edge -2.1%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 16:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Central Norte <span class="x">×</span> San Telmo</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">54.5%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×N · n=22</span>
+      <span class="edge">edge -2.1%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 15:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Almagro <span class="x">×</span> Agropecuario</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">53.3%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×G · n=15</span>
+      <span class="edge">edge -1.4%</span>
+    </div>
+    <div class="ht">HT: <b>UNDER 3.5</b> · 46.7%</div>
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 14:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Almirante Brown <span class="x">×</span> Godoy Cruz</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">53.3%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×G · n=15</span>
+      <span class="edge">edge -1.4%</span>
+    </div>
+    <div class="ht">HT: <b>UNDER 3.5</b> · 46.7%</div>
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 17:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Quilmes <span class="x">×</span> Gimnasia y Tiro</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">52.9%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×N · n=51</span>
+      <span class="edge">edge -1.2%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 20:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Gimnasia Jujuy <span class="x">×</span> San Martin S.J.</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">52.9%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×N · n=51</span>
+      <span class="edge">edge -1.2%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 15:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Dep. Madryn <span class="x">×</span> San Miguel</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">52.9%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×N · n=51</span>
+      <span class="edge">edge -1.2%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 16:00</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Racing Cordoba <span class="x">×</span> Chaco For Ever</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">52.9%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×N · n=51</span>
+      <span class="edge">edge -1.2%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 16:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Dep. Maipu <span class="x">×</span> Tristan Suarez</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 8.5 FT</span>
+      <span class="prob">52.9%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×N · n=51</span>
+      <span class="edge">edge -1.2%</span>
+    </div>
+    
+  </div>
 </div>
 <div class="sec">
   <h2>🇨🇱 Liga Primera Chile</h2>
   <span class="pill">O/U 9.5</span>
-  <span class="desc">4 indicações · base OVER 46.6%</span>
+  <span class="pill" style="background:#1B5E2020;color:#4ade80;border-color:#1B5E20">3 forte</span>
+  <span class="pill" style="background:#1f4e7920;color:#9cc3e6;border-color:#1f4e79">1 médio</span>
+  <span class="pill" style="background:#37414120;color:#9ca3af;border-color:#374141">2 lean</span>
+  <span class="desc">8 jogos · base OVER 46.6%</span>
 </div>
 <div class="grid">
 
@@ -440,6 +831,70 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
     </div>
     
   </div>
+  <div class="ou un-l">
+    <div class="ou-hd">
+      <span class="hor">14.06 16:00</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Union La Calera <span class="x">×</span> U. De Chile</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 9.5 FT</span>
+      <span class="prob">66.7%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×G · n=9</span>
+      <span class="edge">edge -8%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-l">
+    <div class="ou-hd">
+      <span class="hor">13.06 16:00</span>
+      <span class="fb fb-l">LEAN</span>
+    </div>
+    <div class="ou-jogo">Everton <span class="x">×</span> Palestino</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 9.5 FT</span>
+      <span class="prob">60.7%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">S×N · n=28</span>
+      <span class="edge">edge -7.3%</span>
+    </div>
+    
+  </div>
+  <div class="ou un-b">
+    <div class="ou-hd">
+      <span class="hor">14.06 13:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">D. Concepcion <span class="x">×</span> Limache</div>
+    <div class="ou-sin">
+      <span class="lado">UNDER 9.5 FT</span>
+      <span class="prob">57.1%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">N×S_STRONG · n=7</span>
+      <span class="edge">edge -2.2%</span>
+    </div>
+    <div class="ht">HT: <b>OVER 3.5</b> · 71.4%</div>
+  </div>
+  <div class="ou ov-b">
+    <div class="ou-hd">
+      <span class="hor">13.06 13:30</span>
+      <span class="fb fb-b">BASE</span>
+    </div>
+    <div class="ou-jogo">Coquimbo <span class="x">×</span> O'Higgins</div>
+    <div class="ou-sin">
+      <span class="lado">OVER 9.5 FT</span>
+      <span class="prob">46.6%</span>
+    </div>
+    <div class="ou-meta">
+      <span class="combo">G×G_STRONG · n=0</span>
+      <span class="edge">edge +0%</span>
+    </div>
+    
+  </div>
 </div>
 
 <div class="legenda">
@@ -451,8 +906,8 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
 </div>
 
 <div class="footer">
-  EDS HDP Ultra — Motor O/U v1.0 · gerado de ou_output.json · 13-16/jun/2026<br>
-  Dados: 1.324 jogos · 8 ligas analisadas · linhas calibradas por média de cantos da liga
+  EDS HDP Ultra — Motor O/U v1.0 · 13-16/jun/2026 · todos os jogos da rodada<br>
+  Dados: 1.324 jogos históricos · 8 ligas · linhas calibradas por média de cantos da liga
 </div>
 
 </div>
