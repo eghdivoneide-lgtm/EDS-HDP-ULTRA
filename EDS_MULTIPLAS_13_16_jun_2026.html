@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDS HDP Ultra — Múltiplas 13-16/jun/2026</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;line-height:1.4}
+.container{max-width:1120px;margin:0 auto;padding:20px 14px}
+
+/* Header */
+.header{text-align:center;padding:28px 0 20px;border-bottom:1px solid #30363d;margin-bottom:22px}
+.header .logo{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:#58a6ff;font-weight:700;margin-bottom:8px}
+.header h1{font-size:25px;font-weight:700;color:#fff}
+.header h1 span{color:#58a6ff}
+.header .sub{color:#8b949e;font-size:12px;margin-top:5px}
+.tag-row{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+.tag{padding:3px 11px;border-radius:20px;font-size:10px;font-weight:700;letter-spacing:0.4px}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:9px;margin-bottom:24px}
+.sc{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:13px;text-align:center}
+.sc .n{font-size:25px;font-weight:700}
+.sc .l{font-size:10px;color:#8b949e;margin-top:3px;text-transform:uppercase;letter-spacing:0.4px}
+
+/* Info box */
+.info{background:#161b22;border:1px solid #30363d;border-left:3px solid #58a6ff;border-radius:6px;padding:11px 14px;margin-bottom:22px;font-size:12px;color:#8b949e;line-height:1.6}
+.info strong{color:#c9d1d9}
+
+/* Section title */
+.sec{margin:26px 0 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sec h2{font-size:16px;font-weight:700;color:#fff}
+.pill{padding:2px 10px;border-radius:10px;font-size:10px;font-weight:700;background:#1f2937;color:#58a6ff;border:1px solid #374151}
+.sec .desc{font-size:11px;color:#8b949e;margin-left:auto}
+
+/* Grids */
+.g3{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.g2{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:12px}
+.g1{display:grid;grid-template-columns:1fr;gap:12px}
+
+/* Multiple card */
+.mc{background:#161b22;border:1px solid #30363d;border-radius:10px;overflow:hidden}
+.mc-hd{background:#1c2128;padding:9px 13px;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:9px}
+.mc-id{font-size:15px;font-weight:700;color:#fff}
+.mc-legs{font-size:10px;font-weight:700;padding:2px 8px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#8b949e}
+.mc-prob{margin-left:auto;font-size:11px;color:#8b949e}
+.mc-prob span{color:#58a6ff;font-weight:700;font-size:13px}
+
+/* Legs */
+.leg{display:flex;align-items:center;gap:7px;padding:5px 11px;border-bottom:1px solid rgba(48,54,61,0.45)}
+.leg:last-child{border-bottom:none}
+.leg.a{background:rgba(22,73,41,0.13)}
+.leg.rb{background:rgba(69,39,160,0.07)}
+.rk{width:17px;text-align:center;font-size:10px;color:#8b949e;font-weight:600;flex-shrink:0}
+.dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.tm{flex:1;min-width:0}
+.tm .nm{font-size:11.5px;font-weight:600;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tm .mt{font-size:10px;color:#8b949e}
+.cv{font-size:12px;font-weight:700;min-width:38px;text-align:right}
+.lv{font-size:10px;color:#8b949e;min-width:68px;text-align:right;white-space:nowrap}
+.tbadge{font-size:8.5px;font-weight:700;padding:1px 5px;border-radius:4px;vertical-align:middle;display:inline-block;margin-left:3px}
+
+/* Colors */
+.c-tlf{color:#4ade80}.bg-tlf{background:#1B5E20;color:#a5d6a7}.dot-tlf{background:#4ade80}
+.c-tl{color:#86efac}.bg-tl{background:#2E7D32;color:#c8e6c9}.dot-tl{background:#86efac}
+.c-gs{color:#fb923c}.bg-gs{background:#E65100;color:#ffcc80}.dot-gs{background:#fb923c}
+.c-nf{color:#c084fc}.bg-nf{background:#4527A0;color:#ce93d8}.dot-nf{background:#c084fc}
+
+/* Footer */
+.footer{text-align:center;padding:18px 0;color:#8b949e;font-size:11px;border-top:1px solid #30363d;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<div class="header">
+  <div class="logo">EDS HDP Ultra · Sistema de Cantos v4.2</div>
+  <h1>Múltiplas <span>13–16 jun 2026</span></h1>
+  <div class="sub">15 combinações · Top 20 da rodada · Rotação anti-concentração</div>
+  <div class="tag-row">
+    <span class="tag" style="background:#1B5E20;color:#a5d6a7">🔒🔒 TRIPLE LOCK FORTE</span>
+    <span class="tag" style="background:#2E7D32;color:#c8e6c9">🔒 TRIPLE LOCK</span>
+    <span class="tag" style="background:#E65100;color:#ffcc80">★ G×S FORTE</span>
+    <span class="tag" style="background:#4527A0;color:#ce93d8">⚡ NEUTRO FORTE</span>
+  </div>
+</div>
+
+<!-- Stats -->
+<div class="stats">
+  <div class="sc"><div class="n" style="color:#58a6ff">15</div><div class="l">Múltiplas Total</div></div>
+  <div class="sc"><div class="n" style="color:#4ade80">10</div><div class="l">De 10 Pernas</div></div>
+  <div class="sc"><div class="n" style="color:#86efac">3</div><div class="l">De 12 Pernas</div></div>
+  <div class="sc"><div class="n" style="color:#c084fc">2</div><div class="l">De 15 Pernas</div></div>
+  <div class="sc"><div class="n" style="color:#4ade80">6</div><div class="l">Âncoras ≥ 85%</div></div>
+  <div class="sc"><div class="n" style="color:#fb923c">20</div><div class="l">Picks Únicos</div></div>
+</div>
+
+<!-- Info -->
+<div class="info">
+  <strong>Lógica de rotação:</strong> Os 6 picks ≥85% (🟢 fundo verde = âncoras) estão em <strong>todas</strong> as 15 múltiplas.
+  Rotação A (75–82%) distribui-se por 6–9 múltiplas. Rotação B (70–74%, fundo roxo) aparece em 2–5.
+  Nenhum pick isolado derruba mais de 60% das apostas. Linha FT = entrada principal (1ª opção).
+</div>
+
+<!-- ===== 10-LEG ===== -->
+<div class="sec">
+  <h2>Múltiplas de 10 Pernas</h2>
+  <span class="pill">M1 – M10</span>
+  <span class="desc">6 âncoras + 4 de rotação</span>
+</div>
+<div class="g3">
+
+<!-- M1 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M1</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~19.2%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">13</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: CA Mitre<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">73.6%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg rb"><span class="rk">17</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Colorado Spr.<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 22:00</span></span><span class="cv c-gs">71.7%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M2 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M2</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~17.9%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">14</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Lexington<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-gs">72.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">18</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Racing Córdoba<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">71.3%</span><span class="lv">-0.5 / ML</span></div>
+</div>
+
+<!-- M3 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M3</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~16.5%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">11</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Coquimbo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 13:30</span></span><span class="cv c-tl">78.2%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">12</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Birmingham<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tl">75.3%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">15</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: Quilmes<span class="tbadge bg-nf">N·F</span></span><span class="mt">ARG · 13.06 17:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">19</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Fortaleza<span class="tbadge bg-gs">G×S</span></span><span class="mt">BRB · 16.06 20:00</span></span><span class="cv c-gs">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M4 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M4</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~18.2%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">16</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: A. Italiano<span class="tbadge bg-nf">N·F</span></span><span class="mt">CHI · 12.06 21:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">20</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">VIS: Detroit<span class="tbadge bg-nf">N·F</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-nf">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M5 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M5</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~18.3%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">13</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: CA Mitre<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">73.6%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg rb"><span class="rk">15</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: Quilmes<span class="tbadge bg-nf">N·F</span></span><span class="mt">ARG · 13.06 17:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">-0.5 / ML</span></div>
+</div>
+
+<!-- M6 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M6</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~18.1%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">11</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Coquimbo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 13:30</span></span><span class="cv c-tl">78.2%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">14</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Lexington<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-gs">72.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">19</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Fortaleza<span class="tbadge bg-gs">G×S</span></span><span class="mt">BRB · 16.06 20:00</span></span><span class="cv c-gs">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M7 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M7</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~17.1%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">12</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Birmingham<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tl">75.3%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">16</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: A. Italiano<span class="tbadge bg-nf">N·F</span></span><span class="mt">CHI · 12.06 21:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">18</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Racing Córdoba<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">71.3%</span><span class="lv">-0.5 / ML</span></div>
+</div>
+
+<!-- M8 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M8</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~17.3%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">17</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Colorado Spr.<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 22:00</span></span><span class="cv c-gs">71.7%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">20</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">VIS: Detroit<span class="tbadge bg-nf">N·F</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-nf">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M9 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M9</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~17.7%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">12</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Birmingham<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tl">75.3%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">15</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: Quilmes<span class="tbadge bg-nf">N·F</span></span><span class="mt">ARG · 13.06 17:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">17</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Colorado Spr.<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 22:00</span></span><span class="cv c-gs">71.7%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M10 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M10</span>
+    <span class="mc-legs">10 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~17.6%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">11</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Coquimbo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 13:30</span></span><span class="cv c-tl">78.2%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">14</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Lexington<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-gs">72.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">20</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">VIS: Detroit<span class="tbadge bg-nf">N·F</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-nf">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+</div><!-- /g3 -->
+
+<!-- ===== 12-LEG ===== -->
+<div class="sec">
+  <h2>Múltiplas de 12 Pernas</h2>
+  <span class="pill">M11 – M13</span>
+  <span class="desc">6 âncoras + 6 de rotação</span>
+</div>
+<div class="g2">
+
+<!-- M11 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M11</span>
+    <span class="mc-legs">12 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~13.3%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg"><span class="rk">11</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Coquimbo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 13:30</span></span><span class="cv c-tl">78.2%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">12</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Birmingham<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tl">75.3%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M12 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M12</span>
+    <span class="mc-legs">12 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~9.6%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">13</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: CA Mitre<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">73.6%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg rb"><span class="rk">15</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: Quilmes<span class="tbadge bg-nf">N·F</span></span><span class="mt">ARG · 13.06 17:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">17</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Colorado Spr.<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 22:00</span></span><span class="cv c-gs">71.7%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">19</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Fortaleza<span class="tbadge bg-gs">G×S</span></span><span class="mt">BRB · 16.06 20:00</span></span><span class="cv c-gs">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M13 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M13</span>
+    <span class="mc-legs">12 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~9.0%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">14</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Lexington<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-gs">72.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">16</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: A. Italiano<span class="tbadge bg-nf">N·F</span></span><span class="mt">CHI · 12.06 21:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">18</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Racing Córdoba<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">71.3%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">20</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">VIS: Detroit<span class="tbadge bg-nf">N·F</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-nf">70.0%</span><span class="lv">ML</span></div>
+</div>
+
+</div><!-- /g2 -->
+
+<!-- ===== 15-LEG ===== -->
+<div class="sec">
+  <h2>Múltiplas de 15 Pernas</h2>
+  <span class="pill">M14 – M15</span>
+  <span class="desc">6 âncoras + 6 Rot-A + 3 Rot-B · stake reduzido</span>
+</div>
+<div class="g2">
+
+<!-- M14 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M14</span>
+    <span class="mc-legs">15 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~5.0%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg"><span class="rk">11</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Coquimbo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 13:30</span></span><span class="cv c-tl">78.2%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">12</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Birmingham<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tl">75.3%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">13</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: CA Mitre<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">73.6%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg rb"><span class="rk">15</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: Quilmes<span class="tbadge bg-nf">N·F</span></span><span class="mt">ARG · 13.06 17:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">17</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Colorado Spr.<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 22:00</span></span><span class="cv c-gs">71.7%</span><span class="lv">ML</span></div>
+</div>
+
+<!-- M15 -->
+<div class="mc">
+  <div class="mc-hd">
+    <span class="mc-id">M15</span>
+    <span class="mc-legs">15 pernas</span>
+    <span class="mc-prob">prob. combinada <span>~5.0%</span></span>
+  </div>
+  <div class="leg a"><span class="rk">1</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Charleston<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">94.8%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">2</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Ferro<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 14.06 15:30</span></span><span class="cv c-tlf">92.2%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">3</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Novorizontino<span class="tbadge bg-tlf">TLF</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tlf">90.8%</span><span class="lv">-1.5 / -0.5</span></div>
+  <div class="leg a"><span class="rk">4</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Louisville City<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tlf">90.7%</span><span class="lv">-2.5 / -1.5</span></div>
+  <div class="leg a"><span class="rk">5</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Midland<span class="tbadge bg-tlf">TLF</span></span><span class="mt">ARG · 13.06 14:30</span></span><span class="cv c-tlf">88.9%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg a"><span class="rk">6</span><span class="dot dot-tlf"></span><span class="tm"><span class="nm">MAND: Tampa Bay<span class="tbadge bg-tlf">TLF</span></span><span class="mt">USL · 13.06 20:30</span></span><span class="cv c-tlf">86.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">7</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Botafogo SP<span class="tbadge bg-tl">TL</span></span><span class="mt">BRB · 14.06 19:00</span></span><span class="cv c-tl">82.1%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">8</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Oakland Roots<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 23:00</span></span><span class="cv c-tl">79.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">9</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colo Colo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 18:30</span></span><span class="cv c-tl">79.4%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">10</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Colegiales<span class="tbadge bg-tl">TL</span></span><span class="mt">ARG · 13.06 15:00</span></span><span class="cv c-tl">78.2%</span><span class="lv">ML</span></div>
+  <div class="leg"><span class="rk">11</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Coquimbo<span class="tbadge bg-tl">TL</span></span><span class="mt">CHI · 13.06 13:30</span></span><span class="cv c-tl">78.2%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg"><span class="rk">12</span><span class="dot dot-tl"></span><span class="tm"><span class="nm">MAND: Birmingham<span class="tbadge bg-tl">TL</span></span><span class="mt">USL · 13.06 21:00</span></span><span class="cv c-tl">75.3%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">14</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Lexington<span class="tbadge bg-gs">G×S</span></span><span class="mt">USL · 13.06 20:00</span></span><span class="cv c-gs">72.7%</span><span class="lv">-0.5 / ML</span></div>
+  <div class="leg rb"><span class="rk">16</span><span class="dot dot-nf"></span><span class="tm"><span class="nm">MAND: A. Italiano<span class="tbadge bg-nf">N·F</span></span><span class="mt">CHI · 12.06 21:00</span></span><span class="cv c-nf">72.0%</span><span class="lv">ML</span></div>
+  <div class="leg rb"><span class="rk">18</span><span class="dot dot-gs"></span><span class="tm"><span class="nm">MAND: Racing Córdoba<span class="tbadge bg-gs">G×S</span></span><span class="mt">ARG · 14.06 16:00</span></span><span class="cv c-gs">71.3%</span><span class="lv">-0.5 / ML</span></div>
+</div>
+
+</div><!-- /g2 -->
+
+<!-- Footer -->
+<div class="footer">
+  EDS HDP Ultra v4.2 · 13-16/jun/2026 · Cantos FT · Gerado 13/jun/2026<br>
+  🟢 fundo verde = âncora (≥85%, em todas as 15 múltiplas) &nbsp;|&nbsp; 🟣 fundo roxo = Rotação B (70–74%) &nbsp;|&nbsp; sem fundo = Rotação A (75–82%)
+</div>
+
+</div><!-- /container -->
+</body>
+</html>

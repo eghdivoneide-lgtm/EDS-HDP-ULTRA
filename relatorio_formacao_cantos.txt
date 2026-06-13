@@ -1,0 +1,167 @@
+════════════════════════════════════════════════════════════════════════
+  RELATÓRIO: FORMAÇÃO/DNA × DESEMPENHO EM CANTOS
+  Base: 1717 jogos | 9 ligas | até 2026-05-16
+════════════════════════════════════════════════════════════════════════
+
+■ 1. BASELINE DE CANTOS POR LIGA
+
+Liga      Jogos  Média FT  Média HT  FT/jogo
+────────────────────────────────────────────────────────────────────────
+BR_B         77     10.39      4.83     5.19
+MLS         177     10.16      4.71     5.08
+BR          147     10.09      4.61     5.04
+J2_J3       319      9.88      4.54     4.94
+BUN         297      9.71      4.38     4.86
+J1          129      9.70      4.26     4.85
+USL         106      9.15      4.35     4.58
+ARG_B       216      8.60      4.12     4.30
+ARG         249      8.57      4.10     4.29
+
+■ 2. PERFIL DNA × DESEMPENHO EM CANTOS (todas as ligas)
+
+  Explicação dos campos:
+  avg_pro    = média de cantos A FAVOR por partida
+  avg_contra = média de cantos CONTRA por partida
+  balance    = avg_pro − avg_contra (>0 = domina cantos)
+  win_pct    = % de jogos onde o time venceu o duelo de cantos
+
+Perfil DNA              Jogos   Avg Pró  Avg Contra  Balance   Win%
+────────────────────────────────────────────────────────────────────────
+CAMISA_ABERTA             174      5.48        4.59     0.89  48.9%
+OFENSIVO_SOLIDO           291      5.35        4.34     1.01  58.8%
+OFENSIVO                  339      5.24        4.63     0.62  50.4%
+SEM_DNA                   258      4.85        4.85        0  44.2%
+EQUILIBRADO              1351       4.7        5.02    -0.31  42.6%
+DEFENSIVO                 548      4.52        4.45     0.07  47.4%
+VULNERAVEL                214      4.28        5.27    -0.99  34.1%
+MURO_DUPLO                259      4.03        4.27    -0.23  44.8%
+
+  ─ Desdobramento por condição (mandante vs visitante) ─
+
+  OFENSIVO_SOLIDO      [mandante ]  avg_pró=6.17  avg_contra=4.02  balance=2.15  win=67.1%
+  CAMISA_ABERTA        [mandante ]  avg_pró=6.02  avg_contra=4.16  balance=1.86  win=60.5%
+  OFENSIVO             [mandante ]  avg_pró=5.78  avg_contra=4.06  balance=1.72  win=59.9%
+  DEFENSIVO            [mandante ]  avg_pró=5.28  avg_contra=3.68  balance=1.6  win=60.8%
+  SEM_DNA              [mandante ]  avg_pró=5.43  avg_contra=4.27  balance=1.16  win=57.4%
+  MURO_DUPLO           [mandante ]  avg_pró=4.48  avg_contra=3.86  balance=0.63  win=51.6%
+  EQUILIBRADO          [mandante ]  avg_pró=5.1  avg_contra=4.52  balance=0.58  win=50.4%
+  VULNERAVEL           [mandante ]  avg_pró=4.83  avg_contra=4.63  balance=0.19  win=45.6%
+  CAMISA_ABERTA        [visitante]  avg_pró=4.94  avg_contra=5.01  balance=-0.07  win=37.5%
+  OFENSIVO_SOLIDO      [visitante]  avg_pró=4.49  avg_contra=4.67  balance=-0.18  win=50%
+  OFENSIVO             [visitante]  avg_pró=4.69  avg_contra=5.22  balance=-0.52  win=40.7%
+  MURO_DUPLO           [visitante]  avg_pró=3.61  avg_contra=4.65  balance=-1.05  win=38.3%
+  SEM_DNA              [visitante]  avg_pró=4.27  avg_contra=5.43  balance=-1.16  win=31%
+  EQUILIBRADO          [visitante]  avg_pró=4.31  avg_contra=5.52  balance=-1.21  win=34.7%
+  DEFENSIVO            [visitante]  avg_pró=3.73  avg_contra=5.24  balance=-1.51  win=33.7%
+  VULNERAVEL           [visitante]  avg_pró=3.77  avg_contra=5.86  balance=-2.09  win=23.4%
+
+■ 3. CATEGORIA POWERSCORE × CANTOS
+
+ELITE                     943      5.26         4.4     0.86  54.1%
+SEM_DNA                   258      4.85        4.85        0  44.2%
+MÉDIO                    1316      4.56        4.77     -0.2  42.8%
+AZARÃO                    917      4.49        5.08    -0.59  41.2%
+
+■ 4. PERFIL DE ATAQUE × CANTOS (ligas com dados qualitativos)
+
+  (dados insuficientes para cross-liga)
+
+■ 5. TENDÊNCIA DE CANTOS × PERFORMANCE REAL
+
+  (dados insuficientes)
+
+■ 6. FORMAÇÃO TÁTICA × CANTOS — Liga Pro (Equador 2026)
+
+  Base: 118 jogos com formação identificada
+
+Formação        Jogos   Avg Pró  Avg Contra  Balance   Win%
+────────────────────────────────────────────────────────────────────────
+4-2-3-1            58      5.33         4.1     1.22  56.9%
+4-1-4-1            55      4.82        4.64     0.18  43.6%
+5-3-2              17      4.71        5.29    -0.59  47.1%
+4-1-3-2             9      4.44        3.89     0.56  55.6%
+4-4-2              27       4.3        4.93    -0.63  44.4%
+5-4-1              24      4.21        4.79    -0.58  37.5%
+3-4-3              18      3.83        4.56    -0.72  38.9%
+3-4-2-1            15      3.13        4.87    -1.73  26.7%
+
+■ 7. TOP TIMES POR DNA × LIGA
+
+  [ BR ] — 147 jogos — Média cantos FT: 10.09
+    OFENSIVO               jogos=  30  avg_pró=6.07  balance=1.03  win%=53.3
+    DEFENSIVO              jogos=  30  avg_pró=5.77  balance=1.73  win%=56.7
+    EQUILIBRADO            jogos= 191  avg_pró=4.96  balance=-0.25  win%=45.5
+    MURO_DUPLO             jogos=  15  avg_pró=4.8  balance=-0.4  win%=40
+    OFENSIVO_SOLIDO        jogos=  14  avg_pró=4  balance=-0.71  win%=42.9
+    CAMISA_ABERTA          jogos=  14  avg_pró=3.79  balance=-1.43  win%=21.4
+
+  [ BR_B ] — 77 jogos — Média cantos FT: 10.39
+    VULNERAVEL             jogos=   8  avg_pró=6.75  balance=2.88  win%=62.5
+    DEFENSIVO              jogos=  54  avg_pró=5.7  balance=0.69  win%=59.3
+    EQUILIBRADO            jogos=  62  avg_pró=5.24  balance=-0.34  win%=38.7
+    OFENSIVO               jogos=  14  avg_pró=4.57  balance=-1.36  win%=28.6
+    MURO_DUPLO             jogos=  16  avg_pró=3.06  balance=-1.25  win%=18.8
+
+  [ ARG ] — 249 jogos — Média cantos FT: 8.57
+    OFENSIVO               jogos=  35  avg_pró=5.37  balance=1.6  win%=60
+    OFENSIVO_SOLIDO        jogos=  17  avg_pró=4.47  balance=0.71  win%=52.9
+    EQUILIBRADO            jogos=  97  avg_pró=4.4  balance=0.11  win%=44.3
+    DEFENSIVO              jogos= 219  avg_pró=4.28  balance=-0.14  win%=43.4
+    VULNERAVEL             jogos=  32  avg_pró=3.94  balance=-0.88  win%=40.6
+    MURO_DUPLO             jogos=  98  avg_pró=3.88  balance=-0.2  win%=50
+
+  [ ARG_B ] — 216 jogos — Média cantos FT: 8.60
+    OFENSIVO               jogos=  24  avg_pró=5.75  balance=1.83  win%=58.3
+    CAMISA_ABERTA          jogos=  12  avg_pró=4.83  balance=1.58  win%=58.3
+    OFENSIVO_SOLIDO        jogos=  37  avg_pró=4.78  balance=0.54  win%=56.8
+    VULNERAVEL             jogos=  36  avg_pró=4.25  balance=-0.92  win%=30.6
+    MURO_DUPLO             jogos= 130  avg_pró=4.18  balance=-0.11  win%=44.6
+    DEFENSIVO              jogos= 144  avg_pró=4.11  balance=0.11  win%=50.7
+    EQUILIBRADO            jogos=  49  avg_pró=4  balance=-1.06  win%=36.7
+
+  [ MLS ] — 177 jogos — Média cantos FT: 10.16
+    OFENSIVO_SOLIDO        jogos=  60  avg_pró=5.53  balance=0.98  win%=63.3
+    EQUILIBRADO            jogos= 152  avg_pró=5.27  balance=0.01  win%=47.4
+    CAMISA_ABERTA          jogos=  59  avg_pró=5.12  balance=0.58  win%=45.8
+    DEFENSIVO              jogos=  12  avg_pró=4.67  balance=-1.25  win%=41.7
+    VULNERAVEL             jogos=  24  avg_pró=4.58  balance=-1.08  win%=41.7
+    OFENSIVO               jogos=  47  avg_pró=4.21  balance=-1.15  win%=29.8
+
+  [ USL ] — 106 jogos — Média cantos FT: 9.15
+    OFENSIVO               jogos=  43  avg_pró=5.35  balance=1.84  win%=65.1
+    CAMISA_ABERTA          jogos=   8  avg_pró=5.25  balance=1.63  win%=62.5
+    EQUILIBRADO            jogos= 118  avg_pró=4.58  balance=-0.29  win%=39.8
+    DEFENSIVO              jogos=  25  avg_pró=3.8  balance=-1.4  win%=32
+    VULNERAVEL             jogos=  18  avg_pró=3.5  balance=-1.28  win%=33.3
+
+  [ BUN ] — 297 jogos — Média cantos FT: 9.71
+    OFENSIVO_SOLIDO        jogos=  99  avg_pró=5.7  balance=1.7  win%=57.6
+    CAMISA_ABERTA          jogos=  33  avg_pró=5.7  balance=0.85  win%=42.4
+    OFENSIVO               jogos=  66  avg_pró=5.59  balance=1.41  win%=60.6
+    VULNERAVEL             jogos=  33  avg_pró=4.64  balance=-0.39  win%=42.4
+    EQUILIBRADO            jogos= 363  avg_pró=4.44  balance=-0.76  win%=36.9
+
+  [ J1 ] — 129 jogos — Média cantos FT: 9.70
+    SEM_DNA                jogos= 258  avg_pró=4.85  balance=0  win%=44.2
+
+  [ J2_J3 ] — 319 jogos — Média cantos FT: 9.88
+    CAMISA_ABERTA          jogos=  48  avg_pró=6.46  balance=1.67  win%=60.4
+    OFENSIVO_SOLIDO        jogos=  64  avg_pró=5.5  balance=0.72  win%=62.5
+    OFENSIVO               jogos=  80  avg_pró=5.11  balance=-0.26  win%=42.5
+    DEFENSIVO              jogos=  64  avg_pró=4.92  balance=0.23  win%=46.9
+    EQUILIBRADO            jogos= 319  avg_pró=4.73  balance=-0.03  win%=47
+    VULNERAVEL             jogos=  63  avg_pró=4.08  balance=-1.78  win%=22.2
+
+■ 8. INSIGHTS AUTOMÁTICOS
+
+  → DNA que MAIS gera cantos pró:      CAMISA_ABERTA  (avg 5.48 / jogo)
+  → DNA que MENOS gera cantos pró:     MURO_DUPLO  (avg 4.03 / jogo)
+  → DNA com MELHOR balanço de cantos:  OFENSIVO_SOLIDO  (balance 1.01)
+  → DNA com MAIOR win% cantos:         OFENSIVO_SOLIDO  (58.8%)
+  → Categoria que DOMINA cantos:       ELITE  (avg 5.26, win% 54.1)
+  → Formação ECU mais cantos pró:      4-2-3-1  (avg 5.33, jogos=58)
+  → Formação ECU melhor balanço:       4-2-3-1  (balance 1.22)
+
+════════════════════════════════════════════════════════════════════════
+  FIM DO RELATÓRIO
+════════════════════════════════════════════════════════════════════════

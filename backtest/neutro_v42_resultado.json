@@ -1,0 +1,702 @@
+{
+  "totalAvaliado": 222,
+  "neutroN": 69,
+  "baseRates": {
+    "BR_B": "66.7",
+    "USL": "52.4",
+    "ARG_B": "68.7",
+    "CHI": "56.5"
+  },
+  "neutro": [
+    {
+      "liga": "BR_B",
+      "data": "02.05.2026 18:30",
+      "jogo": "Cuiaba x Criciuma",
+      "confT": 49.3,
+      "histCasa": 33.3,
+      "perf": "N×G",
+      "cantosFT": "3-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "BR_B",
+      "data": "03.05.2026 18:00",
+      "jogo": "Sport Recife x Ceara",
+      "confT": 44.2,
+      "histCasa": 33.3,
+      "perf": "S×N",
+      "cantosFT": "9-11",
+      "mandWonFT": false
+    },
+    {
+      "liga": "BR_B",
+      "data": "09.05.2026 21:15",
+      "jogo": "Juventude x Criciuma",
+      "confT": 47.8,
+      "histCasa": 33.3,
+      "perf": "S×G",
+      "cantosFT": "7-9",
+      "mandWonFT": false
+    },
+    {
+      "liga": "BR_B",
+      "data": "09.05.2026 18:30",
+      "jogo": "Ponte Preta x Sport Recife",
+      "confT": 42.3,
+      "histCasa": 33.3,
+      "perf": "S×S",
+      "cantosFT": "11-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "BR_B",
+      "data": "16.05.2026 20:30",
+      "jogo": "Cuiaba x Novorizontino",
+      "confT": 37.5,
+      "histCasa": 50,
+      "perf": "N×G_STRONG",
+      "cantosFT": "8-4",
+      "mandWonFT": true
+    },
+    {
+      "liga": "BR_B",
+      "data": "16.05.2026 18:30",
+      "jogo": "Goias x Botafogo SP",
+      "confT": 50,
+      "histCasa": 0,
+      "perf": "S×N",
+      "cantosFT": "4-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "BR_B",
+      "data": "16.05.2026 16:00",
+      "jogo": "Sao Bernardo x America MG",
+      "confT": 10,
+      "histCasa": 0,
+      "perf": "S_STRONG×G_STRONG",
+      "cantosFT": "6-7",
+      "mandWonFT": false
+    },
+    {
+      "liga": "BR_B",
+      "data": "17.05.2026 20:30",
+      "jogo": "Sport Recife x CRB",
+      "confT": 46.3,
+      "histCasa": 25,
+      "perf": "S×N",
+      "cantosFT": "3-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "BR_B",
+      "data": "17.05.2026 18:00",
+      "jogo": "Vila Nova FC x Avai",
+      "confT": 56.6,
+      "histCasa": 50,
+      "perf": "N×N",
+      "cantosFT": "2-1",
+      "mandWonFT": true
+    },
+    {
+      "liga": "BR_B",
+      "data": "23.05.2026 20:30",
+      "jogo": "Juventude x Sport Recife",
+      "confT": 44,
+      "histCasa": 25,
+      "perf": "S×S",
+      "cantosFT": "9-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "USL",
+      "data": "22.04.2026 23:00",
+      "jogo": "Oakland Roots x Las Vegas Lights",
+      "confT": 35.6,
+      "histCasa": 33.3,
+      "perf": "N×N",
+      "cantosFT": "7-0",
+      "mandWonFT": true
+    },
+    {
+      "liga": "USL",
+      "data": "02.05.2026 21:30",
+      "jogo": "San Antonio x Colorado Springs",
+      "confT": 32.7,
+      "histCasa": 25,
+      "perf": "S×G",
+      "cantosFT": "6-1",
+      "mandWonFT": true
+    },
+    {
+      "liga": "USL",
+      "data": "09.05.2026 23:00",
+      "jogo": "Oakland Roots x El Paso",
+      "confT": 44.2,
+      "histCasa": 50,
+      "perf": "N×S",
+      "cantosFT": "6-1",
+      "mandWonFT": true
+    },
+    {
+      "liga": "USL",
+      "data": "09.05.2026 23:00",
+      "jogo": "Phoenix Rising x San Antonio",
+      "confT": 49.8,
+      "histCasa": 33.3,
+      "perf": "N×S",
+      "cantosFT": "3-3",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "09.05.2026 20:30",
+      "jogo": "Rhode Island x Tampa Bay",
+      "confT": 50,
+      "histCasa": 50,
+      "perf": "S×G_STRONG",
+      "cantosFT": "3-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "09.05.2026 20:00",
+      "jogo": "Hartford Athletic x Detroit",
+      "confT": 43.4,
+      "histCasa": 66.7,
+      "perf": "S×G_STRONG",
+      "cantosFT": "4-8",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "22.05.2026 21:30",
+      "jogo": "FC Tulsa x Hartford Athletic",
+      "confT": 54.7,
+      "histCasa": 50,
+      "perf": "N×S",
+      "cantosFT": "3-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "23.05.2026 23:00",
+      "jogo": "Orange County SC x Oakland Roots",
+      "confT": 37.7,
+      "histCasa": 20,
+      "perf": "S_STRONG×N",
+      "cantosFT": "3-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "23.05.2026 21:30",
+      "jogo": "San Antonio x Sacramento Republic",
+      "confT": 20.7,
+      "histCasa": 40,
+      "perf": "S×G_STRONG",
+      "cantosFT": "0-7",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "23.05.2026 20:00",
+      "jogo": "Indy Eleven x Lexington",
+      "confT": 34.4,
+      "histCasa": 33.3,
+      "perf": "S×G",
+      "cantosFT": "5-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "23.05.2026 20:00",
+      "jogo": "Miami FC x Louisville City",
+      "confT": 29.2,
+      "histCasa": 50,
+      "perf": "S_STRONG×G_STRONG",
+      "cantosFT": "0-9",
+      "mandWonFT": false
+    },
+    {
+      "liga": "USL",
+      "data": "23.05.2026 19:00",
+      "jogo": "Loudoun x Detroit",
+      "confT": 10,
+      "histCasa": 0,
+      "perf": "S_STRONG×G_STRONG",
+      "cantosFT": "1-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "29.03.2026 17:00",
+      "jogo": "Club A. Guemes x CA Mitre",
+      "confT": 57.3,
+      "histCasa": 33.3,
+      "perf": "S×N",
+      "cantosFT": "2-3",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "11.04.2026 15:30",
+      "jogo": "San Miguel x Deportivo Moron",
+      "confT": 59.7,
+      "histCasa": 75,
+      "perf": "N×G",
+      "cantosFT": "2-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "12.04.2026 17:00",
+      "jogo": "Chaco For Ever x All Boys",
+      "confT": 36.9,
+      "histCasa": 33.3,
+      "perf": "N×G_STRONG",
+      "cantosFT": "2-3",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "12.04.2026 16:00",
+      "jogo": "Agropecuario x Gimnasia Jujuy",
+      "confT": 54.6,
+      "histCasa": 75,
+      "perf": "G×N",
+      "cantosFT": "4-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "12.04.2026 17:00",
+      "jogo": "Club A. Guemes x San Martin T.",
+      "confT": 31,
+      "histCasa": 25,
+      "perf": "S×G",
+      "cantosFT": "4-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "13.04.2026 20:00",
+      "jogo": "Tristan Suarez x Atl. Rafaela",
+      "confT": 53.4,
+      "histCasa": 33.3,
+      "perf": "N×N",
+      "cantosFT": "8-4",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "13.04.2026 21:30",
+      "jogo": "San Martin S.J. x Atletico Atlanta",
+      "confT": 39,
+      "histCasa": 50,
+      "perf": "N×N",
+      "cantosFT": "6-7",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "18.04.2026 20:00",
+      "jogo": "Patronato x Deportivo Maipu",
+      "confT": 55.8,
+      "histCasa": 33.3,
+      "perf": "S×S",
+      "cantosFT": "6-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "18.04.2026 15:30",
+      "jogo": "Deportivo Moron x Colon Santa Fe",
+      "confT": 50,
+      "histCasa": 50,
+      "perf": "G×G",
+      "cantosFT": "4-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "20.04.2026 20:00",
+      "jogo": "Atl. Rafaela x Agropecuario",
+      "confT": 46.9,
+      "histCasa": 50,
+      "perf": "N×G",
+      "cantosFT": "4-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "Temperley x Patronato",
+      "confT": 50.9,
+      "histCasa": 33.3,
+      "perf": "N×S",
+      "cantosFT": "6-1",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "San Martin S.J. x Quilmes",
+      "confT": 53.6,
+      "histCasa": 40,
+      "perf": "N×N",
+      "cantosFT": "4-1",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "Atl. Rafaela x Gimnasia Jujuy",
+      "confT": 53.1,
+      "histCasa": 60,
+      "perf": "N×N",
+      "cantosFT": "11-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "Nueva Chicago x Colegiales",
+      "confT": 26.6,
+      "histCasa": 0,
+      "perf": "S_STRONG×G",
+      "cantosFT": "3-4",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "Chacarita Juniors x Midland",
+      "confT": 47.6,
+      "histCasa": 40,
+      "perf": "N×G",
+      "cantosFT": "4-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "Chaco For Ever x CA Mitre",
+      "confT": 51.1,
+      "histCasa": 25,
+      "perf": "N×N",
+      "cantosFT": "8-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "2026-04-26",
+      "jogo": "Club A. Guemes x Atletico Atlanta",
+      "confT": 43.1,
+      "histCasa": 40,
+      "perf": "S×N",
+      "cantosFT": "4-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "04.05.2026 20:00",
+      "jogo": "Quilmes x Chacarita Juniors",
+      "confT": 26.1,
+      "histCasa": 25,
+      "perf": "N×N",
+      "cantosFT": "9-1",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "09.05.2026 16:30",
+      "jogo": "San Martin S.J. x Patronato",
+      "confT": 56.5,
+      "histCasa": 50,
+      "perf": "N×S",
+      "cantosFT": "5-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "10.05.2026 15:30",
+      "jogo": "Chacarita Juniors x Colegiales",
+      "confT": 50.1,
+      "histCasa": 50,
+      "perf": "N×G",
+      "cantosFT": "3-4",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "11.05.2026 19:30",
+      "jogo": "Nueva Chicago x Almagro",
+      "confT": 47,
+      "histCasa": 0,
+      "perf": "S_STRONG×S",
+      "cantosFT": "6-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "16.05.2026 15:30",
+      "jogo": "Almirante Brown x San Telmo",
+      "confT": 58.7,
+      "histCasa": 60,
+      "perf": "S×N",
+      "cantosFT": "6-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "16.05.2026 15:30",
+      "jogo": "CA Estudiantes x Colon Santa Fe",
+      "confT": 55.8,
+      "histCasa": 50,
+      "perf": "N×G",
+      "cantosFT": "5-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "17.05.2026 17:00",
+      "jogo": "Quilmes x Tristan Suarez",
+      "confT": 56.4,
+      "histCasa": 40,
+      "perf": "N×N",
+      "cantosFT": "7-0",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "17.05.2026 16:00",
+      "jogo": "Patronato x Chacarita Juniors",
+      "confT": 46.7,
+      "histCasa": 50,
+      "perf": "S×N",
+      "cantosFT": "5-2",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "17.05.2026 15:30",
+      "jogo": "Almagro x San Martin S.J.",
+      "confT": 54.9,
+      "histCasa": 40,
+      "perf": "S×N",
+      "cantosFT": "2-8",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "17.05.2026 15:00",
+      "jogo": "Deportivo Madryn x Ferro",
+      "confT": 47.9,
+      "histCasa": 50,
+      "perf": "S×G_STRONG",
+      "cantosFT": "6-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "ARG_B",
+      "data": "23.05.2026 16:00",
+      "jogo": "Nueva Chicago x Temperley",
+      "confT": 40.8,
+      "histCasa": 20,
+      "perf": "S_STRONG×N",
+      "cantosFT": "4-4",
+      "mandWonFT": false
+    },
+    {
+      "liga": "ARG_B",
+      "data": "23.05.2026 15:00",
+      "jogo": "Tristan Suarez x Colegiales",
+      "confT": 54.1,
+      "histCasa": 57.1,
+      "perf": "N×G",
+      "cantosFT": "4-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "13.03.2026 20:00",
+      "jogo": "A. Italiano x D. Concepcion",
+      "confT": 49.3,
+      "histCasa": 33.3,
+      "perf": "N×N",
+      "cantosFT": "2-2",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "02.04.2026 18:00",
+      "jogo": "U. Catolica x Palestino",
+      "confT": 42.3,
+      "histCasa": 33.3,
+      "perf": "G×N",
+      "cantosFT": "4-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "06.04.2026 21:00",
+      "jogo": "Huachipato x U. De Concepcion",
+      "confT": 49.3,
+      "histCasa": 33.3,
+      "perf": "S_STRONG×N",
+      "cantosFT": "2-3",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "11.04.2026 18:30",
+      "jogo": "A. Italiano x U. Catolica",
+      "confT": 33.8,
+      "histCasa": 33.3,
+      "perf": "N×G",
+      "cantosFT": "3-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "12.04.2026 18:30",
+      "jogo": "Nublense x U. De Chile",
+      "confT": 59,
+      "histCasa": 50,
+      "perf": "S×G",
+      "cantosFT": "0-8",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "17.04.2026 21:00",
+      "jogo": "Limache x U. De Concepcion",
+      "confT": 44.3,
+      "histCasa": 33.3,
+      "perf": "S_STRONG×N",
+      "cantosFT": "8-9",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "18.04.2026 18:30",
+      "jogo": "Everton x U. De Chile",
+      "confT": 59.6,
+      "histCasa": 66.7,
+      "perf": "S×G",
+      "cantosFT": "4-8",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "19.04.2026 21:45",
+      "jogo": "Huachipato x A. Italiano",
+      "confT": 35,
+      "histCasa": 25,
+      "perf": "S_STRONG×N",
+      "cantosFT": "1-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "20.04.2026 21:30",
+      "jogo": "U. Catolica x Union La Calera",
+      "confT": 44,
+      "histCasa": 25,
+      "perf": "G×G",
+      "cantosFT": "6-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "CHI",
+      "data": "25.04.2026 16:00",
+      "jogo": "Nublense x O'Higgins",
+      "confT": 44.5,
+      "histCasa": 40,
+      "perf": "S×G_STRONG",
+      "cantosFT": "4-6",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "26.04.2026 18:30",
+      "jogo": "Everton x Cobresal",
+      "confT": 48,
+      "histCasa": 50,
+      "perf": "S×N",
+      "cantosFT": "2-4",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "26.04.2026 16:00",
+      "jogo": "U. De Concepcion x Colo Colo",
+      "confT": 52,
+      "histCasa": 60,
+      "perf": "N×G",
+      "cantosFT": "4-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "16.05.2026 21:00",
+      "jogo": "Limache x U. Catolica",
+      "confT": 24,
+      "histCasa": 25,
+      "perf": "S_STRONG×G",
+      "cantosFT": "2-7",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "17.05.2026 13:30",
+      "jogo": "Huachipato x Union La Calera",
+      "confT": 29,
+      "histCasa": 20,
+      "perf": "S_STRONG×G",
+      "cantosFT": "2-4",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "22.05.2026 16:00",
+      "jogo": "Everton x Coquimbo",
+      "confT": 43,
+      "histCasa": 40,
+      "perf": "S×G",
+      "cantosFT": "5-7",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "23.05.2026 16:00",
+      "jogo": "Nublense x U. De Concepcion",
+      "confT": 44.3,
+      "histCasa": 33.3,
+      "perf": "S×N",
+      "cantosFT": "2-5",
+      "mandWonFT": false
+    },
+    {
+      "liga": "CHI",
+      "data": "23.05.2026 13:30",
+      "jogo": "A. Italiano x Cobresal",
+      "confT": 38.5,
+      "histCasa": 20,
+      "perf": "N×N",
+      "cantosFT": "4-3",
+      "mandWonFT": true
+    },
+    {
+      "liga": "CHI",
+      "data": "24.05.2026 19:00",
+      "jogo": "U. Catolica x Colo Colo",
+      "confT": 44,
+      "histCasa": 40,
+      "perf": "G×G",
+      "cantosFT": "8-1",
+      "mandWonFT": true
+    }
+  ]
+}

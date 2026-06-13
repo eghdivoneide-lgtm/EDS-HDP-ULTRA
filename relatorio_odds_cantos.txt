@@ -1,0 +1,242 @@
+════════════════════════════════════════════════════════════════════════════
+  ANÁLISE: EQUILÍBRIO DE ODDS 1X2 × CANTOS × FORMAÇÃO
+  Base: 1474 jogos com odds | 1631 jogos totais | 9 ligas
+════════════════════════════════════════════════════════════════════════════
+
+■ CATEGORIAS DE EQUILÍBRIO (baseado na diferença de probabilidade normalizada)
+
+  EQUILIBRADO    → |diff| < 0.08  — odds muito próximas  (ex: 2.5 / 3.1 / 2.6)
+  LEVE_DESEQUIL  → 0.08–0.20     — favorito leve         (ex: 1.9 / 3.3 / 3.8)
+  DESEQUILIBRADO → 0.20–0.38     — favorito claro         (ex: 1.5 / 4.0 / 6.5)
+  DOMINIO        → >0.38         — favorito pesado        (ex: 1.2 / 5.5 / 13.0)
+
+■ 1. VISÃO GLOBAL: EQUILÍBRIO × CANTOS (todas as ligas)
+
+Categoria            N   Avg FT   Avg HT   Avg Fav  Avg Azarão  Fav Win%   M Win%   Over9.5%   Over8.5%
+────────────────────────────────────────────────────────────────────────────
+EQUILIBRADO        288     8.99     4.01      3.58        3.26     36.1%    43.8%      43.1%      55.2%
+LEVE_DESEQUIL      418     9.41     4.46      5.01         4.4     54.1%    52.2%        49%      60.3%
+DESEQUILIBRADO     502      9.3     4.43      5.55        3.75     62.7%    59.2%      45.4%        56%
+DOMINIO            266     9.82     4.51      6.47        3.36     71.8%    69.9%      51.5%      62.8%
+
+■ 2. FAIXA DE ODD DO FAVORITO × CANTOS
+
+  (odd do favorito = a menor odd entre mandante e visitante)
+
+Faixa Odd Fav                N   Avg FT   Avg Fav  Avg Azarão  Fav Win%   Over9.5%   Over8.5%
+────────────────────────────────────────────────────────────────────────────
+≤1.25 (domínio total)       22    10.32      7.64        2.68     86.4%      59.1%      68.2%
+1.26-1.40                   59      9.8      6.54        3.25     76.3%      55.9%      64.4%
+1.41-1.60                  151     9.89      6.25        3.64     65.6%      48.3%      60.9%
+1.61-1.80                  231     9.22      5.59        3.63     63.2%      45.9%      57.1%
+1.81-2.00                  242     9.48      5.73        3.75     64.9%        45%        57%
+2.01-2.50                  632     9.34      4.86        4.19     51.7%      49.2%      59.5%
+>2.50 (equilíbrio)         137     8.64      2.79        2.64     31.4%      35.8%      49.6%
+
+■ 3. POR LIGA × CATEGORIA DE EQUILÍBRIO
+
+  [ BR ] Brasileirão Série A — 112 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         21     9.19      42.9%      42.9%      4.19        3.33
+  LEVE_DESEQUIL       25    11.32        44%        88%      5.24        6.08
+  DESEQUILIBRADO      39     9.92        59%      48.7%      5.64        4.28
+  DOMINIO             27     8.96      66.7%      44.4%      5.52        3.44
+
+  [ BR_B ] Brasileirão Série B — 97 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         16    10.56      37.5%      62.5%         5        4.81
+  LEVE_DESEQUIL       29     9.79      55.2%      48.3%      5.34        4.45
+  DESEQUILIBRADO      44     10.2      59.1%        50%      5.89        4.32
+  DOMINIO              8    11.25      87.5%        75%      8.75         2.5
+
+  [ ARG ] Liga Profesional ARG — 230 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         51     8.57      33.3%      41.2%      3.06         3.1
+  LEVE_DESEQUIL       69     8.57      55.1%      39.1%      4.57           4
+  DESEQUILIBRADO      69     8.67        71%      34.8%      5.61        3.06
+  DOMINIO             41     8.88      75.6%      43.9%       6.1        2.78
+
+  [ ARG_B ] Primera Nacional ARG — 221 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         36     7.42        50%      13.9%      3.44        2.64
+  LEVE_DESEQUIL       70     8.11      57.1%        40%      4.66        3.46
+  DESEQUILIBRADO     100     9.06        68%        49%      5.59        3.47
+  DOMINIO             15    10.07        80%      66.7%       6.2        3.87
+
+  [ BUN ] Bundesliga — 296 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         58     9.31        31%      46.6%      3.34        3.12
+  LEVE_DESEQUIL       76     9.97      59.2%      55.3%      5.36        4.62
+  DESEQUILIBRADO      87     9.24      62.1%      48.3%      5.38        3.86
+  DOMINIO             75    10.23      65.3%        56%      6.63         3.6
+
+  [ MLS ] MLS — 187 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         34     9.62      29.4%      61.8%      3.56        3.53
+  LEVE_DESEQUIL       47    10.79      48.9%      55.3%      5.32        5.47
+  DESEQUILIBRADO      63     9.89      61.9%      52.4%      5.86        4.03
+  DOMINIO             43    10.35      65.1%      51.2%      6.26        4.09
+
+  [ USL ] USL Championship — 116 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         34     8.85      35.3%      44.1%      3.94           4
+  LEVE_DESEQUIL       35      9.4      51.4%      42.9%         5         4.4
+  DESEQUILIBRADO      29     8.79      55.2%      37.9%      5.21        3.59
+  DOMINIO             18     9.11      83.3%      44.4%      7.17        1.94
+
+  [ CHI ] Primera División CHI — 102 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         21        9      28.6%      38.1%      2.67        1.76
+  LEVE_DESEQUIL       34     9.09      52.9%      44.1%      4.76        4.32
+  DESEQUILIBRADO      31     9.61      51.6%      51.6%      5.23        4.39
+  DOMINIO             16    10.75      68.8%        50%      6.75           4
+
+  [ ECU ] Liga Pro ECU — 113 jogos
+  Categoria            N   Avg FT   Fav Win%   Over9.5%   Avg Fav  Avg Azarão
+  ────────────────────────────────────────────────────────────────────────
+  EQUILIBRADO         17     9.76      47.1%      47.1%      4.59        3.88
+  LEVE_DESEQUIL       33     9.24      51.5%      48.5%      5.24           4
+  DESEQUILIBRADO      40     8.78        60%        30%       5.3        3.48
+  DOMINIO             23     9.48        87%      47.8%      6.74        2.74
+
+■ 4. FORMAÇÃO TÁTICA × EQUILÍBRIO DE ODDS — Liga Pro Ecuador
+
+  (jogos por formação, desdobrados por categoria de odds)
+
+  Formação     Cat Odds             N   Avg Pró   Avg Total    M Win%   Over9.5%
+  ────────────────────────────────────────────────────────────────────────
+  3-1-4-2      [GERAL]             28      5.29        9.25     67.9%      53.6%
+               ↳ EQUILIBRADO        4       6.5          12       75%        75%
+               ↳ LEVE_DESEQUIL     13      4.77        8.69     61.5%      53.8%
+               ↳ DESEQUILIBRADO     8      4.63        8.38     62.5%      37.5%
+               ↳ DOMINIO            3      7.67       10.33      100%      66.7%
+
+  4-1-3-2      [GERAL]             42      5.02        9.19     52.4%      40.5%
+               ↳ EQUILIBRADO        3         5        8.33     66.7%         0%
+               ↳ LEVE_DESEQUIL     15      5.27         9.6     53.3%      53.3%
+               ↳ DESEQUILIBRADO    19      4.79        9.21     42.1%      42.1%
+               ↳ DOMINIO            5       5.2         8.4       80%        20%
+
+  4-2-2-2      [GERAL]             16      4.94        9.06     37.5%      56.3%
+               ↳ LEVE_DESEQUIL      5       3.8         6.6       40%        40%
+               ↳ DESEQUILIBRADO     5       5.2         8.6       40%        40%
+               ↳ DOMINIO            4      6.75       11.75       50%       100%
+
+  4-2-3-1      [GERAL]            917      4.92        9.58     47.5%      48.2%
+               ↳ EQUILIBRADO      186      4.51         9.1       43%      43.5%
+               ↳ LEVE_DESEQUIL    237      4.71        9.81       43%      53.6%
+               ↳ DESEQUILIBRADO   305      5.12        9.66     51.5%      47.5%
+               ↳ DOMINIO          189      5.27        9.63     51.3%      47.1%
+
+  4-1-4-1      [GERAL]            213      4.83        9.55     44.1%      52.1%
+               ↳ EQUILIBRADO       36      4.72        9.58     44.4%      58.3%
+               ↳ LEVE_DESEQUIL     68      4.75        9.81     39.7%      54.4%
+               ↳ DESEQUILIBRADO    75      4.56        8.99       44%      45.3%
+               ↳ DOMINIO           34      5.68       10.26     52.9%      55.9%
+
+  3-4-2-1      [GERAL]            324      4.81         9.6     42.9%      49.7%
+               ↳ EQUILIBRADO       73      5.33        9.85     54.8%      57.5%
+               ↳ LEVE_DESEQUIL     91      4.63        9.51     39.6%      47.3%
+               ↳ DESEQUILIBRADO   102      4.32        8.97     39.2%      39.2%
+               ↳ DOMINIO           58      5.28       10.52     39.7%      62.1%
+
+  Desconhecida [GERAL]             40       4.8         9.6     47.5%        55%
+               ↳ EQUILIBRADO       12      4.25         8.5       50%      33.3%
+               ↳ LEVE_DESEQUIL     16      4.94        9.88     43.8%        75%
+               ↳ DESEQUILIBRADO     8         5          10       50%        50%
+               ↳ DOMINIO            4       5.5          11       50%        50%
+
+  4-3-3        [GERAL]            288      4.71        9.27     48.6%      45.1%
+               ↳ EQUILIBRADO       53      4.53        8.89     45.3%      47.2%
+               ↳ LEVE_DESEQUIL     85      4.66         9.2     45.9%      42.4%
+               ↳ DESEQUILIBRADO   105      4.81         9.3     50.5%      45.7%
+               ↳ DOMINIO           45       4.8        9.76     53.3%      46.7%
+
+  3-5-2        [GERAL]             75      4.61        9.45       40%      46.7%
+               ↳ EQUILIBRADO       15         4         8.2     33.3%        40%
+               ↳ LEVE_DESEQUIL     26      5.23        9.38     53.8%      38.5%
+               ↳ DESEQUILIBRADO    19      4.26        9.95     31.6%      57.9%
+               ↳ DOMINIO           15       4.6        10.2     33.3%      53.3%
+
+  4-3-2-1      [GERAL]             18       4.5        9.17     38.9%      55.6%
+               ↳ EQUILIBRADO        3      4.33        9.67     33.3%      66.7%
+               ↳ LEVE_DESEQUIL      3      4.33           8     33.3%      66.7%
+               ↳ DESEQUILIBRADO     6      5.83        9.67       50%        50%
+               ↳ DOMINIO            6      3.33           9     33.3%        50%
+
+  4-4-2        [GERAL]            484      4.48        8.94     46.1%        43%
+               ↳ EQUILIBRADO      103      4.06        8.14     46.6%      29.1%
+               ↳ LEVE_DESEQUIL    136      4.48        8.88     47.8%      41.9%
+               ↳ DESEQUILIBRADO   177      4.65        9.22     46.3%      48.6%
+               ↳ DOMINIO           68      4.68        9.56     41.2%      51.5%
+
+  4-3-1-2      [GERAL]             32      4.44        9.09     53.1%      40.6%
+               ↳ EQUILIBRADO        4         6         9.5       75%        50%
+               ↳ LEVE_DESEQUIL      9      4.78        9.22     55.6%      55.6%
+               ↳ DESEQUILIBRADO    16      3.56        8.13     43.8%        25%
+               ↳ DOMINIO            3         6       13.33     66.7%      66.7%
+
+  3-4-3        [GERAL]            156      4.39        9.51     40.4%      46.8%
+               ↳ EQUILIBRADO       37      4.08        9.41     37.8%      37.8%
+               ↳ LEVE_DESEQUIL     44      5.23        9.75     54.5%      52.3%
+               ↳ DESEQUILIBRADO    53      4.06        9.02     35.8%      45.3%
+               ↳ DOMINIO           22      4.05       10.36     27.3%      54.5%
+
+  5-3-2        [GERAL]            103      4.31        9.16     46.6%      46.6%
+               ↳ EQUILIBRADO       13      3.85        6.85     61.5%      15.4%
+               ↳ LEVE_DESEQUIL     26      5.15        8.96     69.2%        50%
+               ↳ DESEQUILIBRADO    37      4.24        9.76     40.5%      48.6%
+               ↳ DOMINIO           27      3.81        9.63     25.9%      55.6%
+
+  4-1-2-1-2    [GERAL]             12      4.25        8.92     41.7%      41.7%
+               ↳ LEVE_DESEQUIL      4       3.5        8.75       25%        25%
+               ↳ DESEQUILIBRADO     4      4.75         8.5       50%        25%
+
+  5-4-1        [GERAL]             82      4.24        9.01     41.5%      41.5%
+               ↳ EQUILIBRADO       12      4.67        8.83     58.3%      33.3%
+               ↳ LEVE_DESEQUIL     21      4.52        9.14     42.9%      57.1%
+               ↳ DESEQUILIBRADO    27      3.78        8.37     33.3%      25.9%
+               ↳ DOMINIO           22      4.32        9.77     40.9%        50%
+
+  3-4-1-2      [GERAL]             59      3.88        9.02     27.1%      47.5%
+               ↳ EQUILIBRADO       12      4.75       10.17       25%      66.7%
+               ↳ LEVE_DESEQUIL     17         4        8.82     41.2%      29.4%
+               ↳ DESEQUILIBRADO    18      3.94           9     16.7%      55.6%
+               ↳ DOMINIO           12      2.75        8.17       25%      41.7%
+
+  3-5-1-1      [GERAL]              8      3.88        9.13     12.5%      62.5%
+               ↳ EQUILIBRADO        3      4.33        9.33        0%      66.7%
+               ↳ LEVE_DESEQUIL      3      4.67           9     33.3%      66.7%
+
+  4-5-1        [GERAL]             18      3.83          10     22.2%      55.6%
+               ↳ LEVE_DESEQUIL      4      5.75       11.25       50%       100%
+               ↳ DESEQUILIBRADO    10       3.7        10.3       20%        50%
+
+  4-4-1-1      [GERAL]             29      3.72        9.03     41.4%      37.9%
+               ↳ LEVE_DESEQUIL     11      4.45        8.64     54.5%      36.4%
+               ↳ DESEQUILIBRADO     9      3.22        9.44     33.3%      33.3%
+               ↳ DOMINIO            9      3.33        9.11     33.3%      44.4%
+
+■ 5. INSIGHTS AUTOMÁTICOS
+
+  → Total FT médio:  EQUILIBRADO=8.99  vs  DOMÍNIO=9.82  (diff +0.83)
+  → Favorito vence cantos:  EQUIL=36.1%  LEVE=54.1%  DESEQ=62.7%  DOMÍNIO=71.8%
+  → Over 9.5 FT:  EQUIL=43.1%  LEVE=49%  DESEQ=45.4%  DOMÍNIO=51.5%
+  → Over 8.5 FT:  EQUIL=55.2%  LEVE=60.3%  DESEQ=56%  DOMÍNIO=62.8%
+  → Avg cantos fav vs azarão em DOMÍNIO: 6.47 vs 3.36  (edge 3.11)
+  → Avg cantos fav vs azarão em EQUIL:   3.58 vs 3.26
+  → Formação mais eficiente em jogo EQUILIBRADO (ECU): 3-1-4-2  avg_pró=6.5  win%=75%
+  → Over 3.5 HT:  EQUIL=56.3%  DOMÍNIO=61.7%
+  → Over 4.5 HT:  EQUIL=39.2%  DOMÍNIO=48.1%
+
+════════════════════════════════════════════════════════════════════════════
+  FIM DO RELATÓRIO
+════════════════════════════════════════════════════════════════════════════

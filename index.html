@@ -898,6 +898,20 @@
   </div>
 
   <!-- ═══════════════════════════════════════════════════════════
+       SUPER MÚLTIPLA SNIPER — 14 PERNAS JACKPOT (7 LIGAS)
+  ══════════════════════════════════════════════════════════════ -->
+  <div id="view-supermultipla" class="view">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem">
+      <div>
+        <div class="section-title" style="margin:0;background:linear-gradient(135deg,#fbbf24,#f59e0b,#ef4444);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:1.4rem;">🎰 Super Múltipla Sniper — 14 Pernas</div>
+        <div style="font-size:.8rem;color:var(--muted);margin-top:.3rem">Rastreador de Triple Locks · 7 ligas foco (ECU incluído) · HDP FT mandante</div>
+      </div>
+      <button onclick="renderSuperMultipla()" style="background:linear-gradient(135deg,#fbbf24,#f59e0b);border:none;color:#000;padding:.65rem 1.2rem;border-radius:8px;font-weight:800;font-size:.85rem;cursor:pointer;box-shadow:0 4px 12px rgba(245,158,11,0.3);transition:transform .2s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">🔄 Varrer Rodada</button>
+    </div>
+    <div id="sm-painel"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
        AUDITORIA — Memória institucional cross-liga
   ══════════════════════════════════════════════════════════════ -->
   <div id="view-auditoria" class="view">
@@ -1058,6 +1072,9 @@
 <script src="data/normalizador_perfis.js?v=1.0"></script>
 <script src="data/perfis_br2026.js?v=1.0"></script>
 <script src="data/perfis_arg2026.js?v=1.0"></script>
+<!-- ══ METODOLOGIA v3.0 — Sistema USL + Premissas científicas ══ -->
+<script src="data/premissas_metodologia.js?v=3.0"></script>
+<script src="data/memoria_usl.js?v=2026-06-11"></script>
 <script>
   // ── DIAGNÓSTICO DE BOOT ── Loga quais datasets carregaram e quais não.
   // Executa ANTES do script principal, então capturamos o estado real de
@@ -2471,11 +2488,70 @@ function projecaoJogo(mandante, visitante) {
     }
   }
 
-  // 3. Cantos Esperados (xCorners Real) -> Injetado com TMI + DNA!
-  const expHomeHT_base = atkHomeHT * defAwayHT * l_htHome * tmiHome * dnaHome;
-  const expAwayHT_base = atkAwayHT * defHomeHT * l_htAway * tmiAway * dnaAway;
-  const expHome2T_base = atkHome2T * defAway2T * l_2tHome * tmiHome * dnaHome;
-  const expAway2T_base = atkAway2T * defHome2T * l_2tAway * tmiAway * dnaAway;
+  // ── USL v3.0 — Multiplicadores de Cantos (Perfil + Formação) ──────────
+  // Aplica ajuste sobre a produção de cantos de cada time.
+  // Mantido conservador (máx ±8%) para não sobrescrever o Poisson situacional.
+  // USL perfil: confirmação cross-liga do padrão do time (82.8% hit rate G×S).
+  // Formação: sinal independente (cross-liga) — não está nos dados do time.
+  let uslHome = 1.0, uslAway = 1.0;
+  let uslNivelSinal = 'NULO', uslAtivo = false;
+  let uslPerfM = null, uslPerfV = null;
+  let uslFormScoreM = 0, uslFormScoreV = 0;
+
+  (function() {
+    const _uslLiga = window.MEMORIA_USL && window.MEMORIA_USL[LIGA_ATUAL];
+    if (!_uslLiga || !_uslLiga.perfis) return;
+    const _findU = (nome) => {
+      if (_uslLiga.perfis[nome]) return _uslLiga.perfis[nome];
+      const k = Object.keys(_uslLiga.perfis).find(k =>
+        k.toLowerCase().includes(nome.toLowerCase()) ||
+        nome.toLowerCase().includes(k.toLowerCase())
+      );
+      return k ? _uslLiga.perfis[k] : null;
+    };
+    const uM = _findU(mandante);
+    const uV = _findU(visitante);
+    if (!uM && !uV) return;
+    uslAtivo = true;
+
+    // Multiplicador por perfil USL (produção de cantos do próprio time)
+    const _multPerfil = { G_STRONG: 1.06, G: 1.03, N: 1.00, S: 0.96, S_STRONG: 0.93 };
+    const _multPerfilDef = { G_STRONG: 0.96, G: 0.98, N: 1.00, S: 1.03, S_STRONG: 1.05 };
+    // Multiplicador por score de formação (sinal independente cross-liga)
+    const _formMult = (score) => Math.max(0.90, Math.min(1.10, 1.0 + score / 30.0));
+
+    if (uM) {
+      uslPerfM = uM.perfil_usl;
+      uslFormScoreM = uM.score_formacao || 0;
+      // Produção do mandante: beneficiado pelo seu perfil gerador E pelo perfil defensor do visitante
+      const mProd = _multPerfil[uM.perfil_usl] || 1.0;
+      const mForm = _formMult(uslFormScoreM);
+      // Defesa do visitante contra cantos (visitante S_STRONG concede mais → mandante produz mais)
+      const mDefV = uV ? (_multPerfilDef[uV.perfil_usl] || 1.0) : 1.0;
+      uslHome = mProd * mForm * mDefV;
+      uslHome = Math.max(0.88, Math.min(1.12, uslHome));
+    }
+    if (uV) {
+      uslPerfV = uV.perfil_usl;
+      uslFormScoreV = uV.score_formacao || 0;
+      const vProd = _multPerfil[uV.perfil_usl] || 1.0;
+      const vForm = _formMult(uslFormScoreV);
+      const vDefM = uM ? (_multPerfilDef[uM.perfil_usl] || 1.0) : 1.0;
+      uslAway = vProd * vForm * vDefM;
+      uslAway = Math.max(0.88, Math.min(1.12, uslAway));
+    }
+
+    // Detecta nível de sinal G×S para depois ajustar a confiança
+    if (uM && uV && window.PREMISSAS_EDS) {
+      uslNivelSinal = window.PREMISSAS_EDS.utils.nivelSinalGxS(uM.perfil_usl, uV.perfil_usl);
+    }
+  })();
+
+  // 3. Cantos Esperados (xCorners Real) -> Injetado com TMI + DNA + USL!
+  const expHomeHT_base = atkHomeHT * defAwayHT * l_htHome * tmiHome * dnaHome * uslHome;
+  const expAwayHT_base = atkAwayHT * defHomeHT * l_htAway * tmiAway * dnaAway * uslAway;
+  const expHome2T_base = atkHome2T * defAway2T * l_2tHome * tmiHome * dnaHome * uslHome;
+  const expAway2T_base = atkAway2T * defHome2T * l_2tAway * tmiAway * dnaAway * uslAway;
 
   // ══════════════════════════════════════════════════════════════════════════
   // v3.3 — AJUSTE OARF (Opponent-Adjusted Recent Form) — RECALIBRADO 2026-04-23
@@ -2594,10 +2670,25 @@ function projecaoJogo(mandante, visitante) {
   // (d) penalidade por amostra situacional escassa (casa/fora < 3) — 3pp cada
   const penalSitM = nM < 3 ? 3 : 0;
   const penalSitV = nV < 3 ? 3 : 0;
+  // (e) bônus/penalidade USL v3.0 — alinha confiança com força do sinal G×S
+  //     TRIPLE LOCK (G×S FORTE + formação geradora): +5pp
+  //     G×S FORTE: +3pp | G×S MÉDIO: +1pp
+  //     INVERSÃO (visitante é gerador): sem bônus, sem penalidade (incerto)
+  //     USL contradiz projeção (mandante é S_STRONG): -4pp
+  let bonusUSL = 0;
+  if (uslAtivo) {
+    const isTripleLock = uslNivelSinal === 'FORTE' && uslFormScoreM >= 0.15;
+    if (isTripleLock)                       bonusUSL = 5;
+    else if (uslNivelSinal === 'FORTE')     bonusUSL = 3;
+    else if (uslNivelSinal === 'MEDIO')     bonusUSL = 1;
+    else if (uslNivelSinal === 'INVERSAO')  bonusUSL = 0;
+    else if (uslPerfM === 'S_STRONG')       bonusUSL = -4; // mandante é SOFREDOR — confiança reduzida
+    else if (uslPerfM === 'S')              bonusUSL = -2;
+  }
   const confFT = Math.max(MOTOR_CONFIG.CONF_MIN,
                   Math.min(MOTOR_CONFIG.CONF_MAX,
-                           confBruta - penalVariancia - penalTatica - penalSitM - penalSitV));
-  const confDebug = { bruta: +confBruta.toFixed(1), penalVariancia: +penalVariancia.toFixed(1), penalTatica, penalSitM, penalSitV };
+                           confBruta - penalVariancia - penalTatica - penalSitM - penalSitV + bonusUSL));
+  const confDebug = { bruta: +confBruta.toFixed(1), penalVariancia: +penalVariancia.toFixed(1), penalTatica, penalSitM, penalSitV, bonusUSL };
 
   // ── LINHA DE CANTOS POR TIME (mercado individual) ──
   const expHomeFT = expHomeHT + expHome2T;
@@ -2796,6 +2887,7 @@ function projecaoJogo(mandante, visitante) {
     reisDosCantosData, tiroSniperData, balaDePrataData, memoria_qualitativa: qualit,
     incerteza: { dpFT, dpHT }, amostrasInsuficientes, dnaM, dnaV,
     dnaEscoteiro: { ativo: dnaAtivo, perfilM: dnaPerfM, perfilV: dnaPerfV, multHome: dnaHome, multAway: dnaAway },
+    uslSinal: { ativo: uslAtivo, nivel: uslNivelSinal, multHome: +uslHome.toFixed(3), multAway: +uslAway.toFixed(3), perfilM: uslPerfM, perfilV: uslPerfV, formScoreM: uslFormScoreM, formScoreV: uslFormScoreV, bonusConfianca: bonusUSL },
     // v3.2: OARF — momentum ajustado pela força do adversário
     oarf: oarfDebug,
     // Valores base (sem OARF) para auditoria
@@ -3153,6 +3245,60 @@ function _renderDNATime(time, s) {
                   : deltaCasaFora < -0.3 ? '✈️ ligeiramente melhor fora'
                   : '⚖️ equilibrado casa/fora';
 
+  // ── USL v3.0 — busca perfil de cantos do time ──
+  const _uslLiga = window.MEMORIA_USL && window.MEMORIA_USL[LIGA_ATUAL];
+  const _uslPerfil = _uslLiga && _uslLiga.perfis && (
+    _uslLiga.perfis[time] ||
+    Object.entries(_uslLiga.perfis).find(([k]) =>
+      k.toLowerCase().includes(time.toLowerCase()) ||
+      time.toLowerCase().includes(k.toLowerCase())
+    )?.[1]
+  );
+  const _uslCores = { G_STRONG:'#34d367', G:'#86efac', N:'#f59e0b', S:'#fb923c', S_STRONG:'#ef4444' };
+  const _uslLabels = { G_STRONG:'GERADOR FORTE 🟢🟢', G:'GERADOR 🟢', N:'NEUTRO 🟡', S:'SOFREDOR 🔴', S_STRONG:'SOFREDOR FORTE 🔴🔴' };
+
+  let uslHTML = '';
+  if (_uslPerfil) {
+    const uc = _uslCores[_uslPerfil.perfil_usl] || 'var(--text)';
+    const ul = _uslLabels[_uslPerfil.perfil_usl] || _uslPerfil.perfil_usl;
+    const diffStr = (_uslPerfil.diff_cantos >= 0 ? '+' : '') + _uslPerfil.diff_cantos.toFixed(2);
+    const diffCasaStr = _uslPerfil.diff_cantos_casa != null ? (_uslPerfil.diff_cantos_casa >= 0 ? '+' : '') + _uslPerfil.diff_cantos_casa.toFixed(2) : '—';
+    const diffForaStr = _uslPerfil.diff_cantos_fora != null ? (_uslPerfil.diff_cantos_fora >= 0 ? '+' : '') + _uslPerfil.diff_cantos_fora.toFixed(2) : '—';
+    const winPct = (_uslPerfil.win_pct_cantos * 100).toFixed(0) + '%';
+    const formBadge = _uslPerfil.formacao_principal
+      ? `<span style="background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:.1rem .4rem;font-size:.7rem;color:var(--muted)">${_uslPerfil.formacao_principal}</span> <span style="font-size:.7rem;color:${_uslPerfil.score_formacao >= 0.15 ? '#34d367' : _uslPerfil.score_formacao <= -0.15 ? '#ef4444' : '#f59e0b'}">${_uslPerfil.score_formacao >= 0 ? '+' : ''}${_uslPerfil.score_formacao}</span>`
+      : '<span style="color:var(--muted);font-size:.7rem">—</span>';
+    const alertasUslHTML = (_uslPerfil.alertas_usl || []).map(a =>
+      `<div style="padding:.25rem .5rem;background:var(--bg3);border-left:3px solid ${uc};border-radius:4px;margin-bottom:.25rem;font-size:.72rem">${a}</div>`
+    ).join('');
+    uslHTML = `
+      <div style="background:var(--bg3);border:1px solid ${uc}33;border-left:4px solid ${uc};border-radius:8px;padding:1rem;margin-top:.8rem">
+        <div style="font-weight:800;font-size:.85rem;margin-bottom:.6rem" style="color:${uc}">⚡ Perfil USL v3.0 — Cantos HDP</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.6rem;font-size:.78rem">
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Classe</div>
+            <div style="font-weight:900;color:${uc};font-size:.9rem">${ul}</div>
+          </div>
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Diff cantos</div>
+            <div style="font-weight:800;color:${uc}">${diffStr} / jogo</div>
+            <div style="font-size:.68rem;color:var(--muted)">Casa: ${diffCasaStr} · Fora: ${diffForaStr}</div>
+          </div>
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Win% cantos</div>
+            <div style="font-weight:800;color:var(--text)">${winPct} <span style="font-size:.65rem;color:var(--muted)">(${_uslPerfil.n_jogos_usl} jogos)</span></div>
+          </div>
+          <div>
+            <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.2rem">Formação</div>
+            <div>${formBadge}</div>
+            <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">${_uslPerfil.classe_formacao || '—'}</div>
+          </div>
+        </div>
+        ${alertasUslHTML ? `<div style="margin-top:.6rem">${alertasUslHTML}</div>` : ''}
+      </div>
+    `;
+  }
+
   // DNA Escoteiro (perfil, forma, multipliers, alertas)
   let dnaEscoteiroHTML = '';
   if (dna) {
@@ -3248,6 +3394,7 @@ function _renderDNATime(time, s) {
 
   return `
     <div class="section-title">🧬 DNA do ${time}</div>
+    ${uslHTML}
     ${dnaEscoteiroHTML || `<div style="background:var(--bg3);border:1px dashed var(--border);border-radius:8px;padding:.8rem;color:var(--muted);font-size:.78rem;margin-bottom:.5rem">⚠️ DNA Escoteiro não disponível para ${time} (liga ainda sem perfil qualitativo cadastrado)</div>`}
     ${comportamentoHTML}
   `;
@@ -3978,6 +4125,116 @@ function renderProjecao() {
     </div>
     `}
 
+    <!-- ═══ USL v3.0 + CONFRONTO TÁTICO ═══ -->
+    ${(function() {
+      const _uslLiga = window.MEMORIA_USL && window.MEMORIA_USL[LIGA_ATUAL];
+      if (!_uslLiga || !_uslLiga.perfis) return '';
+      const _findU = (nome) => {
+        if (_uslLiga.perfis[nome]) return _uslLiga.perfis[nome];
+        const k = Object.keys(_uslLiga.perfis).find(k =>
+          k.toLowerCase().includes(nome.toLowerCase()) ||
+          nome.toLowerCase().includes(k.toLowerCase())
+        );
+        return k ? _uslLiga.perfis[k] : null;
+      };
+      const uM = _findU(m), uV = _findU(v);
+      if (!uM && !uV) return '';
+      const _cores = { G_STRONG:'#34d367', G:'#86efac', N:'#f59e0b', S:'#fb923c', S_STRONG:'#ef4444' };
+      const _labels = { G_STRONG:'GERADOR FORTE 🟢🟢', G:'GERADOR 🟢', N:'NEUTRO 🟡', S:'SOFREDOR 🔴', S_STRONG:'SOFREDOR FORTE 🔴🔴' };
+      const sigM = uM ? _labels[uM.perfil_usl] || uM.perfil_usl : '—';
+      const sigV = uV ? _labels[uV.perfil_usl] || uV.perfil_usl : '—';
+      const cM = uM ? (_cores[uM.perfil_usl] || 'var(--muted)') : 'var(--muted)';
+      const cV = uV ? (_cores[uV.perfil_usl] || 'var(--muted)') : 'var(--muted)';
+      // G×S signal
+      let gxsBadge = '';
+      if (uM && uV && window.PREMISSAS_EDS) {
+        const nvl = window.PREMISSAS_EDS.utils.nivelSinalGxS(uM.perfil_usl, uV.perfil_usl);
+        const bl = window.PREMISSAS_EDS.baselines[LIGA_ATUAL];
+        if (nvl === 'FORTE') {
+          const isTriple = uM.score_formacao >= 0.15;
+          gxsBadge = isTriple
+            ? `<div style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.5);border-radius:8px;padding:.5rem .8rem;margin-top:.6rem;font-size:.78rem;font-weight:800;text-align:center;color:#fbbf24">
+                 🔒🔒🔒 TRIPLE LOCK — G×S FORTE + FORMAÇÃO GERADORA${bl ? ` | ROI histórico ~+${(bl.roi_forte*100).toFixed(0)}%` : ''}
+               </div>`
+            : `<div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.4);border-radius:8px;padding:.5rem .8rem;margin-top:.6rem;font-size:.78rem;font-weight:800;text-align:center;color:var(--green)">
+                 🔒🔒 G×S FORTE — DUPLO LOCK${bl ? ` | Hit rate ${(bl.gxs_hit_rate*100).toFixed(0)}%` : ''}
+               </div>`;
+        } else if (nvl === 'MEDIO') {
+          gxsBadge = `<div style="background:rgba(34,197,94,0.07);border:1px solid rgba(34,197,94,0.25);border-radius:8px;padding:.4rem .7rem;margin-top:.6rem;font-size:.75rem;text-align:center;color:#86efac">
+            🔒 G×S MÉDIO — sinal presente (avaliar com outros fatores)
+          </div>`;
+        } else if (nvl === 'INVERSAO') {
+          gxsBadge = `<div style="background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.35);border-radius:8px;padding:.4rem .7rem;margin-top:.6rem;font-size:.75rem;text-align:center;color:#93c5fd">
+            💡 INVERSÃO — Visitante ${v} é GERADOR: avaliar HDP de cantos ao visitante
+          </div>`;
+        }
+      }
+      // Confronto tático card
+      let ctHTML = '';
+      if (uM && uV && uM.formacao_principal && uV.formacao_principal && window.PREMISSAS_EDS && window.PREMISSAS_EDS.confrontos_taticos) {
+        try {
+          const ct = window.PREMISSAS_EDS.utils.getConfrontoTatico(uM.formacao_principal, uV.formacao_principal);
+          if (ct) {
+            const ctCor = ct.nivel === 'EXTREMO' ? '#ef4444' : ct.nivel === 'FORTE' ? '#34d367' : ct.nivel === 'MODERADO' ? '#86efac' : ct.nivel === 'LEVE' ? '#f59e0b' : 'var(--muted)';
+            const badge = ct.verificado ? '<span style="font-size:.65rem;background:rgba(255,255,255,0.1);padding:.1rem .35rem;border-radius:4px;margin-left:.3rem">✓ Bundesliga</span>' : '<span style="font-size:.65rem;opacity:.6;margin-left:.3rem">~ derivado</span>';
+            ctHTML = `
+            <div style="background:var(--bg3);border:1px solid ${ctCor}33;border-left:4px solid ${ctCor};border-radius:8px;padding:.8rem 1rem;margin-top:.8rem">
+              <div style="font-size:.72rem;color:var(--muted);font-weight:700;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.5px">📐 Confronto Tático — Formações</div>
+              <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
+                <div style="font-size:1rem;font-weight:900;color:${ctCor}">${uM.formacao_principal} <span style="opacity:.5">×</span> ${uV.formacao_principal}</div>
+                <div style="font-size:.85rem;font-weight:800;color:${ctCor}">${ct.sinal}${badge}</div>
+              </div>
+              <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:.6rem;font-size:.75rem">
+                <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:.4rem;text-align:center">
+                  <div style="color:var(--muted);font-size:.65rem">Diff esp.</div>
+                  <div style="font-weight:900;color:${ctCor}">${ct.diff >= 0 ? '+' : ''}${ct.diff.toFixed(2)}</div>
+                </div>
+                <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:.4rem;text-align:center">
+                  <div style="color:var(--muted);font-size:.65rem">Win%</div>
+                  <div style="font-weight:900;color:${ctCor}">${Math.round(ct.win_pct*100)}%</div>
+                </div>
+                <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:.4rem;text-align:center">
+                  <div style="color:var(--muted);font-size:.65rem">Nível</div>
+                  <div style="font-weight:900;color:${ctCor};font-size:.7rem">${ct.nivel}</div>
+                </div>
+              </div>
+              ${ct.insight ? `<div style="margin-top:.5rem;font-size:.72rem;color:var(--muted);font-style:italic">${ct.insight}</div>` : ''}
+            </div>`;
+          }
+        } catch(e) {}
+      }
+      // Multiplicadores reais aplicados pelo motor (de p.uslSinal)
+      const _usl = p.uslSinal || {};
+      const _mH = _usl.multHome || 1.0;
+      const _mA = _usl.multAway || 1.0;
+      const _bonusConf = _usl.bonusConfianca || 0;
+      const _multCorH = _mH >= 1.01 ? `<span style="color:#34d367;font-weight:900">▲${((_mH-1)*100).toFixed(1)}%</span>` : _mH <= 0.99 ? `<span style="color:#ef4444;font-weight:900">▼${((1-_mH)*100).toFixed(1)}%</span>` : `<span style="color:var(--muted)">→ 0%</span>`;
+      const _multCorA = _mA >= 1.01 ? `<span style="color:#34d367;font-weight:900">▲${((_mA-1)*100).toFixed(1)}%</span>` : _mA <= 0.99 ? `<span style="color:#ef4444;font-weight:900">▼${((1-_mA)*100).toFixed(1)}%</span>` : `<span style="color:var(--muted)">→ 0%</span>`;
+      const _confStr = _bonusConf > 0 ? `<span style="color:#34d367">+${_bonusConf}pp confiança</span>` : _bonusConf < 0 ? `<span style="color:#ef4444">${_bonusConf}pp confiança</span>` : '';
+      return `
+      <div class="section-title">⚡ USL v3.0 — Perfis de Cantos HDP</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-bottom:.5rem">
+        <div style="background:var(--bg3);border:1px solid ${cM}44;border-left:4px solid ${cM};border-radius:8px;padding:.8rem">
+          <div style="font-size:.7rem;color:var(--muted);font-weight:700;margin-bottom:.3rem">🏠 ${m}</div>
+          <div style="font-size:.9rem;font-weight:900;color:${cM}">${sigM}</div>
+          ${uM ? `<div style="font-size:.72rem;color:var(--muted);margin-top:.2rem">Diff: ${uM.diff_cantos >= 0 ? '+' : ''}${uM.diff_cantos}/jogo | Win: ${Math.round(uM.win_pct_cantos*100)}%</div>` : ''}
+          ${uM && uM.formacao_principal ? `<div style="font-size:.7rem;margin-top:.2rem;color:#a3a3a3">📐 ${uM.formacao_principal} <span style="color:${uM.score_formacao >= 0 ? '#86efac' : '#fb923c'}">(${uM.score_formacao >= 0 ? '+' : ''}${uM.score_formacao})</span></div>` : ''}
+          <div style="font-size:.7rem;margin-top:.35rem;padding-top:.3rem;border-top:1px solid var(--border)">Mutador xCorners: ${_multCorH}</div>
+        </div>
+        <div style="background:var(--bg3);border:1px solid ${cV}44;border-left:4px solid ${cV};border-radius:8px;padding:.8rem">
+          <div style="font-size:.7rem;color:var(--muted);font-weight:700;margin-bottom:.3rem">✈️ ${v}</div>
+          <div style="font-size:.9rem;font-weight:900;color:${cV}">${sigV}</div>
+          ${uV ? `<div style="font-size:.72rem;color:var(--muted);margin-top:.2rem">Diff: ${uV.diff_cantos >= 0 ? '+' : ''}${uV.diff_cantos}/jogo | Win: ${Math.round(uV.win_pct_cantos*100)}%</div>` : ''}
+          ${uV && uV.formacao_principal ? `<div style="font-size:.7rem;margin-top:.2rem;color:#a3a3a3">📐 ${uV.formacao_principal} <span style="color:${uV.score_formacao >= 0 ? '#86efac' : '#fb923c'}">(${uV.score_formacao >= 0 ? '+' : ''}${uV.score_formacao})</span></div>` : ''}
+          <div style="font-size:.7rem;margin-top:.35rem;padding-top:.3rem;border-top:1px solid var(--border)">Mutador xCorners: ${_multCorA}</div>
+        </div>
+      </div>
+      ${_confStr ? `<div style="font-size:.72rem;text-align:right;margin-top:.25rem;color:var(--muted)">Ajuste confiança USL: ${_confStr}</div>` : ''}
+      ${gxsBadge}
+      ${ctHTML}
+      <div style="margin-bottom:1.5rem"></div>`;
+    })()}
+
     <div class="section-title">⚖️ Medidores de Força SNIPER (Escala > 1 = Forte)</div>
     <div class="grid4" style="margin-bottom:1.5rem">
       <div class="stat-card">
@@ -4176,6 +4433,7 @@ const VIEW_TO_GRUPO = {
   'tracker':         'operacao',
   'apostas':         'operacao',
   'multiplas-elite': 'operacao',
+  'supermultipla':   'operacao',
   'auditoria':       'auditoria'
 };
 
@@ -4197,7 +4455,9 @@ const SUBNAV_BY_GRUPO = {
     { id: 'tracker', label: '📈 Bet Tracker' },
     { id: 'apostas', label: '🎰 Apostas Reais' },
     { id: 'multiplas-elite', label: '🏆 Múltiplas Elite',
-      style: 'background:linear-gradient(135deg,rgba(245,158,11,0.25),rgba(251,191,36,0.18),rgba(253,230,138,0.12));border-color:var(--gold);color:var(--gold);font-weight:800;' }
+      style: 'background:linear-gradient(135deg,rgba(245,158,11,0.25),rgba(251,191,36,0.18),rgba(253,230,138,0.12));border-color:var(--gold);color:var(--gold);font-weight:800;' },
+    { id: 'supermultipla', label: '🎰 Super Múltipla 14',
+      style: 'background:linear-gradient(135deg,rgba(251,191,36,0.25),rgba(239,68,68,0.18));border-color:#fbbf24;color:#fbbf24;font-weight:800;' }
   ],
   auditoria: [
     { id: 'auditoria', label: '🔍 Auditoria Cross-Liga',
@@ -4255,6 +4515,7 @@ function showView(id) {
   if (id==='top3') renderTop3();
   if (id==='apostas') renderApostasReais();
   if (id==='multiplas-elite') renderMultiplasElite(); // curadoria SmartCoach IA
+  if (id==='supermultipla') renderSuperMultipla();
   if (id==='auditoria') renderAuditoria(); // cross-liga · não depende de LIGA_ATUAL
 }
 
@@ -8314,6 +8575,73 @@ function getAppContext() {
     }
   }
 
+  /* ── ⚡ USL v3.0 — Sinal G×S de Cantos ── */
+  (function() {
+    const _uslMem = window.MEMORIA_USL && window.MEMORIA_USL[LIGA_ATUAL];
+    if (!_uslMem || !jogoFocoM || !jogoFocoV) return;
+    const _findUSL = (nome) => {
+      if (!_uslMem.perfis) return null;
+      if (_uslMem.perfis[nome]) return { time: nome, ..._uslMem.perfis[nome] };
+      const k = Object.keys(_uslMem.perfis).find(k =>
+        k.toLowerCase().includes(nome.toLowerCase()) ||
+        nome.toLowerCase().includes(k.toLowerCase())
+      );
+      return k ? { time: k, ..._uslMem.perfis[k] } : null;
+    };
+    const uM = _findUSL(jogoFocoM);
+    const uV = _findUSL(jogoFocoV);
+    if (!uM && !uV) return;
+
+    ctx += `\n═══ SISTEMA USL v3.0 — SINAL HDP CANTOS ═══\n`;
+    const _bl = window.PREMISSAS_EDS && window.PREMISSAS_EDS.baselines && window.PREMISSAS_EDS.baselines[LIGA_ATUAL];
+    if (_bl) {
+      ctx += `Liga ${LIGA_ATUAL}: G×S hit rate histórico ${(_bl.gxs_hit_rate*100).toFixed(0)}% | ROI FORTE ${(_bl.roi_forte*100).toFixed(0)}% | Diff médio +${_bl.gxs_diff_medio}\n`;
+    }
+    if (uM) {
+      const d = uM.diff_cantos >= 0 ? '+' + uM.diff_cantos : '' + uM.diff_cantos;
+      ctx += `🏠 ${jogoFocoM}: USL=${uM.perfil_usl} | Diff=${d}/jogo | Win%=${(uM.win_pct_cantos*100).toFixed(0)}% | Forma=${uM.formacao_principal||'?'} (score=${uM.score_formacao>=0?'+':''}${uM.score_formacao})\n`;
+      if (uM.alertas_usl && uM.alertas_usl.length) uM.alertas_usl.forEach(a => { ctx += `   ⚡ ${a}\n`; });
+    }
+    if (uV) {
+      const d = uV.diff_cantos >= 0 ? '+' + uV.diff_cantos : '' + uV.diff_cantos;
+      ctx += `✈️ ${jogoFocoV}: USL=${uV.perfil_usl} | Diff=${d}/jogo | Win%=${(uV.win_pct_cantos*100).toFixed(0)}% | Forma=${uV.formacao_principal||'?'} (score=${uV.score_formacao>=0?'+':''}${uV.score_formacao})\n`;
+      if (uV.alertas_usl && uV.alertas_usl.length) uV.alertas_usl.forEach(a => { ctx += `   ⚡ ${a}\n`; });
+    }
+    // Detecta sinal G×S
+    if (uM && uV && window.PREMISSAS_EDS) {
+      const nivel = window.PREMISSAS_EDS.utils.nivelSinalGxS(uM.perfil_usl, uV.perfil_usl);
+      if (nivel === 'FORTE') {
+        ctx += `🔒🔒 G×S FORTE: ${jogoFocoM}(${uM.perfil_usl}) vs ${jogoFocoV}(${uV.perfil_usl}) — TRIPLE LOCK candidato!\n`;
+        const formOk = uM.score_formacao >= 0.15;
+        if (formOk) ctx += `🔒🔒🔒 TRIPLE LOCK CONFIRMADO: USL G×S FORTE + Formação ${uM.formacao_principal} GERADORA!\n`;
+      } else if (nivel === 'MEDIO') {
+        ctx += `🔒 G×S MÉDIO: ${jogoFocoM}(${uM.perfil_usl}) vs ${jogoFocoV}(${uV.perfil_usl}) — sinal de cantos presente\n`;
+      } else if (nivel === 'INVERSAO') {
+        ctx += `💡 INVERSÃO G×S: Visitante ${jogoFocoV} é GERADOR — avaliar HDP cantos ao visitante!\n`;
+      } else {
+        ctx += `⚪ Sem sinal G×S claro neste confronto (${uM?.perfil_usl||'?'} vs ${uV?.perfil_usl||'?'})\n`;
+      }
+      // ── CONFRONTO TÁTICO (formação × formação) ──
+      if (uM && uV && uM.formacao_principal && uV.formacao_principal && window.PREMISSAS_EDS && window.PREMISSAS_EDS.confrontos_taticos) {
+        try {
+          const _ct = window.PREMISSAS_EDS.utils.getConfrontoTatico(uM.formacao_principal, uV.formacao_principal);
+          if (_ct) {
+            const _vt = _ct.verificado ? '✓ Bundesliga' : '~ derivado';
+            ctx += `\n📐 CONFRONTO TÁTICO: ${uM.formacao_principal} × ${uV.formacao_principal}\n`;
+            ctx += `   Sinal: ${_ct.sinal} | Diff esperado: ${_ct.diff >= 0 ? '+' : ''}${_ct.diff.toFixed(2)} cantos | Win%: ${Math.round(_ct.win_pct * 100)}% [${_vt}]\n`;
+            if (_ct.insight) ctx += `   Insight: ${_ct.insight}\n`;
+            if (_ct.nivel === 'EXTREMO') ctx += `   ⚠ SINAL EXTREMO — combinação mais desequilibrada possível neste matchup\n`;
+            // Verifica se Triple Lock ganha reforço tático
+            if (nivel === 'FORTE' && _ct.diff >= 2.0) {
+              ctx += `   🔒🔒🔒 REFORÇO: Triple Lock reforçado por CONFRONTO TÁTICO FORTE!\n`;
+            }
+          }
+        } catch(e) {}
+      }
+    }
+    ctx += `═══════════════════════════════════════════\n`;
+  })();
+
   /* ── 🧬 DNA PROFUNDO — Perfis Normalizados por Liga ── */
   (function() {
     // v1.5 (2026-05-16): removido hardcode BR/ARG — habilita DNA PROFUNDO para
@@ -9309,10 +9637,25 @@ function renderRodada() {
           <span style="color:var(--muted);font-size:.72rem">🎯 Sniper</span>
           <span style="font-size:.75rem"><span style="color:${sn.corHT};font-weight:700">${sn.ht}</span> · <span style="color:${sn.corFT};font-weight:700">${sn.ft}</span></span>
         </div>
-        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:.4rem;margin-bottom:1rem">
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:.4rem;margin-bottom:.6rem">
           <span style="color:var(--muted);font-size:.72rem">⚡ TMI</span>
           <strong style="color:${p.tatica.tmiHome >= 1 ? 'var(--green)' : 'var(--red)'}">C:${fmt(p.tatica.tmiHome)}x · F:${fmt(p.tatica.tmiAway)}x</strong>
         </div>
+
+        ${(function() {
+          const _us = p.uslSinal;
+          if (!_us || !_us.ativo || _us.nivel === 'NULO') return '';
+          const isTriple = _us.nivel === 'FORTE' && _us.formScoreM >= 0.15;
+          const label = isTriple ? '🔒🔒🔒 TRIPLE LOCK' : _us.nivel === 'FORTE' ? '🔒🔒 G×S FORTE' : _us.nivel === 'MEDIO' ? '🔒 G×S MÉDIO' : '💡 INVERSÃO';
+          const cor   = isTriple ? '#fbbf24' : _us.nivel === 'FORTE' ? '#34d367' : _us.nivel === 'MEDIO' ? '#86efac' : '#93c5fd';
+          const bg    = isTriple ? 'rgba(245,158,11,0.12)' : _us.nivel === 'FORTE' ? 'rgba(34,197,94,0.1)' : _us.nivel === 'MEDIO' ? 'rgba(34,197,94,0.06)' : 'rgba(59,130,246,0.1)';
+          const brd   = isTriple ? 'rgba(245,158,11,0.4)'  : _us.nivel === 'FORTE' ? 'rgba(34,197,94,0.35)' : _us.nivel === 'MEDIO' ? 'rgba(34,197,94,0.2)' : 'rgba(59,130,246,0.3)';
+          const mH = (_us.multHome && _us.multHome !== 1.0) ? ` C:${_us.multHome > 1 ? '▲' : '▼'}${Math.abs((_us.multHome-1)*100).toFixed(0)}%` : '';
+          const mA = (_us.multAway && _us.multAway !== 1.0) ? ` F:${_us.multAway > 1 ? '▲' : '▼'}${Math.abs((_us.multAway-1)*100).toFixed(0)}%` : '';
+          return `<div style="border:1px solid ${brd};background:${bg};border-radius:6px;padding:.35rem .65rem;margin-bottom:.55rem;font-size:.68rem;font-weight:800;color:${cor};display:flex;justify-content:space-between;align-items:center">
+            <span>${label}</span><span style="font-size:.62rem;font-weight:400;opacity:.8">${mH}${mA}</span>
+          </div>`;
+        })()}
 
         ${brechaAlert ? `<div style="margin-bottom:.6rem;background:rgba(139,92,246,0.1);border:1px solid rgba(139,92,246,0.3);border-radius:6px;padding:.5rem;font-size:.65rem;color:#a78bfa;font-weight:700">${brechaTexto}</div>` : ''}
         <button onclick="carregarProjecaoExata('${j.m}','${j.v}')" style="width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.6rem;border-radius:6px;font-size:.8rem;font-weight:700;cursor:pointer;transition:all .2s" onmouseover="this.style.background='var(--green)';this.style.color='#000'" onmouseout="this.style.background='var(--bg3)';this.style.color='var(--text)'">🔍 ABRIR DADOS COMPLETOS</button>
@@ -11300,7 +11643,8 @@ function gerarCandidatosMultiplas() {
             bpFaixa: p.balaDePrataData ? p.balaDePrataData.faixa : null,
             bpOdd: p.balaDePrataData ? +p.balaDePrataData.odd.toFixed(2) : null,
             sniperFT: p.tiroSniperData ? p.tiroSniperData.ft : null,
-            divergencia_alta: alertaDiv.length > 0 ? alertaDiv : null
+            divergencia_alta: alertaDiv.length > 0 ? alertaDiv : null,
+            uslSinal: p.uslSinal || null
           });
         } catch(e) {}
       });
@@ -12942,6 +13286,231 @@ init();
 // Dashboard é a view padrão (já tem .active no HTML), então populamos a sub-nav do grupo "visao".
 _renderSubNav('visao', 'dashboard');
 _atualizarTabsGrupo('visao', 'dashboard');
+
+// ══════════════════════════════════════════════════
+//  SUPER MÚLTIPLA SNIPER — painel de 15 pernas
+// ══════════════════════════════════════════════════
+const _SM_LIGAS_FOCO = [
+  { code:'ARG_B', flag:'🇦🇷', nome:'Primera B Nacional', homeWin:63.7 },
+  { code:'ECU',   flag:'🇪🇨', nome:'Liga Pro Ecuador',   homeWin:60.5 },
+  { code:'BR_B',  flag:'🇧🇷', nome:'Brasileirão B',      homeWin:59.8 },
+  { code:'ARG',   flag:'🇦🇷', nome:'Liga Profesional',   homeWin:59.3 },
+  { code:'BR',    flag:'🇧🇷', nome:'Brasileirão A',      homeWin:55.9 },
+  { code:'MLS',   flag:'🇺🇸', nome:'MLS',               homeWin:51.7 },
+  { code:'USL',   flag:'🇺🇸', nome:'USL Championship',  homeWin:46.2 }
+];
+
+function renderSuperMultipla() {
+  const container = document.getElementById('sm-painel');
+  if (!container) return;
+
+  container.innerHTML = `<div style="text-align:center;padding:2rem;color:var(--muted)">⏳ Varrendo ${_SM_LIGAS_FOCO.length} ligas...</div>`;
+
+  const hojeIso = (typeof _dataIsoHoje === 'function') ? _dataIsoHoje() : new Date().toISOString().slice(0,10);
+  const tripleLocks = [], gxsForte = [], ligaStatus = [];
+  const ligaOriginal = LIGA_ATUAL, dadosOriginal = DADOS_2026;
+
+  _SM_LIGAS_FOCO.forEach(({ code, flag, nome, homeWin }) => {
+    const dadosLiga = window['DADOS_' + code];
+    if (!dadosLiga || !dadosLiga.times) {
+      ligaStatus.push({ code, flag, nome, homeWin, status: 'sem-dados', jogos: 0, found: 0 });
+      return;
+    }
+    let raw = null;
+    try { raw = localStorage.getItem('sniper_rodada_' + code); } catch(e) {}
+    const jogosLiga = raw ? (() => { try { return JSON.parse(raw); } catch(e) { return []; } })() : [];
+    const naFaixa = jogosLiga.filter(j => !j.data || j.data >= hojeIso);
+    if (naFaixa.length === 0) {
+      ligaStatus.push({ code, flag, nome, homeWin, status: 'sem-rodada', jogos: 0, found: 0 });
+      return;
+    }
+
+    LIGA_ATUAL = code;
+    DADOS_2026 = dadosLiga;
+    _forcaCantosCache = null; _forcaCantosCacheLiga = null;
+    _rankingHTCache = null; _rankingHTCacheLiga = null;
+
+    let found = 0;
+    naFaixa.forEach(j => {
+      try {
+        const p = projecaoJogo(j.m, j.v);
+        if (!p) return;
+        const us = p.uslSinal;
+        if (!us || !us.ativo || us.nivel !== 'FORTE') return;
+
+        const isTriple = us.formScoreM >= 0.15;
+        const diff = Math.abs((p.expHomeFT || 0) - (p.expAwayFT || 0));
+
+        const leg = {
+          liga: code, flag, nome, homeWin,
+          m: j.m, v: j.v, data: j.data || '', hora: j.hora || '',
+          confFT: Math.round(p.confFT || 0),
+          expTotalFT: +((p.expTotalFT || 0)).toFixed(2),
+          linhaHDP: _linhaHDPSugerida(diff),
+          perfilM: us.perfilM, perfilV: us.perfilV,
+          formScoreM: +((us.formScoreM || 0)).toFixed(2),
+          multHome: us.multHome,
+          bonusConfianca: us.bonusConfianca || 0,
+          isTriple
+        };
+
+        if (isTriple) tripleLocks.push(leg);
+        else gxsForte.push(leg);
+        found++;
+      } catch(e) {}
+    });
+
+    ligaStatus.push({ code, flag, nome, homeWin, status: 'ok', jogos: naFaixa.length, found });
+  });
+
+  LIGA_ATUAL = ligaOriginal;
+  DADOS_2026 = dadosOriginal;
+  _forcaCantosCache = null; _forcaCantosCacheLiga = null;
+  _rankingHTCache = null; _rankingHTCacheLiga = null;
+
+  tripleLocks.sort((a, b) => b.confFT - a.confFT);
+  gxsForte.sort((a, b) => b.confFT - a.confFT);
+
+  const totalPernas = tripleLocks.length + gxsForte.length;
+  const META = 14;
+  const pct = Math.min(100, (totalPernas / META) * 100);
+  const ODD_LEG = 1.90;
+
+  // ── DREAM CALCULATOR ──
+  let html = `
+  <div style="background:linear-gradient(135deg,rgba(251,191,36,0.08),rgba(239,68,68,0.05));border:2px solid rgba(251,191,36,0.3);border-radius:16px;padding:1.4rem;margin-bottom:1.5rem">
+    <div style="font-size:1rem;font-weight:900;color:#fbbf24;margin-bottom:.3rem;text-align:center">💎 CALCULADORA JACKPOT</div>
+    <div style="font-size:.72rem;color:var(--muted);text-align:center;margin-bottom:1rem">@ odd ${ODD_LEG.toFixed(2)} por perna (estimativa conservadora HDP FT) · 7 ligas foco</div>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem">
+      ${[20, 50, 100, 200].map(s => {
+        const r14 = Math.round(s * Math.pow(ODD_LEG, 14));
+        const r18 = Math.round(s * Math.pow(ODD_LEG, 18));
+        return `<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(251,191,36,0.2);border-radius:8px;padding:.7rem;text-align:center">
+          <div style="font-size:.85rem;font-weight:700;color:#fbbf24">R$ ${s.toFixed(0)}</div>
+          <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">14×→ <strong style="color:#34d399">R$ ${r14.toLocaleString('pt-BR')}</strong></div>
+          <div style="font-size:.65rem;color:var(--muted)">18×→ <strong style="color:#f87171">R$ ${r18.toLocaleString('pt-BR')}</strong></div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+
+  // ── PROGRESS BAR ──
+  const msColor = totalPernas >= META ? '#fbbf24' : totalPernas >= 11 ? '#34d399' : totalPernas >= 8 ? '#60a5fa' : 'var(--muted)';
+  const msLabel = totalPernas >= META ? '🎰 META ATINGIDA — HORA DE OPERAR!' : totalPernas >= 11 ? '🔥 QUASE LÁ — 11 PERNAS!' : totalPernas >= 8 ? '✅ MILESTONE 8 ATINGIDO!' : '⏳ Acumulando sinais...';
+  html += `
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:1.2rem;margin-bottom:1.5rem">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.7rem">
+      <div style="font-size:.9rem;font-weight:800;color:${msColor}">${msLabel}</div>
+      <div style="font-size:1.3rem;font-weight:900;color:${msColor}">${totalPernas}<span style="font-size:.8rem;color:var(--muted)">/${META}</span></div>
+    </div>
+    <div style="height:14px;background:rgba(255,255,255,0.08);border-radius:99px;overflow:hidden;margin-bottom:.5rem;position:relative">
+      <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,${msColor},${totalPernas>=META?'#ef4444':msColor}88);border-radius:99px;transition:width .5s ease"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:.62rem;color:var(--muted);margin-bottom:.8rem">
+      <span>0</span>
+      <span style="${totalPernas>=8?'color:#60a5fa;font-weight:700':''}">8 ✓</span>
+      <span style="${totalPernas>=11?'color:#34d399;font-weight:700':''}">11 ✓</span>
+      <span style="${totalPernas>=META?'color:#fbbf24;font-weight:700':''}">14 🎰</span>
+    </div>
+    <div style="display:flex;gap:.5rem;flex-wrap:wrap;font-size:.72rem">
+      <span style="background:rgba(251,191,36,0.15);color:#fbbf24;padding:.2rem .65rem;border-radius:10px;font-weight:800">🔒🔒🔒 ${tripleLocks.length} Triple Lock${tripleLocks.length!==1?'s':''}</span>
+      <span style="background:rgba(52,211,153,0.1);color:#34d399;padding:.2rem .65rem;border-radius:10px;font-weight:700">🔒🔒 ${gxsForte.length} G×S FORTE</span>
+      ${totalPernas > 0 ? `<span style="background:rgba(255,255,255,0.05);color:var(--muted);padding:.2rem .65rem;border-radius:10px">Odd comb: ${Math.pow(ODD_LEG,totalPernas).toFixed(1)}×</span>` : ''}
+    </div>
+  </div>`;
+
+  // ── LEAGUE STATUS ──
+  html += `
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:12px;padding:1rem;margin-bottom:1.5rem">
+    <div style="font-size:.72rem;font-weight:800;color:var(--muted);margin-bottom:.6rem;text-transform:uppercase;letter-spacing:1px">Status das 7 ligas foco</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.4rem">
+      ${ligaStatus.map(l => {
+        const col = l.status === 'ok' ? (l.found > 0 ? 'var(--green)' : 'var(--text)') : 'var(--muted)';
+        const icon = l.status === 'ok' ? (l.found > 0 ? '🔒' : '✅') : l.status === 'sem-rodada' ? '📭' : '❌';
+        return `<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:8px;padding:.5rem;text-align:center">
+          <div style="font-size:.95rem">${l.flag}</div>
+          <div style="font-size:.62rem;color:${col};font-weight:700">${icon} ${l.code}</div>
+          <div style="font-size:.6rem;color:var(--muted)">${l.status==='ok'?`${l.found} sinal`:l.status==='sem-rodada'?'sem rodada':'sem dados'}</div>
+          <div style="font-size:.58rem;color:var(--muted)">Casa ${l.homeWin}%</div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+
+  // ── TRIPLE LOCK LEGS ──
+  if (tripleLocks.length > 0) {
+    html += `<div style="margin-bottom:.5rem;font-size:.85rem;font-weight:800;color:#fbbf24">🔒🔒🔒 TRIPLE LOCK — ${tripleLocks.length} perna${tripleLocks.length!==1?'s':''}</div>`;
+    tripleLocks.forEach((leg, i) => { html += _renderSMPerna(leg, i + 1); });
+  }
+
+  // ── G×S FORTE LEGS ──
+  if (gxsForte.length > 0) {
+    html += `<div style="margin-top:1rem;margin-bottom:.5rem;font-size:.85rem;font-weight:800;color:#34d399">🔒🔒 G×S FORTE — ${gxsForte.length} perna${gxsForte.length!==1?'s':''}</div>`;
+    gxsForte.forEach((leg, i) => { html += _renderSMPerna(leg, tripleLocks.length + i + 1); });
+  }
+
+  if (totalPernas === 0) {
+    html += `<div style="text-align:center;padding:3rem;color:var(--muted);background:var(--bg3);border:1px dashed var(--border);border-radius:12px">
+      <div style="font-size:2rem;margin-bottom:.5rem">📭</div>
+      <div style="font-weight:700;margin-bottom:.3rem">Nenhum Triple Lock ou G×S FORTE encontrado hoje</div>
+      <div style="font-size:.8rem">Importe as rodadas das 6 ligas foco na aba <strong>Adicionar Jogos</strong></div>
+    </div>`;
+  }
+
+  // ── BILHETE ATUAL ──
+  if (totalPernas >= 3) {
+    const allLegs = [...tripleLocks, ...gxsForte];
+    const oddBilhete = Math.pow(ODD_LEG, totalPernas);
+    const confMedia = Math.round(allLegs.reduce((a, l) => a + l.confFT, 0) / allLegs.length);
+    html += `
+    <div style="background:linear-gradient(135deg,rgba(251,191,36,0.1),rgba(34,197,94,0.06));border:2px solid rgba(251,191,36,0.4);border-radius:14px;padding:1.2rem;margin-top:1.5rem">
+      <div style="font-size:.95rem;font-weight:900;color:#fbbf24;margin-bottom:.8rem">🎫 BILHETE ATUAL — ${totalPernas} PERNAS</div>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem;font-size:.82rem">
+        <div>💰 Odd total: <strong style="color:#fbbf24">${oddBilhete.toFixed(2)}×</strong></div>
+        <div>🎯 Conf média: <strong style="color:var(--green)">${confMedia}%</strong></div>
+        ${[10, 20, 50, 100].map(s => `<div>R$${s} → <strong style="color:var(--green)">R$ ${(s * oddBilhete).toLocaleString('pt-BR', {maximumFractionDigits:2})}</strong></div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  container.innerHTML = html;
+}
+
+function _renderSMPerna(leg, num) {
+  const isTriple = leg.isTriple;
+  const corBg  = isTriple ? 'rgba(251,191,36,0.07)' : 'rgba(52,211,153,0.05)';
+  const corBrd = isTriple ? 'rgba(251,191,36,0.35)' : 'rgba(52,211,153,0.25)';
+  const corLbl = isTriple ? '#fbbf24' : '#34d399';
+  const badge  = isTriple ? '🔒🔒🔒 TRIPLE LOCK' : '🔒🔒 G×S FORTE';
+  const perfColors = { G_STRONG:'#fbbf24', G:'#34d399', N:'var(--muted)', S:'#f87171', S_STRONG:'#ef4444' };
+  const perfBadge = p => p ? `<span style="color:${perfColors[p]||'var(--muted)'};font-size:.62rem;font-weight:700">${p}</span>` : '';
+  const tempo = leg.hora || leg.data;
+
+  return `
+  <div style="background:${corBg};border:1px solid ${corBrd};border-radius:10px;padding:.9rem 1rem;margin-bottom:.5rem">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.4rem">
+      <div>
+        <div style="font-size:.64rem;font-weight:900;color:${corLbl};letter-spacing:.5px">${leg.flag} ${leg.code} · ${badge}</div>
+        <div style="font-size:.95rem;font-weight:800;color:var(--text);margin-top:.2rem">${num}. ${leg.m} <span style="color:var(--muted);font-weight:400;font-size:.8rem">×</span> ${leg.v}</div>
+        <div style="font-size:.68rem;color:var(--muted);margin-top:.2rem">
+          ${perfBadge(leg.perfilM)} <span style="color:var(--muted)">→</span> ${perfBadge(leg.perfilV)}
+          ${leg.formScoreM ? ` · Form: <strong style="color:${isTriple?'#fbbf24':'var(--green)'}">${leg.formScoreM>=0?'+':''}${leg.formScoreM}</strong>` : ''}
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:.82rem;font-weight:800;color:var(--green)">HDP ${leg.linhaHDP}</div>
+        <div style="font-size:.72rem;color:${leg.confFT>=70?'var(--green)':leg.confFT>=60?'var(--gold)':'var(--red)'}">Conf: ${leg.confFT}%</div>
+        ${tempo ? `<div style="font-size:.62rem;color:var(--muted)">${tempo}</div>` : ''}
+      </div>
+    </div>
+    <div style="margin-top:.5rem;display:flex;gap:.4rem;flex-wrap:wrap;font-size:.64rem">
+      <span style="background:rgba(255,255,255,0.05);padding:.18rem .5rem;border-radius:6px;color:var(--muted)">xFT: ${leg.expTotalFT}</span>
+      <span style="background:rgba(255,255,255,0.05);padding:.18rem .5rem;border-radius:6px;color:var(--muted)">Casa: ${leg.homeWin}%</span>
+      ${leg.multHome && leg.multHome !== 1.0 ? `<span style="background:rgba(52,211,153,0.1);padding:.18rem .5rem;border-radius:6px;color:#34d399">xCorners ${leg.multHome>1?'▲':'▼'}${Math.abs((leg.multHome-1)*100).toFixed(0)}%</span>` : ''}
+      ${leg.bonusConfianca > 0 ? `<span style="background:rgba(251,191,36,0.1);padding:.18rem .5rem;border-radius:6px;color:#fbbf24">+${leg.bonusConfianca}pp conf</span>` : ''}
+    </div>
+  </div>`;
+}
 
 // ══════════════════════════════════════════════════
 //  PWA — Registro do Service Worker (instalação e cache)
