@@ -52,13 +52,15 @@ confT_v4 = confT_base
 | S_STRONG × G_STRONG | -15% |
 
 ### Tiers de decisão
-| confT_v4 | Tier |
-|----------|------|
-| ≥ 85% | Triple Lock Forte 🔒🔒 |
-| 75-84% | Triple Lock 🔒 |
-| 65-74% | G×S Forte ★ |
-| 60-64% | Marginal ⚠️ |
-| < 60% | SKIP |
+| confT_v4 | Tier | Sinal |
+|----------|------|-------|
+| ≥ 85% | Triple Lock Forte 🔒🔒 | MANDANTE |
+| 75-84% | Triple Lock 🔒 | MANDANTE |
+| 65-74% | G×S Forte ★ | MANDANTE |
+| 60-64% | Marginal ⚠️ | MANDANTE |
+| < 60% | **RESOLVEDOR NEUTRO** (ver Regras v4.2) | MANDANTE ou VISITANTE |
+
+**NUNCA EMITIR SKIP.** Abaixo de 60% o modelo passa pelo Resolvedor Neutro (Regras v4.2) e sempre se manifesta — mandante ou visitante, com força FORTE ou FRACA.
 
 ---
 
@@ -130,6 +132,36 @@ Antes de calcular qualquer confT, verificar e documentar:
 3. **HANDICAP PELA MARGEM, NÃO PELO confT.** confT mede probabilidade de VENCER o duelo, não a margem. Linha -1.5 só com diff projetado ≥ 3.0 cantos; entre 1.5 e 3.0 jogar ML ou -0.5. (Caso Monterey Bay: sinal certo 5×4, mas -1.5 perdeu — diff projetado era ~2.5.)
 
 4. **MATCHUP COM AMOSTRA < 10 JOGOS NÃO VETA histCasa ≥ 75%.** Matchup pequeno vale como ajuste fino, nunca como veto a um histórico de casa forte. (Caso Tampa: matchup 4-2-3-1×5-4-1=33.3% em 9j rebaixou indevidamente um mandante G_STRONG com 80% em casa.)
+
+---
+
+## REGRAS v4.2 — FIM DO SKIP / MANIFESTAÇÃO OBRIGATÓRIA (backtest 13/jun/2026)
+
+*Origem: backtest rolling retroativo de 222 jogos das 4 ligas (BR_B, USL, ARG_B, CHI), isolando os 69 que o modelo classificava como NEUTRO (confT < 60%). Descoberta: o NEUTRO **não é zona cega** — esconde sinal explorável em ~42% dos casos. Validação ex-ante: Audax Italiano × La Serena (12/jun), classificado SKIP, terminou **8×3 mandante** (N×N, exatamente o Padrão A). O modelo nunca mais emite SKIP — manifesta-se em 100% dos jogos.*
+
+### Princípio
+O confT mede a força do **MANDANTE**. Um confT baixo não significa "sem sinal" — significa "**o sinal pode estar do outro lado**" ou "**o fator casa decide sozinho**". Todo jogo recebe um lado (MANDANTE ou VISITANTE) e uma força (FORTE / FRACO).
+
+### RESOLVEDOR NEUTRO (aplicar quando confT < 60%, em cascata)
+
+| Ordem | Gatilho | Sinal | Força | Acerto no backtest |
+|-------|---------|-------|-------|--------------------|
+| **A** | **N × N** (ambos perfil N) | **MANDANTE** | FORTE (~72%) | 9/10 = **90%** · diff médio +4.0 |
+| **B** | mandante **S/S_STRONG** × visitante **G/G_STRONG** | **VISITANTE** (inversão) | FORTE (~70%) | 15/18 = **83%** |
+| **E** | residual — **piso de liga** | ARG_B/BR_B → MANDANTE · USL/CHI → VISITANTE | FRACO (~57%) | 25/35 = **71%** |
+
+- **Camadas FORTE (A+B) juntas: 24/28 = 85.7%.** Stake padrão.
+- **Camada FRACA (E): 71%.** Stake reduzido — é lean, não lock.
+- **Acerto global do resolvedor: 50/65 = 76.9%** (vs 47.7% apostando cego no mandante).
+
+### Regras de leitura do resolvedor
+1. **Padrão A — N×N é o resgate mais importante.** Quando nenhum dos dois tem perfil de canto definido, o mando de campo decide com folga. O confT antigo punia o N×N duas vezes (ajuste de perfil zero + formGlobal baixo); agora o N×N **vira sinal MANDANTE**, não SKIP. (Caso Audax 8×3, Atl. Rafaela 11×2, Quilmes 7×0, Oakland 7×0.)
+2. **Padrão B — inversão S×G é o sinal mais robusto** (maior amostra). Mandante fraco de cantos recebendo visitante forte = o confT cai *porque o mandante é ruim*; o lado certo é o VISITANTE, não SKIP. (Caso Miami 0×9, San Antonio 0×7, Nublense 0×8 — todos visitante.)
+3. **Padrão E — o piso muda por liga.** ARG_B (base 68.7%) e BR_B (66.7%) mantêm o mandante mesmo no neutro; USL (52.4%) e CHI (56.5%) viram zona de visitante. **NÃO** inverter o piso por histCasa baixo: em liga de base alta o mandante ruim ainda vence (Ponte Preta 11×2, Juventude 9×2 com histCasa < 35%).
+4. **Threshold de manifestação é móvel por liga.** Na prática o corte mandante↔visitante fica em ~55% na ARG_B e ~62% na USL/CHI — refletido pelo piso de liga acima.
+
+### Ressalva de amostra
+Padrão A (n=10) e piso USL (n=3) têm amostra pequena — tratar como direcional e revalidar a cada rodada (forward test). Padrão B (n=18) é o mais sólido. A camada FRACA é lean de gestão, nunca aposta principal.
 
 ---
 
