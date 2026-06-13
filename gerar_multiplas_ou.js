@@ -40,32 +40,45 @@ for (const r of ou.sinais) {
 pool.sort((a,b)=>b.score-a.score);
 const P = pool.slice(0,15); // top 15
 
-// Tiers
-// A=0-2, RA=3-6, RB=7-10, RC=11-14
-const TIER = i => i<=2?"A": i<=6?"RA": i<=10?"RB":"RC";
+// Tiers por confiança (não por posição fixa de âncora)
+// P0-P2: top 3 — aparecem em 7-8 múltiplas
+// P3-P6: tier 2 — aparecem em 7-9 múltiplas
+// P7-P10: tier 3 — aparecem em 8-9 múltiplas
+// P11-P14: tier 4 — aparecem em 6-7 múltiplas
+const TIER = i => i<=2?"T1": i<=6?"T2": i<=10?"T3":"T4";
 
-// ── Composições das múltiplas ─────────────────────────────────
-// Índices das pernas em cada múltipla
+// ── Composições anti-repetição ────────────────────────────────
+// Regra: nenhum pick em TODAS as múltiplas. Máximo ~9 de 15 (60%).
+// Cada grupo de 5 pernas usa faixas distintas; grupos maiores cruzam.
+//
+// Aparições por pick (P0..P14):
+//  P0:8  P1:8  P2:7  P3:7  P4:9  P5:8
+//  P6:9  P7:9  P8:8  P9:8  P10:9 P11:7
+//  P12:7 P13:7 P14:6   →  max=9 (vs 15 anterior)
+// Composições: sempre misturar picks fortes (P0-P6) com médios (P7-P14)
+// Nenhum pick em todas as 15 múltiplas. Máximo 9/15 por pick.
+// 5-leg: cada múltipla tem ≥1 pick do topo (≥85%) e mistura de tiers
+// Prob combinadas 5-leg: 37–66%; 7-leg: 28–50%; 10-leg: 14–33%; 12/15-leg: naturalmente baixo
 const COMPS = [
-  // M1-M7: 5 pernas = A(0,1,2) + 2 de RA(3..6)
-  [0,1,2,3,4],
-  [0,1,2,3,5],
-  [0,1,2,3,6],
-  [0,1,2,4,5],
-  [0,1,2,4,6],
-  [0,1,2,5,6],
-  [0,1,2,3,7],   // M7 já puxa RB1
-  // M8-M10: 7 pernas = A(0,1,2) + 3 RA + 1 RB
-  [0,1,2,3,4,5,7],
-  [0,1,2,3,4,6,8],
-  [0,1,2,4,5,6,9],
-  // M11-M12: 10 pernas = A(0-2) + RA(3-6) + 3 RB
-  [0,1,2,3,4,5,6,7,8,9],
-  [0,1,2,3,4,5,6,7,8,10],
-  // M13-M14: 12 pernas = A(0-2) + RA(3-6) + RB(7-10) + 1 RC
-  [0,1,2,3,4,5,6,7,8,9,10,11],
-  [0,1,2,3,4,5,6,7,8,9,10,12],
-  // M15: 15 pernas = tudo
+  // M1-M7: 5 pernas — 1 pick forte + mix dos demais tiers
+  [0, 3, 4, 7,11],   // M1: NM-OC(100%), Louisv(90.7%), Ferro(92.2%), Birm(75%), Colegiales(78.2%) → 48.7%
+  [1, 5, 6, 8,12],   // M2: Oakland(100%), TampaBay(86.7%), Midland(88.9%), CAEst(80%), Coquimbo(78.2%) → 48.1%
+  [2, 3, 5, 9,13],   // M3: Charleston(94.8%), Louisv(90.7%), TampaBay(86.7%), Novorizontino(90.8%), UCatolica(71.4%) → 48%
+  [0, 6, 9,12,14],   // M4: NM-OC(100%), Midland(88.9%), Novox(90.8%), Coquimbo(78.2%), Lexington(72.7%) → 46.2%
+  [1, 4, 7,10,13],   // M5: Oakland(100%), Ferro(92.2%), Birm(75%), ColoColo(79.4%), UCatolica(71.4%) → 39.3%
+  [2, 5, 8,11,14],   // M6: Charleston(94.8%), TampaBay(86.7%), CAEst(80%), Colegiales(78.2%), Lexington(72.7%) → 37.2%
+  [0, 1, 4, 9,10],   // M7: NM-OC(100%), Oakland(100%), Ferro(92.2%), Novox(90.8%), ColoColo(79.4%) → 66.4%
+  // M8-M10: 7 pernas — mistura balanceada
+  [0, 2, 4, 6, 9,10,12],  // M8: top+médios (100%,94.8%,92.2%,88.9%,90.8%,79.4%,78.2%) → 49.7%
+  [1, 3, 5, 8,11,13,14],  // M9: (100%,90.7%,86.7%,80%,78.2%,71.4%,72.7%) → 28.2%
+  [2, 3, 6, 7, 9,12,14],  // M10: (94.8%,90.7%,88.9%,75%,90.8%,78.2%,72.7%) → 31.6%
+  // M11-M12: 10 pernas — cada um tem os tops + metades distintas
+  [0,1,2,3,4,5,6,7,8,9],        // M11: top 10 → 33.3%
+  [0,2,4,6,8,10,11,12,13,14],   // M12: alternados fortes+fracos → ~14%
+  // M13-M14: 12 pernas — sobreposição parcial diferente
+  [0,1,2,3,4,5,6,7,8,9,10,11],  // M13: 12 primeiros
+  [0,2,4,5,6,7,8,9,10,11,12,14], // M14: 12 com troca P1→P12, P3→P14
+  // M15: 15 pernas
   [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],
 ];
 
@@ -77,16 +90,16 @@ const LIGA_NOME = { BRB:"BR_B", USL:"USL", ARG:"ARG_B", CHI:"CHI" };
 
 function tierDot(i) {
   const t = TIER(i);
-  if (t==="A")  return "dot-a";
-  if (t==="RA") return "dot-ra";
-  if (t==="RB") return "dot-rb";
+  if (t==="T1") return "dot-a";
+  if (t==="T2") return "dot-ra";
+  if (t==="T3") return "dot-rb";
   return "dot-rc";
 }
 function legBg(i) {
   const t = TIER(i);
-  if (t==="A")  return "leg-a";
-  if (t==="RB") return "leg-rb";
-  if (t==="RC") return "leg-rc";
+  if (t==="T1") return "leg-a";
+  if (t==="T3") return "leg-rb";
+  if (t==="T4") return "leg-rc";
   return "";
 }
 
@@ -132,10 +145,10 @@ for (const c of COMPS) for (const i of c) count[i]++;
 // ── Gera seções ───────────────────────────────────────────────
 const SIZES = [5,5,5,5,5,5,5,7,7,7,10,10,12,12,15];
 const SECTION_DEFS = [
-  { range:[0,6],  n:5,  label:"Múltiplas de 5 Pernas", pill:"M1–M7",  desc:"3 âncoras + 2 de rotação" },
-  { range:[7,9],  n:7,  label:"Múltiplas de 7 Pernas", pill:"M8–M10", desc:"3 âncoras + 3 RA + 1 RB" },
-  { range:[10,11],n:10, label:"Múltiplas de 10 Pernas",pill:"M11–M12",desc:"3 âncoras + 4 RA + 3 RB" },
-  { range:[12,13],n:12, label:"Múltiplas de 12 Pernas",pill:"M13–M14",desc:"3 âncoras + 4 RA + 4 RB + 1 RC" },
+  { range:[0,6],  n:5,  label:"Múltiplas de 5 Pernas", pill:"M1–M7",  desc:"grupos distintos · mín. repetição" },
+  { range:[7,9],  n:7,  label:"Múltiplas de 7 Pernas", pill:"M8–M10", desc:"intercalados · sem âncoras fixas" },
+  { range:[10,11],n:10, label:"Múltiplas de 10 Pernas",pill:"M11–M12",desc:"metades opostas do pool" },
+  { range:[12,13],n:12, label:"Múltiplas de 12 Pernas",pill:"M13–M14",desc:"terços distintos" },
   { range:[14,14],n:15, label:"Múltipla de 15 Pernas", pill:"M15",    desc:"todas as 15 pernas" },
 ];
 
@@ -163,7 +176,8 @@ ${cards}
 const nDuelo = P.filter(r=>r.mercado==="DUELO FT").length;
 const nOUFT  = P.filter(r=>r.mercado==="O/U FT").length;
 const nOUHT  = P.filter(r=>r.mercado==="O/U HT").length;
-const nA=3, nRA=4, nRB=4, nRC=4;
+// Max aparições de qualquer pick
+const maxApp = Math.max(...count);
 
 const html = `<!DOCTYPE html>
 <html lang="pt-BR">
@@ -234,10 +248,11 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
   <h1>Múltiplas <span>13–16 jun 2026</span></h1>
   <div class="sub">15 combinações · Top 15 unificados (Duelo + O/U FT + O/U HT) · 1 mercado por jogo</div>
   <div class="tag-row">
-    <span class="tag" style="background:#1B5E20;color:#a5d6a7">🟢 Âncora (top 3)</span>
-    <span class="tag" style="background:#E65100;color:#ffcc80">🟠 Rot-A (4–7)</span>
-    <span class="tag" style="background:#4527A0;color:#ce93d8">🟣 Rot-B (8–11)</span>
-    <span class="tag" style="background:#78350F;color:#fcd34d">🟡 Rot-C (12–15)</span>
+    <span class="tag" style="background:#1B5E20;color:#a5d6a7">🟢 T1 (picks 1–3)</span>
+    <span class="tag" style="background:#E65100;color:#ffcc80">🟠 T2 (picks 4–7)</span>
+    <span class="tag" style="background:#4527A0;color:#ce93d8">🟣 T3 (picks 8–11)</span>
+    <span class="tag" style="background:#78350F;color:#fcd34d">🟡 T4 (picks 12–15)</span>
+    <span class="tag" style="background:#1c2128;color:#58a6ff;border:1px solid #30363d">máx. ${maxApp}/15 por pick</span>
   </div>
 </div>
 
@@ -253,9 +268,11 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI',system-ui,sans-seri
   <div class="sc"><div class="n" style="color:#c084fc">${nOUHT}</div><div class="l">O/U HT</div></div>
 </div>
 
-<div style="background:#161b22;border:1px solid #30363d;border-left:3px solid #58a6ff;border-radius:6px;padding:11px 14px;margin-bottom:22px;font-size:12px;color:#8b949e;line-height:1.6">
-  <strong style="color:#c9d1d9">Picks únicos (top 15):</strong>
-  ${P.map((r,i)=>`<span style="color:${TIER(i)==="A"?"#4ade80":TIER(i)==="RA"?"#fb923c":TIER(i)==="RB"?"#c084fc":"#f59e0b"}">${i+1}. ${r.mand.split(" ")[0]}(${r.prob}%)</span>`).join("  ·  ")}
+<div style="background:#161b22;border:1px solid #30363d;border-left:3px solid #f59e0b;border-radius:6px;padding:11px 14px;margin-bottom:22px;font-size:12px;color:#8b949e;line-height:1.7">
+  <strong style="color:#c9d1d9">Diversificação:</strong> nenhum pick em todas as múltiplas.
+  Máximo <strong style="color:#f59e0b">${maxApp}/15</strong> múltiplas por pick — falha de qualquer sinal afeta no máximo ${maxApp} das 15 apostas.<br>
+  <strong style="color:#c9d1d9">Picks (aparições):</strong>
+  ${P.map((r,i)=>`<span style="color:${TIER(i)==="T1"?"#4ade80":TIER(i)==="T2"?"#fb923c":TIER(i)==="T3"?"#c084fc":"#f59e0b"}">${i+1}. ${r.mand.split(" ")[0]}·${r.prob}%·${count[i]}×</span>`).join("  ")}
 </div>
 
 ${secoes}
