@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EDS-HDP ULTRA — Sinais 13-16/jun/2026</title>
+<style>
+  :root{--bg:#0a0f0d;--bg2:#111a14;--bg3:#162019;--border:rgba(52,211,103,0.13);--green:#34d367;--gold:#f59e0b;--text:#e8f5ee;--muted:#6b8f79;--card:rgba(22,32,25,0.85);}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;}
+  a{color:inherit;text-decoration:none;}
+  /* scrollbar */
+  ::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-track{background:var(--bg2)}::-webkit-scrollbar-thumb{background:rgba(52,211,103,0.3);border-radius:3px}
+  /* header */
+  header{background:linear-gradient(135deg,#0a2e18,#0f1f13,#0a0f0d);border-bottom:1px solid var(--border);padding:1.2rem 2rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);}
+  .logo{display:flex;align-items:center;gap:.75rem;}
+  .logo-icon{font-size:1.8rem;}
+  .logo-text h1{font-size:1.05rem;font-weight:800;color:var(--green);letter-spacing:-.5px;}
+  .logo-text p{font-size:.68rem;color:var(--muted);font-weight:500;letter-spacing:.5px;text-transform:uppercase;}
+  .badge{background:linear-gradient(135deg,var(--gold),#fbbf24);color:#000;font-size:.62rem;font-weight:800;padding:.25rem .7rem;border-radius:99px;letter-spacing:.5px;}
+  /* main */
+  main{padding:1.5rem 2rem;max-width:1280px;margin:0 auto;}
+  /* stat cards */
+  .grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.9rem;margin-bottom:2rem;}
+  .stat-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1.1rem;position:relative;overflow:hidden;transition:transform .2s,border-color .2s;}
+  .stat-card:hover{transform:translateY(-2px);border-color:var(--green);}
+  .stat-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--green),transparent);}
+  .stat-card .lbl{font-size:.68rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.35rem;}
+  .stat-card .val{font-size:2rem;font-weight:900;line-height:1;}
+  .stat-card .sub{font-size:.72rem;color:var(--muted);margin-top:.25rem;}
+  .stat-card .ico{position:absolute;right:1rem;top:1rem;font-size:1.4rem;opacity:.25;}
+  /* section title */
+  .sec-title{font-size:.92rem;font-weight:700;color:var(--text);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem;}
+  /* table rows hover */
+  tbody tr:hover td{background:rgba(52,211,103,0.04);}
+  tbody td{padding:.65rem 1rem;color:var(--text);border-bottom:1px solid rgba(52,211,103,0.05);}
+  tbody tr:last-child td{border-bottom:none;}
+  /* legenda */
+  .legenda{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem;}
+  .leg-pill{display:flex;align-items:center;gap:.35rem;padding:.3rem .75rem;border-radius:8px;font-size:.72rem;font-weight:700;}
+  @media(max-width:640px){header{padding:1rem;}main{padding:1rem;}.grid4{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">🎯</div>
+    <div class="logo-text">
+      <h1>EDS-HDP ULTRA</h1>
+      <p>Motor de Sinais v4.2 · confT + Regras v4.1 + Resolvedor NEUTRO</p>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap">
+    <span class="badge">RODADA 13-16/jun/2026</span>
+    <span style="font-size:.72rem;color:var(--muted)">13/06/2026, 00:00:06</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- CARDS RESUMO -->
+  <div class="grid4">
+    <div class="stat-card">
+      <div class="ico">🎯</div>
+      <div class="lbl">Total de Sinais</div>
+      <div class="val" style="color:var(--green)">47</div>
+      <div class="sub">4 ligas · zero SKIPs</div>
+    </div>
+    <div class="stat-card">
+      <div class="ico">🔒</div>
+      <div class="lbl">Triple Lock Forte</div>
+      <div class="val" style="color:#4ade80">6</div>
+      <div class="sub">confT ≥ 85%</div>
+    </div>
+    <div class="stat-card">
+      <div class="ico">🔒</div>
+      <div class="lbl">Triple Lock</div>
+      <div class="val" style="color:#86efac">6</div>
+      <div class="sub">confT 75–84%</div>
+    </div>
+    <div class="stat-card">
+      <div class="ico">★</div>
+      <div class="lbl">G×S Forte</div>
+      <div class="val" style="color:var(--gold)">12</div>
+      <div class="sub">confT 65–74%</div>
+    </div>
+    <div class="stat-card">
+      <div class="ico">⚡</div>
+      <div class="lbl">NEUTRO Resgatado</div>
+      <div class="val" style="color:#a78bfa">5</div>
+      <div class="sub">ex-SKIP · Regras v4.2</div>
+    </div>
+    <div class="stat-card">
+      <div class="ico">✈️</div>
+      <div class="lbl">Sinais Visitante</div>
+      <div class="val" style="color:var(--gold)">9</div>
+      <div class="sub">inversão / piso liga</div>
+    </div>
+  </div>
+
+  <!-- LEGENDA -->
+  <div class="legenda">
+    <div class="leg-pill" style="background:#1B5E20;color:#A5D6A7">🔒🔒 Triple Lock Forte ≥85%</div>
+    <div class="leg-pill" style="background:#2E7D32;color:#C8E6C9">🔒 Triple Lock 75-84%</div>
+    <div class="leg-pill" style="background:#E65100;color:#FFE0B2">★ G×S Forte 65-74%</div>
+    <div class="leg-pill" style="background:#BF360C;color:#FFCCBC">⚠️ Marginal 60-64%</div>
+    <div class="leg-pill" style="background:#4527A0;color:#D1C4E9">⚡ NEUTRO FORTE (v4.2)</div>
+    <div class="leg-pill" style="background:#263238;color:#90A4AE">· NEUTRO lean (v4.2)</div>
+  </div>
+
+  <!-- RANKING GERAL TOP 20 -->
+  <div style="margin-bottom:2.5rem">
+    <div class="sec-title">🏆 Ranking Geral — Top 20 por confiança</div>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid var(--border)">
+      <table style="width:100%;border-collapse:collapse;font-size:.82rem">
+        <thead>
+          <tr style="background:var(--bg3);border-bottom:1px solid var(--border)">
+            <th style="padding:.65rem .8rem;text-align:center;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">#</th>
+            <th style="padding:.65rem .8rem;text-align:left;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Liga</th>
+            <th style="padding:.65rem .8rem;text-align:left;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Horário</th>
+            <th style="padding:.65rem .8rem;text-align:left;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Partida</th>
+            <th style="padding:.65rem .8rem;text-align:left;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Sinal</th>
+            <th style="padding:.65rem .8rem;text-align:center;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Tier</th>
+            <th style="padding:.65rem .8rem;text-align:center;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">confT</th>
+            <th style="padding:.65rem .8rem;text-align:center;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Linha FT</th>
+            <th style="padding:.65rem .8rem;text-align:center;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px">Δ Diff</th>
+          </tr>
+        </thead>
+        <tbody><tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem">🥇</td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 20:30</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Charleston × FC Tulsa</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Charleston</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#1B5E20;color:#A5D6A7;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK FORTE 🔒🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">94.8%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.6</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem">🥈</td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇦🇷 <span style="color:#6b8f79;font-size:.75rem">ARG</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">14.06 15:30</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Ferro × Acassuso</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Ferro</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#1B5E20;color:#A5D6A7;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK FORTE 🔒🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">92.2%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-2.5 (principal) / -1.5 (seg.)</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+5.3</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem">🥉</td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇧🇷 <span style="color:#6b8f79;font-size:.75rem">BRB</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">14.06 19:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Novorizontino × Nautico</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Novorizontino</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#1B5E20;color:#A5D6A7;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK FORTE 🔒🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">90.8%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-1.5 (principal) / -0.5 (seg.)</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+4.3</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">4</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 21:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Louisville City × Brooklyn</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Louisville City</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#1B5E20;color:#A5D6A7;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK FORTE 🔒🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">90.7%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-2.5 (principal) / -1.5 (seg.)</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+5.7</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">5</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇦🇷 <span style="color:#6b8f79;font-size:.75rem">ARG</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 14:30</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Midland × Atletico Atlanta</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Midland</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#1B5E20;color:#A5D6A7;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK FORTE 🔒🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">88.9%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.3</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">6</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 20:30</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Tampa Bay × Hartford Athletic</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Tampa Bay</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#1B5E20;color:#A5D6A7;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK FORTE 🔒🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">86.7%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.1</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">7</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇧🇷 <span style="color:#6b8f79;font-size:.75rem">BRB</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">14.06 19:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Botafogo SP × Operario-PR</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Botafogo SP</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#2E7D32;color:#C8E6C9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK 🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">82.1%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.4</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">8</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 23:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Oakland Roots × Miami FC</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Oakland Roots</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#2E7D32;color:#C8E6C9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK 🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">79.7%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+1.8</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">9</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇨🇱 <span style="color:#6b8f79;font-size:.75rem">CHI</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 18:30</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Colo Colo × Cobresal</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Colo Colo</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#2E7D32;color:#C8E6C9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK 🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">79.4%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.1</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">10</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇦🇷 <span style="color:#6b8f79;font-size:.75rem">ARG</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 15:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Colegiales × San Martin Tucuman</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Colegiales</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#2E7D32;color:#C8E6C9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK 🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">78.2%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+1.3</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">11</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇨🇱 <span style="color:#6b8f79;font-size:.75rem">CHI</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 13:30</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Coquimbo × O'Higgins</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Coquimbo</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#2E7D32;color:#C8E6C9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK 🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">78.2%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.0</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">12</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 21:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Birmingham × Las Vegas Lights</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Birmingham</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#2E7D32;color:#C8E6C9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">TRIPLE LOCK 🔒</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">75.3%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+0.5</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">13</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇦🇷 <span style="color:#6b8f79;font-size:.75rem">ARG</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">14.06 16:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">CA Mitre × Los Andes</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 CA Mitre</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#E65100;color:#FFE0B2;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">G×S FORTE ★</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">73.6%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-1.5 (principal) / -0.5 (seg.)</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+4.4</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">14</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 20:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Lexington × San Antonio</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Lexington</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#E65100;color:#FFE0B2;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">G×S FORTE ★</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">72.7%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+1.7</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">15</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇦🇷 <span style="color:#6b8f79;font-size:.75rem">ARG</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 17:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Quilmes × Gimnasia y Tiro</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Quilmes</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#4527A0;color:#D1C4E9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">NEUTRO → FORTE</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">72%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+2.2</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">16</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇨🇱 <span style="color:#6b8f79;font-size:.75rem">CHI</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">12.06 21:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">A. Italiano × La Serena</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 A. Italiano</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#4527A0;color:#D1C4E9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">NEUTRO → FORTE</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">72%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+0.2</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">17</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 22:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Colorado Springs × Sacramento Republic</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Colorado Springs</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#E65100;color:#FFE0B2;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">G×S FORTE ★</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">71.7%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+1.0</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">18</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇦🇷 <span style="color:#6b8f79;font-size:.75rem">ARG</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">14.06 16:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Racing Cordoba × Chaco For Ever</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Racing Cordoba</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#E65100;color:#FFE0B2;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">G×S FORTE ★</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">71.3%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">-0.5 / ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">+1.8</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">19</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇧🇷 <span style="color:#6b8f79;font-size:.75rem">BRB</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">16.06 20:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Fortaleza × America MG</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#34d367">🏠 Fortaleza</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#E65100;color:#FFE0B2;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">G×S FORTE ★</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#34d367">70%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">-0.5</td>
+  </tr>
+<tr style="border-bottom:1px solid rgba(52,211,103,0.05)">
+    <td style="text-align:center;padding:.6rem .8rem"><span style="color:#6b8f79;font-size:.8rem">20</span></td>
+    <td style="padding:.6rem .8rem;white-space:nowrap">🇺🇸 <span style="color:#6b8f79;font-size:.75rem">USL</span></td>
+    <td style="padding:.6rem .8rem;font-size:.75rem;color:#6b8f79">13.06 20:00</td>
+    <td style="padding:.6rem .8rem;font-weight:700">Sporting Jax × Detroit</td>
+    <td style="padding:.6rem .8rem"><span style="font-weight:900;color:#f59e0b">✈️ Detroit</span></td>
+    <td style="padding:.6rem .8rem;text-align:center"><span style="background:#4527A0;color:#D1C4E9;padding:.2rem .55rem;border-radius:5px;font-size:.7rem;font-weight:800">NEUTRO → FORTE</span></td>
+    <td style="padding:.6rem .8rem;text-align:center;font-weight:900;color:#f59e0b">70%</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#f59e0b;font-weight:800;font-size:.82rem">ML</td>
+    <td style="padding:.6rem .8rem;text-align:center;color:#94a3b8;font-size:.8rem">-1.1</td>
+  </tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECOES POR LIGA -->
+  
+  <section style="margin-bottom:2.5rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+      <span style="font-size:1.6rem">🇧🇷</span>
+      <div>
+        <h2 style="font-size:1.05rem;font-weight:800;color:#34d367;margin:0">Brasileirão Série B</h2>
+        <div style="font-size:.73rem;color:#6b8f79;margin-top:.1rem">9 jogos · 7 picks principais</div>
+      </div>
+    </div>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid rgba(52,211,103,0.12)">
+  <table style="width:100%;border-collapse:collapse;font-size:.83rem">
+    <thead>
+      <tr style="background:#111a14;border-bottom:1px solid rgba(52,211,103,0.12)">
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap">Horário</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Partida</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Sinal</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Tier</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">confT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha FT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha HT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Δ Diff</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Perfil</th>
+      </tr>
+    </thead>
+    <tbody><tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 19:00</td>
+      <td style="font-weight:700">Novorizontino <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Nautico</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Novorizontino</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#1B5E20;color:#A5D6A7;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK FORTE 🔒🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">90.8%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:90.8%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-1.5 (principal) / -0.5 (seg.)</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-1.0 / -0.5</td>
+      <td style="text-align:center;font-weight:800;color:#34d367;font-size:.9rem">+4.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G_STRONG×G</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 19:00</td>
+      <td style="font-weight:700">Botafogo SP <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Operario-PR</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Botafogo SP</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#2E7D32;color:#C8E6C9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK 🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">82.1%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:82.1%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.4</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">16.06 20:00</td>
+      <td style="font-weight:700">Fortaleza <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> America MG</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Fortaleza</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">70%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:70%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-0.5</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×G_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">15.06 21:00</td>
+      <td style="font-weight:700">Criciuma <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Ceara</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Criciuma</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">69%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:69%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.4</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 11:00</td>
+      <td style="font-weight:700">São Bernardo <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Sport Recife</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 São Bernardo</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">66.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:66.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.8</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 17:00</td>
+      <td style="font-weight:700">Cuiabá <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Vila Nova FC</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Cuiabá</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">66.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:66.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.6</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">15.06 21:00</td>
+      <td style="font-weight:700">Londrina <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Avai</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Londrina</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#BF360C;color:#FFCCBC;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">MARGINAL ⚠️</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">62.8%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:62.8%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.5</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 11:00</td>
+      <td style="font-weight:700">Juventude <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Ponte Preta</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Juventude</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso BRB</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.9</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:00</td>
+      <td style="font-weight:700">Athletic Club <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Goiás</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Athletic Club</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso BRB</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S_STRONG×N</td>
+    </tr></tbody>
+  </table></div>
+  </section>
+
+  <section style="margin-bottom:2.5rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+      <span style="font-size:1.6rem">🇺🇸</span>
+      <div>
+        <h2 style="font-size:1.05rem;font-weight:800;color:#3b82f6;margin:0">USL Championship</h2>
+        <div style="font-size:.73rem;color:#6b8f79;margin-top:.1rem">12 jogos · 8 picks principais</div>
+      </div>
+    </div>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid rgba(52,211,103,0.12)">
+  <table style="width:100%;border-collapse:collapse;font-size:.83rem">
+    <thead>
+      <tr style="background:#111a14;border-bottom:1px solid rgba(52,211,103,0.12)">
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap">Horário</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Partida</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Sinal</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Tier</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">confT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha FT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha HT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Δ Diff</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Perfil</th>
+      </tr>
+    </thead>
+    <tbody><tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 20:30</td>
+      <td style="font-weight:700">Charleston <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> FC Tulsa</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Charleston</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#1B5E20;color:#A5D6A7;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK FORTE 🔒🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">94.8%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:94.8%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.6</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 21:00</td>
+      <td style="font-weight:700">Louisville City <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Brooklyn</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Louisville City</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#1B5E20;color:#A5D6A7;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK FORTE 🔒🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">90.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:90.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-2.5 (principal) / -1.5 (seg.)</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#34d367;font-size:.9rem">+5.7</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G_STRONG×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 20:30</td>
+      <td style="font-weight:700">Tampa Bay <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Hartford Athletic</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Tampa Bay</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#1B5E20;color:#A5D6A7;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK FORTE 🔒🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">86.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:86.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.1</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G_STRONG×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 23:00</td>
+      <td style="font-weight:700">Oakland Roots <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Miami FC</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Oakland Roots</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#2E7D32;color:#C8E6C9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK 🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">79.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:79.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.8</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×S_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 21:00</td>
+      <td style="font-weight:700">Birmingham <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Las Vegas Lights</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Birmingham</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#2E7D32;color:#C8E6C9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK 🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">75.3%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:75.3%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.5</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 20:00</td>
+      <td style="font-weight:700">Lexington <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> San Antonio</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Lexington</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">72.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:72.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.7</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 22:00</td>
+      <td style="font-weight:700">Colorado Springs <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Sacramento Republic</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Colorado Springs</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">71.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:71.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+1.0</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×G_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 20:00</td>
+      <td style="font-weight:700">Sporting Jax <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Detroit</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Detroit</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">B · inversão S×G → visitante</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#4527A0;color:#D1C4E9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FORTE</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">70%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:70%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-1.1</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S_STRONG×G_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 19:00</td>
+      <td style="font-weight:700">Loudoun <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Rhode Island</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Rhode Island</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso USL</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">57%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:57%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.4</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S_STRONG×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 20:00</td>
+      <td style="font-weight:700">Pittsburgh <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Indy Eleven</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Indy Eleven</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso USL</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">57%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:57%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.6</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 22:00</td>
+      <td style="font-weight:700">El Paso <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Phoenix Rising</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Phoenix Rising</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso USL</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">57%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:57%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-1.6</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 22:30</td>
+      <td style="font-weight:700">New Mexico <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Orange County SC</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Orange County SC</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso USL</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">57%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:57%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.5</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×S_STRONG</td>
+    </tr></tbody>
+  </table></div>
+  </section>
+
+  <section style="margin-bottom:2.5rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+      <span style="font-size:1.6rem">🇦🇷</span>
+      <div>
+        <h2 style="font-size:1.05rem;font-weight:800;color:#f59e0b;margin:0">ARG_B — Primera B Nacional</h2>
+        <div style="font-size:.73rem;color:#6b8f79;margin-top:.1rem">18 jogos · 13 picks principais</div>
+      </div>
+    </div>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid rgba(52,211,103,0.12)">
+  <table style="width:100%;border-collapse:collapse;font-size:.83rem">
+    <thead>
+      <tr style="background:#111a14;border-bottom:1px solid rgba(52,211,103,0.12)">
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap">Horário</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Partida</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Sinal</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Tier</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">confT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha FT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha HT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Δ Diff</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Perfil</th>
+      </tr>
+    </thead>
+    <tbody><tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 15:30</td>
+      <td style="font-weight:700">Ferro <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Acassuso</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Ferro</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#1B5E20;color:#A5D6A7;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK FORTE 🔒🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">92.2%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:92.2%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-2.5 (principal) / -1.5 (seg.)</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-1.0 / -0.5</td>
+      <td style="text-align:center;font-weight:800;color:#34d367;font-size:.9rem">+5.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G_STRONG×S_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 14:30</td>
+      <td style="font-weight:700">Midland <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Atletico Atlanta</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Midland</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#1B5E20;color:#A5D6A7;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK FORTE 🔒🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">88.9%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:88.9%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 15:00</td>
+      <td style="font-weight:700">Colegiales <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> San Martin Tucuman</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Colegiales</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#2E7D32;color:#C8E6C9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK 🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">78.2%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:78.2%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+1.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:00</td>
+      <td style="font-weight:700">CA Mitre <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Los Andes</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 CA Mitre</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">73.6%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:73.6%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-1.5 (principal) / -0.5 (seg.)</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#34d367;font-size:.9rem">+4.4</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 17:00</td>
+      <td style="font-weight:700">Quilmes <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Gimnasia y Tiro</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Quilmes</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">A · N×N → mandante</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#4527A0;color:#D1C4E9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FORTE</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">72%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:72%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.2</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:00</td>
+      <td style="font-weight:700">Racing Cordoba <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Chaco For Ever</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Racing Cordoba</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">71.3%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:71.3%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.8</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 15:30</td>
+      <td style="font-weight:700">Almagro <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Agropecuario</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Agropecuario</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">B · inversão S×G → visitante</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#4527A0;color:#D1C4E9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FORTE</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">70%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:70%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-0.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×G</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 14:30</td>
+      <td style="font-weight:700">Almirante Brown <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Godoy Cruz</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Godoy Cruz</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">B · inversão S×G → visitante</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#4527A0;color:#D1C4E9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FORTE</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">70%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:70%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-1.1</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×G</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 15:00</td>
+      <td style="font-weight:700">Dep. Madryn <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> San Miguel</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Dep. Madryn</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">68.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:68.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.8</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:30</td>
+      <td style="font-weight:700">Dep. Maipu <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Tristan Suarez</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Dep. Maipu</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">68.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:68.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+1.1</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 15:30</td>
+      <td style="font-weight:700">Def. Belgrano <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Colon Santa Fe</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Def. Belgrano</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">65.7%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:65.7%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.5</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×G</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:00</td>
+      <td style="font-weight:700">Temperley <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Club A. Guemes</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Temperley</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#BF360C;color:#FFCCBC;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">MARGINAL ⚠️</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">61%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:61%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.4</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×S</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 20:00</td>
+      <td style="font-weight:700">Gimnasia Jujuy <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> San Martin T.</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Gimnasia Jujuy</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#BF360C;color:#FFCCBC;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">MARGINAL ⚠️</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">60.8%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:60.8%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.8</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×G</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 15:30</td>
+      <td style="font-weight:700">Nueva Chicago <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Chacarita Juniors</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Nueva Chicago</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso ARG</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-0.9</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S_STRONG×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 16:00</td>
+      <td style="font-weight:700">Ciudad Bolivar <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Dep. Moron</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Ciudad Bolivar</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso ARG</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 15:00</td>
+      <td style="font-weight:700">CA Estudiantes <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> All Boys</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 CA Estudiantes</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso ARG</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-0.1</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×G_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 15:30</td>
+      <td style="font-weight:700">Patronato <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Atl. Rafaela</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Patronato</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso ARG</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+1.7</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:30</td>
+      <td style="font-weight:700">Central Norte <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> San Telmo</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Central Norte</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso ARG</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">58%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:58%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.8</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×N</td>
+    </tr></tbody>
+  </table></div>
+  </section>
+
+  <section style="margin-bottom:2.5rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+      <span style="font-size:1.6rem">🇨🇱</span>
+      <div>
+        <h2 style="font-size:1.05rem;font-weight:800;color:#ef4444;margin:0">Chile — Liga de Primera</h2>
+        <div style="font-size:.73rem;color:#6b8f79;margin-top:.1rem">8 jogos · 6 picks principais</div>
+      </div>
+    </div>
+    <div style="overflow-x:auto;border-radius:12px;border:1px solid rgba(52,211,103,0.12)">
+  <table style="width:100%;border-collapse:collapse;font-size:.83rem">
+    <thead>
+      <tr style="background:#111a14;border-bottom:1px solid rgba(52,211,103,0.12)">
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap">Horário</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Partida</th>
+        <th style="padding:.65rem 1rem;text-align:left;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Sinal</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Tier</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">confT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha FT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Linha HT</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Δ Diff</th>
+        <th style="padding:.65rem 1rem;text-align:center;color:#6b8f79;font-size:.72rem;text-transform:uppercase;letter-spacing:.5px">Perfil</th>
+      </tr>
+    </thead>
+    <tbody><tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 18:30</td>
+      <td style="font-weight:700">Colo Colo <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Cobresal</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Colo Colo</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#2E7D32;color:#C8E6C9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK 🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">79.4%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:79.4%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.1</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 13:30</td>
+      <td style="font-weight:700">Coquimbo <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> O'Higgins</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Coquimbo</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#2E7D32;color:#C8E6C9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">TRIPLE LOCK 🔒</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">78.2%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:78.2%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.9rem">+2.0</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×G_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">12.06 21:00</td>
+      <td style="font-weight:700">A. Italiano <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> La Serena</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 A. Italiano</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">A · N×N → mandante</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#4527A0;color:#D1C4E9;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FORTE</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">72%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:72%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.2</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 18:30</td>
+      <td style="font-weight:700">U. Catolica <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> U. De Concepcion</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 U. Catolica</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#E65100;color:#FFE0B2;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">G×S FORTE ★</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">66.5%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:66.5%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+1.0</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 16:00</td>
+      <td style="font-weight:700">Union La Calera <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> U. De Chile</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 Union La Calera</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">v4.1#1 desempate histCasa≥70%</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#BF360C;color:#FFCCBC;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">MARGINAL ⚠️</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">63.3%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:63.3%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+0.3</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">G×G</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">14.06 13:30</td>
+      <td style="font-weight:700">D. Concepcion <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Limache</td>
+      <td>
+        <div style="font-weight:900;color:#34d367;font-size:.85rem">🏠 D. Concepcion</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">confT v4.0</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#BF360C;color:#FFCCBC;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">MARGINAL ⚠️</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#34d367">61.2%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:61.2%;background:#34d367;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+1.0</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">N×S_STRONG</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 16:00</td>
+      <td style="font-weight:700">Everton <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Palestino</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Palestino</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso CHI</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">57%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:57%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:800;color:#ef4444;font-size:.9rem">-0.2</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×N</td>
+    </tr>
+<tr>
+      <td style="color:#6b8f79;font-size:.75rem;white-space:nowrap">13.06 21:00</td>
+      <td style="font-weight:700">Nublense <span style="color:#6b8f79;font-weight:400;font-size:.8rem">×</span> Huachipato</td>
+      <td>
+        <div style="font-weight:900;color:#f59e0b;font-size:.85rem">✈️ Huachipato</div>
+        <div style="font-size:.68rem;color:#6b8f79;margin-top:.15rem">E · piso CHI</div>
+      </td>
+      <td style="text-align:center">
+        <span style="background:#263238;color:#90A4AE;padding:.25rem .6rem;border-radius:6px;font-size:.72rem;font-weight:800;white-space:nowrap">NEUTRO → FRACO</span>
+      </td>
+      <td style="text-align:center">
+        <div style="font-size:1rem;font-weight:900;color:#f59e0b">57%</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;margin-top:.25rem;overflow:hidden">
+          <div style="height:100%;width:57%;background:#f59e0b;border-radius:2px"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-weight:800;color:#f59e0b;font-size:.85rem;white-space:nowrap">ML</td>
+      <td style="text-align:center;font-weight:700;color:#94a3b8;font-size:.82rem;white-space:nowrap">-0.5 / ML</td>
+      <td style="text-align:center;font-weight:800;color:#94a3b8;font-size:.9rem">+1.4</td>
+      <td style="text-align:center;color:#6b8f79;font-size:.7rem">S×S_STRONG</td>
+    </tr></tbody>
+  </table></div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <div style="text-align:center;padding-top:2rem;margin-top:2rem;border-top:1px solid var(--border);color:var(--muted);font-size:.78rem;line-height:1.8">
+    <div style="font-weight:700;color:var(--green);font-size:.85rem;margin-bottom:.3rem">EDS-HDP ULTRA · Motor de Sinais v4.2</div>
+    confT v4.0 · Regras de Desempate e Linhas v4.1 · Resolvedor NEUTRO v4.2 (sem SKIP)<br>
+    Base de dados: brasileiraoB2026.js · usl2026.js · argentina_b2026.js · chile2026.js · memoria_usl.js<br>
+    <span style="opacity:.6">Backtest rolling 222 jogos · Resolvedor NEUTRO: 76.9% acerto · Padrão A (N×N): 90%</span>
+  </div>
+
+</main>
+</body>
+</html>
